@@ -1,0 +1,43 @@
+{
+  "schema": "kse-v5.8-clean-reproduction-v1",
+  "status": "PASS",
+  "run_date": "2026-07-31",
+  "environment": {
+    "python": "3.12",
+    "requirements_file": "requirements-kse.txt",
+    "isolated_environment": true
+  },
+  "commands": [
+    "python scripts/run_kse_mde_analysis.py",
+    "python scripts/run_kse_lightgbm_sensitivity.py",
+    "python scripts/build_kse_paper_assets.py",
+    "python scripts/build_claim_eligibility_workflow_kse.py",
+    "python scripts/build_kse_figure2.py"
+  ],
+  "mde": {
+    "locked_rows": 333,
+    "outer_replicates": 1000,
+    "inner_replicates": 1000,
+    "absolute_improvement_t_ha": 0.01946065657957219,
+    "estimated_power": 0.822,
+    "classification": "retrospective power sensitivity"
+  },
+  "lightgbm": {
+    "locked_rows": 333,
+    "selected_feature_family": "full",
+    "module_a_pass": false,
+    "module_b_pass": false,
+    "classification": "post-hoc model-family sensitivity"
+  },
+  "generated_assets": {
+    "paper_tables_and_macros": "PASS",
+    "workflow_pdf_png": "PASS",
+    "figure2_pdf_png": "PASS"
+  },
+  "determinism": {
+    "declared_outputs_checked": 17,
+    "consecutive_runs_with_identical_sha256": 2,
+    "mismatches": 0
+  },
+  "locked_inputs_modified": false
+}

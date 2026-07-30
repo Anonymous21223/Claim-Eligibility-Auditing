@@ -1,0 +1,34 @@
+{
+  "schema": "kse-v5.8-final-artifact-audit-v1",
+  "status": "PASS",
+  "audit_date": "2026-07-31",
+  "anonymity": {
+    "text_identity_hits": 0,
+    "pdf_author_metadata_hits": 0,
+    "png_identity_metadata_hits": 0,
+    "anonymous_git_identity": true,
+    "personal_remote_detected": false
+  },
+  "permission_path": {
+    "modules": ["A", "B", "E"],
+    "event_module_conditional": true,
+    "module_d_in_executable_or_generated_assets": false,
+    "module_d_readme_removal_note_only": true
+  },
+  "excluded_material": {
+    "paper_manuscript": false,
+    "authored_source_archive": false,
+    "foreign_git_history": false,
+    "team_website_or_identity_asset": false
+  },
+  "render_audit": {
+    "workflow_pdf": "PASS",
+    "figure2_pdf": "PASS",
+    "clipping_or_overlap_detected": false
+  },
+  "integrity": {
+    "manifest_scope": "all release files except MANIFEST.json and SHA256SUMS.txt",
+    "sha256_check": "PASS",
+    "deterministic_outputs": "17/17"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "all repository files and PDF/PNG metadata",
+  "forbidden_marker_categories": [
+    "author and collaborator names",
+    "personal and institutional email domains",
+    "institution names",
+    "personal filesystem paths",
+    "personal GitHub account names",
+    "persistent researcher identifiers",
+    "project-team website references"
+  ],
+  "pdf_author_metadata_hits": 0,
+  "png_identity_metadata_hits": 0,
+  "hits": []
+}

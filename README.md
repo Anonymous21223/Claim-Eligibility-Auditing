@@ -1,35 +1,62 @@
-# Claim-Eligibility Auditing for Post-hoc Explanations
+# Claim-eligibility audit: anonymous supplementary artifact
 
-This is an anonymous artifact repository for double-blind review.  It contains
-source code, frozen artifacts, data manifests, generated paper assets, and the
-anonymous manuscript source needed to inspect the claim-eligibility audit.
+This package supports the KSE 2026 v5.8 claim-eligibility paper. It contains
+the fixed inputs, scripts, derived records, and code-generated figures needed
+to inspect the reported MDE, LightGBM sensitivity, tables, and diagrams. It
+does not contain author names, affiliations, email addresses, repository
+history, or a paper manuscript.
 
-## Main Contents
+## Claim-eligibility framework
 
-- `src/`: Python package code.
-- `scripts/`: experiment, audit, crosscheck, and figure-generation scripts.
-- `configs/`: locked experiment and claim-eligibility configuration.
-- `data/`: curated non-legacy data needed by the released pipeline.
-- `artifacts/`: frozen non-reproduction artifacts used by the manuscript.
-- `paper/generated/`: generated tables and figures.
-- `paper_versions/v5_7_web_prototype_figure/source/`: anonymous manuscript source.
-- `paper/final/ictai2026_claim_eligibility_audit_v5_7_web_prototype_figure.pdf`: anonymous PDF.
-- `tests/`: repository contract tests.
+The framework checks claim eligibility before post-hoc explanations are read.
+Module A tests overall predictive adequacy, and Module B tests the incremental
+value of the feature group named in a proposed claim. Module E is evaluated
+only when the proposed interpretation is an event-level claim. Module D is not
+part of the v5.8 permission path because it lies outside that path and overlaps
+informationally with Module A.
 
-## Reproduction
+## Environment
 
-Install Python dependencies from `requirements.txt`, then inspect or run the
-entry points in `scripts/`.  The manuscript can be rebuilt from the v5.7 source
-with a TeX installation:
+- Python 3.11 or later
+- The packages pinned in `requirements-kse.txt`
+- A writable Matplotlib cache, for example:
 
 ```bash
-cd paper_versions/v5_7_web_prototype_figure/source
-pdflatex -interaction=nonstopmode -halt-on-error fidelity_gated_xai_method_benchmark_v3.tex
-bibtex fidelity_gated_xai_method_benchmark_v3
-pdflatex -interaction=nonstopmode -halt-on-error fidelity_gated_xai_method_benchmark_v3.tex
-pdflatex -interaction=nonstopmode -halt-on-error fidelity_gated_xai_method_benchmark_v3.tex
+export MPLCONFIGDIR=/tmp/kse-matplotlib
+python -m pip install -r requirements-kse.txt
 ```
 
-The package intentionally omits author-identifying files and local handoff
-materials.  Upload this folder from an anonymous account if an online repository
-is required by the venue.
+## Reproduce the v5.8 additions
+
+Run from the package root:
+
+```bash
+python scripts/run_kse_mde_analysis.py
+python scripts/run_kse_lightgbm_sensitivity.py
+python scripts/build_kse_paper_assets.py
+python scripts/build_claim_eligibility_workflow_kse.py
+python scripts/build_kse_figure2.py
+```
+
+The MDE step is a retrospective nested year-block sensitivity analysis; it is
+not a new predictive result. The LightGBM step is a fixed, post-hoc
+model-family sensitivity; it does not replace the validation-selected primary
+model.
+
+Generated results appear under:
+
+- `artifacts/experiments/kse-v5-8/mde/`
+- `artifacts/experiments/kse-v5-8/lightgbm/`
+- `paper_versions/v5_8_kse_revision/source/generated/`
+- `paper_versions/v5_8_kse_revision/source/figures/`
+
+## Integrity
+
+Verify the allowlisted package files with:
+
+```bash
+sha256sum -c SHA256SUMS.txt
+```
+
+`MANIFEST.json` records each file size and SHA-256 digest. Locked inputs are
+read but are not rewritten by the scripts.
