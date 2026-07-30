@@ -1,0 +1,36 @@
+scope,method,driver_group,score,n_eval,level,rank
+anomaly,group_ablation,heat,0.028722543278913104,67,anomaly rows,1
+anomaly,group_ablation,radiation,0.004407510425267103,67,anomaly rows,2
+anomaly,group_ablation,excess_rain,4.063977492307913e-05,67,anomaly rows,3
+anomaly,group_ablation,frost_cold,-0.0074852673648959644,67,anomaly rows,4
+anomaly,group_ablation,drought,-0.010102984859366226,67,anomaly rows,5
+anomaly,group_permutation,drought,0.024338675218222527,67,anomaly rows,1
+anomaly,group_permutation,excess_rain,0.011339694826469682,67,anomaly rows,2
+anomaly,group_permutation,radiation,0.007090561471375434,67,anomaly rows,3
+anomaly,group_permutation,heat,0.0029844932208393793,67,anomaly rows,4
+anomaly,group_permutation,frost_cold,0.0005070587187530062,67,anomaly rows,5
+anomaly,grouped_shap_anomaly_abs,drought,0.0613854462210235,67,forward-time anomaly rows,1
+anomaly,grouped_shap_anomaly_abs,heat,0.056580327522528555,67,forward-time anomaly rows,2
+anomaly,grouped_shap_anomaly_abs,excess_rain,0.035264140307453215,67,forward-time anomaly rows,3
+anomaly,grouped_shap_anomaly_abs,frost_cold,0.017580724396365998,67,forward-time anomaly rows,4
+anomaly,grouped_shap_anomaly_abs,radiation,0.008079032488231554,67,forward-time anomaly rows,5
+anomaly,lime_selected,heat,0.023819422388551583,11,selected events,1
+anomaly,lime_selected,drought,0.022447300363466444,11,selected events,2
+anomaly,lime_selected,frost_cold,0.01956071558444685,11,selected events,3
+anomaly,lime_selected,excess_rain,0.016211913514301478,11,selected events,4
+anomaly,lime_selected,radiation,0.011040711265813009,11,selected events,5
+global,group_ablation,heat,0.00781278428950688,343,all rows,1
+global,group_ablation,excess_rain,0.0024723917371632376,343,all rows,2
+global,group_ablation,drought,0.0017488786746504004,343,all rows,3
+global,group_ablation,radiation,0.0015650998141015782,343,all rows,4
+global,group_ablation,frost_cold,0.001303407166273307,343,all rows,5
+global,group_permutation,heat,0.021355942378057047,343,all rows,1
+global,group_permutation,drought,0.019854321059822433,343,all rows,2
+global,group_permutation,excess_rain,0.005243751547770126,343,all rows,3
+global,group_permutation,radiation,0.003944193596115753,343,all rows,4
+global,group_permutation,frost_cold,0.0024864581706987576,343,all rows,5
+global,grouped_shap_abs,drought,0.0479758059048274,343,forward-time all rows,1
+global,grouped_shap_abs,heat,0.04112701111662533,343,forward-time all rows,2
+global,grouped_shap_abs,excess_rain,0.030611498534558423,343,forward-time all rows,3
+global,grouped_shap_abs,frost_cold,0.018668750295459884,343,forward-time all rows,4
+global,grouped_shap_abs,radiation,0.008951041024038275,343,forward-time all rows,5

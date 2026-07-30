@@ -1,0 +1,12 @@
+\begin{tabular}{llrrrrl}
+\toprule
+Model & Features & $n$ & Seeds & $R^2$ & RMSE & $\Delta$RMSE vs zero [95\% CI] \\
+\midrule
+Crop train mean & Baseline & 333 & 1 & -0.031 & 0.674 & 0.000 [0.000, 0.000] \\
+Train mean & Baseline & 333 & 1 & -0.031 & 0.674 & 0.000 [0.000, 0.000] \\
+Zero residual & Baseline & 333 & 1 & -0.031 & 0.674 & 0.000 [0.000, 0.000] \\
+ExtraTrees & Full & 333 & 5 & 0.006 & 0.662 & -0.012 [-0.029, 0.002] \\
+ExtraTrees & Metadata-only & 333 & 5 & -0.031 & 0.674 & 0.000 [0.000, 0.000] \\
+ExtraTrees & Weather-only & 333 & 5 & -0.014 & 0.669 & -0.005 [-0.019, 0.009] \\
+\bottomrule
+\end{tabular}

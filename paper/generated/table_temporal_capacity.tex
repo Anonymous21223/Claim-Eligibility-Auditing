@@ -1,0 +1,14 @@
+\begin{tabular}{lrrrlc}
+\toprule
+Audit & $n_{train}$ & $n_{test}$ & $\Delta$RMSE & 95\% CI & Status \\
+\midrule
+Rolling fold 1 (2004--2006) & 473 & 103 & -0.010 & [-0.039, 0.030] & FAIL \\
+Rolling fold 2 (2007--2009) & 561 & 102 & 0.017 & [0.003, 0.028] & FAIL \\
+Rolling fold 3 (2010--2012) & 663 & 102 & -0.015 & [-0.090, 0.017] & FAIL \\
+Rolling fold 4 (2013--2015) & 769 & 105 & -0.035 & [-0.053, -0.025] & PASS \\
+Prefix 25\% through 1996 & 223 & 293 & 0.030 & [0.020, 0.040] & FAIL \\
+Prefix 50\% through 2002 & 425 & 313 & -0.011 & [-0.028, 0.007] & FAIL \\
+Prefix 75\% through 2009 & 663 & 313 & -0.016 & [-0.036, 0.001] & FAIL \\
+Prefix 100\% through 2015 & 879 & 333 & -0.005 & [-0.019, 0.009] & FAIL \\
+\bottomrule
+\end{tabular}

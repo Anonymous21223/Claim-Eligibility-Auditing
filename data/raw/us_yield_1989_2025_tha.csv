@@ -1,0 +1,1292 @@
+country,region,crop,year,yield_t_ha
+United States,Colorado,Barley,1989,4.0889
+United States,Colorado,Barley,1990,4.3041
+United States,Colorado,Barley,1991,4.3041
+United States,Colorado,Barley,1992,4.3579
+United States,Colorado,Barley,1993,4.5731
+United States,Colorado,Barley,1994,4.8421
+United States,Colorado,Barley,1995,5.3801
+United States,Colorado,Barley,1996,5.5953
+United States,Colorado,Barley,1997,5.8105
+United States,Colorado,Barley,1998,6.1871
+United States,Colorado,Barley,1999,5.6491
+United States,Colorado,Barley,2000,6.1871
+United States,Colorado,Barley,2001,5.7567
+United States,Colorado,Barley,2002,5.5953
+United States,Colorado,Barley,2003,5.8643
+United States,Colorado,Barley,2004,6.3485
+United States,Colorado,Barley,2005,6.9941
+United States,Colorado,Barley,2006,6.1871
+United States,Colorado,Barley,2007,6.4561
+United States,Colorado,Barley,2008,6.4561
+United States,Colorado,Barley,2009,7.2631
+United States,Colorado,Barley,2010,7.1555
+United States,Colorado,Barley,2011,6.7789
+United States,Colorado,Barley,2012,6.5637
+United States,Colorado,Barley,2013,7.1555
+United States,Colorado,Barley,2014,6.6713
+United States,Colorado,Barley,2015,6.9941
+United States,Colorado,Barley,2016,6.9403
+United States,Colorado,Barley,2017,7.1017
+United States,Colorado,Barley,2018,7.8011
+United States,Colorado,Barley,2019,7.4245
+United States,Colorado,Barley,2020,7.8011
+United States,Colorado,Barley,2021,5.9719
+United States,Colorado,Barley,2022,5.9719
+United States,Colorado,Barley,2023,7.0479
+United States,Colorado,Barley,2024,7.8011
+United States,Colorado,Barley,2025,6.7789
+United States,Kansas,Barley,1989,1.7216
+United States,Kansas,Barley,1990,2.3672
+United States,Kansas,Barley,1991,1.7754
+United States,Kansas,Barley,1992,2.152
+United States,Kansas,Barley,1993,2.4748
+United States,Kansas,Barley,1994,2.0444
+United States,Kansas,Barley,1995,1.883
+United States,Kansas,Barley,1996,1.7754
+United States,Kansas,Barley,1997,2.2596
+United States,Kansas,Barley,1998,1.883
+United States,Kansas,Barley,1999,2.421
+United States,Kansas,Barley,2000,1.883
+United States,Kansas,Barley,2001,2.69
+United States,Kansas,Barley,2002,1.9906
+United States,Kansas,Barley,2003,3.0666
+United States,Kansas,Barley,2004,1.5064
+United States,Kansas,Barley,2005,2.2596
+United States,Kansas,Barley,2006,1.4526
+United States,Kansas,Barley,2007,2.7976
+United States,Kansas,Barley,2008,1.9906
+United States,Kansas,Barley,2009,2.7438
+United States,Kansas,Barley,2010,2.3134
+United States,Kansas,Barley,2011,1.5602
+United States,Kansas,Barley,2012,3.1204
+United States,Kansas,Barley,2013,2.5286
+United States,Kansas,Barley,2014,1.883
+United States,Kansas,Barley,2015,2.0982
+United States,Kansas,Barley,2018,1.6678
+United States,Kansas,Barley,2019,1.7754
+United States,Kansas,Barley,2020,2.7438
+United States,Kansas,Barley,2021,3.5509
+United States,Kansas,Barley,2022,1.8292
+United States,Kansas,Barley,2023,1.5602
+United States,Kansas,Barley,2024,4.0351
+United States,Kansas,Barley,2025,2.7438
+United States,Minnesota,Barley,1989,2.959
+United States,Minnesota,Barley,1990,3.3895
+United States,Minnesota,Barley,1991,2.69
+United States,Minnesota,Barley,1992,4.0351
+United States,Minnesota,Barley,1993,3.1204
+United States,Minnesota,Barley,1994,2.69
+United States,Minnesota,Barley,1995,2.69
+United States,Minnesota,Barley,1996,3.4433
+United States,Minnesota,Barley,1997,2.7438
+United States,Minnesota,Barley,1998,2.959
+United States,Minnesota,Barley,1999,2.5286
+United States,Minnesota,Barley,2000,3.4433
+United States,Minnesota,Barley,2001,2.959
+United States,Minnesota,Barley,2002,2.2058
+United States,Minnesota,Barley,2003,4.0351
+United States,Minnesota,Barley,2004,3.6585
+United States,Minnesota,Barley,2005,2.3134
+United States,Minnesota,Barley,2006,3.228
+United States,Minnesota,Barley,2007,2.9052
+United States,Minnesota,Barley,2008,3.4971
+United States,Minnesota,Barley,2009,3.2818
+United States,Minnesota,Barley,2010,3.3356
+United States,Minnesota,Barley,2011,2.7438
+United States,Minnesota,Barley,2012,3.0666
+United States,Minnesota,Barley,2013,3.7123
+United States,Minnesota,Barley,2014,2.7976
+United States,Minnesota,Barley,2015,4.1427
+United States,Minnesota,Barley,2016,3.5509
+United States,Minnesota,Barley,2017,4.0889
+United States,Minnesota,Barley,2018,4.0889
+United States,Minnesota,Barley,2019,3.6047
+United States,Minnesota,Barley,2020,2.5286
+United States,Minnesota,Barley,2021,2.959
+United States,Minnesota,Barley,2022,3.8737
+United States,Minnesota,Barley,2023,3.9813
+United States,Minnesota,Barley,2024,3.7661
+United States,Minnesota,Barley,2025,4.0351
+United States,Montana,Barley,1989,2.3134
+United States,Montana,Barley,1990,2.2058
+United States,Montana,Barley,1991,2.7976
+United States,Montana,Barley,1992,2.3672
+United States,Montana,Barley,1993,3.1204
+United States,Montana,Barley,1994,2.3672
+United States,Montana,Barley,1995,2.7976
+United States,Montana,Barley,1996,2.3134
+United States,Montana,Barley,1997,2.8514
+United States,Montana,Barley,1998,2.5824
+United States,Montana,Barley,1999,2.69
+United States,Montana,Barley,2000,2.152
+United States,Montana,Barley,2001,2.2058
+United States,Montana,Barley,2002,2.2596
+United States,Montana,Barley,2003,2.152
+United States,Montana,Barley,2004,3.1742
+United States,Montana,Barley,2005,3.0128
+United States,Montana,Barley,2006,2.69
+United States,Montana,Barley,2007,2.3672
+United States,Montana,Barley,2008,2.69
+United States,Montana,Barley,2009,3.0128
+United States,Montana,Barley,2010,3.3356
+United States,Montana,Barley,2011,2.5824
+United States,Montana,Barley,2012,2.7438
+United States,Montana,Barley,2013,2.7976
+United States,Montana,Barley,2014,3.1204
+United States,Montana,Barley,2015,2.7976
+United States,Montana,Barley,2016,3.228
+United States,Montana,Barley,2017,2.7438
+United States,Montana,Barley,2018,3.0128
+United States,Montana,Barley,2019,3.1742
+United States,Montana,Barley,2020,3.3895
+United States,Montana,Barley,2021,2.0444
+United States,Montana,Barley,2022,2.2058
+United States,Montana,Barley,2023,2.6362
+United States,Montana,Barley,2024,2.7438
+United States,Montana,Barley,2025,2.9052
+United States,Nebraska,Barley,1989,1.3988
+United States,Nebraska,Barley,1990,2.152
+United States,Nebraska,Barley,1991,2.0444
+United States,Nebraska,Barley,1992,2.69
+United States,Nebraska,Barley,1993,2.0444
+United States,Nebraska,Barley,1994,2.0444
+United States,Nebraska,Barley,1995,1.9906
+United States,Nebraska,Barley,1996,2.8514
+United States,Nebraska,Barley,1997,2.7438
+United States,Nebraska,Barley,1998,2.69
+United States,Nebraska,Barley,1999,2.5824
+United States,Nebraska,Barley,2000,1.4526
+United States,Nebraska,Barley,2001,2.421
+United States,Nebraska,Barley,2002,1.7216
+United States,Nebraska,Barley,2003,2.69
+United States,Nebraska,Barley,2004,2.9052
+United States,North Dakota,Barley,1989,1.9906
+United States,North Dakota,Barley,1990,2.8514
+United States,North Dakota,Barley,1991,2.6362
+United States,North Dakota,Barley,1992,3.4971
+United States,North Dakota,Barley,1993,2.6362
+United States,North Dakota,Barley,1994,2.959
+United States,North Dakota,Barley,1995,2.421
+United States,North Dakota,Barley,1996,2.959
+United States,North Dakota,Barley,1997,2.421
+United States,North Dakota,Barley,1998,2.959
+United States,North Dakota,Barley,1999,2.5824
+United States,North Dakota,Barley,2000,2.959
+United States,North Dakota,Barley,2001,2.959
+United States,North Dakota,Barley,2002,2.421
+United States,North Dakota,Barley,2003,3.228
+United States,North Dakota,Barley,2004,3.3356
+United States,North Dakota,Barley,2005,2.9052
+United States,North Dakota,Barley,2006,2.6362
+United States,North Dakota,Barley,2007,3.0128
+United States,North Dakota,Barley,2008,3.0128
+United States,North Dakota,Barley,2009,3.7661
+United States,North Dakota,Barley,2010,3.4971
+United States,North Dakota,Barley,2011,2.5286
+United States,North Dakota,Barley,2012,3.228
+United States,North Dakota,Barley,2013,3.4433
+United States,North Dakota,Barley,2014,3.6047
+United States,North Dakota,Barley,2015,3.4433
+United States,North Dakota,Barley,2016,3.6047
+United States,North Dakota,Barley,2017,3.4971
+United States,North Dakota,Barley,2018,3.9813
+United States,North Dakota,Barley,2019,3.8737
+United States,North Dakota,Barley,2020,3.3895
+United States,North Dakota,Barley,2021,2.7438
+United States,North Dakota,Barley,2022,3.9275
+United States,North Dakota,Barley,2023,3.8199
+United States,North Dakota,Barley,2024,3.9813
+United States,North Dakota,Barley,2025,4.1965
+United States,Oklahoma,Barley,1989,2.152
+United States,Oklahoma,Barley,1990,2.2058
+United States,Oklahoma,Barley,1991,2.0982
+United States,Oklahoma,Barley,1992,2.2596
+United States,Oklahoma,Barley,1993,1.883
+United States,Oklahoma,Barley,1994,1.9906
+United States,Oklahoma,Barley,1995,1.8292
+United States,Oklahoma,Barley,1996,1.2374
+United States,Oklahoma,Barley,1997,2.2596
+United States,Oklahoma,Barley,1998,2.5286
+United States,Oklahoma,Barley,1999,2.0982
+United States,South Dakota,Barley,1989,1.883
+United States,South Dakota,Barley,1990,2.6362
+United States,South Dakota,Barley,1991,2.0982
+United States,South Dakota,Barley,1992,2.9052
+United States,South Dakota,Barley,1993,2.2596
+United States,South Dakota,Barley,1994,2.2596
+United States,South Dakota,Barley,1995,2.0444
+United States,South Dakota,Barley,1996,2.3672
+United States,South Dakota,Barley,1997,2.0444
+United States,South Dakota,Barley,1998,2.5824
+United States,South Dakota,Barley,1999,2.5824
+United States,South Dakota,Barley,2000,2.959
+United States,South Dakota,Barley,2001,2.7976
+United States,South Dakota,Barley,2002,1.883
+United States,South Dakota,Barley,2003,2.8514
+United States,South Dakota,Barley,2004,3.3895
+United States,South Dakota,Barley,2005,2.6362
+United States,South Dakota,Barley,2006,2.152
+United States,South Dakota,Barley,2007,2.152
+United States,South Dakota,Barley,2008,2.2058
+United States,South Dakota,Barley,2009,2.9052
+United States,South Dakota,Barley,2010,2.152
+United States,South Dakota,Barley,2011,1.7754
+United States,South Dakota,Barley,2012,1.883
+United States,South Dakota,Barley,2013,2.9052
+United States,South Dakota,Barley,2014,2.7976
+United States,South Dakota,Barley,2015,1.9906
+United States,South Dakota,Barley,2018,2.959
+United States,South Dakota,Barley,2019,2.3134
+United States,South Dakota,Barley,2020,2.3672
+United States,South Dakota,Barley,2021,1.076
+United States,South Dakota,Barley,2022,2.9052
+United States,South Dakota,Barley,2023,2.7976
+United States,South Dakota,Barley,2024,3.0666
+United States,South Dakota,Barley,2025,2.69
+United States,Texas,Barley,1989,1.7216
+United States,Texas,Barley,1990,2.0444
+United States,Texas,Barley,1991,1.7216
+United States,Texas,Barley,1992,2.421
+United States,Texas,Barley,1993,2.3672
+United States,Texas,Barley,1994,1.7754
+United States,Texas,Barley,1995,2.4748
+United States,Texas,Barley,1996,1.8292
+United States,Texas,Barley,1997,2.5286
+United States,Texas,Barley,1998,2.3134
+United States,Texas,Barley,1999,1.883
+United States,Washington,Barley,1989,3.1204
+United States,Washington,Barley,1990,3.1204
+United States,Washington,Barley,1991,3.4971
+United States,Washington,Barley,1992,2.421
+United States,Washington,Barley,1993,3.6047
+United States,Washington,Barley,1994,2.5286
+United States,Washington,Barley,1995,3.8737
+United States,Washington,Barley,1996,3.3356
+United States,Washington,Barley,1997,3.9813
+United States,Washington,Barley,1998,3.4971
+United States,Washington,Barley,1999,3.1742
+United States,Washington,Barley,2000,3.7661
+United States,Washington,Barley,2001,2.69
+United States,Washington,Barley,2002,3.0128
+United States,Washington,Barley,2003,2.5286
+United States,Washington,Barley,2004,3.7661
+United States,Washington,Barley,2005,3.2818
+United States,Washington,Barley,2006,3.3895
+United States,Washington,Barley,2007,3.3356
+United States,Washington,Barley,2008,3.0666
+United States,Washington,Barley,2009,3.4433
+United States,Washington,Barley,2010,3.8737
+United States,Washington,Barley,2011,3.9813
+United States,Washington,Barley,2012,3.8199
+United States,Washington,Barley,2013,3.8737
+United States,Washington,Barley,2014,3.228
+United States,Washington,Barley,2015,2.5824
+United States,Washington,Barley,2016,4.1427
+United States,Washington,Barley,2017,2.8514
+United States,Washington,Barley,2018,3.9275
+United States,Washington,Barley,2019,3.7661
+United States,Washington,Barley,2020,4.8421
+United States,Washington,Barley,2021,2.0444
+United States,Washington,Barley,2022,4.5193
+United States,Washington,Barley,2023,2.8514
+United States,Washington,Barley,2024,3.5509
+United States,Washington,Barley,2025,2.6362
+United States,Kansas,Canola,2016,2.1744
+United States,Kansas,Canola,2017,1.4795
+United States,Kansas,Canola,2018,1.076
+United States,Kansas,Canola,2019,1.2217
+United States,Kansas,Canola,2020,2.0063
+United States,Kansas,Canola,2021,1.345
+United States,Kansas,Canola,2022,0.7734
+United States,Kansas,Canola,2023,0.6725
+United States,Kansas,Canola,2024,1.345
+United States,Kansas,Canola,2025,1.9727
+United States,Minnesota,Canola,1997,1.5692
+United States,Minnesota,Canola,1998,1.6252
+United States,Minnesota,Canola,1999,1.4571
+United States,Minnesota,Canola,2000,1.6589
+United States,Minnesota,Canola,2001,1.3226
+United States,Minnesota,Canola,2002,0.9976
+United States,Minnesota,Canola,2003,2.0399
+United States,Minnesota,Canola,2004,1.6813
+United States,Minnesota,Canola,2005,0.9191
+United States,Minnesota,Canola,2006,1.4907
+United States,Minnesota,Canola,2007,1.4347
+United States,Minnesota,Canola,2008,1.7934
+United States,Minnesota,Canola,2009,1.9054
+United States,Minnesota,Canola,2010,1.7149
+United States,Minnesota,Canola,2011,1.5692
+United States,Minnesota,Canola,2012,1.6476
+United States,Minnesota,Canola,2013,2.1857
+United States,Minnesota,Canola,2014,1.8494
+United States,Minnesota,Canola,2015,2.1072
+United States,Minnesota,Canola,2016,1.9054
+United States,Minnesota,Canola,2017,2.3314
+United States,Minnesota,Canola,2018,2.309
+United States,Minnesota,Canola,2019,2.5443
+United States,Minnesota,Canola,2020,1.7597
+United States,Minnesota,Canola,2021,1.9054
+United States,Minnesota,Canola,2022,2.7012
+United States,Minnesota,Canola,2023,2.7685
+United States,Minnesota,Canola,2024,2.2977
+United States,Minnesota,Canola,2025,2.5892
+United States,Montana,Canola,1999,1.345
+United States,Montana,Canola,2000,1.076
+United States,Montana,Canola,2001,1.02
+United States,Montana,Canola,2002,1.0088
+United States,Montana,Canola,2003,1.0536
+United States,Montana,Canola,2004,1.7822
+United States,Montana,Canola,2005,1.4459
+United States,Montana,Canola,2006,1.2554
+United States,Montana,Canola,2007,1.3338
+United States,Montana,Canola,2008,2.1408
+United States,Montana,Canola,2009,1.8606
+United States,Montana,Canola,2010,1.9391
+United States,Montana,Canola,2011,1.5356
+United States,Montana,Canola,2012,1.345
+United States,Montana,Canola,2013,1.7261
+United States,Montana,Canola,2014,1.5468
+United States,Montana,Canola,2015,1.3674
+United States,Montana,Canola,2016,1.8718
+United States,Montana,Canola,2017,0.9639
+United States,Montana,Canola,2018,1.2554
+United States,Montana,Canola,2019,1.6252
+United States,Montana,Canola,2020,1.827
+United States,Montana,Canola,2021,1.0088
+United States,Montana,Canola,2022,1.1545
+United States,Montana,Canola,2023,1.5916
+United States,Montana,Canola,2024,1.1545
+United States,Montana,Canola,2025,1.3674
+United States,North Dakota,Canola,1991,1.5692
+United States,North Dakota,Canola,1992,1.7149
+United States,North Dakota,Canola,1993,1.3786
+United States,North Dakota,Canola,1994,1.5692
+United States,North Dakota,Canola,1995,1.3674
+United States,North Dakota,Canola,1996,1.5468
+United States,North Dakota,Canola,1997,1.3226
+United States,North Dakota,Canola,1998,1.6589
+United States,North Dakota,Canola,1999,1.4571
+United States,North Dakota,Canola,2000,1.4795
+United States,North Dakota,Canola,2001,1.5692
+United States,North Dakota,Canola,2002,1.3562
+United States,North Dakota,Canola,2003,1.5804
+United States,North Dakota,Canola,2004,1.827
+United States,North Dakota,Canola,2005,1.614
+United States,North Dakota,Canola,2006,1.5356
+United States,North Dakota,Canola,2007,1.3786
+United States,North Dakota,Canola,2008,1.6364
+United States,North Dakota,Canola,2009,2.0624
+United States,North Dakota,Canola,2010,1.9279
+United States,North Dakota,Canola,2011,1.6813
+United States,North Dakota,Canola,2012,1.5468
+United States,North Dakota,Canola,2013,2.0399
+United States,North Dakota,Canola,2014,2.0175
+United States,North Dakota,Canola,2015,1.9951
+United States,North Dakota,Canola,2016,2.0624
+United States,North Dakota,Canola,2017,1.7934
+United States,North Dakota,Canola,2018,2.1969
+United States,North Dakota,Canola,2019,2.0175
+United States,North Dakota,Canola,2020,2.2081
+United States,North Dakota,Canola,2021,1.5019
+United States,North Dakota,Canola,2022,2.0399
+United States,North Dakota,Canola,2023,2.0287
+United States,North Dakota,Canola,2024,2.0848
+United States,North Dakota,Canola,2025,2.3762
+United States,Oklahoma,Canola,2009,1.4011
+United States,Oklahoma,Canola,2010,1.7373
+United States,Oklahoma,Canola,2011,1.1209
+United States,Oklahoma,Canola,2012,1.4907
+United States,Oklahoma,Canola,2013,1.5131
+United States,Oklahoma,Canola,2014,0.6389
+United States,Oklahoma,Canola,2015,1.2329
+United States,Oklahoma,Canola,2016,1.6252
+United States,Oklahoma,Canola,2017,1.345
+United States,Oklahoma,Canola,2018,0.9863
+United States,Oklahoma,Canola,2019,1.5804
+United States,Oklahoma,Canola,2020,1.7149
+United States,Oklahoma,Canola,2021,1.7373
+United States,Oklahoma,Canola,2022,0.7846
+United States,Oklahoma,Canola,2023,0.8967
+United States,Oklahoma,Canola,2024,2.0175
+United States,Oklahoma,Canola,2025,1.1769
+United States,Washington,Canola,2011,2.1296
+United States,Washington,Canola,2012,2.0175
+United States,Washington,Canola,2013,1.9054
+United States,Washington,Canola,2014,1.345
+United States,Washington,Canola,2015,1.2329
+United States,Washington,Canola,2016,2.2417
+United States,Washington,Canola,2017,1.883
+United States,Washington,Canola,2018,2.0063
+United States,Washington,Canola,2019,2.1857
+United States,Washington,Canola,2020,2.4995
+United States,Washington,Canola,2021,1.2329
+United States,Washington,Canola,2022,1.9054
+United States,Washington,Canola,2023,1.8382
+United States,Washington,Canola,2024,2.0399
+United States,Washington,Canola,2025,1.7149
+United States,Colorado,Oats,1989,1.9727
+United States,Colorado,Oats,1990,1.7934
+United States,Colorado,Oats,1991,2.152
+United States,Colorado,Oats,1992,2.152
+United States,Colorado,Oats,1993,2.2238
+United States,Colorado,Oats,1994,2.152
+United States,Colorado,Oats,1995,2.2238
+United States,Colorado,Oats,1996,1.8651
+United States,Colorado,Oats,1997,2.439
+United States,Colorado,Oats,1998,2.5107
+United States,Colorado,Oats,1999,2.3314
+United States,Colorado,Oats,2000,2.2596
+United States,Colorado,Oats,2001,2.152
+United States,Colorado,Oats,2002,1.7934
+United States,Colorado,Oats,2003,2.3314
+United States,Colorado,Oats,2004,1.9727
+United States,Colorado,Oats,2005,2.69
+United States,Colorado,Oats,2006,2.5107
+United States,Colorado,Oats,2007,1.9727
+United States,Colorado,Oats,2008,2.5107
+United States,Colorado,Oats,2009,2.3314
+United States,Colorado,Oats,2010,2.3314
+United States,Colorado,Oats,2011,2.5107
+United States,Colorado,Oats,2012,2.5107
+United States,Colorado,Oats,2013,2.3314
+United States,Colorado,Oats,2014,2.152
+United States,Colorado,Oats,2015,2.8694
+United States,Colorado,Oats,2016,2.8694
+United States,Colorado,Oats,2017,2.3314
+United States,Colorado,Oats,2018,1.7934
+United States,Illinois,Oats,1989,2.8694
+United States,Illinois,Oats,1990,2.439
+United States,Illinois,Oats,1991,1.9727
+United States,Illinois,Oats,1992,2.1879
+United States,Illinois,Oats,1993,1.8292
+United States,Illinois,Oats,1994,2.1879
+United States,Illinois,Oats,1995,2.4031
+United States,Illinois,Oats,1996,2.3672
+United States,Illinois,Oats,1997,2.6542
+United States,Illinois,Oats,1998,2.0086
+United States,Illinois,Oats,1999,2.5466
+United States,Illinois,Oats,2000,2.6183
+United States,Illinois,Oats,2001,2.8694
+United States,Illinois,Oats,2002,2.6183
+United States,Illinois,Oats,2003,3.1922
+United States,Illinois,Oats,2004,2.5107
+United States,Illinois,Oats,2005,2.8335
+United States,Illinois,Oats,2006,2.7618
+United States,Illinois,Oats,2007,2.2238
+United States,Illinois,Oats,2008,2.5107
+United States,Illinois,Oats,2009,2.3314
+United States,Illinois,Oats,2010,2.3314
+United States,Illinois,Oats,2011,2.439
+United States,Illinois,Oats,2012,2.7259
+United States,Illinois,Oats,2013,2.4748
+United States,Illinois,Oats,2014,2.8694
+United States,Illinois,Oats,2015,2.7618
+United States,Illinois,Oats,2016,2.9052
+United States,Illinois,Oats,2017,2.8335
+United States,Illinois,Oats,2018,2.977
+United States,Illinois,Oats,2019,2.3314
+United States,Illinois,Oats,2020,2.0803
+United States,Illinois,Oats,2021,2.977
+United States,Illinois,Oats,2022,2.977
+United States,Illinois,Oats,2023,3.228
+United States,Illinois,Oats,2024,3.3356
+United States,Illinois,Oats,2025,3.5509
+United States,Iowa,Oats,1989,2.5824
+United States,Iowa,Oats,1990,2.439
+United States,Iowa,Oats,1991,1.7934
+United States,Iowa,Oats,1992,2.4031
+United States,Iowa,Oats,1993,1.4347
+United States,Iowa,Oats,1994,2.2238
+United States,Iowa,Oats,1995,2.3314
+United States,Iowa,Oats,1996,2.439
+United States,Iowa,Oats,1997,2.6183
+United States,Iowa,Oats,1998,2.1162
+United States,Iowa,Oats,1999,2.3314
+United States,Iowa,Oats,2000,2.4031
+United States,Iowa,Oats,2001,2.5107
+United States,Iowa,Oats,2002,2.7259
+United States,Iowa,Oats,2003,2.977
+United States,Iowa,Oats,2004,2.5824
+United States,Iowa,Oats,2005,2.8335
+United States,Iowa,Oats,2006,2.7259
+United States,Iowa,Oats,2007,2.5466
+United States,Iowa,Oats,2008,2.3314
+United States,Iowa,Oats,2009,2.3314
+United States,Iowa,Oats,2010,2.2238
+United States,Iowa,Oats,2011,2.2955
+United States,Iowa,Oats,2012,2.3314
+United States,Iowa,Oats,2013,2.3672
+United States,Iowa,Oats,2014,2.2955
+United States,Iowa,Oats,2015,2.6183
+United States,Iowa,Oats,2016,2.7259
+United States,Iowa,Oats,2017,2.7618
+United States,Iowa,Oats,2018,2.2596
+United States,Iowa,Oats,2019,2.0803
+United States,Iowa,Oats,2020,2.7976
+United States,Iowa,Oats,2021,2.7618
+United States,Iowa,Oats,2022,2.9411
+United States,Iowa,Oats,2023,2.8694
+United States,Iowa,Oats,2024,2.9411
+United States,Iowa,Oats,2025,3.2998
+United States,Kansas,Oats,1989,1.614
+United States,Kansas,Oats,1990,1.9727
+United States,Kansas,Oats,1991,1.901
+United States,Kansas,Oats,1992,2.0086
+United States,Kansas,Oats,1993,1.2195
+United States,Kansas,Oats,1994,1.6499
+United States,Kansas,Oats,1995,1.6858
+United States,Kansas,Oats,1996,1.8651
+United States,Kansas,Oats,1997,2.1162
+United States,Kansas,Oats,1998,1.614
+United States,Kansas,Oats,1999,1.6858
+United States,Kansas,Oats,2000,1.5782
+United States,Kansas,Oats,2001,1.901
+United States,Kansas,Oats,2002,1.8651
+United States,Kansas,Oats,2003,2.3314
+United States,Kansas,Oats,2004,1.5423
+United States,Kansas,Oats,2005,2.1162
+United States,Kansas,Oats,2006,1.6499
+United States,Kansas,Oats,2007,1.614
+United States,Kansas,Oats,2008,1.901
+United States,Kansas,Oats,2009,1.901
+United States,Kansas,Oats,2010,1.7934
+United States,Kansas,Oats,2011,1.363
+United States,Kansas,Oats,2012,1.1836
+United States,Kansas,Oats,2013,1.5064
+United States,Kansas,Oats,2014,2.0086
+United States,Kansas,Oats,2015,2.3314
+United States,Kansas,Oats,2016,2.0444
+United States,Kansas,Oats,2017,1.9368
+United States,Kansas,Oats,2018,1.7575
+United States,Kansas,Oats,2019,2.2955
+United States,Kansas,Oats,2020,1.8651
+United States,Kansas,Oats,2021,1.7934
+United States,Kansas,Oats,2022,1.4706
+United States,Kansas,Oats,2023,2.3672
+United States,Kansas,Oats,2024,2.3672
+United States,Kansas,Oats,2025,2.0803
+United States,Minnesota,Oats,1989,1.9727
+United States,Minnesota,Oats,1990,2.3672
+United States,Minnesota,Oats,1991,1.4347
+United States,Minnesota,Oats,1992,2.5107
+United States,Minnesota,Oats,1993,1.7934
+United States,Minnesota,Oats,1994,1.9727
+United States,Minnesota,Oats,1995,1.7216
+United States,Minnesota,Oats,1996,2.0086
+United States,Minnesota,Oats,1997,2.0803
+United States,Minnesota,Oats,1998,2.2596
+United States,Minnesota,Oats,1999,2.1162
+United States,Minnesota,Oats,2000,2.5824
+United States,Minnesota,Oats,2001,2.152
+United States,Minnesota,Oats,2002,2.0086
+United States,Minnesota,Oats,2003,2.5466
+United States,Minnesota,Oats,2004,2.5107
+United States,Minnesota,Oats,2005,2.2238
+United States,Minnesota,Oats,2006,2.0086
+United States,Minnesota,Oats,2007,2.152
+United States,Minnesota,Oats,2008,2.439
+United States,Minnesota,Oats,2009,2.5466
+United States,Minnesota,Oats,2010,2.4748
+United States,Minnesota,Oats,2011,1.9368
+United States,Minnesota,Oats,2012,2.2238
+United States,Minnesota,Oats,2013,2.0444
+United States,Minnesota,Oats,2014,2.2596
+United States,Minnesota,Oats,2015,2.7976
+United States,Minnesota,Oats,2016,2.439
+United States,Minnesota,Oats,2017,2.69
+United States,Minnesota,Oats,2018,2.1162
+United States,Minnesota,Oats,2019,2.2238
+United States,Minnesota,Oats,2020,2.3672
+United States,Minnesota,Oats,2021,2.0444
+United States,Minnesota,Oats,2022,2.1879
+United States,Minnesota,Oats,2023,2.7618
+United States,Minnesota,Oats,2024,3.1563
+United States,Minnesota,Oats,2025,3.1204
+United States,Montana,Oats,1989,1.6499
+United States,Montana,Oats,1990,1.4347
+United States,Montana,Oats,1991,1.9727
+United States,Montana,Oats,1992,2.0086
+United States,Montana,Oats,1993,2.3314
+United States,Montana,Oats,1994,1.7216
+United States,Montana,Oats,1995,2.1162
+United States,Montana,Oats,1996,1.4347
+United States,Montana,Oats,1997,1.9727
+United States,Montana,Oats,1998,1.9368
+United States,Montana,Oats,1999,1.6499
+United States,Montana,Oats,2000,1.7934
+United States,Montana,Oats,2001,1.5782
+United States,Montana,Oats,2002,1.6499
+United States,Montana,Oats,2003,1.5782
+United States,Montana,Oats,2004,2.152
+United States,Montana,Oats,2005,1.901
+United States,Montana,Oats,2006,1.6499
+United States,Montana,Oats,2007,1.7934
+United States,Montana,Oats,2008,1.8292
+United States,Montana,Oats,2009,2.0086
+United States,Montana,Oats,2010,2.1879
+United States,Montana,Oats,2011,1.7934
+United States,Montana,Oats,2012,1.614
+United States,Montana,Oats,2013,1.9368
+United States,Montana,Oats,2014,2.4748
+United States,Montana,Oats,2015,1.901
+United States,Montana,Oats,2016,1.6858
+United States,Montana,Oats,2017,1.6858
+United States,Montana,Oats,2018,1.5423
+United States,Montana,Oats,2019,1.9727
+United States,Montana,Oats,2020,1.614
+United States,Montana,Oats,2021,1.2554
+United States,Montana,Oats,2022,1.363
+United States,Montana,Oats,2023,1.3271
+United States,Montana,Oats,2024,1.1836
+United States,Montana,Oats,2025,1.5782
+United States,Nebraska,Oats,1989,1.2912
+United States,Nebraska,Oats,1990,1.7216
+United States,Nebraska,Oats,1991,1.9368
+United States,Nebraska,Oats,1992,2.5107
+United States,Nebraska,Oats,1993,1.5423
+United States,Nebraska,Oats,1994,1.7934
+United States,Nebraska,Oats,1995,1.7934
+United States,Nebraska,Oats,1996,2.5466
+United States,Nebraska,Oats,1997,2.3314
+United States,Nebraska,Oats,1998,2.0086
+United States,Nebraska,Oats,1999,2.2238
+United States,Nebraska,Oats,2000,1.5064
+United States,Nebraska,Oats,2001,2.1879
+United States,Nebraska,Oats,2002,1.5423
+United States,Nebraska,Oats,2003,2.6183
+United States,Nebraska,Oats,2004,2.439
+United States,Nebraska,Oats,2005,2.6183
+United States,Nebraska,Oats,2006,1.614
+United States,Nebraska,Oats,2007,2.1879
+United States,Nebraska,Oats,2008,2.5107
+United States,Nebraska,Oats,2009,2.4748
+United States,Nebraska,Oats,2010,2.439
+United States,Nebraska,Oats,2011,2.2596
+United States,Nebraska,Oats,2012,2.0444
+United States,Nebraska,Oats,2013,2.3314
+United States,Nebraska,Oats,2014,2.8694
+United States,Nebraska,Oats,2015,2.4031
+United States,Nebraska,Oats,2016,2.152
+United States,Nebraska,Oats,2017,1.7575
+United States,Nebraska,Oats,2018,2.4748
+United States,Nebraska,Oats,2019,2.2596
+United States,Nebraska,Oats,2020,2.2596
+United States,Nebraska,Oats,2021,2.0086
+United States,Nebraska,Oats,2022,1.8292
+United States,Nebraska,Oats,2023,1.901
+United States,Nebraska,Oats,2024,2.4748
+United States,Nebraska,Oats,2025,1.7934
+United States,North Dakota,Oats,1989,1.1119
+United States,North Dakota,Oats,1990,1.8292
+United States,North Dakota,Oats,1991,1.7934
+United States,North Dakota,Oats,1992,2.439
+United States,North Dakota,Oats,1993,2.5107
+United States,North Dakota,Oats,1994,2.1879
+United States,North Dakota,Oats,1995,1.7216
+United States,North Dakota,Oats,1996,1.7934
+United States,North Dakota,Oats,1997,1.5782
+United States,North Dakota,Oats,1998,2.152
+United States,North Dakota,Oats,1999,1.8292
+United States,North Dakota,Oats,2000,2.2596
+United States,North Dakota,Oats,2001,2.2238
+United States,North Dakota,Oats,2002,1.5064
+United States,North Dakota,Oats,2003,2.1162
+United States,North Dakota,Oats,2004,2.2955
+United States,North Dakota,Oats,2005,2.1162
+United States,North Dakota,Oats,2006,1.4706
+United States,North Dakota,Oats,2007,2.1162
+United States,North Dakota,Oats,2008,1.8292
+United States,North Dakota,Oats,2009,2.439
+United States,North Dakota,Oats,2010,2.1879
+United States,North Dakota,Oats,2011,1.8651
+United States,North Dakota,Oats,2012,2.2238
+United States,North Dakota,Oats,2013,2.2238
+United States,North Dakota,Oats,2014,2.6183
+United States,North Dakota,Oats,2015,2.6542
+United States,North Dakota,Oats,2016,2.3672
+United States,North Dakota,Oats,2017,2.0803
+United States,North Dakota,Oats,2018,2.9411
+United States,North Dakota,Oats,2019,3.0846
+United States,North Dakota,Oats,2020,2.7976
+United States,North Dakota,Oats,2021,1.7216
+United States,North Dakota,Oats,2022,2.5824
+United States,North Dakota,Oats,2023,2.7259
+United States,North Dakota,Oats,2024,3.515
+United States,North Dakota,Oats,2025,2.7618
+United States,Oklahoma,Oats,1989,1.2195
+United States,Oklahoma,Oats,1990,1.363
+United States,Oklahoma,Oats,1991,1.363
+United States,Oklahoma,Oats,1992,1.4347
+United States,Oklahoma,Oats,1993,1.2554
+United States,Oklahoma,Oats,1994,1.3271
+United States,Oklahoma,Oats,1995,1.3988
+United States,Oklahoma,Oats,1996,1.2912
+United States,Oklahoma,Oats,1997,1.5782
+United States,Oklahoma,Oats,1998,1.4706
+United States,Oklahoma,Oats,1999,1.5423
+United States,Oklahoma,Oats,2000,1.5782
+United States,Oklahoma,Oats,2001,1.363
+United States,Oklahoma,Oats,2002,1.3271
+United States,Oklahoma,Oats,2003,1.2912
+United States,Oklahoma,Oats,2004,1.3271
+United States,Oklahoma,Oats,2005,1.4706
+United States,Oklahoma,Oats,2006,1.076
+United States,Oklahoma,Oats,2007,1.1119
+United States,Oklahoma,Oats,2008,1.4347
+United States,Oklahoma,Oats,2009,1.2195
+United States,Oklahoma,Oats,2010,1.1836
+United States,Oklahoma,Oats,2011,1.4347
+United States,Oklahoma,Oats,2012,1.614
+United States,Oklahoma,Oats,2013,1.363
+United States,Oklahoma,Oats,2014,1.363
+United States,Oklahoma,Oats,2015,1.3988
+United States,Oklahoma,Oats,2016,1.5423
+United States,Oklahoma,Oats,2017,1.5064
+United States,Oklahoma,Oats,2018,1.7216
+United States,Oklahoma,Oats,2019,1.7934
+United States,Oklahoma,Oats,2020,1.614
+United States,Oklahoma,Oats,2021,1.614
+United States,Oklahoma,Oats,2022,0.7173
+United States,Oklahoma,Oats,2023,2.152
+United States,South Dakota,Oats,1989,1.4347
+United States,South Dakota,Oats,1990,2.0086
+United States,South Dakota,Oats,1991,1.9727
+United States,South Dakota,Oats,1992,2.3672
+United States,South Dakota,Oats,1993,1.8651
+United States,South Dakota,Oats,1994,2.0086
+United States,South Dakota,Oats,1995,1.6499
+United States,South Dakota,Oats,1996,2.152
+United States,South Dakota,Oats,1997,1.9727
+United States,South Dakota,Oats,1998,2.4031
+United States,South Dakota,Oats,1999,2.2955
+United States,South Dakota,Oats,2000,2.1879
+United States,South Dakota,Oats,2001,2.152
+United States,South Dakota,Oats,2002,1.614
+United States,South Dakota,Oats,2003,2.439
+United States,South Dakota,Oats,2004,2.9411
+United States,South Dakota,Oats,2005,2.5824
+United States,South Dakota,Oats,2006,2.0444
+United States,South Dakota,Oats,2007,2.5824
+United States,South Dakota,Oats,2008,2.6183
+United States,South Dakota,Oats,2009,2.6183
+United States,South Dakota,Oats,2010,2.5824
+United States,South Dakota,Oats,2011,2.0086
+United States,South Dakota,Oats,2012,2.439
+United States,South Dakota,Oats,2013,2.7618
+United States,South Dakota,Oats,2014,3.3356
+United States,South Dakota,Oats,2015,3.1204
+United States,South Dakota,Oats,2016,2.9411
+United States,South Dakota,Oats,2017,2.5107
+United States,South Dakota,Oats,2018,2.9411
+United States,South Dakota,Oats,2019,2.9411
+United States,South Dakota,Oats,2020,2.7618
+United States,South Dakota,Oats,2021,2.4031
+United States,South Dakota,Oats,2022,2.8694
+United States,South Dakota,Oats,2023,2.6542
+United States,South Dakota,Oats,2024,3.1563
+United States,South Dakota,Oats,2025,3.0846
+United States,Texas,Oats,1989,1.1836
+United States,Texas,Oats,1990,1.4706
+United States,Texas,Oats,1991,1.4347
+United States,Texas,Oats,1992,1.5782
+United States,Texas,Oats,1993,1.901
+United States,Texas,Oats,1994,1.4347
+United States,Texas,Oats,1995,1.5064
+United States,Texas,Oats,1996,1.2195
+United States,Texas,Oats,1997,1.8651
+United States,Texas,Oats,1998,1.901
+United States,Texas,Oats,1999,1.5782
+United States,Texas,Oats,2000,1.5423
+United States,Texas,Oats,2001,1.614
+United States,Texas,Oats,2002,1.5782
+United States,Texas,Oats,2003,1.614
+United States,Texas,Oats,2004,1.4347
+United States,Texas,Oats,2005,1.5423
+United States,Texas,Oats,2006,1.3271
+United States,Texas,Oats,2007,1.4347
+United States,Texas,Oats,2008,1.7934
+United States,Texas,Oats,2009,1.6858
+United States,Texas,Oats,2010,1.8651
+United States,Texas,Oats,2011,1.2554
+United States,Texas,Oats,2012,1.7575
+United States,Texas,Oats,2013,1.6499
+United States,Texas,Oats,2014,1.363
+United States,Texas,Oats,2015,1.7216
+United States,Texas,Oats,2016,1.7934
+United States,Texas,Oats,2017,1.614
+United States,Texas,Oats,2018,1.7934
+United States,Texas,Oats,2019,1.7934
+United States,Texas,Oats,2020,1.614
+United States,Texas,Oats,2021,1.614
+United States,Texas,Oats,2022,1.9727
+United States,Texas,Oats,2023,1.9368
+United States,Texas,Oats,2024,1.6499
+United States,Texas,Oats,2025,1.901
+United States,Washington,Oats,1989,2.2596
+United States,Washington,Oats,1990,2.3672
+United States,Washington,Oats,1991,2.3314
+United States,Washington,Oats,1992,2.152
+United States,Washington,Oats,1993,2.439
+United States,Washington,Oats,1994,2.0803
+United States,Washington,Oats,1995,2.8694
+United States,Washington,Oats,1996,2.8694
+United States,Washington,Oats,1997,2.8694
+United States,Washington,Oats,1998,2.69
+United States,Washington,Oats,1999,2.69
+United States,Washington,Oats,2000,2.69
+United States,Washington,Oats,2001,1.9727
+United States,Washington,Oats,2002,2.3314
+United States,Washington,Oats,2003,1.7934
+United States,Washington,Oats,2004,3.1563
+United States,Washington,Oats,2005,2.5824
+United States,Washington,Oats,2006,3.0128
+United States,Washington,Oats,2007,1.7934
+United States,Washington,Oats,2008,2.8694
+United States,Washington,Oats,2009,2.8694
+United States,Washington,Oats,2010,3.0128
+United States,Washington,Oats,2011,2.1162
+United States,Washington,Oats,2012,2.9411
+United States,Washington,Oats,2013,2.439
+United States,Washington,Oats,2014,2.5107
+United States,Washington,Oats,2015,1.9368
+United States,Washington,Oats,2016,2.1879
+United States,Washington,Oats,2017,1.5064
+United States,Washington,Oats,2018,1.6499
+United States,Colorado,Wheat,1989,1.8427
+United States,Colorado,Wheat,1990,2.2596
+United States,Colorado,Wheat,1991,2.1319
+United States,Colorado,Wheat,1992,2.0781
+United States,Colorado,Wheat,1993,2.5219
+United States,Colorado,Wheat,1994,2.0713
+United States,Colorado,Wheat,1995,2.5824
+United States,Colorado,Wheat,1996,2.2395
+United States,Colorado,Wheat,1997,2.2058
+United States,Colorado,Wheat,1998,2.6631
+United States,Colorado,Wheat,1999,2.9456
+United States,Colorado,Wheat,2000,2.0041
+United States,Colorado,Wheat,2001,2.2731
+United States,Colorado,Wheat,2002,1.5333
+United States,Colorado,Wheat,2003,2.3605
+United States,Colorado,Wheat,2004,1.8427
+United States,Colorado,Wheat,2005,1.6409
+United States,Colorado,Wheat,2006,1.4526
+United States,Colorado,Wheat,2007,2.6362
+United States,Colorado,Wheat,2008,2.1386
+United States,Colorado,Wheat,2009,2.7304
+United States,Colorado,Wheat,2010,2.9254
+United States,Colorado,Wheat,2011,2.5623
+United States,Colorado,Wheat,2012,2.105
+United States,Colorado,Wheat,2013,1.7015
+United States,Colorado,Wheat,2014,2.5623
+United States,Colorado,Wheat,2015,2.495
+United States,Colorado,Wheat,2016,3.2415
+United States,Colorado,Wheat,2017,2.9052
+United States,Colorado,Wheat,2018,2.4278
+United States,Colorado,Wheat,2019,3.2953
+United States,Colorado,Wheat,2020,1.8158
+United States,Colorado,Wheat,2021,2.4883
+United States,Colorado,Wheat,2022,1.6813
+United States,Colorado,Wheat,2023,2.7573
+United States,Colorado,Wheat,2024,2.3538
+United States,Colorado,Wheat,2025,2.5555
+United States,Illinois,Wheat,1989,3.9678
+United States,Illinois,Wheat,1990,3.228
+United States,Illinois,Wheat,1991,2.152
+United States,Illinois,Wheat,1992,3.6316
+United States,Illinois,Wheat,1993,2.959
+United States,Illinois,Wheat,1994,3.7661
+United States,Illinois,Wheat,1995,3.2953
+United States,Illinois,Wheat,1996,2.5555
+United States,Illinois,Wheat,1997,4.1023
+United States,Illinois,Wheat,1998,3.228
+United States,Illinois,Wheat,1999,4.0351
+United States,Illinois,Wheat,2000,3.8333
+United States,Illinois,Wheat,2001,4.1023
+United States,Illinois,Wheat,2002,3.2953
+United States,Illinois,Wheat,2003,4.3713
+United States,Illinois,Wheat,2004,3.9678
+United States,Illinois,Wheat,2005,4.1023
+United States,Illinois,Wheat,2006,4.5058
+United States,Illinois,Wheat,2007,3.6988
+United States,Illinois,Wheat,2008,4.3041
+United States,Illinois,Wheat,2009,3.7661
+United States,Illinois,Wheat,2010,3.8333
+United States,Illinois,Wheat,2011,4.1023
+United States,Illinois,Wheat,2012,4.3041
+United States,Illinois,Wheat,2013,4.5058
+United States,Illinois,Wheat,2014,4.5058
+United States,Illinois,Wheat,2015,4.3713
+United States,Illinois,Wheat,2016,4.9766
+United States,Illinois,Wheat,2017,5.1111
+United States,Illinois,Wheat,2018,4.4386
+United States,Illinois,Wheat,2019,4.5058
+United States,Illinois,Wheat,2020,4.5731
+United States,Illinois,Wheat,2021,5.3128
+United States,Illinois,Wheat,2022,5.3128
+United States,Illinois,Wheat,2023,5.8508
+United States,Illinois,Wheat,2024,5.7836
+United States,Illinois,Wheat,2025,5.9181
+United States,Iowa,Wheat,1989,3.1608
+United States,Iowa,Wheat,1990,3.0263
+United States,Iowa,Wheat,1991,2.2865
+United States,Iowa,Wheat,1992,2.6228
+United States,Iowa,Wheat,1993,1.6813
+United States,Iowa,Wheat,1994,3.1608
+United States,Iowa,Wheat,1995,2.3538
+United States,Iowa,Wheat,1996,2.3538
+United States,Iowa,Wheat,1997,2.8245
+United States,Iowa,Wheat,1998,2.959
+United States,Iowa,Wheat,1999,2.8918
+United States,Iowa,Wheat,2000,3.1608
+United States,Iowa,Wheat,2001,3.6316
+United States,Iowa,Wheat,2002,3.5643
+United States,Iowa,Wheat,2003,4.1023
+United States,Iowa,Wheat,2004,3.6988
+United States,Iowa,Wheat,2005,3.3626
+United States,Iowa,Wheat,2006,4.4386
+United States,Iowa,Wheat,2007,3.228
+United States,Iowa,Wheat,2008,3.228
+United States,Iowa,Wheat,2009,3.0263
+United States,Iowa,Wheat,2010,3.0935
+United States,Iowa,Wheat,2011,3.0263
+United States,Iowa,Wheat,2012,3.3626
+United States,Iowa,Wheat,2013,3.4971
+United States,Iowa,Wheat,2014,3.2953
+United States,Iowa,Wheat,2015,3.4971
+United States,Iowa,Wheat,2016,4.2368
+United States,Iowa,Wheat,2017,4.5731
+United States,Iowa,Wheat,2018,3.9006
+United States,Kansas,Wheat,1989,1.614
+United States,Kansas,Wheat,1990,2.69
+United States,Kansas,Wheat,1991,2.2193
+United States,Kansas,Wheat,1992,2.2865
+United States,Kansas,Wheat,1993,2.3538
+United States,Kansas,Wheat,1994,2.5555
+United States,Kansas,Wheat,1995,1.7485
+United States,Kansas,Wheat,1996,1.9503
+United States,Kansas,Wheat,1997,3.0935
+United States,Kansas,Wheat,1998,3.2953
+United States,Kansas,Wheat,1999,3.1608
+United States,Kansas,Wheat,2000,2.4883
+United States,Kansas,Wheat,2001,2.69
+United States,Kansas,Wheat,2002,2.2193
+United States,Kansas,Wheat,2003,3.228
+United States,Kansas,Wheat,2004,2.4883
+United States,Kansas,Wheat,2005,2.69
+United States,Kansas,Wheat,2006,2.152
+United States,Kansas,Wheat,2007,2.2193
+United States,Kansas,Wheat,2008,2.69
+United States,Kansas,Wheat,2009,2.8245
+United States,Kansas,Wheat,2010,3.0263
+United States,Kansas,Wheat,2011,2.3538
+United States,Kansas,Wheat,2012,2.8245
+United States,Kansas,Wheat,2013,2.5555
+United States,Kansas,Wheat,2014,1.883
+United States,Kansas,Wheat,2015,2.4883
+United States,Kansas,Wheat,2016,3.8333
+United States,Kansas,Wheat,2017,3.228
+United States,Kansas,Wheat,2018,2.5555
+United States,Kansas,Wheat,2019,3.4971
+United States,Kansas,Wheat,2020,3.0263
+United States,Kansas,Wheat,2021,3.4971
+United States,Kansas,Wheat,2022,2.4883
+United States,Kansas,Wheat,2023,2.3538
+United States,Kansas,Wheat,2024,2.8918
+United States,Kansas,Wheat,2025,3.4298
+United States,Minnesota,Wheat,1989,2.5555
+United States,Minnesota,Wheat,1990,3.2549
+United States,Minnesota,Wheat,1991,2.0915
+United States,Minnesota,Wheat,1992,3.3558
+United States,Minnesota,Wheat,1993,2.0848
+United States,Minnesota,Wheat,1994,1.883
+United States,Minnesota,Wheat,1995,2.152
+United States,Minnesota,Wheat,1996,2.8178
+United States,Minnesota,Wheat,1997,2.152
+United States,Minnesota,Wheat,1998,2.7304
+United States,Minnesota,Wheat,1999,2.6766
+United States,Minnesota,Wheat,2000,3.2953
+United States,Minnesota,Wheat,2001,2.9523
+United States,Minnesota,Wheat,2002,2.2865
+United States,Minnesota,Wheat,2003,3.8871
+United States,Minnesota,Wheat,2004,3.6854
+United States,Minnesota,Wheat,2005,2.7573
+United States,Minnesota,Wheat,2006,3.1877
+United States,Minnesota,Wheat,2007,3.2213
+United States,Minnesota,Wheat,2008,3.7593
+United States,Minnesota,Wheat,2009,3.5509
+United States,Minnesota,Wheat,2010,3.6786
+United States,Minnesota,Wheat,2011,3.1003
+United States,Minnesota,Wheat,2012,3.8333
+United States,Minnesota,Wheat,2013,3.8131
+United States,Minnesota,Wheat,2014,3.6854
+United States,Minnesota,Wheat,2015,4.0283
+United States,Minnesota,Wheat,2016,3.9678
+United States,Minnesota,Wheat,2017,4.4991
+United States,Minnesota,Wheat,2018,3.9678
+United States,Minnesota,Wheat,2019,3.8333
+United States,Minnesota,Wheat,2020,3.5643
+United States,Minnesota,Wheat,2021,3.228
+United States,Minnesota,Wheat,2022,4.1023
+United States,Minnesota,Wheat,2023,4.1696
+United States,Minnesota,Wheat,2024,4.6067
+United States,Minnesota,Wheat,2025,4.6403
+United States,Montana,Wheat,1989,1.8629
+United States,Montana,Wheat,1990,1.8898
+United States,Montana,Wheat,1991,2.4547
+United States,Montana,Wheat,1992,2.0243
+United States,Montana,Wheat,1993,2.6362
+United States,Montana,Wheat,1994,2.1319
+United States,Montana,Wheat,1995,2.421
+United States,Montana,Wheat,1996,1.8494
+United States,Montana,Wheat,1997,2.0915
+United States,Montana,Wheat,1998,2.152
+United States,Montana,Wheat,1999,1.9503
+United States,Montana,Wheat,2000,1.8494
+United States,Montana,Wheat,2001,1.54
+United States,Montana,Wheat,2002,1.5535
+United States,Montana,Wheat,2003,1.8427
+United States,Montana,Wheat,2004,2.3202
+United States,Montana,Wheat,2005,2.4748
+United States,Montana,Wheat,2006,1.9772
+United States,Montana,Wheat,2007,1.9906
+United States,Montana,Wheat,2008,2.0243
+United States,Montana,Wheat,2009,2.2395
+United States,Montana,Wheat,2010,2.8044
+United States,Montana,Wheat,2011,2.3672
+United States,Montana,Wheat,2012,2.3403
+United States,Montana,Wheat,2013,2.6228
+United States,Montana,Wheat,2014,2.495
+United States,Montana,Wheat,2015,2.3605
+United States,Montana,Wheat,2016,2.8514
+United States,Montana,Wheat,2017,1.836
+United States,Montana,Wheat,2018,2.5757
+United States,Montana,Wheat,2019,2.8514
+United States,Montana,Wheat,2020,2.8044
+United States,Montana,Wheat,2021,1.493
+United States,Montana,Wheat,2022,1.9032
+United States,Montana,Wheat,2023,2.5017
+United States,Montana,Wheat,2024,2.2933
+United States,Montana,Wheat,2025,2.4816
+United States,Nebraska,Wheat,1989,1.8158
+United States,Nebraska,Wheat,1990,2.5555
+United States,Nebraska,Wheat,1991,2.152
+United States,Nebraska,Wheat,1992,2.0175
+United States,Nebraska,Wheat,1993,2.3538
+United States,Nebraska,Wheat,1994,2.2865
+United States,Nebraska,Wheat,1995,2.7573
+United States,Nebraska,Wheat,1996,2.3538
+United States,Nebraska,Wheat,1997,2.4883
+United States,Nebraska,Wheat,1998,3.0935
+United States,Nebraska,Wheat,1999,3.228
+United States,Nebraska,Wheat,2000,2.421
+United States,Nebraska,Wheat,2001,2.4883
+United States,Nebraska,Wheat,2002,2.2193
+United States,Nebraska,Wheat,2003,3.0935
+United States,Nebraska,Wheat,2004,2.4883
+United States,Nebraska,Wheat,2005,2.6228
+United States,Nebraska,Wheat,2006,2.421
+United States,Nebraska,Wheat,2007,2.8918
+United States,Nebraska,Wheat,2008,2.959
+United States,Nebraska,Wheat,2009,3.228
+United States,Nebraska,Wheat,2010,2.8918
+United States,Nebraska,Wheat,2011,3.0263
+United States,Nebraska,Wheat,2012,2.7573
+United States,Nebraska,Wheat,2013,2.3538
+United States,Nebraska,Wheat,2014,3.2953
+United States,Nebraska,Wheat,2015,2.5555
+United States,Nebraska,Wheat,2016,3.6316
+United States,Nebraska,Wheat,2017,3.0935
+United States,Nebraska,Wheat,2018,3.2953
+United States,Nebraska,Wheat,2019,3.8333
+United States,Nebraska,Wheat,2020,2.7573
+United States,Nebraska,Wheat,2021,3.2953
+United States,Nebraska,Wheat,2022,2.152
+United States,Nebraska,Wheat,2023,2.8245
+United States,Nebraska,Wheat,2024,3.4971
+United States,Nebraska,Wheat,2025,3.1608
+United States,North Dakota,Wheat,1989,1.5804
+United States,North Dakota,Wheat,1990,2.374
+United States,North Dakota,Wheat,1991,2.0848
+United States,North Dakota,Wheat,1992,2.764
+United States,North Dakota,Wheat,1993,2.0848
+United States,North Dakota,Wheat,1994,2.1319
+United States,North Dakota,Wheat,1995,1.8158
+United States,North Dakota,Wheat,1996,2.1251
+United States,North Dakota,Wheat,1997,1.6342
+United States,North Dakota,Wheat,1998,2.152
+United States,North Dakota,Wheat,1999,1.883
+United States,North Dakota,Wheat,2000,2.2664
+United States,North Dakota,Wheat,2001,2.1655
+United States,North Dakota,Wheat,2002,1.836
+United States,North Dakota,Wheat,2003,2.5085
+United States,North Dakota,Wheat,2004,2.6497
+United States,North Dakota,Wheat,2005,2.3067
+United States,North Dakota,Wheat,2006,2.0377
+United States,North Dakota,Wheat,2007,2.3941
+United States,North Dakota,Wheat,2008,2.4076
+United States,North Dakota,Wheat,2009,3.0128
+United States,North Dakota,Wheat,2010,2.8918
+United States,North Dakota,Wheat,2011,2.0377
+United States,North Dakota,Wheat,2012,2.9456
+United States,North Dakota,Wheat,2013,3.0532
+United States,North Dakota,Wheat,2014,3.1137
+United States,North Dakota,Wheat,2015,3.1406
+United States,North Dakota,Wheat,2016,3.0263
+United States,North Dakota,Wheat,2017,2.5488
+United States,North Dakota,Wheat,2018,3.2011
+United States,North Dakota,Wheat,2019,3.2549
+United States,North Dakota,Wheat,2020,3.2011
+United States,North Dakota,Wheat,2021,2.1655
+United States,North Dakota,Wheat,2022,3.2886
+United States,North Dakota,Wheat,2023,3.1675
+United States,North Dakota,Wheat,2024,3.8266
+United States,North Dakota,Wheat,2025,3.5509
+United States,Oklahoma,Wheat,1989,1.8158
+United States,Oklahoma,Wheat,1990,2.152
+United States,Oklahoma,Wheat,1991,1.8158
+United States,Oklahoma,Wheat,1992,1.9167
+United States,Oklahoma,Wheat,1993,1.9503
+United States,Oklahoma,Wheat,1994,1.8158
+United States,Oklahoma,Wheat,1995,1.4123
+United States,Oklahoma,Wheat,1996,1.2778
+United States,Oklahoma,Wheat,1997,2.152
+United States,Oklahoma,Wheat,1998,2.6228
+United States,Oklahoma,Wheat,1999,2.3538
+United States,Oklahoma,Wheat,2000,2.2865
+United States,Oklahoma,Wheat,2001,2.2193
+United States,Oklahoma,Wheat,2002,1.883
+United States,Oklahoma,Wheat,2003,2.6228
+United States,Oklahoma,Wheat,2004,2.3538
+United States,Oklahoma,Wheat,2005,2.152
+United States,Oklahoma,Wheat,2006,1.614
+United States,Oklahoma,Wheat,2007,1.883
+United States,Oklahoma,Wheat,2008,2.4883
+United States,Oklahoma,Wheat,2009,1.4795
+United States,Oklahoma,Wheat,2010,2.0848
+United States,Oklahoma,Wheat,2011,1.5468
+United States,Oklahoma,Wheat,2012,2.421
+United States,Oklahoma,Wheat,2013,2.0848
+United States,Oklahoma,Wheat,2014,1.1433
+United States,Oklahoma,Wheat,2015,1.7485
+United States,Oklahoma,Wheat,2016,2.6228
+United States,Oklahoma,Wheat,2017,2.2865
+United States,Oklahoma,Wheat,2018,1.883
+United States,Oklahoma,Wheat,2019,2.69
+United States,Oklahoma,Wheat,2020,2.69
+United States,Oklahoma,Wheat,2021,2.6228
+United States,Oklahoma,Wheat,2022,1.883
+United States,Oklahoma,Wheat,2023,1.883
+United States,Oklahoma,Wheat,2024,2.5555
+United States,Oklahoma,Wheat,2025,2.5555
+United States,South Dakota,Wheat,1989,1.5871
+United States,South Dakota,Wheat,1990,2.2731
+United States,South Dakota,Wheat,1991,2.0781
+United States,South Dakota,Wheat,1992,2.152
+United States,South Dakota,Wheat,1993,2.152
+United States,South Dakota,Wheat,1994,1.9099
+United States,South Dakota,Wheat,1995,2.2193
+United States,South Dakota,Wheat,1996,2.4278
+United States,South Dakota,Wheat,1997,1.9301
+United States,South Dakota,Wheat,1998,2.4681
+United States,South Dakota,Wheat,1999,2.6833
+United States,South Dakota,Wheat,2000,2.6699
+United States,South Dakota,Wheat,2001,2.5286
+United States,South Dakota,Wheat,2002,1.7754
+United States,South Dakota,Wheat,2003,2.8447
+United States,South Dakota,Wheat,2004,3.0935
+United States,South Dakota,Wheat,2005,2.8111
+United States,South Dakota,Wheat,2006,2.1924
+United States,South Dakota,Wheat,2007,2.8985
+United States,South Dakota,Wheat,2008,3.3962
+United States,South Dakota,Wheat,2009,2.8514
+United States,South Dakota,Wheat,2010,3.0465
+United States,South Dakota,Wheat,2011,2.5085
+United States,South Dakota,Wheat,2012,3.0868
+United States,South Dakota,Wheat,2013,2.838
+United States,South Dakota,Wheat,2014,3.7324
+United States,South Dakota,Wheat,2015,3.107
+United States,South Dakota,Wheat,2016,3.4702
+United States,South Dakota,Wheat,2017,2.3403
+United States,South Dakota,Wheat,2018,2.9859
+United States,South Dakota,Wheat,2019,3.2348
+United States,South Dakota,Wheat,2020,3.4836
+United States,South Dakota,Wheat,2021,2.2865
+United States,South Dakota,Wheat,2022,3.3626
+United States,South Dakota,Wheat,2023,3.0263
+United States,South Dakota,Wheat,2024,3.8064
+United States,South Dakota,Wheat,2025,3.3962
+United States,Texas,Wheat,1989,1.345
+United States,Texas,Wheat,1990,2.0848
+United States,Texas,Wheat,1991,2.0175
+United States,Texas,Wheat,1992,2.2865
+United States,Texas,Wheat,1993,2.152
+United States,Texas,Wheat,1994,1.7485
+United States,Texas,Wheat,1995,1.8158
+United States,Texas,Wheat,1996,1.7485
+United States,Texas,Wheat,1997,1.9503
+United States,Texas,Wheat,1998,2.3538
+United States,Texas,Wheat,1999,2.421
+United States,Texas,Wheat,2000,2.0175
+United States,Texas,Wheat,2001,2.2865
+United States,Texas,Wheat,2002,1.9503
+United States,Texas,Wheat,2003,1.883
+United States,Texas,Wheat,2004,2.0848
+United States,Texas,Wheat,2005,2.152
+United States,Texas,Wheat,2006,1.614
+United States,Texas,Wheat,2007,2.4883
+United States,Texas,Wheat,2008,2.0175
+United States,Texas,Wheat,2009,1.6813
+United States,Texas,Wheat,2010,2.2193
+United States,Texas,Wheat,2011,1.6813
+United States,Texas,Wheat,2012,2.2193
+United States,Texas,Wheat,2013,1.9503
+United States,Texas,Wheat,2014,2.0175
+United States,Texas,Wheat,2015,2.0175
+United States,Texas,Wheat,2016,2.152
+United States,Texas,Wheat,2017,1.9503
+United States,Texas,Wheat,2018,2.152
+United States,Texas,Wheat,2019,2.2865
+United States,Texas,Wheat,2020,2.0175
+United States,Texas,Wheat,2021,2.4883
+United States,Texas,Wheat,2022,2.0175
+United States,Texas,Wheat,2023,2.4883
+United States,Texas,Wheat,2024,2.0848
+United States,Texas,Wheat,2025,2.4883
+United States,Washington,Wheat,1989,3.2751
+United States,Washington,Wheat,1990,4.0687
+United States,Washington,Wheat,1991,3.0868
+United States,Washington,Wheat,1992,3.3222
+United States,Washington,Wheat,1993,4.2772
+United States,Washington,Wheat,1994,3.5441
+United States,Washington,Wheat,1995,3.988
+United States,Washington,Wheat,1996,4.4722
+United States,Washington,Wheat,1997,4.3041
+United States,Washington,Wheat,1998,4.1292
+United States,Washington,Wheat,1999,3.645
+United States,Washington,Wheat,2000,4.5798
+United States,Washington,Wheat,2001,3.7593
+United States,Washington,Wheat,2002,3.6517
+United States,Washington,Wheat,2003,3.9947
+United States,Washington,Wheat,2004,4.2435
+United States,Washington,Wheat,2005,4.2099
+United States,Washington,Wheat,2006,4.1763
+United States,Washington,Wheat,2007,3.9476
+United States,Washington,Wheat,2008,3.5509
+United States,Washington,Wheat,2009,3.6719
+United States,Washington,Wheat,2010,4.3646
+United States,Washington,Wheat,2011,4.7681
+United States,Washington,Wheat,2012,4.4789
+United States,Washington,Wheat,2013,4.4991
+United States,Washington,Wheat,2014,3.2415
+United States,Washington,Wheat,2015,3.3827
+United States,Washington,Wheat,2016,4.8084
+United States,Washington,Wheat,2017,4.4789
+United States,Washington,Wheat,2018,4.7614
+United States,Washington,Wheat,2019,4.3511
+United States,Washington,Wheat,2020,4.869
+United States,Washington,Wheat,2021,2.6295
+United States,Washington,Wheat,2022,4.2637
+United States,Washington,Wheat,2023,3.3962
+United States,Washington,Wheat,2024,4.3108
+United States,Washington,Wheat,2025,4.2099

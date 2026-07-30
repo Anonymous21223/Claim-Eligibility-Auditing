@@ -1,0 +1,16 @@
+{
+  "same_row_membership": true,
+  "same_target_hash": true,
+  "same_prediction_hash": false,
+  "history8_row_id_sha256": "8e620d21623946972bdb6f2ed79fccc53a345bd6748f5a81549faf01132b945c",
+  "history10_row_id_sha256": "8e620d21623946972bdb6f2ed79fccc53a345bd6748f5a81549faf01132b945c",
+  "history8_target_sha256": "922f3184085dd75784514038feeb16e30a3a61a9b396da205b7c7fa28faeb083",
+  "history10_target_sha256": "922f3184085dd75784514038feeb16e30a3a61a9b396da205b7c7fa28faeb083",
+  "history8_prediction_sha256": "54cb0d70e577a97d7456be374a8925435e7ffbcc533d37f9ba10dab89187abc0",
+  "history10_prediction_sha256": "d36dcbd5fc7f5a2788fad3335ce24e87ace9623bb97e37973014abe9b3bf8efc",
+  "rows_only_history8": [],
+  "rows_only_history10": [],
+  "target_max_abs_difference": 0.0,
+  "prediction_max_abs_difference": 1.1102230246251565e-16,
+  "explanation": "History 8 and History 10 have identical eligible row IDs and target vectors. Their predictions differ only at floating-point precision (maximum absolute difference 1.11e-16, accepted tolerance 2.5e-16), so the reported metrics coincide at the displayed precision."
+}

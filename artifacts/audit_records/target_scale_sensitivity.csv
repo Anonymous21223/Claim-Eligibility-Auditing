@@ -1,0 +1,2 @@
+analysis,target,n_train,n_test,rmse_z,baseline_rmse_z,delta_rmse_z,mae_z,r2_z,delta_rmse_z_ci95_low,delta_rmse_z_ci95_high,status
+model trained on train-only standardized residual z,trend_residual_z,879,333,3.5298250930256483,3.4999737349921762,0.029851358033472053,1.7549631962936767,-0.05775320556878638,-0.008519159723355174,0.06728180881127964,SENSITIVITY FAIL

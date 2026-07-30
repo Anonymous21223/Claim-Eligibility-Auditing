@@ -1,0 +1,41 @@
+crop,region,window,start_rule,end_rule,stage_rule
+Barley,Colorado,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Barley,Kansas,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Barley,Minnesota,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Barley,Montana,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Barley,Nebraska,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Barley,North Dakota,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Barley,Oklahoma,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Barley,South Dakota,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Barley,Texas,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Barley,Washington,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Canola,Kansas,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Canola,Minnesota,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Canola,Montana,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Canola,North Dakota,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Canola,Oklahoma,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Canola,Washington,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,Colorado,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,Illinois,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,Iowa,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,Kansas,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,Minnesota,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,Montana,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,Nebraska,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,North Dakota,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,Oklahoma,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,South Dakota,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,Texas,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Oats,Washington,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,Colorado,winter,September 1 of previous year,June 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,Illinois,winter,September 1 of previous year,June 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,Iowa,winter,September 1 of previous year,June 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,Kansas,winter,September 1 of previous year,June 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,Minnesota,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,Montana,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,Nebraska,winter,September 1 of previous year,June 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,North Dakota,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,Oklahoma,winter,September 1 of previous year,June 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,South Dakota,spring,April 1 of yield year,September 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,Texas,winter,September 1 of previous year,June 30 of yield year,three consecutive equal blocks; final block receives remainder
+Wheat,Washington,winter,September 1 of previous year,June 30 of yield year,three consecutive equal blocks; final block receives remainder

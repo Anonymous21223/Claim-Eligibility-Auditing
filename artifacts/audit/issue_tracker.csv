@@ -1,0 +1,21 @@
+issue_id,priority,status,evidence
+P1-01,P1,PASS,configs/fidelity_gate.yaml; fidelity_gate_components.csv
+P1-02,P1,PASS,tail_metrics_by_threshold.csv; table_tail_gate.tex
+P1-03,P1,PASS,paired_feature_family_ci.csv; figure_final_audit.pdf
+P1-04,P1,PASS,validation_model_grid.csv; selected_config.json
+P2-01,P2,PASS,references/ref_verification.csv; references/citation_usage.csv
+P2-02,P2,PASS,selection/validation_seed_metrics.csv
+P2-03,P2,PASS,tail_metrics_by_threshold.csv; configs/fidelity_gate.yaml
+P2-04,P2,PASS,fold_metrics.csv; stage_feature_sensitivity.csv; crop_specific_metrics.csv; leave_one_state_out.csv
+P2-05,P2,PASS,bootstrap/bootstrap_config.json; year_block_draws.csv
+P2-06,P2,PASS,final_test/baseline_prediction_audit.csv
+P2-07,P2,PASS,main.tex Algorithm 1; selected_config.json
+P2-08,P2,PASS,leakage/full_series_vs_train_only.csv
+P2-09,P2,PASS,README_REPRODUCE.md; reconstruction_validation.csv
+P3-01,P3,PASS,paper/ictai2026_blind/main.pdf (5 pages)
+P3-02,P3,PASS,figure_leakage_comparison.pdf; main.tex caption
+P3-03,P3,PASS,main.tex wording pass
+P3-04,P3,PASS,table_audit_traceability.tex
+R-01,R,PASS,references/ref_verification.csv
+R-02,R,PASS,submission/main9_anonymity_audit.txt
+R-03,R,PASS,submission/main9_upload_manifest.md

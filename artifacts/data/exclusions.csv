@@ -1,0 +1,3 @@
+exclusion_reason,scope,handling
+insufficient_prior_series_history,2012-2015 validation,excluded before train-only trend fit; logged in detrending audit
+insufficient_prior_series_history,2016-2025 final test,excluded before train-only trend fit; logged in detrending audit

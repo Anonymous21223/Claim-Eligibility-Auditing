@@ -1,0 +1,13 @@
+\ProvidesFile{ot1ptm.fd}[2026/07/18 Local Times font definitions for IEEEtran]
+\DeclareFontFamily{OT1}{ptm}{}
+\DeclareFontShape{OT1}{ptm}{m}{n}{<-> ptmr7t}{}
+\DeclareFontShape{OT1}{ptm}{m}{it}{<-> ptmri7t}{}
+\DeclareFontShape{OT1}{ptm}{m}{sl}{<-> ptmri7t}{}
+\DeclareFontShape{OT1}{ptm}{m}{sc}{<-> ptmrc7t}{}
+\DeclareFontShape{OT1}{ptm}{bx}{n}{<-> ptmb7t}{}
+\DeclareFontShape{OT1}{ptm}{bx}{it}{<-> ptmbi7t}{}
+\DeclareFontShape{OT1}{ptm}{bx}{sl}{<-> ptmbi7t}{}
+\DeclareFontShape{OT1}{ptm}{b}{n}{<-> ssub * ptm/bx/n}{}
+\DeclareFontShape{OT1}{ptm}{b}{it}{<-> ssub * ptm/bx/it}{}
+\DeclareFontShape{OT1}{ptm}{b}{sl}{<-> ssub * ptm/bx/sl}{}
+\endinput

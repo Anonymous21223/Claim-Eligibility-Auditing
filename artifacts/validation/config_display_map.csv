@@ -1,0 +1,19 @@
+config_id,display_label,feature_family_display
+extra_trees_leaf_1,ExtraTrees (leaf=1),Weather only
+extra_trees_leaf_2,ExtraTrees (leaf=2),Weather only
+random_forest_leaf_1,Random Forest (leaf=1),Weather only
+random_forest_leaf_2,Random Forest (leaf=2),Weather only
+extra_trees_leaf_2,ExtraTrees (leaf=2),Full
+random_forest_leaf_1,Random Forest (leaf=1),Full
+random_forest_leaf_2,Random Forest (leaf=2),Full
+extra_trees_leaf_1,ExtraTrees (leaf=1),Full
+ridge_alpha_10,ridge alpha 10,Metadata only
+ridge_alpha_1,ridge alpha 1,Metadata only
+extra_trees_leaf_1,ExtraTrees (leaf=1),Metadata only
+extra_trees_leaf_2,ExtraTrees (leaf=2),Metadata only
+random_forest_leaf_2,Random Forest (leaf=2),Metadata only
+random_forest_leaf_1,Random Forest (leaf=1),Metadata only
+ridge_alpha_10,ridge alpha 10,Weather only
+ridge_alpha_10,ridge alpha 10,Full
+ridge_alpha_1,ridge alpha 1,Weather only
+ridge_alpha_1,ridge alpha 1,Full

@@ -1,0 +1,31 @@
+experiment_id: external-domain-eia-pjm
+case_name: Cross-domain permission case
+domain: EIA PJM daily electricity demand, Form EIA-930
+target: daily PJM demand in MWh
+source_url: https://api.eia.gov/v2/electricity/rto/daily-region-data/data/?api_key=DEMO_KEY&frequency=daily&data%5B0%5D=value&facets%5Brespondent%5D%5B%5D=PJM&start=2024-01-01&end=2024-12-31&length=5000
+train_split: "2024-01-01 through 2024-09-30"
+locked_holdout_split: "2024-10-01 through 2024-12-31"
+train_rows: 159
+locked_rows: 92
+calendar_features: [dow, sin_doy, cos_doy]
+full_features: [dow, sin_doy, cos_doy, forecast]
+model: ExtraTreesRegressor(n_estimators=300, min_samples_leaf=3, random_state=23)
+gate_a_baseline: train-period mean demand naive baseline
+gate_a: full model vs train-mean naive demand baseline paired bootstrap RMSE; upper 95% CI must be < 0
+gate_a_delta_rmse: -257515.90971332905
+gate_a_ci95: [-296661.0544153947, -221790.08265716373]
+gate_a_status: PASS
+gate_b1: calendar-plus-forecast full model vs calendar-only ExtraTrees paired bootstrap RMSE; upper 95% CI must be < 0
+gate_b1_delta_rmse: -149896.29770323378
+gate_b1_ci95: [-186036.7146584073, -119309.20913647949]
+gate_b1_status: PASS
+feature_group_gate: PASS
+xai_release_requires: Gate A and Gate B1
+explanation_availability: INTERPRET
+output_scale: predicted daily demand in MWh
+xai_method: permutation importance on locked holdout after Gate A and Gate B1 PASS
+claim_boundary: predictive feature-group reliance only; not causal and not agricultural transfer validation
+predictions: artifacts/experiments/external-domain-eia/pjm_predictions.csv
+bootstrap: artifacts/experiments/external-domain-eia/pjm_bootstrap.csv
+gate_decisions: artifacts/experiments/external-domain-eia/pjm_gate_decisions.json
+importance: artifacts/experiments/external-domain-eia/gated_feature_importance.csv

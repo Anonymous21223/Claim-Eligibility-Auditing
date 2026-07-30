@@ -1,0 +1,16 @@
+﻿{
+    "n_rows":  333,
+    "metadata_only_features_numeric":  [
+                                           "lat",
+                                           "lon"
+                                       ],
+    "metadata_only_features_categorical":  [
+                                               "region",
+                                               "crop"
+                                           ],
+    "metadata_vs_zero_max_abs":  1.3233901866098815E-13,
+    "metadata_vs_train_mean_max_abs":  1.1271926851842008E-13,
+    "metadata_vs_crop_train_mean_max_abs":  1.0504583263473609E-13,
+    "source_predictions":  "artifacts/audit/final_test/seed_aggregated_predictions.csv",
+    "note":  "Computed from locked final-test seed-aggregated prediction vectors; no experiment rerun."
+}

@@ -1,0 +1,36 @@
+key,role,cited,author,title,year,persistent_identifier,verification_source,status
+USDANASSQuickStats,data source,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+NASAPOWER2026,weather source,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Paudel2021,crop-yield ML,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Meroni2021,small-panel forecasting,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+LengHall2020,model comparison,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Klompenburg2020,systematic review,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Lesk2016,extreme-weather impacts,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Ray2015,climate-yield variability,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+SchlenkerRoberts2009,nonlinear heat effects,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Zampieri2017,heat drought excess water,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Schierhorn2021,stage-dependent effects,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Lu2017,detrending sensitivity,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Meng2024,alternative detrending,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+HoerlKennard1970,Ridge,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Breiman2001,Random Forest,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Geurts2006,ExtraTrees,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Pedregosa2011,software,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+LundbergLee2017,SHAP,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Ribeiro2016,LIME,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+ElYanivWiener2010,selective classification foundations,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+GeifmanElYaniv2017,selective classification risk-coverage,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Janzing2020,causal boundary for feature relevance,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Slack2020,post-hoc explanation reliability,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Adebayo2018,sanity checks for saliency maps,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Hooker2019,feature-removal explanation benchmark,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Yeh2019,explanation infidelity,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Fisher2019,model reliance,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+ApleyZhu2020,ALE,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Strobl2008,conditional importance,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Roberts2017,structured cross-validation,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+KapoorNarayanan2023,leakage,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+Pineau2021,reproducibility,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+PolitisRomano1994,dependent-data bootstrap,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+EIA930,PJM external-domain data source,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED
+CensusCartographicBoundary,map geometry source,True,True,True,True,True,"DOI resolver, publisher record, JMLR, USDA, or NASA official documentation",VERIFIED

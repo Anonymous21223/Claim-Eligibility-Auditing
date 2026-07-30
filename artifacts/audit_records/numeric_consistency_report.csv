@@ -1,0 +1,50 @@
+claim,pdf_location,artifact_path,artifact_value,status
+raw rows,p. 2 (1291),data/raw/us_yield_1989_2025_tha.csv,1291,PASS
+processed rows,p. 1 (1257),data/processed/us_model_frame_hemisphere_aware_1990_2025.csv,1257,PASS
+validation eligible rows,p. 4 (Validation selection),artifacts/audit/selection/selected_config.json,140,PASS
+locked rows,p. 6 (Locked 2016-2025),artifacts/audit/final_test/seed_aggregated_predictions.csv,333,PASS
+primary z<-1 events,p. 4 (broad below-trend subset contains 73),artifacts/audit/tail/tail_metrics_by_threshold.csv,73,PASS
+selected configuration,p. 1 (ExtraTrees),artifacts/audit/selection/selected_config.json,"['ExtraTrees', 'extra_trees_leaf_1', 'weather_only']",PASS
+fixed validation seeds,p. 2 (Seeds),artifacts/audit/selection/selected_config.json,"[7, 17, 27, 37, 47]",PASS
+validation-only selection,p. 1 (2012-2015),artifacts/audit/selection/selected_config.json,"['2012-2015', False]",PASS
+locked R2,p. 1 (R2),artifacts/audit/final_test/seed_aggregated_predictions.csv,-0.014,PASS
+locked RMSE,p. 1 (0.669),artifacts/audit/final_test/seed_aggregated_predictions.csv,0.669,PASS
+Module A paired delta RMSE,p. 3 (Modules A and B fail),artifacts/audit_records/paired_comparisons.csv,-0.005,PASS
+Module A paired CI low,p. 3 (Modules A and B fail),artifacts/audit_records/paired_comparisons.csv,-0.019,PASS
+Module A paired CI high,p. 3 (Modules A and B fail),artifacts/audit_records/paired_comparisons.csv,0.009,PASS
+Figure 2 module comparisons and roles,p. 3 (Modules A and B fail),artifacts/gates/figure2_three_comparisons.json,"[['Gate A', 'primary', 'extra_trees_leaf_1_weather_only_vs_zero'], ['Gate B1 PRIMARY', 'primary', 'extra_trees_leaf_1_full_vs_metadata_only'], ['Gate B2 DIAGNOSTIC', 'diagnostic', 'extra_trees_leaf_1_weather_only_vs_metadata_only']]",PASS
+Figure 2 paired row alignment,p. 3 (identical locked rows),artifacts/gates/figure2_three_comparisons.json,"[1, 1, [333, 333, 333]]",PASS
+Figure 2 calendar-year bootstrap,p. 2 (calendar-year block bootstrap replicates),artifacts/gates/figure2_three_comparisons.json,"[[2000, 'year_block'], [2000, 'year_block'], [2000, 'year_block']]",PASS
+Module D diagnostic constraint,p. 3 (exploratory representation diagnostic),artifacts/gates/gate_b_decision.json,diagnostic,PASS
+primary-tail delta RMSE,p. 5 (Panel A),artifacts/audit/tail/tail_metrics_by_threshold.csv,-0.043,PASS
+primary-tail delta MAE,p. 5 (Panel A),artifacts/audit/tail/tail_metrics_by_threshold.csv,-0.054,PASS
+primary-tail rank rho,p. 2 (Rank),artifacts/audit_records/rank_null_audit.csv,0.18,PASS
+primary-tail rank permutation p,p. 5 (Perm.),artifacts/audit_records/rank_null_audit.csv,0.362,PASS
+primary-tail top-10 overlap,p. 4 (Top-10),artifacts/audit_records/topk_null_audit.csv,1/10,PASS
+primary-tail expected top-10 overlap,p. 5 (Expected),artifacts/audit_records/topk_null_audit.csv,1.37,PASS
+primary-tail lift,p. 3 (Lift),artifacts/audit_records/topk_null_audit.csv,0.73,PASS
+primary-tail hypergeometric p,p. 1 (H p),artifacts/audit_records/topk_null_audit.csv,0.794,PASS
+primary-tail within-year permutation p,p. 5 (P p),artifacts/audit_records/topk_null_audit.csv,0.793,PASS
+history sensitivity rows,p. 4 (History 3),artifacts/audit_records/min_history_sensitivity.csv,"[3, 5, 8, 10]",PASS
+standardized target sensitivity,p. 4 (Standardized target),artifacts/audit_records/target_scale_sensitivity.csv,True,PASS
+Huber detrending sensitivity,p. 4 (Huber detrending),artifacts/audit_records/alternative_detrending_sensitivity.csv,True,PASS
+expanded-model sensitivities,p. 4 (HistGradientBoosting),artifacts/audit_records/expanded_model_baselines.csv,True,PASS
+cluster-resampling sensitivities,p. 2 (Resampling),artifacts/audit_records/bootstrap_scheme_comparison.csv,True,PASS
+temporal sensitivities,p. 5 (prefix learning),artifacts/audit_records/temporal_and_capacity_audits.csv,"[4, 4]",PASS
+history 8/10 vector consistency,p. 4 (History 8),artifacts/sensitivity/history_8_vs_10_hash_audit.json,"[True, True, True]",PASS
+post-season feature availability,p. 2 (post-season scientific audit),artifacts/data/feature_availability.csv,"[35, 'post-season scientific audit of train-only detrended yield residuals']",PASS
+target residual formula,p. 2 (raw train-only residual),artifacts/targets/target_spec.md,trend_residual_t_ha,PASS
+no shortcut feature matrix,p. 2 (model matrices exclude year),artifacts/audit_records/no_shortcut_ablation.csv,['PASS'],PASS
+synthetic benchmark design,p. 6 (14 regimes over 30 seeds),artifacts/experiments/synthetic-gate-benchmark/summary.json,"[14, 30, 420]",PASS
+synthetic denominators,p. 6 (240 invalid runs),artifacts/experiments/synthetic-gate-benchmark/summary.json,"[240, 180]",PASS
+synthetic ungated false permission,p. 6 (100.0),artifacts/experiments/synthetic-gate-benchmark/summary.json,"[100.0, 98.4, 100.0]",PASS
+synthetic observable-policy confusion matrix,p. 6 (171/240),artifacts/experiments/synthetic-gate-benchmark/summary.json,"[160, 171, 69, 20]",PASS
+synthetic observable false permission,p. 6 (171/240),artifacts/experiments/synthetic-gate-benchmark/summary.json,"[71.2, 65.2, 76.6]",PASS
+synthetic observable false abstention,p. 6 (20/180),artifacts/experiments/synthetic-gate-benchmark/summary.json,"[20, 11.1, 7.3, 16.5]",PASS
+synthetic observable permission tradeoff,p. 6 (permission rate is 78.8),artifacts/experiments/synthetic-gate-benchmark/summary.json,"[78.8, 88.9, 28.7]",PASS
+county external-resolution rows,p. 7 (574 counties),reports/experiments/county-v2-weather-models.json,"[1024, [2022, 2023, 2024, 2025]]",PASS
+county Module A remains inconclusive,p. 7 (Module A remains inconclusive),reports/experiments/county-v2-weather-models.json,0.26,PASS
+county Module B feature-group value,"p. 7 (Module B, which compares Full)",reports/experiments/county-v2-weather-models.json,"[-0.71, -1.23, -0.34]",PASS
+PJM Module A predictive adequacy,p. 7 (mean-demand naive baseline),reports/experiments/external-domain-eia.json,"[77521, 335037, [-296661, -221790], 'PASS']",PASS
+PJM Module B feature-group value,"p. 7 (Calendar-only RMSE is 227,417 MWh)",reports/experiments/external-domain-eia.json,"[227417, 77521, [-186037, -119309], 'PASS']",PASS
+XAI provenance output-scale binding,p. 7 (XAI manifest binds),artifacts/xai/xai_manifest.csv,"[True, True, True]",PASS

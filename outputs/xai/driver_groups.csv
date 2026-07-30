@@ -1,0 +1,6 @@
+driver_group,description,n_features
+heat,"High temperature, heatwave, and growing-degree exposure",12
+drought,"Low rainfall, dry spells, and hot-dry compound stress",8
+frost_cold,"Cold nights, frost days, and low minimum-temperature stress",5
+excess_rain,"Heavy rainfall, wetness, and short-duration rainfall maxima",8
+radiation,Seasonal solar-radiation anomalies,2

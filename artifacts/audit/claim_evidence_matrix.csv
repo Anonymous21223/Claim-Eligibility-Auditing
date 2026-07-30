@@ -1,0 +1,11 @@
+claim_id,claim,outcome,evidence_path,paper_location
+E1,Train-only target construction and split eligibility are fixed before evaluation.,TRACEABLE,artifacts/audit/split/split_manifest.csv,Data and Protocol; Table data-flow
+E2,The selected model is chosen only on validation metrics with fixed seeds and a tie rule.,TRACEABLE,artifacts/audit/selection/selected_config.json,Methods; validation selection table
+E3,Gate A and Gate B comparisons use paired year-block uncertainty on identical locked rows.,TRACEABLE,artifacts/gates/figure2_three_comparisons.json,Gate definition; Figure 2
+E4,"Tail, rank, and top-k gate components are reproducible from row-level locked predictions.",TRACEABLE,artifacts/audit/tail/tail_metrics_by_threshold.csv,Below-trend gate tables
+E5,Temporal robustness is evaluated by rolling-origin and prefix-capacity diagnostics.,TRACEABLE,artifacts/audit_records/temporal_and_capacity_audits.csv,Temporal and capacity table
+E6,"Stage-feature sensitivity is a sensitivity design, not a replacement for the primary feature set.",TRACEABLE,artifacts/audit/stage_features/stage_feature_sensitivity.csv,Robustness and sensitivity tables
+E7,"Crop, subgroup, and spatial diagnostics are diagnostic and cannot promote a failed primary gate.",TRACEABLE,artifacts/audit_records/group_macro_metrics.csv,Robustness and sensitivity tables
+E8,Full-series detrending is retrospective and changes event membership relative to train-only targets.,TRACEABLE,artifacts/audit_records/retrospective_target_comparison.csv,Retrospective target sensitivity; Figure 3
+E9,"Baselines, model-family contrasts, and bootstrap schemes use saved vectors and hashes.",TRACEABLE,artifacts/audit_records/baseline_vector_hashes.csv,Baseline and model comparison tables
+E10,Every submission-facing number is checked against generated artifacts and the final PDF.,TRACEABLE,audit/final_pdf_numerical_crosscheck.json,Audit traceability table; final PDF

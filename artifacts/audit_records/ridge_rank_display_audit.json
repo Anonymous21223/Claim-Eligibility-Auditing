@@ -1,0 +1,5 @@
+{
+  "ridge_row": "Ridge alpha=10 metadata_only",
+  "decision": "P(rank 1) set to N/A in the main table because Ridge is deterministic with one validation fit, whereas rank frequencies summarize seed variation for stochastic candidates.",
+  "source": "artifacts/audit/selection/validation_model_grid.csv and artifacts/audit_records/validation_stability.csv"
+}

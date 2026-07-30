@@ -1,0 +1,9 @@
+{
+  "metric": "state-level locked-test Delta RMSE = RMSE(Weather-only) - RMSE(Zero residual)",
+  "interpretation": "negative values favor the validation-selected Weather-only model at the point-estimate level",
+  "n_states": 12,
+  "state_values_sha256": "b5702dd03b2668c898bb26ba8fa1a6f46e6c12e8c9132661d48a24ac16b5195c",
+  "geometry_zip_sha256": "6f23ed91fce2c25d57c01d83225342ba40258e9571c486c3999bd827c80d193b",
+  "source_predictions": "artifacts/audit/final_test/seed_aggregated_predictions.csv",
+  "figure_pdf": "paper/generated/figure_state_delta_rmse_map.pdf"
+}

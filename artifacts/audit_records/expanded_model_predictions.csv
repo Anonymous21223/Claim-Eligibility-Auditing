@@ -1,0 +1,667 @@
+row_id,crop,region,year,trend_residual_t_ha,prediction,model
+Barley|Colorado|2016|spring,Barley,Colorado,2016,-0.5095273846155033,0.07286479067437066,hist_gradient_boosting
+Barley|Minnesota|2016|spring,Barley,Minnesota,2016,0.2596310769230761,0.14525619267395032,hist_gradient_boosting
+Barley|Montana|2016|spring,Barley,Montana,2016,0.3439889230769162,0.01326179354926446,hist_gradient_boosting
+Barley|North Dakota|2016|spring,Barley,North Dakota,2016,0.25977169230768604,0.007568183907233856,hist_gradient_boosting
+Barley|Washington|2016|spring,Barley,Washington,2016,0.6643498461538346,-0.27697251734289713,hist_gradient_boosting
+Canola|Minnesota|2016|spring,Canola,Minnesota,2016,-0.007122807017545307,0.14525619267395032,hist_gradient_boosting
+Canola|Montana|2016|spring,Canola,Montana,2016,0.11610514705883856,0.01326179354926446,hist_gradient_boosting
+Canola|North Dakota|2016|spring,Canola,North Dakota,2016,0.18139300000000302,0.007568183907233856,hist_gradient_boosting
+Canola|Oklahoma|2016|spring,Canola,Oklahoma,2016,0.6501000000000023,-0.006481025964741158,hist_gradient_boosting
+Canola|Washington|2016|spring,Canola,Washington,2016,1.2553899999999967,-0.27697251734289713,hist_gradient_boosting
+Oats|Colorado|2016|spring,Oats,Colorado,2016,0.3700559999999782,0.07286479067437066,hist_gradient_boosting
+Oats|Illinois|2016|spring,Oats,Illinois,2016,0.15521876923075606,0.01769352154509066,hist_gradient_boosting
+Oats|Iowa|2016|spring,Oats,Iowa,2016,0.16343753846153763,0.14981396601590433,hist_gradient_boosting
+Oats|Kansas|2016|spring,Oats,Kansas,2016,0.2778387692307751,-0.10805046981898903,hist_gradient_boosting
+Oats|Minnesota|2016|spring,Oats,Minnesota,2016,0.01924276923076107,0.14525619267395032,hist_gradient_boosting
+Oats|Montana|2016|spring,Oats,Montana,2016,-0.255666769230777,0.01326179354926446,hist_gradient_boosting
+Oats|Nebraska|2016|spring,Oats,Nebraska,2016,-0.33155353846154245,0.0505171727267473,hist_gradient_boosting
+Oats|North Dakota|2016|spring,Oats,North Dakota,2016,0.10842953846152126,0.007568183907233856,hist_gradient_boosting
+Oats|Oklahoma|2016|spring,Oats,Oklahoma,2016,0.1963378461538472,-0.006481025964741158,hist_gradient_boosting
+Oats|South Dakota|2016|spring,Oats,South Dakota,2016,0.09558061538458551,0.03862792769177329,hist_gradient_boosting
+Oats|Texas|2016|spring,Oats,Texas,2016,0.19282676923076547,-0.06625629468846653,hist_gradient_boosting
+Oats|Washington|2016|spring,Oats,Washington,2016,-0.36551353846154067,-0.27697251734289713,hist_gradient_boosting
+Wheat|Colorado|2016|winter,Wheat,Colorado,2016,0.9569996923076922,-0.025150239054765346,hist_gradient_boosting
+Wheat|Illinois|2016|winter,Wheat,Illinois,2016,0.4122187692307149,-0.09574488234365455,hist_gradient_boosting
+Wheat|Iowa|2016|winter,Wheat,Iowa,2016,0.5427403076922674,0.075305482844195,hist_gradient_boosting
+Wheat|Kansas|2016|winter,Wheat,Kansas,2016,1.245912615384615,-0.009496184635490271,hist_gradient_boosting
+Wheat|Minnesota|2016|spring,Wheat,Minnesota,2016,0.06901661538455839,0.14525619267395032,hist_gradient_boosting
+Wheat|Montana|2016|spring,Wheat,Montana,2016,0.5056507692307601,0.01326179354926446,hist_gradient_boosting
+Wheat|Nebraska|2016|winter,Wheat,Nebraska,2016,0.6704923076923008,0.1277677972503516,hist_gradient_boosting
+Wheat|North Dakota|2016|spring,Wheat,North Dakota,2016,0.16210338461537166,0.007568183907233856,hist_gradient_boosting
+Wheat|Oklahoma|2016|winter,Wheat,Oklahoma,2016,0.7009809230769246,0.24880500367063332,hist_gradient_boosting
+Wheat|South Dakota|2016|spring,Wheat,South Dakota,2016,0.2249199999999636,0.03862792769177329,hist_gradient_boosting
+Wheat|Texas|2016|winter,Wheat,Texas,2016,0.15185015384615586,0.12121910728908093,hist_gradient_boosting
+Wheat|Washington|2016|winter,Wheat,Washington,2016,0.7188430769230747,-0.16822167833219587,hist_gradient_boosting
+Barley|Colorado|2017|spring,Barley,Colorado,2017,-0.45714365811976965,-0.06730301754805475,hist_gradient_boosting
+Barley|Minnesota|2017|spring,Barley,Minnesota,2017,0.786356170940171,0.22440888403234416,hist_gradient_boosting
+Barley|Montana|2017|spring,Barley,Montana,2017,-0.15672813675214714,-0.25760517742839645,hist_gradient_boosting
+Barley|North Dakota|2017|spring,Barley,North Dakota,2017,0.1263450940170867,-0.3627667707884202,hist_gradient_boosting
+Barley|Washington|2017|spring,Barley,Washington,2017,-0.6376738119658238,-0.21820929841981138,hist_gradient_boosting
+Canola|Minnesota|2017|spring,Canola,Minnesota,2017,0.39062017543859673,0.22440888403234416,hist_gradient_boosting
+Canola|Montana|2017|spring,Canola,Montana,2017,-0.8248975490195913,-0.25760517742839645,hist_gradient_boosting
+Canola|North Dakota|2017|spring,Canola,North Dakota,2017,-0.10666138461537678,-0.3627667707884202,hist_gradient_boosting
+Canola|Oklahoma|2017|spring,Canola,Oklahoma,2017,0.4523714285714402,0.0828153496783749,hist_gradient_boosting
+Canola|Washington|2017|spring,Canola,Washington,2017,1.143280000000023,-0.21820929841981138,hist_gradient_boosting
+Oats|Colorado|2017|spring,Oats,Colorado,2017,-0.18478030769233067,-0.06730301754805475,hist_gradient_boosting
+Oats|Illinois|2017|spring,Oats,Illinois,2017,0.06405805128203834,0.030359672785018443,hist_gradient_boosting
+Oats|Iowa|2017|spring,Oats,Iowa,2017,0.18681866666666647,0.1626022350601412,hist_gradient_boosting
+Oats|Kansas|2017|spring,Oats,Kansas,2017,0.17130574358974981,0.05856432816266817,hist_gradient_boosting
+Oats|Minnesota|2017|spring,Oats,Minnesota,2017,0.2538855384615304,0.22440888403234416,hist_gradient_boosting
+Oats|Montana|2017|spring,Oats,Montana,2017,-0.26152755555556384,-0.25760517742839645,hist_gradient_boosting
+Oats|Nebraska|2017|spring,Oats,Nebraska,2017,-0.749179726495733,-0.02201987273373892,hist_gradient_boosting
+Oats|North Dakota|2017|spring,Oats,North Dakota,2017,-0.19199647863249458,-0.3627667707884202,hist_gradient_boosting
+Oats|Oklahoma|2017|spring,Oats,Oklahoma,2017,0.16210646153846242,0.0828153496783749,hist_gradient_boosting
+Oats|South Dakota|2017|spring,Oats,South Dakota,2017,-0.37259859829062236,0.022244121912967364,hist_gradient_boosting
+Oats|Texas|2017|spring,Oats,Texas,2017,0.011869777777773871,0.05114714815397674,hist_gradient_boosting
+Oats|Washington|2017|spring,Oats,Washington,2017,-1.0498706666666686,-0.21820929841981138,hist_gradient_boosting
+Wheat|Colorado|2017|winter,Wheat,Colorado,2017,0.6186087863247867,-0.39862463555287037,hist_gradient_boosting
+Wheat|Illinois|2017|winter,Wheat,Illinois,2017,0.48930762393157323,-0.24802929021142295,hist_gradient_boosting
+Wheat|Iowa|2017|winter,Wheat,Iowa,2017,0.8372404444444079,0.21015581783377402,hist_gradient_boosting
+Wheat|Kansas|2017|winter,Wheat,Kansas,2017,0.6374859145299139,-0.01868491470166394,hist_gradient_boosting
+Wheat|Minnesota|2017|spring,Wheat,Minnesota,2017,0.5392127179486739,0.22440888403234416,hist_gradient_boosting
+Wheat|Montana|2017|spring,Wheat,Montana,2017,-0.5228147008547082,-0.25760517742839645,hist_gradient_boosting
+Wheat|Nebraska|2017|winter,Wheat,Nebraska,2017,0.10962991452990556,0.07581781287114485,hist_gradient_boosting
+Wheat|North Dakota|2017|spring,Wheat,North Dakota,2017,-0.3514419487179623,-0.3627667707884202,hist_gradient_boosting
+Wheat|Oklahoma|2017|winter,Wheat,Oklahoma,2017,0.3689926153846166,0.16066338734540248,hist_gradient_boosting
+Wheat|South Dakota|2017|spring,Wheat,South Dakota,2017,-0.9525659829060222,0.022244121912967364,hist_gradient_boosting
+Wheat|Texas|2017|winter,Wheat,Texas,2017,-0.04741336752136549,0.20700643475806998,hist_gradient_boosting
+Wheat|Washington|2017|winter,Wheat,Washington,2017,0.380880170940169,0.28330787218889425,hist_gradient_boosting
+Barley|Colorado|2018|spring,Barley,Colorado,2018,0.13324006837596336,-0.16727817727528055,hist_gradient_boosting
+Barley|Kansas|2018|spring,Barley,Kansas,2018,-0.6520192136752152,0.06679034627534733,hist_gradient_boosting
+Barley|Minnesota|2018|spring,Barley,Minnesota,2018,0.775081264957266,0.09733314188435592,hist_gradient_boosting
+Barley|Montana|2018|spring,Barley,Montana,2018,0.09575480341879716,-0.09052301870362214,hist_gradient_boosting
+Barley|North Dakota|2018|spring,Barley,North Dakota,2018,0.584718495726487,-0.01401440935983007,hist_gradient_boosting
+Barley|South Dakota|2018|spring,Barley,South Dakota,2018,0.5849523076923187,-0.23386376071691753,hist_gradient_boosting
+Barley|Washington|2018|spring,Barley,Washington,2018,0.4277025299145176,-0.06471814462436923,hist_gradient_boosting
+Canola|Minnesota|2018|spring,Canola,Minnesota,2018,0.3399631578947391,0.09733314188435592,hist_gradient_boosting
+Canola|Montana|2018|spring,Canola,Montana,2018,-0.5665002450980212,-0.09052301870362214,hist_gradient_boosting
+Canola|North Dakota|2018|spring,Canola,North Dakota,2018,0.27778423076923575,-0.01401440935983007,hist_gradient_boosting
+Canola|Oklahoma|2018|spring,Canola,Oklahoma,2018,0.17614285714287803,0.13174598450306932,hist_gradient_boosting
+Canola|Washington|2018|spring,Canola,Washington,2018,1.513170000000049,-0.06471814462436923,hist_gradient_boosting
+Oats|Colorado|2018|spring,Oats,Colorado,2018,-0.739616615384632,-0.16727817727528055,hist_gradient_boosting
+Oats|Illinois|2018|spring,Oats,Illinois,2018,0.18809733333332757,0.08092692014424739,hist_gradient_boosting
+Oats|Iowa|2018|spring,Oats,Iowa,2018,-0.3279002051282047,-0.24171712822298186,hist_gradient_boosting
+Oats|Kansas|2018|spring,Oats,Kansas,2018,-0.00692728205127513,0.06679034627534733,hist_gradient_boosting
+Oats|Minnesota|2018|spring,Oats,Minnesota,2018,-0.33627169230770004,0.09733314188435592,hist_gradient_boosting
+Oats|Montana|2018|spring,Oats,Montana,2018,-0.4108883418803506,-0.09052301870362214,hist_gradient_boosting
+Oats|Nebraska|2018|spring,Oats,Nebraska,2018,-0.05500591452991621,-0.10109933311989135,hist_gradient_boosting
+Oats|North Dakota|2018|spring,Oats,North Dakota,2018,0.65527750427349,-0.01401440935983007,hist_gradient_boosting
+Oats|Oklahoma|2018|spring,Oats,Oklahoma,2018,0.37897507692307775,0.13174598450306932,hist_gradient_boosting
+Oats|South Dakota|2018|spring,Oats,South Dakota,2018,0.020022188034169996,-0.23386376071691753,hist_gradient_boosting
+Oats|Texas|2018|spring,Oats,Texas,2018,0.18971278632478228,-0.05055880193640405,hist_gradient_boosting
+Oats|Washington|2018|spring,Oats,Washington,2018,-0.9092277948717975,-0.06471814462436923,hist_gradient_boosting
+Wheat|Colorado|2018|winter,Wheat,Colorado,2018,0.13911788034188044,-0.3410601246165317,hist_gradient_boosting
+Wheat|Illinois|2018|winter,Wheat,Illinois,2018,-0.2406035213675688,0.09450646265296458,hist_gradient_boosting
+Wheat|Iowa|2018|winter,Wheat,Iowa,2018,0.1229405811965476,-0.17988136727756193,hist_gradient_boosting
+Wheat|Kansas|2018|winter,Wheat,Kansas,2018,-0.0381407863247869,-0.3025685911825742,hist_gradient_boosting
+Wheat|Minnesota|2018|spring,Wheat,Minnesota,2018,-0.053191179487225515,0.09733314188435592,hist_gradient_boosting
+Wheat|Montana|2018|spring,Wheat,Montana,2018,0.20381982905981966,-0.09052301870362214,hist_gradient_boosting
+Wheat|Nebraska|2018|winter,Wheat,Nebraska,2018,0.2886675213675103,0.22959033736087617,hist_gradient_boosting
+Wheat|North Dakota|2018|spring,Wheat,North Dakota,2018,0.26481271794871786,-0.01401440935983007,hist_gradient_boosting
+Wheat|Oklahoma|2018|winter,Wheat,Oklahoma,2018,-0.03019569230769026,-0.04284050433845125,hist_gradient_boosting
+Wheat|South Dakota|2018|spring,Wheat,South Dakota,2018,-0.3545519658119938,-0.23386376071691753,hist_gradient_boosting
+Wheat|Texas|2018|winter,Wheat,Texas,2018,0.1567231111111127,-0.11868748915141727,hist_gradient_boosting
+Wheat|Washington|2018|winter,Wheat,Washington,2018,0.6549172649572625,-0.007694727964519138,hist_gradient_boosting
+Barley|Colorado|2019|spring,Barley,Colorado,2019,-0.35237620512830325,-0.20541220314013753,hist_gradient_boosting
+Barley|Kansas|2019|spring,Barley,Kansas,2019,-0.5528432820512841,-0.05196661690592288,hist_gradient_boosting
+Barley|Minnesota|2019|spring,Barley,Minnesota,2019,0.2796063589743576,-0.13842409286156582,hist_gradient_boosting
+Barley|Montana|2019|spring,Barley,Montana,2019,0.24063774358973422,0.12793402858346464,hist_gradient_boosting
+Barley|North Dakota|2019|spring,Barley,North Dakota,2019,0.4512918974358944,0.1675579542807739,hist_gradient_boosting
+Barley|South Dakota|2019|spring,Barley,South Dakota,2019,-0.05695076923075826,-0.04032109203663113,hist_gradient_boosting
+Barley|Washington|2019|spring,Barley,Washington,2019,0.2555788717948584,-0.10588283531028558,hist_gradient_boosting
+Canola|Minnesota|2019|spring,Canola,Minnesota,2019,0.5470061403508737,-0.13842409286156582,hist_gradient_boosting
+Canola|Montana|2019|spring,Canola,Montana,2019,-0.22980294117645128,0.12793402858346464,hist_gradient_boosting
+Canola|North Dakota|2019|spring,Canola,North Dakota,2019,0.07932984615384875,0.1675579542807739,hist_gradient_boosting
+Canola|Oklahoma|2019|spring,Canola,Oklahoma,2019,0.852714285714316,-0.060554083134409416,hist_gradient_boosting
+Canola|Washington|2019|spring,Canola,Washington,2019,1.9391600000000753,-0.10588283531028558,hist_gradient_boosting
+Oats|Illinois|2019|spring,Oats,Illinois,2019,-0.47696338461539023,-0.0466691754254785,hist_gradient_boosting
+Oats|Iowa|2019|spring,Oats,Iowa,2019,-0.5197190769230793,-0.24782707954912583,hist_gradient_boosting
+Oats|Kansas|2019|spring,Oats,Kansas,2019,0.5321396923076995,-0.05196661690592288,hist_gradient_boosting
+Oats|Minnesota|2019|spring,Oats,Minnesota,2019,-0.24502892307693047,-0.13842409286156582,hist_gradient_boosting
+Oats|Montana|2019|spring,Oats,Montana,2019,0.013650871794862462,0.12793402858346464,hist_gradient_boosting
+Oats|Nebraska|2019|spring,Oats,Nebraska,2019,-0.2933321025641069,-0.05408086353965653,hist_gradient_boosting
+Oats|North Dakota|2019|spring,Oats,North Dakota,2019,0.7852514871794707,0.1675579542807739,hist_gradient_boosting
+Oats|Oklahoma|2019|spring,Oats,Oklahoma,2019,0.45244369230769355,-0.060554083134409416,hist_gradient_boosting
+Oats|South Dakota|2019|spring,Oats,South Dakota,2019,-0.01775702564105197,-0.04032109203663113,hist_gradient_boosting
+Oats|Texas|2019|spring,Oats,Texas,2019,0.18815579487179068,-0.004793414284927617,hist_gradient_boosting
+Wheat|Colorado|2019|winter,Wheat,Colorado,2019,1.004526974358975,0.4648461707167569,hist_gradient_boosting
+Wheat|Illinois|2019|winter,Wheat,Illinois,2019,-0.2308146666667108,-0.22895847470114428,hist_gradient_boosting
+Wheat|Kansas|2019|winter,Wheat,Kansas,2019,0.9003325128205129,-0.21205226553303788,hist_gradient_boosting
+Wheat|Minnesota|2019|spring,Wheat,Minnesota,2019,-0.24879507692312464,-0.13842409286156582,hist_gradient_boosting
+Wheat|Montana|2019|spring,Wheat,Montana,2019,0.4664543589743513,0.12793402858346464,hist_gradient_boosting
+Wheat|Nebraska|2019|winter,Wheat,Nebraska,2019,0.8039051282051219,-0.049200130147388735,hist_gradient_boosting
+Wheat|North Dakota|2019|spring,Wheat,North Dakota,2019,0.2825673846153842,0.1675579542807739,hist_gradient_boosting
+Wheat|Oklahoma|2019|winter,Wheat,Oklahoma,2019,0.7811160000000013,-0.1617227610505971,hist_gradient_boosting
+Wheat|South Dakota|2019|spring,Wheat,South Dakota,2019,-0.15323794871797958,-0.04032109203663113,hist_gradient_boosting
+Wheat|Texas|2019|winter,Wheat,Texas,2019,0.29365958974359163,0.05835428298826851,hist_gradient_boosting
+Wheat|Washington|2019|winter,Wheat,Washington,2019,0.236154358974356,-0.10118049251824678,hist_gradient_boosting
+Barley|Colorado|2020|spring,Barley,Colorado,2020,-0.08479247863257022,0.22809280619731087,hist_gradient_boosting
+Barley|Kansas|2020|spring,Barley,Kansas,2020,0.40713264957265016,0.11440131971598684,hist_gradient_boosting
+Barley|Minnesota|2020|spring,Barley,Minnesota,2020,-0.8077685470085472,0.19115543166016014,hist_gradient_boosting
+Barley|Montana|2020|spring,Barley,Montana,2020,0.43942068376067134,-0.12741235105686027,hist_gradient_boosting
+Barley|North Dakota|2020|spring,Barley,North Dakota,2020,-0.058734700854705224,-0.2216497733841452,hist_gradient_boosting
+Barley|South Dakota|2020|spring,Barley,South Dakota,2020,0.0005461538461655202,-0.04514561875463141,hist_gradient_boosting
+Barley|Washington|2020|spring,Barley,Washington,2020,1.3208552136752,0.18235894224726504,hist_gradient_boosting
+Canola|Minnesota|2020|spring,Canola,Minnesota,2020,-0.26585087719298395,0.19115543166016014,hist_gradient_boosting
+Canola|Montana|2020|spring,Canola,Montana,2020,-0.061105637254895484,-0.12741235105686027,hist_gradient_boosting
+Canola|North Dakota|2020|spring,Canola,North Dakota,2020,0.2508754615384685,-0.2216497733841452,hist_gradient_boosting
+Canola|Oklahoma|2020|spring,Canola,Oklahoma,2020,1.0696857142857539,0.05974266247820427,hist_gradient_boosting
+Canola|Washington|2020|spring,Canola,Washington,2020,2.499550000000044,0.18235894224726504,hist_gradient_boosting
+Oats|Illinois|2020|spring,Oats,Illinois,2020,-0.7475241025641082,0.20473077472991905,hist_gradient_boosting
+Oats|Iowa|2020|spring,Oats,Iowa,2020,0.18506205128205,0.06468916606831027,hist_gradient_boosting
+Oats|Kansas|2020|spring,Oats,Kansas,2020,0.10280666666667404,0.11440131971598684,hist_gradient_boosting
+Oats|Minnesota|2020|spring,Oats,Minnesota,2020,-0.11798615384616129,0.19115543166016014,hist_gradient_boosting
+Oats|Montana|2020|spring,Oats,Montana,2020,-0.35090991452992415,-0.12741235105686027,hist_gradient_boosting
+Oats|Nebraska|2020|spring,Oats,Nebraska,2020,-0.3164582905982902,0.11328158378847006,hist_gradient_boosting
+Oats|North Dakota|2020|spring,Oats,North Dakota,2020,0.4847254700854551,-0.2216497733841452,hist_gradient_boosting
+Oats|Oklahoma|2020|spring,Oats,Oklahoma,2020,0.2747123076923088,0.05974266247820427,hist_gradient_boosting
+Oats|South Dakota|2020|spring,Oats,South Dakota,2020,-0.23483623931625974,-0.04514561875463141,hist_gradient_boosting
+Oats|Texas|2020|spring,Oats,Texas,2020,0.007198803418799082,-0.06217618991435696,hist_gradient_boosting
+Wheat|Colorado|2020|winter,Wheat,Colorado,2020,-0.47706393162393135,-0.30734385567857436,hist_gradient_boosting
+Wheat|Illinois|2020|winter,Wheat,Illinois,2020,-0.22092581196585215,-0.0512397875640267,hist_gradient_boosting
+Wheat|Kansas|2020|winter,Wheat,Kansas,2020,0.4264058119658123,0.1326656728016178,hist_gradient_boosting
+Wheat|Minnesota|2020|spring,Wheat,Minnesota,2020,-0.5788989743590096,0.19115543166016014,hist_gradient_boosting
+Wheat|Montana|2020|spring,Wheat,Montana,2020,0.4063888888888827,-0.12741235105686027,hist_gradient_boosting
+Wheat|Nebraska|2020|winter,Wheat,Nebraska,2020,-0.2948572649572734,0.4029707008535783,hist_gradient_boosting
+Wheat|North Dakota|2020|spring,Wheat,North Dakota,2020,0.19272205128205,-0.2216497733841452,hist_gradient_boosting
+Wheat|Oklahoma|2020|winter,Wheat,Oklahoma,2020,0.7854276923076946,0.18391999950845508,hist_gradient_boosting
+Wheat|South Dakota|2020|spring,Wheat,South Dakota,2020,0.04797606837603485,-0.04514561875463141,hist_gradient_boosting
+Wheat|Texas|2020|winter,Wheat,Texas,2020,0.02709606837607037,0.15615040925426552,hist_gradient_boosting
+Wheat|Washington|2020|winter,Wheat,Washington,2020,0.7455914529914498,0.3434347598654652,hist_gradient_boosting
+Barley|Colorado|2021|spring,Barley,Colorado,2021,-2.023008752136837,-0.0024409827720658114,hist_gradient_boosting
+Barley|Kansas|2021|spring,Barley,Kansas,2021,1.2058085811965813,-0.07485555873812665,hist_gradient_boosting
+Barley|Minnesota|2021|spring,Barley,Minnesota,2021,-0.388643452991452,-0.004209619890866268,hist_gradient_boosting
+Barley|Montana|2021|spring,Barley,Montana,2021,-0.9221963760683844,-0.2169235437126788,hist_gradient_boosting
+Barley|North Dakota|2021|spring,Barley,North Dakota,2021,-0.730261299145305,-0.2639153562866789,hist_gradient_boosting
+Barley|South Dakota|2021|spring,Barley,South Dakota,2021,-1.2869569230769113,-0.023674750161562674,hist_gradient_boosting
+Barley|Washington|2021|spring,Barley,Washington,2021,-1.4875684444444555,-0.36961315647762283,hist_gradient_boosting
+Canola|Minnesota|2021|spring,Canola,Minnesota,2021,-0.1484078947368419,-0.004209619890866268,hist_gradient_boosting
+Canola|Montana|2021|spring,Canola,Montana,2021,-0.9124083333333255,-0.2169235437126788,hist_gradient_boosting
+Canola|North Dakota|2021|spring,Canola,North Dakota,2021,-0.47437892307691865,-0.2639153562866789,hist_gradient_boosting
+Canola|Oklahoma|2021|spring,Canola,Oklahoma,2021,1.1745571428571917,0.01958408222059268,hist_gradient_boosting
+Canola|Washington|2021|spring,Canola,Washington,2021,1.4795400000000705,-0.36961315647762283,hist_gradient_boosting
+Oats|Illinois|2021|spring,Oats,Illinois,2021,0.12971517948717404,0.14850347812715783,hist_gradient_boosting
+Oats|Iowa|2021|spring,Oats,Iowa,2021,0.13674317948717896,0.16023718504580084,hist_gradient_boosting
+Oats|Kansas|2021|spring,Oats,Kansas,2021,0.03217364102564879,-0.07485555873812665,hist_gradient_boosting
+Oats|Minnesota|2021|spring,Oats,Minnesota,2021,-0.45714338461539183,-0.004209619890866268,hist_gradient_boosting
+Oats|Montana|2021|spring,Oats,Montana,2021,-0.715370700854711,-0.2169235437126788,hist_gradient_boosting
+Oats|Nebraska|2021|spring,Oats,Nebraska,2021,-0.5905844786324805,-0.09037338499563088,hist_gradient_boosting
+Oats|North Dakota|2021|spring,Oats,North Dakota,2021,-0.6048005470085607,-0.2639153562866789,hist_gradient_boosting
+Oats|Oklahoma|2021|spring,Oats,Oklahoma,2021,0.2763809230769241,0.01958408222059268,hist_gradient_boosting
+Oats|South Dakota|2021|spring,Oats,South Dakota,2021,-0.6313154529914677,-0.023674750161562674,hist_gradient_boosting
+Oats|Texas|2021|spring,Oats,Texas,2021,0.005641811965807486,0.008427852146288483,hist_gradient_boosting
+Wheat|Colorado|2021|winter,Wheat,Colorado,2021,0.19334516239316324,0.0666427564217573,hist_gradient_boosting
+Wheat|Illinois|2021|winter,Wheat,Illinois,2021,0.46136304273500617,-0.2360282324501349,hist_gradient_boosting
+Wheat|Kansas|2021|winter,Wheat,Kansas,2021,0.894079111111111,0.05214201413624851,hist_gradient_boosting
+Wheat|Minnesota|2021|spring,Wheat,Minnesota,2021,-0.9763028717949083,-0.004209619890866268,hist_gradient_boosting
+Wheat|Montana|2021|spring,Wheat,Montana,2021,-0.918076581196589,-0.2169235437126788,hist_gradient_boosting
+Wheat|Nebraska|2021|winter,Wheat,Nebraska,2021,0.22038034188033873,-0.08647369181319013,hist_gradient_boosting
+Wheat|North Dakota|2021|spring,Wheat,North Dakota,2021,-0.8789232820512836,-0.2639153562866789,hist_gradient_boosting
+Wheat|Oklahoma|2021|winter,Wheat,Oklahoma,2021,0.722539384615386,0.16278852460850202,hist_gradient_boosting
+Wheat|South Dakota|2021|spring,Wheat,South Dakota,2021,-1.1967099145299507,-0.023674750161562674,hist_gradient_boosting
+Wheat|Texas|2021|winter,Wheat,Texas,2021,0.5003325470085485,-0.01581988280717576,hist_gradient_boosting
+Wheat|Washington|2021|winter,Wheat,Washington,2021,-1.502371452991456,-0.015718478574130793,hist_gradient_boosting
+Barley|Colorado|2022|spring,Barley,Colorado,2022,-2.1320250256411324,0.11342749465015745,hist_gradient_boosting
+Barley|Kansas|2022|spring,Barley,Kansas,2022,-0.5243154871794877,-0.08805667250153273,hist_gradient_boosting
+Barley|Minnesota|2022|spring,Barley,Minnesota,2022,0.5147816410256429,0.04706460954076819,hist_gradient_boosting
+Barley|Montana|2022|spring,Barley,Montana,2022,-0.7773134358974474,-0.12039428698633799,hist_gradient_boosting
+Barley|North Dakota|2022|spring,Barley,North Dakota,2022,0.42761210256410287,0.019243563538123308,hist_gradient_boosting
+Barley|South Dakota|2022|spring,Barley,South Dakota,2022,0.5459400000000123,-0.0704408824236198,hist_gradient_boosting
+Barley|Washington|2022|spring,Barley,Washington,2022,0.976607897435886,0.023514698404500378,hist_gradient_boosting
+Canola|Minnesota|2022|spring,Canola,Minnesota,2022,0.6191350877192932,0.04706460954076819,hist_gradient_boosting
+Canola|Montana|2022|spring,Canola,Montana,2022,-0.7998110294117553,-0.12039428698633799,hist_gradient_boosting
+Canola|North Dakota|2022|spring,Canola,North Dakota,2022,0.044566692307693945,0.019243563538123308,hist_gradient_boosting
+Canola|Oklahoma|2022|spring,Canola,Oklahoma,2022,0.30432857142862946,0.13345473542957,hist_gradient_boosting
+Canola|Washington|2022|spring,Canola,Washington,2022,2.3986300000000966,0.023514698404500378,hist_gradient_boosting
+Oats|Illinois|2022|spring,Oats,Illinois,2022,0.1102544615384562,0.07887275475329991,hist_gradient_boosting
+Oats|Iowa|2022|spring,Oats,Iowa,2022,0.303524307692308,0.15728861880350012,hist_gradient_boosting
+Oats|Kansas|2022|spring,Oats,Kansas,2022,-0.2895593846153768,-0.08805667250153273,hist_gradient_boosting
+Oats|Minnesota|2022|spring,Oats,Minnesota,2022,-0.33000061538462244,0.04706460954076819,hist_gradient_boosting
+Oats|Montana|2022|spring,Oats,Montana,2022,-0.6136314871794961,-0.12039428698633799,hist_gradient_boosting
+Oats|Nebraska|2022|spring,Oats,Nebraska,2022,-0.793110666666671,-0.03299587133334865,hist_gradient_boosting
+Oats|North Dakota|2022|spring,Oats,North Dakota,2022,0.24247343589741988,0.019243563538123308,hist_gradient_boosting
+Oats|Oklahoma|2022|spring,Oats,Oklahoma,2022,-0.6186504615384607,0.13345473542957,hist_gradient_boosting
+Oats|South Dakota|2022|spring,Oats,South Dakota,2022,-0.20279466666668933,-0.0704408824236198,hist_gradient_boosting
+Oats|Texas|2022|spring,Oats,Texas,2022,0.3627848205128157,-0.34375674948693036,hist_gradient_boosting
+Wheat|Colorado|2022|winter,Wheat,Colorado,2022,-0.6157457435897433,-0.4907183247371459,hist_gradient_boosting
+Wheat|Illinois|2022|winter,Wheat,Illinois,2022,0.40395189743586446,0.2647688599606287,hist_gradient_boosting
+Wheat|Kansas|2022|winter,Wheat,Kansas,2022,-0.11784758974358933,-0.05953381357248667,hist_gradient_boosting
+Wheat|Minnesota|2022|spring,Wheat,Minnesota,2022,-0.1631067692308079,0.04706460954076819,hist_gradient_boosting
+Wheat|Montana|2022|spring,Wheat,Montana,2022,-0.5209420512820575,-0.12039428698633799,hist_gradient_boosting
+Wheat|Nebraska|2022|winter,Wheat,Nebraska,2022,-0.9456820512820565,-0.34331907163678604,hist_gradient_boosting
+Wheat|North Dakota|2022|spring,Wheat,North Dakota,2022,0.2081313846153825,0.019243563538123308,hist_gradient_boosting
+Wheat|Oklahoma|2022|winter,Wheat,Oklahoma,2022,-0.012948923076922192,-0.08030796264343289,hist_gradient_boosting
+Wheat|South Dakota|2022|spring,Wheat,South Dakota,2022,-0.16819589743592234,-0.0704408824236198,hist_gradient_boosting
+Wheat|Texas|2022|winter,Wheat,Texas,2022,0.031969025641027216,-0.21337666010198392,hist_gradient_boosting
+Wheat|Washington|2022|winter,Wheat,Washington,2022,0.12336564102563763,0.15320606394386843,hist_gradient_boosting
+Barley|Colorado|2023|spring,Barley,Colorado,2023,-1.1650412991453987,-0.025961509790184106,hist_gradient_boosting
+Barley|Kansas|2023|spring,Barley,Kansas,2023,-0.8017395555555566,-0.007538169832694037,hist_gradient_boosting
+Barley|Minnesota|2023|spring,Barley,Minnesota,2023,0.6111067350427382,0.038084181738999405,hist_gradient_boosting
+Barley|Montana|2023|spring,Barley,Montana,2023,-0.3634304957265031,-0.07835705643168107,hist_gradient_boosting
+Barley|North Dakota|2023|spring,Barley,North Dakota,2023,0.2941855042735031,-0.016047704656346033,hist_gradient_boosting
+Barley|South Dakota|2023|spring,Barley,South Dakota,2023,0.44203692307693565,0.11166593279659291,hist_gradient_boosting
+Barley|Washington|2023|spring,Barley,Washington,2023,-0.7020157606837731,-0.08675796270336131,hist_gradient_boosting
+Canola|Minnesota|2023|spring,Canola,Minnesota,2023,0.6581780701754352,0.038084181738999405,hist_gradient_boosting
+Canola|Montana|2023|spring,Canola,Montana,2023,-0.39581372549018545,-0.07835705643168107,hist_gradient_boosting
+Canola|North Dakota|2023|spring,Canola,North Dakota,2023,0.014312307692314175,-0.016047704656346033,hist_gradient_boosting
+Canola|Oklahoma|2023|spring,Canola,Oklahoma,2023,0.4989000000000674,-0.03854570444424868,hist_gradient_boosting
+Canola|Washington|2023|spring,Canola,Washington,2023,2.5780200000001225,-0.08675796270336131,hist_gradient_boosting
+Oats|Illinois|2023|spring,Oats,Illinois,2023,0.3417937435897387,0.042229509351673584,hist_gradient_boosting
+Oats|Iowa|2023|spring,Oats,Iowa,2023,0.21930543589743712,0.04430337603846821,hist_gradient_boosting
+Oats|Kansas|2023|spring,Oats,Kansas,2023,0.6081075897435979,-0.007538169832694037,hist_gradient_boosting
+Oats|Minnesota|2023|spring,Oats,Minnesota,2023,0.22754215384615417,0.038084181738999405,hist_gradient_boosting
+Oats|Montana|2023|spring,Oats,Montana,2023,-0.655392273504283,-0.07835705643168107,hist_gradient_boosting
+Oats|Nebraska|2023|spring,Oats,Nebraska,2023,-0.7444368547008542,0.06951118741041089,hist_gradient_boosting
+Oats|North Dakota|2023|spring,Oats,North Dakota,2023,0.3724474188034046,-0.016047704656346033,hist_gradient_boosting
+Oats|Oklahoma|2023|spring,Oats,Oklahoma,2023,0.8177181538461546,-0.03854570444424868,hist_gradient_boosting
+Oats|South Dakota|2023|spring,Oats,South Dakota,2023,-0.45577388034189736,0.11166593279659291,hist_gradient_boosting
+Oats|Texas|2023|spring,Oats,Texas,2023,0.3253278290598238,-0.025087551949304673,hist_gradient_boosting
+Wheat|Colorado|2023|winter,Wheat,Colorado,2023,0.458163350427351,0.30327308322029434,hist_gradient_boosting
+Wheat|Illinois|2023|winter,Wheat,Illinois,2023,0.8845407521367221,0.36613691662354364,hist_gradient_boosting
+Wheat|Kansas|2023|winter,Wheat,Kansas,2023,-0.25547429059828985,-0.10234696082095204,hist_gradient_boosting
+Wheat|Minnesota|2023|spring,Wheat,Minnesota,2023,-0.1569106666667066,0.038084181738999405,hist_gradient_boosting
+Wheat|Montana|2023|spring,Wheat,Montana,2023,0.06449247863247054,-0.07835705643168107,hist_gradient_boosting
+Wheat|Nebraska|2023|winter,Wheat,Nebraska,2023,-0.2959444444444448,-0.22524467912863605,hist_gradient_boosting
+Wheat|North Dakota|2023|spring,Wheat,North Dakota,2023,0.05098605128204836,-0.016047704656346033,hist_gradient_boosting
+Wheat|Oklahoma|2023|winter,Wheat,Oklahoma,2023,-0.008637230769228843,0.1338297144354651,hist_gradient_boosting
+Wheat|South Dakota|2023|spring,Wheat,South Dakota,2023,-0.5520818803419081,0.11166593279659291,hist_gradient_boosting
+Wheat|Texas|2023|winter,Wheat,Texas,2023,0.5052055042735053,-0.08959051017881489,hist_gradient_boosting
+Wheat|Washington|2023|winter,Wheat,Washington,2023,-0.7525972649572652,-0.2842969739616569,hist_gradient_boosting
+Barley|Colorado|2024|spring,Barley,Colorado,2024,-0.5208575726496658,0.05310918447331517,hist_gradient_boosting
+Barley|Kansas|2024|spring,Barley,Kansas,2024,1.6647363760683778,-0.06169814747711806,hist_gradient_boosting
+Barley|Minnesota|2024|spring,Barley,Minnesota,2024,0.38463182905983295,-0.02208460452059434,hist_gradient_boosting
+Barley|Montana|2024|spring,Barley,Montana,2024,-0.27234755555556633,0.02718733043204683,hist_gradient_boosting
+Barley|North Dakota|2024|spring,Barley,North Dakota,2024,0.42975890598290345,-0.09909894919182011,hist_gradient_boosting
+Barley|South Dakota|2024|spring,Barley,South Dakota,2024,0.7147338461538597,0.20790434593537016,hist_gradient_boosting
+Barley|Washington|2024|spring,Barley,Washington,2024,-0.013239418803431935,-0.3033993888391675,hist_gradient_boosting
+Canola|Minnesota|2024|spring,Canola,Minnesota,2024,0.15912105263157716,-0.02208460452059434,hist_gradient_boosting
+Canola|Montana|2024|spring,Canola,Montana,2024,-0.8660164215686152,0.02718733043204683,hist_gradient_boosting
+Canola|North Dakota|2024|spring,Canola,North Dakota,2024,0.05135792307692677,-0.09909894919182011,hist_gradient_boosting
+Canola|Oklahoma|2024|spring,Canola,Oklahoma,2024,1.7021714285714769,0.07296525268231849,hist_gradient_boosting
+Canola|Washington|2024|spring,Canola,Washington,2024,3.0263100000001484,-0.3033993888391675,hist_gradient_boosting
+Oats|Illinois|2024|spring,Oats,Illinois,2024,0.42993302564102054,0.07023101892305927,hist_gradient_boosting
+Oats|Iowa|2024|spring,Oats,Iowa,2024,0.278486564102566,0.005184587452110323,hist_gradient_boosting
+Oats|Kansas|2024|spring,Oats,Kansas,2024,0.609174564102573,-0.06169814747711806,hist_gradient_boosting
+Oats|Minnesota|2024|spring,Oats,Minnesota,2024,0.6056849230769235,-0.02208460452059434,hist_gradient_boosting
+Oats|Montana|2024|spring,Oats,Montana,2024,-0.8047530598290698,0.02718733043204683,hist_gradient_boosting
+Oats|Nebraska|2024|spring,Oats,Nebraska,2024,-0.19376304273504452,0.11298989922043387,hist_gradient_boosting
+Oats|North Dakota|2024|spring,Oats,North Dakota,2024,1.1480214017093888,-0.09909894919182011,hist_gradient_boosting
+Oats|South Dakota|2024|spring,Oats,South Dakota,2024,0.00854690598289487,0.20790434593537016,hist_gradient_boosting
+Oats|Texas|2024|spring,Oats,Texas,2024,0.036870837606832074,0.12900222824804639,hist_gradient_boosting
+Wheat|Colorado|2024|winter,Wheat,Colorado,2024,0.052572444444444866,-0.005716153264391517,hist_gradient_boosting
+Wheat|Illinois|2024|winter,Wheat,Illinois,2024,0.7599296068375665,0.1679599387918817,hist_gradient_boosting
+Wheat|Kansas|2024|winter,Wheat,Kansas,2024,0.2793990085470086,0.07337529149436162,hist_gradient_boosting
+Wheat|Minnesota|2024|spring,Wheat,Minnesota,2024,0.2190854358974086,-0.02208460452059434,hist_gradient_boosting
+Wheat|Montana|2024|spring,Wheat,Montana,2024,-0.15697299145299803,0.02718733043204683,hist_gradient_boosting
+Wheat|Nebraska|2024|winter,Wheat,Nebraska,2024,0.35389316239316004,-0.00664554259001773,hist_gradient_boosting
+Wheat|North Dakota|2024|spring,Wheat,North Dakota,2024,0.6740407179487145,-0.09909894919182011,hist_gradient_boosting
+Wheat|Oklahoma|2024|winter,Wheat,Oklahoma,2024,0.6681744615384626,0.043867678874839756,hist_gradient_boosting
+Wheat|South Dakota|2024|spring,Wheat,South Dakota,2024,0.18043213675210623,0.20790434593537016,hist_gradient_boosting
+Wheat|Texas|2024|winter,Wheat,Texas,2024,0.10414198290598398,0.2046295461566068,hist_gradient_boosting
+Wheat|Washington|2024|winter,Wheat,Washington,2024,0.1535398290598291,-0.17222136491981563,hist_gradient_boosting
+Barley|Colorado|2025|spring,Barley,Colorado,2025,-1.6520738461539324,0.04793867056297048,hist_gradient_boosting
+Barley|Kansas|2025|spring,Barley,Kansas,2025,0.36501230769230864,-0.14086661510732998,hist_gradient_boosting
+Barley|Minnesota|2025|spring,Barley,Minnesota,2025,0.6423569230769282,0.04988594661647202,hist_gradient_boosting
+Barley|Montana|2025|spring,Barley,Montana,2025,-0.12746461538462217,0.024782897526188334,hist_gradient_boosting
+Barley|North Dakota|2025|spring,Barley,North Dakota,2025,0.6191323076923112,0.22558166172645341,hist_gradient_boosting
+Barley|South Dakota|2025|spring,Barley,South Dakota,2025,0.34183076923078337,0.04816389394487149,hist_gradient_boosting
+Barley|Washington|2025|spring,Barley,Washington,2025,-0.9386630769230906,-0.3119906429405792,hist_gradient_boosting
+Canola|Minnesota|2025|spring,Canola,Minnesota,2025,0.42236403508771936,0.04988594661647202,hist_gradient_boosting
+Canola|Montana|2025|spring,Canola,Montana,2025,-0.6862191176470454,0.024782897526188334,hist_gradient_boosting
+Canola|North Dakota|2025|spring,Canola,North Dakota,2025,0.32370353846153943,0.22558166172645341,hist_gradient_boosting
+Canola|Oklahoma|2025|spring,Canola,Oklahoma,2025,0.9440428571429147,0.010710579529915018,hist_gradient_boosting
+Canola|Washington|2025|spring,Canola,Washington,2025,2.9479000000001747,-0.3119906429405792,hist_gradient_boosting
+Oats|Illinois|2025|spring,Oats,Illinois,2025,0.6257723076923027,0.14755340930319502,hist_gradient_boosting
+Oats|Iowa|2025|spring,Oats,Iowa,2025,0.6246676923076948,0.06467835931451787,hist_gradient_boosting
+Oats|Kansas|2025|spring,Oats,Kansas,2025,0.32334153846154745,-0.14086661510732998,hist_gradient_boosting
+Oats|Minnesota|2025|spring,Oats,Minnesota,2025,0.5534276923076931,0.04988594661647202,hist_gradient_boosting
+Oats|Montana|2025|spring,Oats,Montana,2025,-0.4160138461538565,0.024782897526188334,hist_gradient_boosting
+Oats|Nebraska|2025|spring,Oats,Nebraska,2025,-0.8982892307692278,0.2515237049204389,hist_gradient_boosting
+Oats|North Dakota|2025|spring,Oats,North Dakota,2025,0.3812953846153695,0.22558166172645341,hist_gradient_boosting
+Oats|South Dakota|2025|spring,Oats,South Dakota,2025,-0.10093230769231276,0.04816389394487149,hist_gradient_boosting
+Oats|Texas|2025|spring,Oats,Texas,2025,0.2864138461538406,0.017702569893559405,hist_gradient_boosting
+Wheat|Colorado|2025|winter,Wheat,Colorado,2025,0.2521815384615391,-0.2869406366780448,hist_gradient_boosting
+Wheat|Illinois|2025|winter,Wheat,Illinois,2025,0.8370184615384249,0.07141786555262965,hist_gradient_boosting
+Wheat|Kansas|2025|winter,Wheat,Kansas,2025,0.8142723076923084,-0.21773469729097847,hist_gradient_boosting
+Wheat|Minnesota|2025|spring,Wheat,Minnesota,2025,0.19158153846150938,0.04988594661647202,hist_gradient_boosting
+Wheat|Montana|2025|spring,Wheat,Montana,2025,0.018261538461533444,0.024782897526188334,hist_gradient_boosting
+Wheat|Nebraska|2025|winter,Wheat,Nebraska,2025,-0.005169230769235256,-0.15077333369982227,hist_gradient_boosting
+Wheat|North Dakota|2025|spring,Wheat,North Dakota,2025,0.3622953846153947,0.22558166172645341,hist_gradient_boosting
+Wheat|Oklahoma|2025|winter,Wheat,Oklahoma,2025,0.6724861538461542,-0.020084950746936406,hist_gradient_boosting
+Wheat|South Dakota|2025|spring,Wheat,South Dakota,2025,-0.2773538461538654,0.04816389394487149,hist_gradient_boosting
+Wheat|Texas|2025|winter,Wheat,Texas,2025,0.510078461538463,-0.009018290138017034,hist_gradient_boosting
+Wheat|Washington|2025|winter,Wheat,Washington,2025,0.04417692307692267,0.0538907402137008,hist_gradient_boosting
+Barley|Colorado|2016|spring,Barley,Colorado,2016,-0.5095273846155033,-0.0019598579181362894,elastic_net
+Barley|Minnesota|2016|spring,Barley,Minnesota,2016,0.2596310769230761,-0.0005341626546676941,elastic_net
+Barley|Montana|2016|spring,Barley,Montana,2016,0.3439889230769162,-0.0012470102864019918,elastic_net
+Barley|North Dakota|2016|spring,Barley,North Dakota,2016,0.25977169230768604,-0.0017222420408915236,elastic_net
+Barley|Washington|2016|spring,Barley,Washington,2016,0.6643498461538346,-0.005524096076807777,elastic_net
+Canola|Minnesota|2016|spring,Canola,Minnesota,2016,-0.007122807017545307,-0.0005341626546676941,elastic_net
+Canola|Montana|2016|spring,Canola,Montana,2016,0.11610514705883856,-0.0012470102864019918,elastic_net
+Canola|North Dakota|2016|spring,Canola,North Dakota,2016,0.18139300000000302,-0.0017222420408915236,elastic_net
+Canola|Oklahoma|2016|spring,Canola,Oklahoma,2016,0.6501000000000023,-5.893090017816241e-05,elastic_net
+Canola|Washington|2016|spring,Canola,Washington,2016,1.2553899999999967,-0.005524096076807777,elastic_net
+Oats|Colorado|2016|spring,Oats,Colorado,2016,0.3700559999999782,-0.0019598579181362894,elastic_net
+Oats|Illinois|2016|spring,Oats,Illinois,2016,0.15521876923075606,0.0016043802405351984,elastic_net
+Oats|Iowa|2016|spring,Oats,Iowa,2016,0.16343753846153763,0.0011291484860456668,elastic_net
+Oats|Kansas|2016|spring,Oats,Kansas,2016,0.2778387692307751,0.0013667643632904326,elastic_net
+Oats|Minnesota|2016|spring,Oats,Minnesota,2016,0.01924276923076107,-0.0005341626546676941,elastic_net
+Oats|Montana|2016|spring,Oats,Montana,2016,-0.255666769230777,-0.0012470102864019918,elastic_net
+Oats|Nebraska|2016|spring,Oats,Nebraska,2016,-0.33155353846154245,-0.001009394409157226,elastic_net
+Oats|North Dakota|2016|spring,Oats,North Dakota,2016,0.10842953846152126,-0.0017222420408915236,elastic_net
+Oats|Oklahoma|2016|spring,Oats,Oklahoma,2016,0.1963378461538472,-5.893090017816241e-05,elastic_net
+Oats|South Dakota|2016|spring,Oats,South Dakota,2016,0.09558061538458551,-0.0031479373043601187,elastic_net
+Oats|Texas|2016|spring,Oats,Texas,2016,0.19282676923076547,-0.0019598579181362894,elastic_net
+Oats|Washington|2016|spring,Oats,Washington,2016,-0.36551353846154067,-0.005524096076807777,elastic_net
+Wheat|Colorado|2016|winter,Wheat,Colorado,2016,0.9569996923076922,0.0020796119950247305,elastic_net
+Wheat|Illinois|2016|winter,Wheat,Illinois,2016,0.4122187692307149,0.0037429231357380913,elastic_net
+Wheat|Iowa|2016|winter,Wheat,Iowa,2016,0.5427403076922674,0.003980539012982857,elastic_net
+Wheat|Kansas|2016|winter,Wheat,Kansas,2016,1.245912615384615,-0.00077177853191246,elastic_net
+Wheat|Minnesota|2016|spring,Wheat,Minnesota,2016,0.06901661538455839,-0.0005341626546676941,elastic_net
+Wheat|Montana|2016|spring,Wheat,Montana,2016,0.5056507692307601,-0.0012470102864019918,elastic_net
+Wheat|Nebraska|2016|winter,Wheat,Nebraska,2016,0.6704923076923008,-0.001009394409157226,elastic_net
+Wheat|North Dakota|2016|spring,Wheat,North Dakota,2016,0.16210338461537166,-0.0017222420408915236,elastic_net
+Wheat|Oklahoma|2016|winter,Wheat,Oklahoma,2016,0.7009809230769246,0.0030300755040037937,elastic_net
+Wheat|South Dakota|2016|spring,Wheat,South Dakota,2016,0.2249199999999636,-0.0031479373043601187,elastic_net
+Wheat|Texas|2016|winter,Wheat,Texas,2016,0.15185015384615586,-0.00029654677742292824,elastic_net
+Wheat|Washington|2016|winter,Wheat,Washington,2016,0.7188430769230747,0.01823749164766881,elastic_net
+Barley|Colorado|2017|spring,Barley,Colorado,2017,-0.45714365811976965,0.0013667643632904326,elastic_net
+Barley|Minnesota|2017|spring,Barley,Minnesota,2017,0.786356170940171,0.00017868497706660343,elastic_net
+Barley|Montana|2017|spring,Barley,Montana,2017,-0.15672813675214714,-0.004098400813339182,elastic_net
+Barley|North Dakota|2017|spring,Barley,North Dakota,2017,0.1263450940170867,-0.005524096076807777,elastic_net
+Barley|Washington|2017|spring,Barley,Washington,2017,-0.6376738119658238,-0.005999327831297309,elastic_net
+Canola|Minnesota|2017|spring,Canola,Minnesota,2017,0.39062017543859673,0.00017868497706660343,elastic_net
+Canola|Montana|2017|spring,Canola,Montana,2017,-0.8248975490195913,-0.004098400813339182,elastic_net
+Canola|North Dakota|2017|spring,Canola,North Dakota,2017,-0.10666138461537678,-0.005524096076807777,elastic_net
+Canola|Oklahoma|2017|spring,Canola,Oklahoma,2017,0.4523714285714402,-0.0021974737953810554,elastic_net
+Canola|Washington|2017|spring,Canola,Washington,2017,1.143280000000023,-0.005999327831297309,elastic_net
+Oats|Colorado|2017|spring,Oats,Colorado,2017,-0.18478030769233067,0.0013667643632904326,elastic_net
+Oats|Illinois|2017|spring,Oats,Illinois,2017,0.06405805128203834,-0.00029654677742292824,elastic_net
+Oats|Iowa|2017|spring,Oats,Iowa,2017,0.18681866666666647,-0.002435089672625821,elastic_net
+Oats|Kansas|2017|spring,Oats,Kansas,2017,0.17130574358974981,-0.00077177853191246,elastic_net
+Oats|Minnesota|2017|spring,Oats,Minnesota,2017,0.2538855384615304,0.00017868497706660343,elastic_net
+Oats|Montana|2017|spring,Oats,Montana,2017,-0.26152755555556384,-0.004098400813339182,elastic_net
+Oats|Nebraska|2017|spring,Oats,Nebraska,2017,-0.749179726495733,-5.893090017816241e-05,elastic_net
+Oats|North Dakota|2017|spring,Oats,North Dakota,2017,-0.19199647863249458,-0.005524096076807777,elastic_net
+Oats|Oklahoma|2017|spring,Oats,Oklahoma,2017,0.16210646153846242,-0.0021974737953810554,elastic_net
+Oats|South Dakota|2017|spring,Oats,South Dakota,2017,-0.37259859829062236,-0.0036231690588496503,elastic_net
+Oats|Texas|2017|spring,Oats,Texas,2017,0.011869777777773871,-0.0029103214271153526,elastic_net
+Oats|Washington|2017|spring,Oats,Washington,2017,-1.0498706666666686,-0.005999327831297309,elastic_net
+Wheat|Colorado|2017|winter,Wheat,Colorado,2017,0.6186087863247867,0.000891532608800901,elastic_net
+Wheat|Illinois|2017|winter,Wheat,Illinois,2017,0.48930762393157323,0.0068319295399200475,elastic_net
+Wheat|Iowa|2017|winter,Wheat,Iowa,2017,0.8372404444444079,0.002554843749514262,elastic_net
+Wheat|Kansas|2017|winter,Wheat,Kansas,2017,0.6374859145299139,0.0006539167315561352,elastic_net
+Wheat|Minnesota|2017|spring,Wheat,Minnesota,2017,0.5392127179486739,0.00017868497706660343,elastic_net
+Wheat|Montana|2017|spring,Wheat,Montana,2017,-0.5228147008547082,-0.004098400813339182,elastic_net
+Wheat|Nebraska|2017|winter,Wheat,Nebraska,2017,0.10962991452990556,-0.0029103214271153526,elastic_net
+Wheat|North Dakota|2017|spring,Wheat,North Dakota,2017,-0.3514419487179623,-0.005524096076807777,elastic_net
+Wheat|Oklahoma|2017|winter,Wheat,Oklahoma,2017,0.3689926153846166,0.00017868497706660343,elastic_net
+Wheat|South Dakota|2017|spring,Wheat,South Dakota,2017,-0.9525659829060222,-0.0036231690588496503,elastic_net
+Wheat|Texas|2017|winter,Wheat,Texas,2017,-0.04741336752136549,0.000891532608800901,elastic_net
+Wheat|Washington|2017|winter,Wheat,Washington,2017,0.380880170940169,0.022276961560829825,elastic_net
+Barley|Colorado|2018|spring,Barley,Colorado,2018,0.13324006837596336,-0.006236943708542075,elastic_net
+Barley|Kansas|2018|spring,Barley,Kansas,2018,-0.6520192136752152,-0.0014846261636467576,elastic_net
+Barley|Minnesota|2018|spring,Barley,Minnesota,2018,0.775081264957266,-0.0005341626546676941,elastic_net
+Barley|Montana|2018|spring,Barley,Montana,2018,0.09575480341879716,0.002554843749514262,elastic_net
+Barley|North Dakota|2018|spring,Barley,North Dakota,2018,0.584718495726487,-0.0029103214271153526,elastic_net
+Barley|South Dakota|2018|spring,Barley,South Dakota,2018,0.5849523076923187,-0.0012470102864019918,elastic_net
+Barley|Washington|2018|spring,Barley,Washington,2018,0.4277025299145176,-0.008375486603744967,elastic_net
+Canola|Minnesota|2018|spring,Canola,Minnesota,2018,0.3399631578947391,-0.0005341626546676941,elastic_net
+Canola|Montana|2018|spring,Canola,Montana,2018,-0.5665002450980212,0.002554843749514262,elastic_net
+Canola|North Dakota|2018|spring,Canola,North Dakota,2018,0.27778423076923575,-0.0029103214271153526,elastic_net
+Canola|Oklahoma|2018|spring,Canola,Oklahoma,2018,0.17614285714287803,-0.0038607849360944163,elastic_net
+Canola|Washington|2018|spring,Canola,Washington,2018,1.513170000000049,-0.008375486603744967,elastic_net
+Oats|Colorado|2018|spring,Oats,Colorado,2018,-0.739616615384632,-0.006236943708542075,elastic_net
+Oats|Illinois|2018|spring,Oats,Illinois,2018,0.18809733333332757,-0.00029654677742292824,elastic_net
+Oats|Iowa|2018|spring,Oats,Iowa,2018,-0.3279002051282047,0.000891532608800901,elastic_net
+Oats|Kansas|2018|spring,Oats,Kansas,2018,-0.00692728205127513,-0.0014846261636467576,elastic_net
+Oats|Minnesota|2018|spring,Oats,Minnesota,2018,-0.33627169230770004,-0.0005341626546676941,elastic_net
+Oats|Montana|2018|spring,Oats,Montana,2018,-0.4108883418803506,0.002554843749514262,elastic_net
+Oats|Nebraska|2018|spring,Oats,Nebraska,2018,-0.05500591452991621,-5.893090017816241e-05,elastic_net
+Oats|North Dakota|2018|spring,Oats,North Dakota,2018,0.65527750427349,-0.0029103214271153526,elastic_net
+Oats|Oklahoma|2018|spring,Oats,Oklahoma,2018,0.37897507692307775,-0.0038607849360944163,elastic_net
+Oats|South Dakota|2018|spring,Oats,South Dakota,2018,0.020022188034169996,-0.0012470102864019918,elastic_net
+Oats|Texas|2018|spring,Oats,Texas,2018,0.18971278632478228,-0.006236943708542075,elastic_net
+Oats|Washington|2018|spring,Oats,Washington,2018,-0.9092277948717975,-0.008375486603744967,elastic_net
+Wheat|Colorado|2018|winter,Wheat,Colorado,2018,0.13911788034188044,-0.0036231690588496503,elastic_net
+Wheat|Illinois|2018|winter,Wheat,Illinois,2018,-0.2406035213675688,0.003980539012982857,elastic_net
+Wheat|Iowa|2018|winter,Wheat,Iowa,2018,0.1229405811965476,0.0027924596267590277,elastic_net
+Wheat|Kansas|2018|winter,Wheat,Kansas,2018,-0.0381407863247869,-0.005286480199563012,elastic_net
+Wheat|Minnesota|2018|spring,Wheat,Minnesota,2018,-0.053191179487225515,-0.0005341626546676941,elastic_net
+Wheat|Montana|2018|spring,Wheat,Montana,2018,0.20381982905981966,0.002554843749514262,elastic_net
+Wheat|Nebraska|2018|winter,Wheat,Nebraska,2018,0.2886675213675103,-0.00077177853191246,elastic_net
+Wheat|North Dakota|2018|spring,Wheat,North Dakota,2018,0.26481271794871786,-0.0029103214271153526,elastic_net
+Wheat|Oklahoma|2018|winter,Wheat,Oklahoma,2018,-0.03019569230769026,-0.0038607849360944163,elastic_net
+Wheat|South Dakota|2018|spring,Wheat,South Dakota,2018,-0.3545519658119938,-0.0012470102864019918,elastic_net
+Wheat|Texas|2018|winter,Wheat,Texas,2018,0.1567231111111127,-0.005286480199563012,elastic_net
+Wheat|Washington|2018|winter,Wheat,Washington,2018,0.6549172649572625,0.017049412261444977,elastic_net
+Barley|Colorado|2019|spring,Barley,Colorado,2019,-0.35237620512830325,-0.0029103214271153526,elastic_net
+Barley|Kansas|2019|spring,Barley,Kansas,2019,-0.5528432820512841,0.0013667643632904326,elastic_net
+Barley|Minnesota|2019|spring,Barley,Minnesota,2019,0.2796063589743576,0.0027924596267590277,elastic_net
+Barley|Montana|2019|spring,Barley,Montana,2019,0.24063774358973422,0.002554843749514262,elastic_net
+Barley|North Dakota|2019|spring,Barley,North Dakota,2019,0.4512918974358944,-0.00029654677742292824,elastic_net
+Barley|South Dakota|2019|spring,Barley,South Dakota,2019,-0.05695076923075826,0.0018419961177799642,elastic_net
+Barley|Washington|2019|spring,Barley,Washington,2019,0.2555788717948584,-0.005524096076807777,elastic_net
+Canola|Minnesota|2019|spring,Canola,Minnesota,2019,0.5470061403508737,0.0027924596267590277,elastic_net
+Canola|Montana|2019|spring,Canola,Montana,2019,-0.22980294117645128,0.002554843749514262,elastic_net
+Canola|North Dakota|2019|spring,Canola,North Dakota,2019,0.07932984615384875,-0.00029654677742292824,elastic_net
+Canola|Oklahoma|2019|spring,Canola,Oklahoma,2019,0.852714285714316,-0.00029654677742292824,elastic_net
+Canola|Washington|2019|spring,Canola,Washington,2019,1.9391600000000753,-0.005524096076807777,elastic_net
+Oats|Illinois|2019|spring,Oats,Illinois,2019,-0.47696338461539023,0.0016043802405351984,elastic_net
+Oats|Iowa|2019|spring,Oats,Iowa,2019,-0.5197190769230793,0.0030300755040037937,elastic_net
+Oats|Kansas|2019|spring,Oats,Kansas,2019,0.5321396923076995,0.0013667643632904326,elastic_net
+Oats|Minnesota|2019|spring,Oats,Minnesota,2019,-0.24502892307693047,0.0027924596267590277,elastic_net
+Oats|Montana|2019|spring,Oats,Montana,2019,0.013650871794862462,0.002554843749514262,elastic_net
+Oats|Nebraska|2019|spring,Oats,Nebraska,2019,-0.2933321025641069,0.0032676913812485593,elastic_net
+Oats|North Dakota|2019|spring,Oats,North Dakota,2019,0.7852514871794707,-0.00029654677742292824,elastic_net
+Oats|Oklahoma|2019|spring,Oats,Oklahoma,2019,0.45244369230769355,-0.00029654677742292824,elastic_net
+Oats|South Dakota|2019|spring,Oats,South Dakota,2019,-0.01775702564105197,0.0018419961177799642,elastic_net
+Oats|Texas|2019|spring,Oats,Texas,2019,0.18815579487179068,-0.004098400813339182,elastic_net
+Wheat|Colorado|2019|winter,Wheat,Colorado,2019,1.004526974358975,0.0035053072584933253,elastic_net
+Wheat|Illinois|2019|winter,Wheat,Illinois,2019,-0.2308146666667108,0.00849524068063341,elastic_net
+Wheat|Kansas|2019|winter,Wheat,Kansas,2019,0.9003325128205129,0.0030300755040037937,elastic_net
+Wheat|Minnesota|2019|spring,Wheat,Minnesota,2019,-0.24879507692312464,0.0027924596267590277,elastic_net
+Wheat|Montana|2019|spring,Wheat,Montana,2019,0.4664543589743513,0.002554843749514262,elastic_net
+Wheat|Nebraska|2019|winter,Wheat,Nebraska,2019,0.8039051282051219,0.0027924596267590277,elastic_net
+Wheat|North Dakota|2019|spring,Wheat,North Dakota,2019,0.2825673846153842,-0.00029654677742292824,elastic_net
+Wheat|Oklahoma|2019|winter,Wheat,Oklahoma,2019,0.7811160000000013,0.004455770767472389,elastic_net
+Wheat|South Dakota|2019|spring,Wheat,South Dakota,2019,-0.15323794871797958,0.0018419961177799642,elastic_net
+Wheat|Texas|2019|winter,Wheat,Texas,2019,0.29365958974359163,0.005881466030940984,elastic_net
+Wheat|Washington|2019|winter,Wheat,Washington,2019,0.236154358974356,0.010396167698591537,elastic_net
+Barley|Colorado|2020|spring,Barley,Colorado,2020,-0.08479247863257022,-0.005999327831297309,elastic_net
+Barley|Kansas|2020|spring,Barley,Kansas,2020,0.40713264957265016,-0.0029103214271153526,elastic_net
+Barley|Minnesota|2020|spring,Barley,Minnesota,2020,-0.8077685470085472,-0.0014846261636467576,elastic_net
+Barley|Montana|2020|spring,Barley,Montana,2020,0.43942068376067134,-0.0038607849360944163,elastic_net
+Barley|North Dakota|2020|spring,Barley,North Dakota,2020,-0.058734700854705224,-0.005999327831297309,elastic_net
+Barley|South Dakota|2020|spring,Barley,South Dakota,2020,0.0005461538461655202,-0.004098400813339182,elastic_net
+Barley|Washington|2020|spring,Barley,Washington,2020,1.3208552136752,-0.005048864322318245,elastic_net
+Canola|Minnesota|2020|spring,Canola,Minnesota,2020,-0.26585087719298395,-0.0014846261636467576,elastic_net
+Canola|Montana|2020|spring,Canola,Montana,2020,-0.061105637254895484,-0.0038607849360944163,elastic_net
+Canola|North Dakota|2020|spring,Canola,North Dakota,2020,0.2508754615384685,-0.005999327831297309,elastic_net
+Canola|Oklahoma|2020|spring,Canola,Oklahoma,2020,1.0696857142857539,-0.0031479373043601187,elastic_net
+Canola|Washington|2020|spring,Canola,Washington,2020,2.499550000000044,-0.005048864322318245,elastic_net
+Oats|Illinois|2020|spring,Oats,Illinois,2020,-0.7475241025641082,-0.0012470102864019918,elastic_net
+Oats|Iowa|2020|spring,Oats,Iowa,2020,0.18506205128205,-0.0031479373043601187,elastic_net
+Oats|Kansas|2020|spring,Oats,Kansas,2020,0.10280666666667404,-0.0029103214271153526,elastic_net
+Oats|Minnesota|2020|spring,Oats,Minnesota,2020,-0.11798615384616129,-0.0014846261636467576,elastic_net
+Oats|Montana|2020|spring,Oats,Montana,2020,-0.35090991452992415,-0.0038607849360944163,elastic_net
+Oats|Nebraska|2020|spring,Oats,Nebraska,2020,-0.3164582905982902,-0.0048112484450734795,elastic_net
+Oats|North Dakota|2020|spring,Oats,North Dakota,2020,0.4847254700854551,-0.005999327831297309,elastic_net
+Oats|Oklahoma|2020|spring,Oats,Oklahoma,2020,0.2747123076923088,-0.0031479373043601187,elastic_net
+Oats|South Dakota|2020|spring,Oats,South Dakota,2020,-0.23483623931625974,-0.004098400813339182,elastic_net
+Oats|Texas|2020|spring,Oats,Texas,2020,0.007198803418799082,-0.005048864322318245,elastic_net
+Wheat|Colorado|2020|winter,Wheat,Colorado,2020,-0.47706393162393135,-0.00029654677742292824,elastic_net
+Wheat|Illinois|2020|winter,Wheat,Illinois,2020,-0.22092581196585215,0.006594313662675281,elastic_net
+Wheat|Kansas|2020|winter,Wheat,Kansas,2020,0.4264058119658123,0.0011291484860456668,elastic_net
+Wheat|Minnesota|2020|spring,Wheat,Minnesota,2020,-0.5788989743590096,-0.0014846261636467576,elastic_net
+Wheat|Montana|2020|spring,Wheat,Montana,2020,0.4063888888888827,-0.0038607849360944163,elastic_net
+Wheat|Nebraska|2020|winter,Wheat,Nebraska,2020,-0.2948572649572734,0.00017868497706660343,elastic_net
+Wheat|North Dakota|2020|spring,Wheat,North Dakota,2020,0.19272205128205,-0.005999327831297309,elastic_net
+Wheat|Oklahoma|2020|winter,Wheat,Oklahoma,2020,0.7854276923076946,0.0016043802405351984,elastic_net
+Wheat|South Dakota|2020|spring,Wheat,South Dakota,2020,0.04797606837603485,-0.004098400813339182,elastic_net
+Wheat|Texas|2020|winter,Wheat,Texas,2020,0.02709606837607037,0.0006539167315561352,elastic_net
+Wheat|Washington|2020|winter,Wheat,Washington,2020,0.7455914529914498,0.01871272340215834,elastic_net
+Barley|Colorado|2021|spring,Barley,Colorado,2021,-2.023008752136837,-0.001009394409157226,elastic_net
+Barley|Kansas|2021|spring,Barley,Kansas,2021,1.2058085811965813,-0.0019598579181362894,elastic_net
+Barley|Minnesota|2021|spring,Barley,Minnesota,2021,-0.388643452991452,-0.004573632567828714,elastic_net
+Barley|Montana|2021|spring,Barley,Montana,2021,-0.9221963760683844,-0.0038607849360944163,elastic_net
+Barley|North Dakota|2021|spring,Barley,North Dakota,2021,-0.730261299145305,-0.007187407217521138,elastic_net
+Barley|South Dakota|2021|spring,Barley,South Dakota,2021,-1.2869569230769113,-0.005524096076807777,elastic_net
+Barley|Washington|2021|spring,Barley,Washington,2021,-1.4875684444444555,-0.008850718358234498,elastic_net
+Canola|Minnesota|2021|spring,Canola,Minnesota,2021,-0.1484078947368419,-0.004573632567828714,elastic_net
+Canola|Montana|2021|spring,Canola,Montana,2021,-0.9124083333333255,-0.0038607849360944163,elastic_net
+Canola|North Dakota|2021|spring,Canola,North Dakota,2021,-0.47437892307691865,-0.007187407217521138,elastic_net
+Canola|Oklahoma|2021|spring,Canola,Oklahoma,2021,1.1745571428571917,-0.002435089672625821,elastic_net
+Canola|Washington|2021|spring,Canola,Washington,2021,1.4795400000000705,-0.008850718358234498,elastic_net
+Oats|Illinois|2021|spring,Oats,Illinois,2021,0.12971517948717404,-0.00077177853191246,elastic_net
+Oats|Iowa|2021|spring,Oats,Iowa,2021,0.13674317948717896,-0.004573632567828714,elastic_net
+Oats|Kansas|2021|spring,Oats,Kansas,2021,0.03217364102564879,-0.0019598579181362894,elastic_net
+Oats|Minnesota|2021|spring,Oats,Minnesota,2021,-0.45714338461539183,-0.004573632567828714,elastic_net
+Oats|Montana|2021|spring,Oats,Montana,2021,-0.715370700854711,-0.0038607849360944163,elastic_net
+Oats|Nebraska|2021|spring,Oats,Nebraska,2021,-0.5905844786324805,-0.0038607849360944163,elastic_net
+Oats|North Dakota|2021|spring,Oats,North Dakota,2021,-0.6048005470085607,-0.007187407217521138,elastic_net
+Oats|Oklahoma|2021|spring,Oats,Oklahoma,2021,0.2763809230769241,-0.002435089672625821,elastic_net
+Oats|South Dakota|2021|spring,Oats,South Dakota,2021,-0.6313154529914677,-0.005524096076807777,elastic_net
+Oats|Texas|2021|spring,Oats,Texas,2021,0.005641811965807486,-0.0019598579181362894,elastic_net
+Wheat|Colorado|2021|winter,Wheat,Colorado,2021,0.19334516239316324,0.0011291484860456668,elastic_net
+Wheat|Illinois|2021|winter,Wheat,Illinois,2021,0.46136304273500617,0.004218154890227623,elastic_net
+Wheat|Kansas|2021|winter,Wheat,Kansas,2021,0.894079111111111,-0.0012470102864019918,elastic_net
+Wheat|Minnesota|2021|spring,Wheat,Minnesota,2021,-0.9763028717949083,-0.004573632567828714,elastic_net
+Wheat|Montana|2021|spring,Wheat,Montana,2021,-0.918076581196589,-0.0038607849360944163,elastic_net
+Wheat|Nebraska|2021|winter,Wheat,Nebraska,2021,0.22038034188033873,-0.0033855531816048847,elastic_net
+Wheat|North Dakota|2021|spring,Wheat,North Dakota,2021,-0.8789232820512836,-0.007187407217521138,elastic_net
+Wheat|Oklahoma|2021|winter,Wheat,Oklahoma,2021,0.722539384615386,0.002317227872269496,elastic_net
+Wheat|South Dakota|2021|spring,Wheat,South Dakota,2021,-1.1967099145299507,-0.005524096076807777,elastic_net
+Wheat|Texas|2021|winter,Wheat,Texas,2021,0.5003325470085485,0.0018419961177799642,elastic_net
+Wheat|Washington|2021|winter,Wheat,Washington,2021,-1.502371452991456,0.012059478839304897,elastic_net
+Barley|Colorado|2022|spring,Barley,Colorado,2022,-2.1320250256411324,-0.00077177853191246,elastic_net
+Barley|Kansas|2022|spring,Barley,Kansas,2022,-0.5243154871794877,-0.005761711954052543,elastic_net
+Barley|Minnesota|2022|spring,Barley,Minnesota,2022,0.5147816410256429,-5.893090017816241e-05,elastic_net
+Barley|Montana|2022|spring,Barley,Montana,2022,-0.7773134358974474,-0.001009394409157226,elastic_net
+Barley|North Dakota|2022|spring,Barley,North Dakota,2022,0.42761210256410287,-0.0017222420408915236,elastic_net
+Barley|South Dakota|2022|spring,Barley,South Dakota,2022,0.5459400000000123,-0.004336016690583948,elastic_net
+Barley|Washington|2022|spring,Barley,Washington,2022,0.976607897435886,-0.004098400813339182,elastic_net
+Canola|Minnesota|2022|spring,Canola,Minnesota,2022,0.6191350877192932,-5.893090017816241e-05,elastic_net
+Canola|Montana|2022|spring,Canola,Montana,2022,-0.7998110294117553,-0.001009394409157226,elastic_net
+Canola|North Dakota|2022|spring,Canola,North Dakota,2022,0.044566692307693945,-0.0017222420408915236,elastic_net
+Canola|Oklahoma|2022|spring,Canola,Oklahoma,2022,0.30432857142862946,-0.005286480199563012,elastic_net
+Canola|Washington|2022|spring,Canola,Washington,2022,2.3986300000000966,-0.004098400813339182,elastic_net
+Oats|Illinois|2022|spring,Oats,Illinois,2022,0.1102544615384562,0.0004163008543113693,elastic_net
+Oats|Iowa|2022|spring,Oats,Iowa,2022,0.303524307692308,-0.0019598579181362894,elastic_net
+Oats|Kansas|2022|spring,Oats,Kansas,2022,-0.2895593846153768,-0.005761711954052543,elastic_net
+Oats|Minnesota|2022|spring,Oats,Minnesota,2022,-0.33000061538462244,-5.893090017816241e-05,elastic_net
+Oats|Montana|2022|spring,Oats,Montana,2022,-0.6136314871794961,-0.001009394409157226,elastic_net
+Oats|Nebraska|2022|spring,Oats,Nebraska,2022,-0.793110666666671,-0.005999327831297309,elastic_net
+Oats|North Dakota|2022|spring,Oats,North Dakota,2022,0.24247343589741988,-0.0017222420408915236,elastic_net
+Oats|Oklahoma|2022|spring,Oats,Oklahoma,2022,-0.6186504615384607,-0.005286480199563012,elastic_net
+Oats|South Dakota|2022|spring,Oats,South Dakota,2022,-0.20279466666668933,-0.004336016690583948,elastic_net
+Oats|Texas|2022|spring,Oats,Texas,2022,0.3627848205128157,-0.007425023094765904,elastic_net
+Wheat|Colorado|2022|winter,Wheat,Colorado,2022,-0.6157457435897433,-0.0012470102864019918,elastic_net
+Wheat|Illinois|2022|winter,Wheat,Illinois,2022,0.40395189743586446,0.004218154890227623,elastic_net
+Wheat|Kansas|2022|winter,Wheat,Kansas,2022,-0.11784758974358933,-0.0031479373043601187,elastic_net
+Wheat|Minnesota|2022|spring,Wheat,Minnesota,2022,-0.1631067692308079,-5.893090017816241e-05,elastic_net
+Wheat|Montana|2022|spring,Wheat,Montana,2022,-0.5209420512820575,-0.001009394409157226,elastic_net
+Wheat|Nebraska|2022|winter,Wheat,Nebraska,2022,-0.9456820512820565,-0.007187407217521138,elastic_net
+Wheat|North Dakota|2022|spring,Wheat,North Dakota,2022,0.2081313846153825,-0.0017222420408915236,elastic_net
+Wheat|Oklahoma|2022|winter,Wheat,Oklahoma,2022,-0.012948923076922192,-0.002672705549870587,elastic_net
+Wheat|South Dakota|2022|spring,Wheat,South Dakota,2022,-0.16819589743592234,-0.004336016690583948,elastic_net
+Wheat|Texas|2022|winter,Wheat,Texas,2022,0.031969025641027216,-0.00647455958578684,elastic_net
+Wheat|Washington|2022|winter,Wheat,Washington,2022,0.12336564102563763,0.01990080278838217,elastic_net
+Barley|Colorado|2023|spring,Barley,Colorado,2023,-1.1650412991453987,-0.00029654677742292824,elastic_net
+Barley|Kansas|2023|spring,Barley,Kansas,2023,-0.8017395555555566,-0.0021974737953810554,elastic_net
+Barley|Minnesota|2023|spring,Barley,Minnesota,2023,0.6111067350427382,-0.0021974737953810554,elastic_net
+Barley|Montana|2023|spring,Barley,Montana,2023,-0.3634304957265031,0.0018419961177799642,elastic_net
+Barley|North Dakota|2023|spring,Barley,North Dakota,2023,0.2941855042735031,-0.0005341626546676941,elastic_net
+Barley|South Dakota|2023|spring,Barley,South Dakota,2023,0.44203692307693565,-0.002672705549870587,elastic_net
+Barley|Washington|2023|spring,Barley,Washington,2023,-0.7020157606837731,-0.006236943708542075,elastic_net
+Canola|Minnesota|2023|spring,Canola,Minnesota,2023,0.6581780701754352,-0.0021974737953810554,elastic_net
+Canola|Montana|2023|spring,Canola,Montana,2023,-0.39581372549018545,0.0018419961177799642,elastic_net
+Canola|North Dakota|2023|spring,Canola,North Dakota,2023,0.014312307692314175,-0.0005341626546676941,elastic_net
+Canola|Oklahoma|2023|spring,Canola,Oklahoma,2023,0.4989000000000674,-0.0014846261636467576,elastic_net
+Canola|Washington|2023|spring,Canola,Washington,2023,2.5780200000001225,-0.006236943708542075,elastic_net
+Oats|Illinois|2023|spring,Oats,Illinois,2023,0.3417937435897387,-0.0038607849360944163,elastic_net
+Oats|Iowa|2023|spring,Oats,Iowa,2023,0.21930543589743712,-0.0048112484450734795,elastic_net
+Oats|Kansas|2023|spring,Oats,Kansas,2023,0.6081075897435979,-0.0021974737953810554,elastic_net
+Oats|Minnesota|2023|spring,Oats,Minnesota,2023,0.22754215384615417,-0.0021974737953810554,elastic_net
+Oats|Montana|2023|spring,Oats,Montana,2023,-0.655392273504283,0.0018419961177799642,elastic_net
+Oats|Nebraska|2023|spring,Oats,Nebraska,2023,-0.7444368547008542,-0.00077177853191246,elastic_net
+Oats|North Dakota|2023|spring,Oats,North Dakota,2023,0.3724474188034046,-0.0005341626546676941,elastic_net
+Oats|Oklahoma|2023|spring,Oats,Oklahoma,2023,0.8177181538461546,-0.0014846261636467576,elastic_net
+Oats|South Dakota|2023|spring,Oats,South Dakota,2023,-0.45577388034189736,-0.002672705549870587,elastic_net
+Oats|Texas|2023|spring,Oats,Texas,2023,0.3253278290598238,-0.004573632567828714,elastic_net
+Wheat|Colorado|2023|winter,Wheat,Colorado,2023,0.458163350427351,0.0013667643632904326,elastic_net
+Wheat|Illinois|2023|winter,Wheat,Illinois,2023,0.8845407521367221,0.0011291484860456668,elastic_net
+Wheat|Kansas|2023|winter,Wheat,Kansas,2023,-0.25547429059828985,-0.002435089672625821,elastic_net
+Wheat|Minnesota|2023|spring,Wheat,Minnesota,2023,-0.1569106666667066,-0.0021974737953810554,elastic_net
+Wheat|Montana|2023|spring,Wheat,Montana,2023,0.06449247863247054,0.0018419961177799642,elastic_net
+Wheat|Nebraska|2023|winter,Wheat,Nebraska,2023,-0.2959444444444448,-0.0036231690588496503,elastic_net
+Wheat|North Dakota|2023|spring,Wheat,North Dakota,2023,0.05098605128204836,-0.0005341626546676941,elastic_net
+Wheat|Oklahoma|2023|winter,Wheat,Oklahoma,2023,-0.008637230769228843,0.002554843749514262,elastic_net
+Wheat|South Dakota|2023|spring,Wheat,South Dakota,2023,-0.5520818803419081,-0.002672705549870587,elastic_net
+Wheat|Texas|2023|winter,Wheat,Texas,2023,0.5052055042735053,0.0013667643632904326,elastic_net
+Wheat|Washington|2023|winter,Wheat,Washington,2023,-0.7525972649572652,0.01015855182134677,elastic_net
+Barley|Colorado|2024|spring,Barley,Colorado,2024,-0.5208575726496658,-0.002672705549870587,elastic_net
+Barley|Kansas|2024|spring,Barley,Kansas,2024,1.6647363760683778,-0.0012470102864019918,elastic_net
+Barley|Minnesota|2024|spring,Barley,Minnesota,2024,0.38463182905983295,0.0013667643632904326,elastic_net
+Barley|Montana|2024|spring,Barley,Montana,2024,-0.27234755555556633,-0.0014846261636467576,elastic_net
+Barley|North Dakota|2024|spring,Barley,North Dakota,2024,0.42975890598290345,-0.002435089672625821,elastic_net
+Barley|South Dakota|2024|spring,Barley,South Dakota,2024,0.7147338461538597,-0.0017222420408915236,elastic_net
+Barley|Washington|2024|spring,Barley,Washington,2024,-0.013239418803431935,-0.0069497913402763725,elastic_net
+Canola|Minnesota|2024|spring,Canola,Minnesota,2024,0.15912105263157716,0.0013667643632904326,elastic_net
+Canola|Montana|2024|spring,Canola,Montana,2024,-0.8660164215686152,-0.0014846261636467576,elastic_net
+Canola|North Dakota|2024|spring,Canola,North Dakota,2024,0.05135792307692677,-0.002435089672625821,elastic_net
+Canola|Oklahoma|2024|spring,Canola,Oklahoma,2024,1.7021714285714769,-0.0038607849360944163,elastic_net
+Canola|Washington|2024|spring,Canola,Washington,2024,3.0263100000001484,-0.0069497913402763725,elastic_net
+Oats|Illinois|2024|spring,Oats,Illinois,2024,0.42993302564102054,-0.001009394409157226,elastic_net
+Oats|Iowa|2024|spring,Oats,Iowa,2024,0.278486564102566,-0.001009394409157226,elastic_net
+Oats|Kansas|2024|spring,Oats,Kansas,2024,0.609174564102573,-0.0012470102864019918,elastic_net
+Oats|Minnesota|2024|spring,Oats,Minnesota,2024,0.6056849230769235,0.0013667643632904326,elastic_net
+Oats|Montana|2024|spring,Oats,Montana,2024,-0.8047530598290698,-0.0014846261636467576,elastic_net
+Oats|Nebraska|2024|spring,Oats,Nebraska,2024,-0.19376304273504452,-0.002672705549870587,elastic_net
+Oats|North Dakota|2024|spring,Oats,North Dakota,2024,1.1480214017093888,-0.002435089672625821,elastic_net
+Oats|South Dakota|2024|spring,Oats,South Dakota,2024,0.00854690598289487,-0.0017222420408915236,elastic_net
+Oats|Texas|2024|spring,Oats,Texas,2024,0.036870837606832074,-0.0017222420408915236,elastic_net
+Wheat|Colorado|2024|winter,Wheat,Colorado,2024,0.052572444444444866,0.0030300755040037937,elastic_net
+Wheat|Illinois|2024|winter,Wheat,Illinois,2024,0.7599296068375665,0.004218154890227623,elastic_net
+Wheat|Kansas|2024|winter,Wheat,Kansas,2024,0.2793990085470086,-5.893090017816241e-05,elastic_net
+Wheat|Minnesota|2024|spring,Wheat,Minnesota,2024,0.2190854358974086,0.0013667643632904326,elastic_net
+Wheat|Montana|2024|spring,Wheat,Montana,2024,-0.15697299145299803,-0.0014846261636467576,elastic_net
+Wheat|Nebraska|2024|winter,Wheat,Nebraska,2024,0.35389316239316004,-0.00077177853191246,elastic_net
+Wheat|North Dakota|2024|spring,Wheat,North Dakota,2024,0.6740407179487145,-0.002435089672625821,elastic_net
+Wheat|Oklahoma|2024|winter,Wheat,Oklahoma,2024,0.6681744615384626,0.0013667643632904326,elastic_net
+Wheat|South Dakota|2024|spring,Wheat,South Dakota,2024,0.18043213675210623,-0.0017222420408915236,elastic_net
+Wheat|Texas|2024|winter,Wheat,Texas,2024,0.10414198290598398,0.0037429231357380913,elastic_net
+Wheat|Washington|2024|winter,Wheat,Washington,2024,0.1535398290598291,0.014198021734507791,elastic_net
+Barley|Colorado|2025|spring,Barley,Colorado,2025,-1.6520738461539324,-0.0012470102864019918,elastic_net
+Barley|Kansas|2025|spring,Barley,Kansas,2025,0.36501230769230864,0.0018419961177799642,elastic_net
+Barley|Minnesota|2025|spring,Barley,Minnesota,2025,0.6423569230769282,0.0013667643632904326,elastic_net
+Barley|Montana|2025|spring,Barley,Montana,2025,-0.12746461538462217,0.0006539167315561352,elastic_net
+Barley|North Dakota|2025|spring,Barley,North Dakota,2025,0.6191323076923112,-0.0017222420408915236,elastic_net
+Barley|South Dakota|2025|spring,Barley,South Dakota,2025,0.34183076923078337,0.00017868497706660343,elastic_net
+Barley|Washington|2025|spring,Barley,Washington,2025,-0.9386630769230906,-0.007900254849255436,elastic_net
+Canola|Minnesota|2025|spring,Canola,Minnesota,2025,0.42236403508771936,0.0013667643632904326,elastic_net
+Canola|Montana|2025|spring,Canola,Montana,2025,-0.6862191176470454,0.0006539167315561352,elastic_net
+Canola|North Dakota|2025|spring,Canola,North Dakota,2025,0.32370353846153943,-0.0017222420408915236,elastic_net
+Canola|Oklahoma|2025|spring,Canola,Oklahoma,2025,0.9440428571429147,0.0013667643632904326,elastic_net
+Canola|Washington|2025|spring,Canola,Washington,2025,2.9479000000001747,-0.007900254849255436,elastic_net
+Oats|Illinois|2025|spring,Oats,Illinois,2025,0.6257723076923027,-0.0014846261636467576,elastic_net
+Oats|Iowa|2025|spring,Oats,Iowa,2025,0.6246676923076948,-0.00077177853191246,elastic_net
+Oats|Kansas|2025|spring,Oats,Kansas,2025,0.32334153846154745,0.0018419961177799642,elastic_net
+Oats|Minnesota|2025|spring,Oats,Minnesota,2025,0.5534276923076931,0.0013667643632904326,elastic_net
+Oats|Montana|2025|spring,Oats,Montana,2025,-0.4160138461538565,0.0006539167315561352,elastic_net
+Oats|Nebraska|2025|spring,Oats,Nebraska,2025,-0.8982892307692278,0.0006539167315561352,elastic_net
+Oats|North Dakota|2025|spring,Oats,North Dakota,2025,0.3812953846153695,-0.0017222420408915236,elastic_net
+Oats|South Dakota|2025|spring,Oats,South Dakota,2025,-0.10093230769231276,0.00017868497706660343,elastic_net
+Oats|Texas|2025|spring,Oats,Texas,2025,0.2864138461538406,-0.002672705549870587,elastic_net
+Wheat|Colorado|2025|winter,Wheat,Colorado,2025,0.2521815384615391,-0.0005341626546676941,elastic_net
+Wheat|Illinois|2025|winter,Wheat,Illinois,2025,0.8370184615384249,0.005168618399206687,elastic_net
+Wheat|Kansas|2025|winter,Wheat,Kansas,2025,0.8142723076923084,-0.001009394409157226,elastic_net
+Wheat|Minnesota|2025|spring,Wheat,Minnesota,2025,0.19158153846150938,0.0013667643632904326,elastic_net
+Wheat|Montana|2025|spring,Wheat,Montana,2025,0.018261538461533444,0.0006539167315561352,elastic_net
+Wheat|Nebraska|2025|winter,Wheat,Nebraska,2025,-0.005169230769235256,-0.0021974737953810554,elastic_net
+Wheat|North Dakota|2025|spring,Wheat,North Dakota,2025,0.3622953846153947,-0.0017222420408915236,elastic_net
+Wheat|Oklahoma|2025|winter,Wheat,Oklahoma,2025,0.6724861538461542,0.0006539167315561352,elastic_net
+Wheat|South Dakota|2025|spring,Wheat,South Dakota,2025,-0.2773538461538654,0.00017868497706660343,elastic_net
+Wheat|Texas|2025|winter,Wheat,Texas,2025,0.510078461538463,-0.002435089672625821,elastic_net
+Wheat|Washington|2025|winter,Wheat,Washington,2025,0.04417692307692267,0.011821862962060132,elastic_net

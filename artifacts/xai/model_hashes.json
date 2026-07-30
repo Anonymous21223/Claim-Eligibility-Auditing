@@ -1,0 +1,11 @@
+{
+  "selected_config_json": "97bdba13ba7a0013e1ac61f76d58cdaca45a7ed23d558a1f65c044ec033db466",
+  "seed_aggregated_predictions_csv": "2b013499644460335744be802373acb46761de1f4629dc80c21dc7f9c41dae51",
+  "row_level_predictions_csv": "03addac82d1fdbd90f2035982acd26e28acb20bca7f9ea510e12d99edfc9f7ea",
+  "feature_matrix_schema_json": "43bda70a1eb0f18a5a9e4bc197e8998d6594036753d8172b0d88ac5f061d85a5",
+  "xai_method_settings_csv": "29a77eb953247c34243e672ff4e2006642030e70414fdb031128258a7f8c2b65",
+  "xai_scored_panel_csv": "8051881a24d8693505ec3694f1c0e4c4e234f9647aa1abcb022e625de8061f88",
+  "pjm_importance_csv": "bab3f02c0a6069e30741212b5eee09989c9b0f37c6826ae17e4221540a4519d4",
+  "pjm_gate_decisions_json": "c81dd37052106d6fb38fd91d016ad0aac009b0554ff53b2f37b16ee2617ae324",
+  "note": "No pickle is released; hashes bind selected config, feature schema, row-level predictions, and XAI output tables."
+}

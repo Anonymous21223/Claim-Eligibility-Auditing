@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-07-18T22:42:35.963753+00:00",
+  "source_mode": "NASS_API",
+  "endpoint": "api_GET",
+  "request": {
+    "key": "<REDACTED>",
+    "source_desc": "SURVEY",
+    "sector_desc": "CROPS",
+    "group_desc": "FIELD CROPS",
+    "agg_level_desc": "COUNTY",
+    "statisticcat_desc": "YIELD",
+    "commodity_desc": "WHEAT",
+    "year__GE": "2020",
+    "format": "JSON"
+  },
+  "count_before_download": 5338,
+  "http_status": 200,
+  "raw_path": "data/v2_county/raw/nass/wheat_2020_20260718T224235Z.json",
+  "sha256": "bcf3326c924496a2748ffdd54872bf3d71add917a619c51cc1e2d2659557d8d8",
+  "records": 5338
+}

@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-07-18T22:47:23.773684+00:00",
+  "source_mode": "NASS_API",
+  "endpoint": "api_GET",
+  "request": {
+    "key": "<REDACTED>",
+    "source_desc": "SURVEY",
+    "sector_desc": "CROPS",
+    "group_desc": "FIELD CROPS",
+    "agg_level_desc": "COUNTY",
+    "statisticcat_desc": "YIELD",
+    "commodity_desc": "WHEAT",
+    "year__GE": "2000",
+    "format": "JSON",
+    "state_name": "TEXAS"
+  },
+  "count_before_download": 8025,
+  "http_status": 200,
+  "raw_path": "data/v2_county/raw/nass/wheat_texas_2000_20260718T224723Z.json",
+  "sha256": "881e63f4e5936d269351db25505bbd140090cf9e9edd5ab332bd1d8acc70e647",
+  "records": 8025
+}

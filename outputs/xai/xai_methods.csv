@@ -1,0 +1,7 @@
+method,purpose,output_level,main_use
+SHAP,Feature-level model explanation,feature and event,Ranks weather features and signs their residual contribution
+Grouped SHAP,Physical driver-group explanation,driver group,"Aggregates SHAP values into heat, drought, frost/cold, excess rain, and radiation groups"
+Group permutation,Predictive dependence check,driver group,Measures residual-model error increase when a driver group is jointly shuffled
+Group ablation,Model reliance check,driver group,Retrains the residual model without each group and measures residual-model error increase
+ALE,Response-shape diagnostic,feature curve,Shows accumulated local residual response for selected weather features
+LIME,Selected event-level local explanation,event and feature,"Checks selected 2012, 2021, and 2022 anomaly cases"

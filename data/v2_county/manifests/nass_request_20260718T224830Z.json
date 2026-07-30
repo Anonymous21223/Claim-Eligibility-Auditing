@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-07-18T22:48:30.932996+00:00",
+  "source_mode": "NASS_API",
+  "endpoint": "api_GET",
+  "request": {
+    "key": "<REDACTED>",
+    "source_desc": "SURVEY",
+    "sector_desc": "CROPS",
+    "group_desc": "FIELD CROPS",
+    "agg_level_desc": "COUNTY",
+    "statisticcat_desc": "YIELD",
+    "commodity_desc": "WHEAT",
+    "year__GE": "2000",
+    "format": "JSON",
+    "state_name": "ILLINOIS"
+  },
+  "count_before_download": 2706,
+  "http_status": 200,
+  "raw_path": "data/v2_county/raw/nass/wheat_illinois_2000_20260718T224830Z.json",
+  "sha256": "b2e7645707fdc51415cfc96984ebab6019567eb090459bd917186d603fb026e0",
+  "records": 2706
+}

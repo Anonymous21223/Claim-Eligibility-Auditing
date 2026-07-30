@@ -1,0 +1,15 @@
+scenario,effect,ground_truth_permission,requested_claim_level,reason
+no_signal,0.0,False,event_recovery,"invalid, too weak, ambiguous, or not interpretable"
+weak_signal,0.25,False,event_recovery,"invalid, too weak, ambiguous, or not interpretable"
+moderate_signal,0.7,True,event_recovery,valid signal scenario
+strong_signal,1.4,True,event_recovery,valid signal scenario
+correlated_features,0.7,False,event_recovery,"invalid, too weak, ambiguous, or not interpretable"
+omitted_confounder,0.0,False,event_recovery,"invalid, too weak, ambiguous, or not interpretable"
+temporal_drift,0.7,False,event_recovery,"invalid, too weak, ambiguous, or not interpretable"
+geographic_shift,0.7,False,event_recovery,"invalid, too weak, ambiguous, or not interpretable"
+leakage,0.0,False,event_recovery,"invalid, too weak, ambiguous, or not interpretable"
+train_only_detrending,0.7,True,event_recovery,valid signal scenario
+small_sample,0.7,True,event_recovery,valid signal scenario
+imbalanced_tail,0.7,True,event_recovery,valid signal scenario
+measurement_error,0.7,False,event_recovery,"invalid, too weak, ambiguous, or not interpretable"
+spatial_resolution_mismatch,0.7,True,event_recovery,valid signal scenario

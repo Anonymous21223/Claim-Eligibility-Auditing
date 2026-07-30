@@ -1,0 +1,9 @@
+{
+  "selection_train_years": "1990-2011",
+  "validation_years": "2012-2015",
+  "locked_train_years": "1990-2015",
+  "locked_test_years": "2016-2025",
+  "fixed_seeds": [7, 17, 27, 37, 47],
+  "selection_metric": "mean seed-level RMSE with exact lexicographic tie-break",
+  "final_test_accessed_for_selection": false
+}

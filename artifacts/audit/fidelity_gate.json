@@ -1,0 +1,44 @@
+{
+  "version": "ictai2026-audit-v2",
+  "rule": "Gate A and Gate B1 are distinct required conditions. Event-level interpretation requires Gate A; weather-specific interpretation requires both Gate A and Gate B1. Gate B2 is an exploratory representation diagnostic only.",
+  "config_path": "configs/fidelity_gate.yaml",
+  "components": {
+    "overall_selected_vs_zero_rmse": false,
+    "all_tail_rmse_mae_sign_rank_topk": false,
+    "temporal_stability": true,
+    "incremental_weather_full_vs_metadata": false
+  },
+  "decision": "FAIL",
+  "selected_config": {
+    "config_id": "extra_trees_leaf_1",
+    "model": "ExtraTrees",
+    "feature_family": "weather_only",
+    "n": 140,
+    "n_seeds": 5,
+    "r2": 0.11128207399012902,
+    "rmse_t_ha": 0.38306390791634254,
+    "mae_t_ha": 0.30710041853563336,
+    "sign_accuracy": 0.5857142857142857,
+    "spearman": 0.29465219528970765,
+    "validation_seed_rmse_mean": 0.38367467024209245,
+    "validation_seed_rmse_sd": 0.002613740153447759,
+    "validation_seed_rmse_min": 0.38033593559811946,
+    "validation_seed_rmse_max": 0.3870559741312232,
+    "validation_seed_count": 5,
+    "selected": true
+  },
+  "fixed_seeds": [
+    7,
+    17,
+    27,
+    37,
+    47
+  ],
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20260718,
+    "interval": "percentile 95%",
+    "unit": "calendar year block",
+    "invalid_replicate": "fail the audit; never silently drop"
+  }
+}

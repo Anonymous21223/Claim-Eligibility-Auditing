@@ -1,0 +1,4 @@
+ablation_group,required_action,protocol,evidence,violating_columns,status
+target_derived_columns,Remove yield/trend/residual/z/event/prediction columns,same primary target/split/population; no retraining needed because columns are absent by construction,absent_from_model_matrix,,PASS
+calendar_year,Remove year from model features,same primary target/split/population; no retraining needed because columns are absent by construction,absent_from_model_matrix,,PASS
+history_or_scale_columns,Remove history length and residual scale columns,same primary target/split/population; no retraining needed because columns are absent by construction,absent_from_model_matrix,,PASS

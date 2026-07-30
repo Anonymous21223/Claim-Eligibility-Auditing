@@ -1,0 +1,12 @@
+\begin{tabular}{llrrrr}
+\toprule
+Model & Features & Mean RMSE & SD & P(rank=1) & 1-SE \\
+\midrule
+ExtraTrees (leaf=1) & Weather only & 0.384 & 0.003 & 0.60 & Yes \\
+ExtraTrees (leaf=2) & Weather only & 0.385 & 0.001 & 0.20 & No \\
+Random Forest (leaf=1) & Weather only & 0.387 & 0.003 & 0.20 & No \\
+Random Forest (leaf=2) & Weather only & 0.387 & 0.002 & 0.00 & No \\
+ExtraTrees (leaf=2) & Full & 0.389 & 0.003 & 0.00 & No \\
+Random Forest (leaf=1) & Full & 0.390 & 0.002 & 0.00 & No \\
+\bottomrule
+\end{tabular}

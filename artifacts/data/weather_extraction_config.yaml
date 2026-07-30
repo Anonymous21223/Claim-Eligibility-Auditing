@@ -1,0 +1,10 @@
+status: PASS
+daily_source: data/raw/nasa_power_daily.zip
+daily_fields: [T2M_MAX, T2M_MIN, PRECTOTCORR, ALLSKY_SFC_SW_DWN]
+spring_window: April 1 through September 30 of the yield year (183 days)
+winter_wheat_window: September 1 of the prior year through June 30 of the yield year (303 or 304 days)
+winter_wheat_regions: [Colorado, Illinois, Iowa, Kansas, Nebraska, Oklahoma, Texas, Washington]
+stage_split: first floor(n/3) days = early; second floor(n/3) days = mid; remainder = late
+missing_day_rule: fail reconstruction unless every calendar day is present exactly once
+rounding: round continuous aggregates to three decimal places before writing CSV
+verification: exact equality to data/processed/us_model_frame_hemisphere_aware_1990_2025.csv at tolerance 0.0005

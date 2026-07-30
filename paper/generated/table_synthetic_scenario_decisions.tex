@@ -1,0 +1,20 @@
+\begin{tabular}{lcccccc}
+\toprule
+Scenario & GT permit & Claim & A & B & E & Policy permit \\
+\midrule
+correlated\_features & no & event\_recovery & 100\% & 100\% & 100\% & 100\% \\
+geographic\_shift & no & event\_recovery & 100\% & 100\% & 100\% & 100\% \\
+imbalanced\_tail & yes & event\_recovery & 100\% & 100\% & 100\% & 100\% \\
+leakage & no & event\_recovery & 100\% & 100\% & 100\% & 100\% \\
+measurement\_error & no & event\_recovery & 70\% & 100\% & 83\% & 67\% \\
+moderate\_signal & yes & event\_recovery & 100\% & 100\% & 100\% & 100\% \\
+no\_signal & no & event\_recovery & 0\% & 47\% & 10\% & 0\% \\
+omitted\_confounder & no & event\_recovery & 100\% & 100\% & 100\% & 100\% \\
+small\_sample & yes & event\_recovery & 93\% & 97\% & 97\% & 93\% \\
+spatial\_resolution\_mismatch & yes & event\_recovery & 43\% & 100\% & 80\% & 40\% \\
+strong\_signal & yes & event\_recovery & 100\% & 100\% & 100\% & 100\% \\
+temporal\_drift & no & event\_recovery & 97\% & 100\% & 100\% & 97\% \\
+train\_only\_detrending & yes & event\_recovery & 100\% & 100\% & 100\% & 100\% \\
+weak\_signal & no & event\_recovery & 10\% & 80\% & 53\% & 7\% \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-07-18T22:46:32.587366+00:00",
+  "source_mode": "NASS_API",
+  "endpoint": "api_GET",
+  "request": {
+    "key": "<REDACTED>",
+    "source_desc": "SURVEY",
+    "sector_desc": "CROPS",
+    "group_desc": "FIELD CROPS",
+    "agg_level_desc": "COUNTY",
+    "statisticcat_desc": "YIELD",
+    "commodity_desc": "WHEAT",
+    "year__GE": "2000",
+    "format": "JSON",
+    "state_name": "NORTH DAKOTA"
+  },
+  "count_before_download": 4116,
+  "http_status": 200,
+  "raw_path": "data/v2_county/raw/nass/wheat_north_dakota_2000_20260718T224632Z.json",
+  "sha256": "a157ad2a08fd564529452b54b80a988a9cd9be2b20266fdeb15f97c1746370fc",
+  "records": 4116
+}

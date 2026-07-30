@@ -1,0 +1,55 @@
+feature_group,feature,available_at_prediction_time,window,used_in_primary,used_in_sensitivity,role
+metadata,lat,before season/audit run,static,True,False,metadata-only and full models
+metadata,lon,before season/audit run,static,True,False,metadata-only and full models
+metadata,region,before season/audit run,static,True,False,metadata-only and full models
+metadata,crop,before season/audit run,static,True,False,metadata-only and full models
+weather_full_season,cold_days_5,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,frost_cold weather feature
+weather_full_season,dry_days_1mm,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,drought weather feature
+weather_full_season,dry_days_2mm,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,drought weather feature
+weather_full_season,dry_spell_events_14d,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,drought weather feature
+weather_full_season,dry_spell_events_7d,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,drought weather feature
+weather_full_season,frost_days_0,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,frost_cold weather feature
+weather_full_season,frost_events_2d,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,frost_cold weather feature
+weather_full_season,growing_degree_days_base5,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,heat_days_30,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,heat_days_35,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,heat_days_40,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,heat_degree_days_30,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,heat_degree_days_35,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,heatwave_events_3d_30,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,heatwave_events_3d_35,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,heavy_rain_days_10,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,excess_rain weather feature
+weather_full_season,heavy_rain_days_20,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,excess_rain weather feature
+weather_full_season,heavy_rain_days_25,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,excess_rain weather feature
+weather_full_season,heavy_rain_days_50,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,excess_rain weather feature
+weather_full_season,hot_dry_days_30_1mm,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,drought weather feature
+weather_full_season,max_1day_rain,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,excess_rain weather feature
+weather_full_season,max_3day_rain,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,excess_rain weather feature
+weather_full_season,max_7day_rain,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,excess_rain weather feature
+weather_full_season,max_consecutive_heat_days_30,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,max_consecutive_heat_days_35,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,max_dry_spell_1mm,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,drought weather feature
+weather_full_season,min_tmin,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,frost_cold weather feature
+weather_full_season,radiation_mean,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,radiation weather feature
+weather_full_season,radiation_sum,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,radiation weather feature
+weather_full_season,rain_mean,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,drought weather feature
+weather_full_season,rain_sum,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,drought weather feature
+weather_full_season,season_tmax_mean,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,season_tmean_mean,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,heat weather feature
+weather_full_season,season_tmin_mean,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,frost_cold weather feature
+weather_full_season,wet_days_1mm,after the complete crop-season weather window,full growing season or winter-wheat crop window,True,False,excess_rain weather feature
+weather_stage_sensitivity,frost_days_0_early,after early season segment,early third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,frost_days_0_late,after late season segment,late third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,frost_days_0_mid,after mid season segment,mid third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,heat_days_35_early,after early season segment,early third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,heat_days_35_late,after late season segment,late third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,heat_days_35_mid,after mid season segment,mid third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,max_3day_rain_early,after early season segment,early third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,max_3day_rain_late,after late season segment,late third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,max_3day_rain_mid,after mid season segment,mid third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,radiation_sum_early,after early season segment,early third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,radiation_sum_late,after late season segment,late third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,radiation_sum_mid,after mid season segment,mid third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,rain_sum_early,after early season segment,early third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,rain_sum_late,after late season segment,late third of the crop-season window,False,True,stage-proxy sensitivity only
+weather_stage_sensitivity,rain_sum_mid,after mid season segment,mid third of the crop-season window,False,True,stage-proxy sensitivity only

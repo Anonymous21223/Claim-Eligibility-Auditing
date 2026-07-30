@@ -1,0 +1,7 @@
+event_key,country,region,crop,year,window,trend_residual_z,grouped_shap_driver,lime_driver,drivers_agree
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012.0,spring,-1.48685988539644,heat,heat,yes
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012.0,spring,-2.331768809761112,heat,drought,no
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021.0,spring,-2.975908494453759,heat,heat,yes
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021.0,winter,-2.9248812985697747,heat,heat,yes
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022.0,spring,-3.4430986690178775,drought,heat,no
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022.0,winter,-2.643913601858626,drought,drought,yes

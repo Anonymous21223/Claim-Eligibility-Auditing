@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+tmp/
+build/

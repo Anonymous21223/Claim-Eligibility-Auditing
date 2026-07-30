@@ -1,0 +1,7 @@
+config_id,family,model,rmse_bu_acre,r2,n
+extra_trees_weather,weather_only,ExtraTrees,11.39611728651672,-0.006029167206174302,1152
+extra_trees_full,full,ExtraTrees,11.426239434774194,-0.011354456218249265,1152
+ridge_metadata,metadata_only,Ridge,11.534328809881773,-0.03057928097947271,1152
+extra_trees_metadata,metadata_only,ExtraTrees,11.534328809881774,-0.030579280979472934,1152
+ridge_weather,weather_only,Ridge,11.614902544567105,-0.04502791601226064,1152
+ridge_full,full,Ridge,11.62232295138393,-0.046363615439614536,1152

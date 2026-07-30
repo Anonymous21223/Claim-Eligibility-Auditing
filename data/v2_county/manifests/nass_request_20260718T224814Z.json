@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-07-18T22:48:14.813593+00:00",
+  "source_mode": "NASS_API",
+  "endpoint": "api_GET",
+  "request": {
+    "key": "<REDACTED>",
+    "source_desc": "SURVEY",
+    "sector_desc": "CROPS",
+    "group_desc": "FIELD CROPS",
+    "agg_level_desc": "COUNTY",
+    "statisticcat_desc": "YIELD",
+    "commodity_desc": "WHEAT",
+    "year__GE": "2000",
+    "format": "JSON",
+    "state_name": "MINNESOTA"
+  },
+  "count_before_download": 1563,
+  "http_status": 200,
+  "raw_path": "data/v2_county/raw/nass/wheat_minnesota_2000_20260718T224814Z.json",
+  "sha256": "4089dc9c74457ffb8c1053402cd6e33508ce5f20eda25cc1c992502b761b9e89",
+  "records": 1563
+}

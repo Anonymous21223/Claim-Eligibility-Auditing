@@ -1,0 +1,8 @@
+{
+  "config": "configs/fidelity_gate.yaml",
+  "primary_tail": "z<-1",
+  "gate_b1": "Full vs. Metadata only",
+  "gate_b2": "Weather only vs. Metadata only diagnostic",
+  "topk_conjunction": "lift > 1; lower lift CI > 1; H p < .05; P p < .05",
+  "table_rows": 5
+}

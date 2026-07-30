@@ -1,0 +1,3 @@
+scope,n_methods,consensus_driver,rank_1_votes,methods_supporting,interpretation
+global,3,heat,2/3,"group ablation, group permutation",Heat has majority support across global model-reliance diagnostics.
+anomaly,4,drought; heat,2/4 each,"drought: group permutation, grouped SHAP; heat: group ablation, LIME selected cases",Heat and drought are co-leading anomaly-focused signals under rank-one support.

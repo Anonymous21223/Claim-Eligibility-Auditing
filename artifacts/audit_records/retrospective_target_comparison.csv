@@ -1,0 +1,2 @@
+prospective_n,prospective_events,retrospective_events,jaccard,jaccard_ci95_low,jaccard_ci95_high,status,rank_spearman,membership_transitions
+333,73,65,0.6046511627906976,0.5,0.675,RETROSPECTIVE_ONLY,0.8289779932157827,34

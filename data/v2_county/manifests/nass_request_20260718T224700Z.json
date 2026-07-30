@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-07-18T22:47:00.524766+00:00",
+  "source_mode": "NASS_API",
+  "endpoint": "api_GET",
+  "request": {
+    "key": "<REDACTED>",
+    "source_desc": "SURVEY",
+    "sector_desc": "CROPS",
+    "group_desc": "FIELD CROPS",
+    "agg_level_desc": "COUNTY",
+    "statisticcat_desc": "YIELD",
+    "commodity_desc": "WHEAT",
+    "year__GE": "2000",
+    "format": "JSON",
+    "state_name": "WASHINGTON"
+  },
+  "count_before_download": 2412,
+  "http_status": 200,
+  "raw_path": "data/v2_county/raw/nass/wheat_washington_2000_20260718T224700Z.json",
+  "sha256": "b64c7e3d1728718cb8c2920b806305885c397451bd5223db3bc632de10fd0bad",
+  "records": 2412
+}

@@ -1,0 +1,92 @@
+{
+  "selected_config": {
+    "config_id": "extra_trees_leaf_1",
+    "model": "ExtraTrees",
+    "feature_family": "weather_only",
+    "n": 140,
+    "n_seeds": 5,
+    "r2": 0.11128207399012902,
+    "rmse_t_ha": 0.38306390791634254,
+    "mae_t_ha": 0.30710041853563336,
+    "sign_accuracy": 0.5857142857142857,
+    "spearman": 0.29465219528970765,
+    "validation_seed_rmse_mean": 0.38367467024209245,
+    "validation_seed_rmse_sd": 0.002613740153447759,
+    "validation_seed_rmse_min": 0.38033593559811946,
+    "validation_seed_rmse_max": 0.3870559741312232,
+    "validation_seed_count": 5,
+    "selected": true
+  },
+  "bootstrap_draw_sha256": "879ad881615493d50ab496a8b8d165a61e650ba4ec15bb5707af0a8c31870f8a",
+  "comparisons": [
+    {
+      "gate": "Gate A",
+      "role": "primary",
+      "comparison": "extra_trees_leaf_1_weather_only_vs_zero",
+      "n_rows": 333,
+      "n_boot": 2000,
+      "resampling_unit": "year_block",
+      "left": {
+        "config_id": "extra_trees_leaf_1",
+        "feature_family": "weather_only",
+        "prediction_sha256": "f7be7b9042d741bd68e57d4f0a70a8eedb00960aca695782da0ced4dd9a16fad"
+      },
+      "right": {
+        "config_id": "zero_residual",
+        "feature_family": "baseline",
+        "prediction_sha256": "f5873aad40672c6e3e180a4d2e01ce3f276bf2963fd2bcc674dc780c7c09d223"
+      },
+      "row_id_sha256": "46eb6559bc1d0196c851225e30c573bd5dda42ff2bd74d77692c2ef37576f92b",
+      "target_sha256": "f06b0ce72260feb1514d56e651b18b61be1cb6d468a668a3f69c05316d3230d7",
+      "estimate": -0.0054190995744907,
+      "ci95_low": -0.0193637161610029,
+      "ci95_high": 0.0090775116752038
+    },
+    {
+      "gate": "Gate B1 PRIMARY",
+      "role": "primary",
+      "comparison": "extra_trees_leaf_1_full_vs_metadata_only",
+      "n_rows": 333,
+      "n_boot": 2000,
+      "resampling_unit": "year_block",
+      "left": {
+        "config_id": "extra_trees_leaf_1",
+        "feature_family": "full",
+        "prediction_sha256": "72878bd24895086d0c69f44faca568e658c60413ec7eced71565fe4748103280"
+      },
+      "right": {
+        "config_id": "extra_trees_leaf_1",
+        "feature_family": "metadata_only",
+        "prediction_sha256": "576921c4761b68bf820c51f82b520110d634cd98121e0b567b0c4e6afa427b4c"
+      },
+      "row_id_sha256": "46eb6559bc1d0196c851225e30c573bd5dda42ff2bd74d77692c2ef37576f92b",
+      "target_sha256": "f06b0ce72260feb1514d56e651b18b61be1cb6d468a668a3f69c05316d3230d7",
+      "estimate": -0.012124514160681,
+      "ci95_low": -0.0293662890400475,
+      "ci95_high": 0.0019502340837606
+    },
+    {
+      "gate": "Gate B2 DIAGNOSTIC",
+      "role": "diagnostic",
+      "comparison": "extra_trees_leaf_1_weather_only_vs_metadata_only",
+      "n_rows": 333,
+      "n_boot": 2000,
+      "resampling_unit": "year_block",
+      "left": {
+        "config_id": "extra_trees_leaf_1",
+        "feature_family": "weather_only",
+        "prediction_sha256": "f7be7b9042d741bd68e57d4f0a70a8eedb00960aca695782da0ced4dd9a16fad"
+      },
+      "right": {
+        "config_id": "extra_trees_leaf_1",
+        "feature_family": "metadata_only",
+        "prediction_sha256": "576921c4761b68bf820c51f82b520110d634cd98121e0b567b0c4e6afa427b4c"
+      },
+      "row_id_sha256": "46eb6559bc1d0196c851225e30c573bd5dda42ff2bd74d77692c2ef37576f92b",
+      "target_sha256": "f06b0ce72260feb1514d56e651b18b61be1cb6d468a668a3f69c05316d3230d7",
+      "estimate": -0.005419099574491,
+      "ci95_low": -0.0193637161609967,
+      "ci95_high": 0.0090775116752017
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "n_locked_rows": 333,
+  "queue_k": 30,
+  "precision_at_k": 0.43333333333333335,
+  "recall_at_k": 0.1780821917808219,
+  "pr_auc": 0.36045229659246747,
+  "abstention_rate": 1.0,
+  "false_interpretation_rate": 0.0,
+  "gate_coverage": 0.0,
+  "use_case": "prioritize analyst investigation; never assert cause or automate compensation"
+}

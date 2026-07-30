@@ -1,0 +1,24 @@
+{
+  "experiment_id": "county-v2-weather-models",
+  "status": "PRE_HOLDOUT_LOCKED",
+  "seed": 20260718,
+  "target": "County-specific linear yield residual, with the linear trend fit using only rows available at each evaluation stage.",
+  "selection": "Choose the lowest validation RMSE among the listed candidates. No holdout score, tail metric, subgroup, or explanation is used for selection.",
+  "weather_features": ["t2m_mean_c", "t2m_max_c", "t2m_min_c", "precip_total_mm"],
+  "metadata_features": ["county_fips", "county_lat", "county_lon"],
+  "candidates": [
+    {"id": "ridge_weather", "family": "weather_only", "model": "Ridge", "alpha": 10.0},
+    {"id": "ridge_metadata", "family": "metadata_only", "model": "Ridge", "alpha": 10.0},
+    {"id": "ridge_full", "family": "full", "model": "Ridge", "alpha": 10.0},
+    {"id": "extra_trees_weather", "family": "weather_only", "model": "ExtraTrees", "n_estimators": 300, "min_samples_leaf": 4},
+    {"id": "extra_trees_metadata", "family": "metadata_only", "model": "ExtraTrees", "n_estimators": 300, "min_samples_leaf": 4},
+    {"id": "extra_trees_full", "family": "full", "model": "ExtraTrees", "n_estimators": 300, "min_samples_leaf": 4}
+  ],
+  "holdout_gate": {
+    "baseline": "zero_residual_after_train_or_train_validation_detrending",
+    "paired_ci": "2,000 bootstrap resamples of calendar-year blocks",
+    "gate_a": "selected holdout RMSE better than zero baseline and upper paired 95% CI of model-minus-baseline RMSE < 0",
+    "gate_b1": "full versus same-model metadata-only contrast; upper paired 95% CI < 0 permits weather-specific explanation only",
+    "tail": "top-decile absolute-residual recovery must exceed 0.10 chance precision"
+  }
+}

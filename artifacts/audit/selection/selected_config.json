@@ -1,0 +1,75 @@
+{
+  "selection_train_years": "1990-2011",
+  "validation_years": "2012-2015",
+  "metric": "RMSE after fixed-seed prediction aggregation; seed RMSE SD is reported for uncertainty",
+  "tie_break": "config_id then feature_family",
+  "fixed_seeds": [
+    7,
+    17,
+    27,
+    37,
+    47
+  ],
+  "seed_aggregation": "mean prediction per row",
+  "final_test_accessed_for_selection": false,
+  "selected_config": {
+    "config_id": "extra_trees_leaf_1",
+    "model": "ExtraTrees",
+    "feature_family": "weather_only",
+    "n": 140,
+    "n_seeds": 5,
+    "r2": 0.11128207399012902,
+    "rmse_t_ha": 0.38306390791634254,
+    "mae_t_ha": 0.30710041853563336,
+    "sign_accuracy": 0.5857142857142857,
+    "spearman": 0.29465219528970765,
+    "validation_seed_rmse_mean": 0.38367467024209245,
+    "validation_seed_rmse_sd": 0.002613740153447759,
+    "validation_seed_rmse_min": 0.38033593559811946,
+    "validation_seed_rmse_max": 0.3870559741312232,
+    "validation_seed_count": 5,
+    "selected": true
+  },
+  "search_space": [
+    {
+      "config_id": "ridge_alpha_1",
+      "model": "Ridge",
+      "kind": "ridge",
+      "alpha": 1.0
+    },
+    {
+      "config_id": "ridge_alpha_10",
+      "model": "Ridge",
+      "kind": "ridge",
+      "alpha": 10.0
+    },
+    {
+      "config_id": "random_forest_leaf_1",
+      "model": "Random Forest",
+      "kind": "random_forest",
+      "min_samples_leaf": 1,
+      "n_estimators": 160
+    },
+    {
+      "config_id": "random_forest_leaf_2",
+      "model": "Random Forest",
+      "kind": "random_forest",
+      "min_samples_leaf": 2,
+      "n_estimators": 160
+    },
+    {
+      "config_id": "extra_trees_leaf_1",
+      "model": "ExtraTrees",
+      "kind": "extra_trees",
+      "min_samples_leaf": 1,
+      "n_estimators": 160
+    },
+    {
+      "config_id": "extra_trees_leaf_2",
+      "model": "ExtraTrees",
+      "kind": "extra_trees",
+      "min_samples_leaf": 2,
+      "n_estimators": 160
+    }
+  ]
+}

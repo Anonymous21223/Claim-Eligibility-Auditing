@@ -1,0 +1,11 @@
+{
+  "official_source": "U.S. Census Bureau Cartographic Boundary Files for states",
+  "official_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html",
+  "attempted_census_zip_url": "https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_us_state_20m.zip",
+  "source_used": "publicamundi_geojson_mirror",
+  "mirror_url": "https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json",
+  "fallback_error": "<HTTPError 403: 'Forbidden'>",
+  "geometry_sha256": "6f23ed91fce2c25d57c01d83225342ba40258e9571c486c3999bd827c80d193b",
+  "local_geometry": "artifacts/maps/us-states-publicamundi.geojson",
+  "retrieved_or_reused_utc": "2026-07-19T17:35:16.628840+00:00"
+}

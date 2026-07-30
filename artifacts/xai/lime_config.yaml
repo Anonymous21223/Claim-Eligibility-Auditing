@@ -1,0 +1,7 @@
+explainer: LimeTabularExplainer
+model: ExtraTreesRegressor
+feature_space: raw weather feature matrix
+output: residual_t_ha
+split: selected anomaly cases
+selection_rule: lowest z-score cases from 2012, 2021, and 2022
+random_state: 7

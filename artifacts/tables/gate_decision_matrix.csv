@@ -1,0 +1,5 @@
+gate_a,gate_b,allowed_claim
+PASS,PASS,event-level and weather-specific claims
+PASS,FAIL,event-level predictive claim only; no weather-specific claim
+FAIL,PASS,no substantive observed-event claim
+FAIL,FAIL,no substantive observed-event or weather-specific claim

@@ -1,0 +1,36 @@
+feature,driver_group,nasa_field,formula,unit,window,verification_status
+rain_sum,drought,PRECTOTCORR,sum(precipitation),mm,full growing season,EXACT_RECONSTRUCTION_PASS
+rain_mean,drought,PRECTOTCORR,mean(precipitation),mm day-1,full growing season,EXACT_RECONSTRUCTION_PASS
+dry_days_1mm,drought,PRECTOTCORR,count(precipitation < 1 mm),days,full growing season,EXACT_RECONSTRUCTION_PASS
+dry_days_2mm,drought,PRECTOTCORR,count(precipitation < 2 mm),days,full growing season,EXACT_RECONSTRUCTION_PASS
+max_dry_spell_1mm,drought,PRECTOTCORR,longest consecutive run with precipitation < 1 mm,days,full growing season,EXACT_RECONSTRUCTION_PASS
+dry_spell_events_7d,drought,PRECTOTCORR,count(consecutive dry runs >= 7 days; precipitation < 1 mm),events,full growing season,EXACT_RECONSTRUCTION_PASS
+dry_spell_events_14d,drought,PRECTOTCORR,count(consecutive dry runs >= 14 days; precipitation < 1 mm),events,full growing season,EXACT_RECONSTRUCTION_PASS
+heavy_rain_days_10,excess_rain,PRECTOTCORR,count(precipitation >= 10 mm),days,full growing season,EXACT_RECONSTRUCTION_PASS
+heavy_rain_days_20,excess_rain,PRECTOTCORR,count(precipitation >= 20 mm),days,full growing season,EXACT_RECONSTRUCTION_PASS
+heavy_rain_days_25,excess_rain,PRECTOTCORR,count(precipitation >= 25 mm),days,full growing season,EXACT_RECONSTRUCTION_PASS
+heavy_rain_days_50,excess_rain,PRECTOTCORR,count(precipitation >= 50 mm),days,full growing season,EXACT_RECONSTRUCTION_PASS
+max_1day_rain,excess_rain,PRECTOTCORR,max(1-day precipitation),mm,full growing season,EXACT_RECONSTRUCTION_PASS
+max_3day_rain,excess_rain,PRECTOTCORR,max trailing 3-day precipitation sum,mm,full growing season,EXACT_RECONSTRUCTION_PASS
+max_7day_rain,excess_rain,PRECTOTCORR,max trailing 7-day precipitation sum,mm,full growing season,EXACT_RECONSTRUCTION_PASS
+wet_days_1mm,excess_rain,PRECTOTCORR,count(precipitation >= 1 mm),days,full growing season,EXACT_RECONSTRUCTION_PASS
+season_tmax_mean,heat,T2M_MAX,mean(maximum daily temperature),degC,full growing season,EXACT_RECONSTRUCTION_PASS
+season_tmin_mean,frost_cold,T2M_MIN,mean(minimum daily temperature),degC,full growing season,EXACT_RECONSTRUCTION_PASS
+season_tmean_mean,heat,"T2M_MAX,T2M_MIN",mean((T2M_MAX + T2M_MIN) / 2),degC,full growing season,EXACT_RECONSTRUCTION_PASS
+growing_degree_days_base5,heat,"T2M_MAX,T2M_MIN","sum(max(((T2M_MAX + T2M_MIN) / 2) - 5, 0))",degC day,full growing season,EXACT_RECONSTRUCTION_PASS
+heat_days_30,heat,T2M_MAX,count(T2M_MAX >= 30 degC),days,full growing season,EXACT_RECONSTRUCTION_PASS
+heat_days_35,heat,T2M_MAX,count(T2M_MAX >= 35 degC),days,full growing season,EXACT_RECONSTRUCTION_PASS
+heat_days_40,heat,T2M_MAX,count(T2M_MAX >= 40 degC),days,full growing season,EXACT_RECONSTRUCTION_PASS
+max_consecutive_heat_days_30,heat,T2M_MAX,longest consecutive run with T2M_MAX >= 30 degC,days,full growing season,EXACT_RECONSTRUCTION_PASS
+max_consecutive_heat_days_35,heat,T2M_MAX,longest consecutive run with T2M_MAX >= 35 degC,days,full growing season,EXACT_RECONSTRUCTION_PASS
+heatwave_events_3d_30,heat,T2M_MAX,count(consecutive heat runs >= 3 days; T2M_MAX >= 30 degC),events,full growing season,EXACT_RECONSTRUCTION_PASS
+heatwave_events_3d_35,heat,T2M_MAX,count(consecutive heat runs >= 3 days; T2M_MAX >= 35 degC),events,full growing season,EXACT_RECONSTRUCTION_PASS
+heat_degree_days_30,heat,T2M_MAX,"sum(max(T2M_MAX - 30, 0))",degC day,full growing season,EXACT_RECONSTRUCTION_PASS
+heat_degree_days_35,heat,T2M_MAX,"sum(max(T2M_MAX - 35, 0))",degC day,full growing season,EXACT_RECONSTRUCTION_PASS
+hot_dry_days_30_1mm,drought,"T2M_MAX,PRECTOTCORR",count(T2M_MAX >= 30 degC and precipitation < 1 mm),days,full growing season,EXACT_RECONSTRUCTION_PASS
+frost_days_0,frost_cold,T2M_MIN,count(T2M_MIN <= 0 degC),days,full growing season,EXACT_RECONSTRUCTION_PASS
+cold_days_5,frost_cold,T2M_MIN,count(T2M_MIN <= 5 degC),days,full growing season,EXACT_RECONSTRUCTION_PASS
+min_tmin,frost_cold,T2M_MIN,min(T2M_MIN),degC,full growing season,EXACT_RECONSTRUCTION_PASS
+frost_events_2d,frost_cold,T2M_MIN,count(consecutive frost runs >= 2 days; T2M_MIN <= 0 degC),events,full growing season,EXACT_RECONSTRUCTION_PASS
+radiation_sum,radiation,ALLSKY_SFC_SW_DWN,sum(daily surface shortwave radiation),kWh m-2,full growing season,EXACT_RECONSTRUCTION_PASS
+radiation_mean,radiation,ALLSKY_SFC_SW_DWN,mean(daily surface shortwave radiation),kWh m-2 day-1,full growing season,EXACT_RECONSTRUCTION_PASS

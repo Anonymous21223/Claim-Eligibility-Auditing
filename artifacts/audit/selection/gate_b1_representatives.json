@@ -1,0 +1,74 @@
+{
+  "schema": "gate-b1-representatives-v1",
+  "gate_a_selected_config_id": "extra_trees_leaf_1",
+  "gate_a_selected_feature_family": "weather_only",
+  "protocol": "Gate A uses the single overall validation-selected configuration. Fixed architecture Gate B1 is a pre-specified feature-group contrast: Full and Metadata-only predictions use the same config id as the Gate A winner and are locked before final-test interpretation.",
+  "final_test_accessed_for_selection": false,
+  "records": [
+    {
+      "role": "Gate A selected model",
+      "config_id": "extra_trees_leaf_1",
+      "model": "ExtraTrees",
+      "feature_family": "weather_only",
+      "selection_rule": "Fixed architecture inherited from the validation-selected Gate A configuration; feature family is changed only to form the pre-specified Gate B1/B2 contrast.",
+      "validation_rmse_t_ha": 0.3830639079163425,
+      "locked_rows": 333,
+      "row_id_sha256": "46eb6559bc1d0196c851225e30c573bd5dda42ff2bd74d77692c2ef37576f92b",
+      "target_sha256": "f06b0ce72260feb1514d56e651b18b61be1cb6d468a668a3f69c05316d3230d7",
+      "prediction_sha256": "f7be7b9042d741bd68e57d4f0a70a8eedb00960aca695782da0ced4dd9a16fad",
+      "locked_test_access_for_selection": false
+    },
+    {
+      "role": "Gate B1 left representative",
+      "config_id": "extra_trees_leaf_1",
+      "model": "ExtraTrees",
+      "feature_family": "full",
+      "selection_rule": "Fixed architecture inherited from the validation-selected Gate A configuration; feature family is changed only to form the pre-specified Gate B1/B2 contrast.",
+      "validation_rmse_t_ha": 0.390242926258897,
+      "locked_rows": 333,
+      "row_id_sha256": "46eb6559bc1d0196c851225e30c573bd5dda42ff2bd74d77692c2ef37576f92b",
+      "target_sha256": "f06b0ce72260feb1514d56e651b18b61be1cb6d468a668a3f69c05316d3230d7",
+      "prediction_sha256": "72878bd24895086d0c69f44faca568e658c60413ec7eced71565fe4748103280",
+      "locked_test_access_for_selection": false
+    },
+    {
+      "role": "Gate B1 right representative",
+      "config_id": "extra_trees_leaf_1",
+      "model": "ExtraTrees",
+      "feature_family": "metadata_only",
+      "selection_rule": "Fixed architecture inherited from the validation-selected Gate A configuration; feature family is changed only to form the pre-specified Gate B1/B2 contrast.",
+      "validation_rmse_t_ha": 0.4065692344648509,
+      "locked_rows": 333,
+      "row_id_sha256": "46eb6559bc1d0196c851225e30c573bd5dda42ff2bd74d77692c2ef37576f92b",
+      "target_sha256": "f06b0ce72260feb1514d56e651b18b61be1cb6d468a668a3f69c05316d3230d7",
+      "prediction_sha256": "576921c4761b68bf820c51f82b520110d634cd98121e0b567b0c4e6afa427b4c",
+      "locked_test_access_for_selection": false
+    },
+    {
+      "role": "Gate B2 left diagnostic representative",
+      "config_id": "extra_trees_leaf_1",
+      "model": "ExtraTrees",
+      "feature_family": "weather_only",
+      "selection_rule": "Fixed architecture inherited from the validation-selected Gate A configuration; feature family is changed only to form the pre-specified Gate B1/B2 contrast.",
+      "validation_rmse_t_ha": 0.3830639079163425,
+      "locked_rows": 333,
+      "row_id_sha256": "46eb6559bc1d0196c851225e30c573bd5dda42ff2bd74d77692c2ef37576f92b",
+      "target_sha256": "f06b0ce72260feb1514d56e651b18b61be1cb6d468a668a3f69c05316d3230d7",
+      "prediction_sha256": "f7be7b9042d741bd68e57d4f0a70a8eedb00960aca695782da0ced4dd9a16fad",
+      "locked_test_access_for_selection": false
+    },
+    {
+      "role": "Gate B2 right diagnostic representative",
+      "config_id": "extra_trees_leaf_1",
+      "model": "ExtraTrees",
+      "feature_family": "metadata_only",
+      "selection_rule": "Fixed architecture inherited from the validation-selected Gate A configuration; feature family is changed only to form the pre-specified Gate B1/B2 contrast.",
+      "validation_rmse_t_ha": 0.4065692344648509,
+      "locked_rows": 333,
+      "row_id_sha256": "46eb6559bc1d0196c851225e30c573bd5dda42ff2bd74d77692c2ef37576f92b",
+      "target_sha256": "f06b0ce72260feb1514d56e651b18b61be1cb6d468a668a3f69c05316d3230d7",
+      "prediction_sha256": "576921c4761b68bf820c51f82b520110d634cd98121e0b567b0c4e6afa427b4c",
+      "locked_test_access_for_selection": false
+    }
+  ]
+}

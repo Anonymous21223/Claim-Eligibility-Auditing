@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-07-18T22:55:49.394683+00:00",
+  "source": "U.S. Census Bureau TIGERweb State_County MapServer layer 1",
+  "endpoint": "TIGERweb/State_County/MapServer/1/query",
+  "spatial_reference": "Static current county interior points; not a historical boundary reconstruction.",
+  "panel_sha256": "45eb442cd80580657516ff5c5a7f11c7fa7ab2676112ab70bfa5e157923d8668",
+  "raw_files": {
+    "data/v2_county/raw/census_tigerweb/county_centroids_state_08.json": "ff21bd3b085b32ec672aa93d96c11fce0d7305ed841e9b691c30f674ff289414",
+    "data/v2_county/raw/census_tigerweb/county_centroids_state_17.json": "9dd2646dab6062846d2355f85dc4ba873b41e65ed9713b1b1e4efa33f34ed176",
+    "data/v2_county/raw/census_tigerweb/county_centroids_state_20.json": "1ac1af6f947cbb571093d0cc7c98bb6f349fbaf0160850c1369c21fa16f8f214",
+    "data/v2_county/raw/census_tigerweb/county_centroids_state_30.json": "057272b46e76929d5539282d794c79664a707e40ba79045e3cddd3299aa97370",
+    "data/v2_county/raw/census_tigerweb/county_centroids_state_31.json": "da3ba76a189a8a60ea24082259c72934c396567a243ff6de262018125ed0cbce",
+    "data/v2_county/raw/census_tigerweb/county_centroids_state_38.json": "ccdefecf70684a5fc5020effa6dd62539052e3e9c7e1df524d21e9e9f63ffbc2",
+    "data/v2_county/raw/census_tigerweb/county_centroids_state_40.json": "b861982f43c92207f027cdbcb8450a930626a6a52f4e64c7c148e1514710faf2",
+    "data/v2_county/raw/census_tigerweb/county_centroids_state_46.json": "491217c320d3c5c6dc9ad62d6e5aa75a23ed52349d6fc328877efc3b84066d74",
+    "data/v2_county/raw/census_tigerweb/county_centroids_state_48.json": "5ab434dbf9819fba20b0eb68ba2674b2e379ca10e2b1bce459ad6f046a41944e",
+    "data/v2_county/raw/census_tigerweb/county_centroids_state_53.json": "078f931ba65d145633e2f2abbde22b2ed676f27a69c0cd6956bf26caba583e59"
+  },
+  "centroid_path": "data/v2_county/interim/county_centroids.csv",
+  "centroid_sha256": "0ccf7587b3bb2b135a56324705ce1e97cfc5cacb0040507b8cb4c969e03a4845",
+  "requested_counties": 574,
+  "matched_counties": 574,
+  "missing_counties": []
+}

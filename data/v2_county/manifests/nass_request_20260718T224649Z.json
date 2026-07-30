@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-07-18T22:46:49.819572+00:00",
+  "source_mode": "NASS_API",
+  "endpoint": "api_GET",
+  "request": {
+    "key": "<REDACTED>",
+    "source_desc": "SURVEY",
+    "sector_desc": "CROPS",
+    "group_desc": "FIELD CROPS",
+    "agg_level_desc": "COUNTY",
+    "statisticcat_desc": "YIELD",
+    "commodity_desc": "WHEAT",
+    "year__GE": "2000",
+    "format": "JSON",
+    "state_name": "MONTANA"
+  },
+  "count_before_download": 10758,
+  "http_status": 200,
+  "raw_path": "data/v2_county/raw/nass/wheat_montana_2000_20260718T224649Z.json",
+  "sha256": "8fe6cf521b104580ee96cf4ab1772afa1613e00197a21f0b1915d6c8ba9b17c9",
+  "records": 10758
+}

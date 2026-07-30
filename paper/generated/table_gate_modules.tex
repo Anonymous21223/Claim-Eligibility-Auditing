@@ -1,0 +1,10 @@
+\begin{tabular}{p{0.04\textwidth}p{0.18\textwidth}p{0.24\textwidth}p{0.22\textwidth}p{0.12\textwidth}p{0.13\textwidth}}
+\toprule
+Mod. & Role & Contrast/check & Estimate or primary statistic & Status & Decision role \\
+\midrule
+A & Overall predictive adequacy & Selected Weather-only vs. zero residual & -0.005 [-0.019, 0.009] & FAIL & Blocks overall and higher claim levels \\
+B & Incremental weather value & Full vs. Metadata-only & -0.012 [-0.029, 0.002] & FAIL & Blocks weather-specific predictive reliance \\
+E & Event-recovery adequacy & $z<-1$ tail error, rank, and top-10 null checks & RMSE -0.043 [-0.074, 0.007]; rank 0.180; top-10 1/10 & FAIL & Error CI, rank, and top-10 checks do not all pass \\
+D & Representation diagnostic & Weather-only vs. Metadata-only & -0.005 [-0.019, 0.009] & DESCRIPTIVE ONLY & CI crosses zero; diagnostic only \\
+\bottomrule
+\end{tabular}

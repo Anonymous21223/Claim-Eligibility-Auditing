@@ -1,0 +1,5 @@
+component,required_rule,observed,status
+overall_selected_vs_zero_rmse,upper paired 95% year-block CI for model-minus-zero RMSE < 0,0.00907751167520386,FAIL
+all_tail_rmse_mae_sign_rank_topk,each z threshold passes paired RMSE+MAE and fixed sign/rho/top-k thresholds,0/3 thresholds,FAIL
+temporal_stability,at least 3/4 rolling folds improve RMSE over zero,3/4 folds,PASS
+incremental_weather_full_vs_metadata,upper paired 95% year-block CI for full-minus-metadata RMSE < 0,0.0019502340837606342,FAIL

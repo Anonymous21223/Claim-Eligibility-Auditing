@@ -1,0 +1,10 @@
+gate,component,scope,status
+Gate A,overall paired RMSE,locked final test,FAIL
+Gate A,primary-tail paired RMSE,z<-1,FAIL
+Gate A,primary-tail paired MAE,z<-1,FAIL
+Gate A,rank recovery,z<-1,FAIL
+Gate A,chance-adjusted top-k recovery,z<-1,FAIL
+Gate B1,extra_trees_leaf_1_full_vs_metadata_only,locked final test,FAIL
+Gate B2,extra_trees_leaf_1_weather_only_vs_metadata_only,locked final test,FAIL
+Gate A,FINAL GATE A,z<-1,FAIL
+Gate B1,FINAL GATE B1,weather-specific claim,FAIL

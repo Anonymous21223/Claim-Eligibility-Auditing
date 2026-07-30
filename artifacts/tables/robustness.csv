@@ -1,0 +1,6 @@
+Audit,Main result,Role,Interpretation
+Rolling origin,3/4 negative; 1/4 CI pass,Diagnostic,Unstable
+Stage proxies,$\Delta$RMSE -0.001,Sensitivity,No material change
+Crop-specific,$R^2$ -0.273 to 0.072,Diagnostic,Unstable
+Leave-one-state-out,4/12 states improve,Diagnostic,Unstable
+Full-series detrending,Jaccard 0.605,Retrospective,Future yields enter target

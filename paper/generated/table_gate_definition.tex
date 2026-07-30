@@ -1,0 +1,10 @@
+\begin{tabular}{p{0.16\textwidth}p{0.24\textwidth}p{0.34\textwidth}p{0.16\textwidth}}
+\toprule
+Module & Question & Pass condition & Claim scope \\
+\midrule
+A -- Overall adequacy & Does the locked model improve on the same-target baseline? & Upper paired 95\% CI of $\Delta$RMSE $<0$. & Overall predictive claim \\
+B -- Weather value & Does Full improve on Metadata-only on the same locked rows? & Upper paired 95\% CI of $\Delta$RMSE $<0$. & Weather-specific predictive reliance \\
+E -- Event recovery & Does the model recover the primary below-trend tail beyond null checks? & Tail RMSE/MAE, rank, permutation, and top-$k$ checks all pass. & Observed below-trend event claim \\
+D -- Diagnostic & How does Weather-only compare with Metadata-only? & Reported only; not a decision module. & Descriptive diagnostic only \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,9 @@
+Analysis,Role,Population,Rows,Scale,RMSE / zero,Delta RMSE [95% CI],Result
+History 3,Primary,Same,333,t ha$^{-1}$,0.669 / 0.674,"-0.005 [-0.019, 0.009]",FAIL
+History 5,Sensitivity,Same,333,t ha$^{-1}$,0.669 / 0.674,"-0.005 [-0.019, 0.009]",FAIL
+History 8,Sensitivity,Different,313,t ha$^{-1}$,0.530 / 0.553,"-0.023 [-0.041, -0.007]",PASS*
+History 10,Sensitivity,Different,313,t ha$^{-1}$,0.530 / 0.553,"-0.023 [-0.041, -0.007]",PASS*
+Standardized target,Sensitivity,Same,333,z units,3.530 / 3.500,"0.030 [-0.009, 0.067]",FAIL
+Huber detrending,Sensitivity,Same,333,t ha$^{-1}$,0.648 / 0.655,"-0.007 [-0.022, 0.008]",FAIL
+HistGradientBoosting,Sensitivity,Same,333,t ha$^{-1}$,0.675 / 0.674,"0.001 [-0.016, 0.019]",FAIL
+ElasticNet,Sensitivity,Same,333,t ha$^{-1}$,0.674 / 0.674,"0.000 [-0.001, 0.001]",FAIL

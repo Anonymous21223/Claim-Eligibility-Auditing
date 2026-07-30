@@ -1,0 +1,5 @@
+stage,rows,rule
+raw_yield_file,1291,source table supplied in repository
+analysis_year_filter,1257,exclude 34 raw 1989 rows because analysis starts in 1990
+processed_model_frame,1257,exact reconstruction from raw yields plus NASA POWER daily input
+final_test_eligible,333,2016-2025 rows with at least three prior series observations

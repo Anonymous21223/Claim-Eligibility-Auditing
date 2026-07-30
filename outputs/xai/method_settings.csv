@@ -1,0 +1,5 @@
+setting,value,description
+random_state,7,"Seed used for ExtraTrees, sampling, and LIME"
+xai_n_estimators,160,ExtraTrees estimators for XAI models
+permutation_repeats,8,Joint shuffles per driver group
+lime_selection_rule,"lowest z-score cases from 2012, 2021, and 2022",Selected-case rule for LIME local explanations

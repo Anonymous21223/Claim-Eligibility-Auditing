@@ -1,0 +1,37 @@
+crop,region,sigma_train,finite,above_minimum
+Barley,Colorado,0.38158430319666475,True,True
+Barley,Kansas,0.4472435603743692,True,True
+Barley,Minnesota,0.5119775478479935,True,True
+Barley,Montana,0.3221923310534797,True,True
+Barley,North Dakota,0.3417442506150533,True,True
+Barley,South Dakota,0.4199432250270909,True,True
+Barley,Washington,0.47602556724670503,True,True
+Canola,Minnesota,0.28922742246449984,True,True
+Canola,Montana,0.2954890895118241,True,True
+Canola,North Dakota,0.17776143599026356,True,True
+Canola,Oklahoma,0.30720405968299414,True,True
+Canola,Washington,0.12277201126479857,True,True
+Oats,Colorado,0.23040074623810747,True,True
+Oats,Illinois,0.27422635247434635,True,True
+Oats,Iowa,0.2937474968472073,True,True
+Oats,Kansas,0.2946093955533457,True,True
+Oats,Minnesota,0.28107420113776155,True,True
+Oats,Montana,0.2561170935889374,True,True
+Oats,Nebraska,0.34391446477275683,True,True
+Oats,North Dakota,0.312903854270553,True,True
+Oats,Oklahoma,0.13386699682664363,True,True
+Oats,South Dakota,0.3110237025112855,True,True
+Oats,Texas,0.1930432323991471,True,True
+Oats,Washington,0.4025586799660393,True,True
+Wheat,Colorado,0.4046819613080583,True,True
+Wheat,Illinois,0.4223698849925863,True,True
+Wheat,Iowa,0.48073870913464606,True,True
+Wheat,Kansas,0.4106584804182411,True,True
+Wheat,Minnesota,0.46390214973285926,True,True
+Wheat,Montana,0.30890231012962466,True,True
+Wheat,Nebraska,0.3179742823229638,True,True
+Wheat,North Dakota,0.3440109305383276,True,True
+Wheat,Oklahoma,0.4006094550164978,True,True
+Wheat,South Dakota,0.32395560980073745,True,True
+Wheat,Texas,0.2332314950710128,True,True
+Wheat,Washington,0.44900631759970205,True,True

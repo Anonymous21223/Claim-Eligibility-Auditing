@@ -1,0 +1,226 @@
+event_key,country,region,crop,year,window,method,top_driver_group,score,matches_event_sanity_group
+United States|Colorado|Barley|1990|spring,United States,Colorado,Barley,1990.0,spring,grouped_shap,drought,0.18220967240233793,False
+United States|Colorado|Barley|1991|spring,United States,Colorado,Barley,1991.0,spring,grouped_shap,drought,0.14575951271538443,False
+United States|Colorado|Barley|1992|spring,United States,Colorado,Barley,1992.0,spring,grouped_shap,excess_rain,0.17741158512640248,False
+United States|Colorado|Barley|1993|spring,United States,Colorado,Barley,1993.0,spring,grouped_shap,excess_rain,0.17290183836334277,False
+United States|Colorado|Barley|2021|spring,United States,Colorado,Barley,2021.0,spring,grouped_shap,drought,0.09000610605539439,True
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022.0,spring,grouped_shap,drought,0.10278404359583082,True
+United States|Colorado|Barley|2025|spring,United States,Colorado,Barley,2025.0,spring,grouped_shap,heat,0.06341911781004371,False
+United States|Colorado|Oats|1990|spring,United States,Colorado,Oats,1990.0,spring,grouped_shap,drought,0.19324187810392407,False
+United States|Colorado|Oats|1996|spring,United States,Colorado,Oats,1996.0,spring,grouped_shap,drought,0.10265511504038384,False
+United States|Colorado|Oats|2002|spring,United States,Colorado,Oats,2002.0,spring,grouped_shap,drought,0.19686230784100417,False
+United States|Colorado|Oats|2004|spring,United States,Colorado,Oats,2004.0,spring,grouped_shap,heat,0.03464831216865147,False
+United States|Colorado|Oats|2007|spring,United States,Colorado,Oats,2007.0,spring,grouped_shap,drought,0.06722026174043291,False
+United States|Colorado|Oats|2018|spring,United States,Colorado,Oats,2018.0,spring,grouped_shap,heat,0.05908734415708509,False
+United States|Colorado|Wheat|2002|winter,United States,Colorado,Wheat,2002.0,winter,grouped_shap,drought,0.45512084505927547,False
+United States|Colorado|Wheat|2004|winter,United States,Colorado,Wheat,2004.0,winter,grouped_shap,drought,0.266786919837737,False
+United States|Colorado|Wheat|2005|winter,United States,Colorado,Wheat,2005.0,winter,grouped_shap,drought,0.28516853550376403,False
+United States|Colorado|Wheat|2006|winter,United States,Colorado,Wheat,2006.0,winter,grouped_shap,drought,0.4088803162460981,False
+United States|Colorado|Wheat|2013|winter,United States,Colorado,Wheat,2013.0,winter,grouped_shap,drought,0.3628015767388178,False
+United States|Colorado|Wheat|2020|winter,United States,Colorado,Wheat,2020.0,winter,grouped_shap,drought,0.10240698119616795,False
+United States|Colorado|Wheat|2022|winter,United States,Colorado,Wheat,2022.0,winter,grouped_shap,drought,0.15824357008073078,True
+United States|Illinois|Oats|1993|spring,United States,Illinois,Oats,1993.0,spring,grouped_shap,drought,0.2527622178077054,False
+United States|Illinois|Oats|1998|spring,United States,Illinois,Oats,1998.0,spring,grouped_shap,excess_rain,0.09733164132375813,False
+United States|Illinois|Oats|2007|spring,United States,Illinois,Oats,2007.0,spring,grouped_shap,heat,0.12619133446514497,False
+United States|Illinois|Oats|2009|spring,United States,Illinois,Oats,2009.0,spring,grouped_shap,excess_rain,0.12195169862797278,False
+United States|Illinois|Oats|2010|spring,United States,Illinois,Oats,2010.0,spring,grouped_shap,excess_rain,0.14457836423542317,False
+United States|Illinois|Oats|2019|spring,United States,Illinois,Oats,2019.0,spring,grouped_shap,frost_cold,0.031932307946518634,False
+United States|Illinois|Oats|2020|spring,United States,Illinois,Oats,2020.0,spring,grouped_shap,excess_rain,0.020156989794987715,False
+United States|Illinois|Wheat|1991|winter,United States,Illinois,Wheat,1991.0,winter,grouped_shap,drought,0.24442515572816784,False
+United States|Illinois|Wheat|1996|winter,United States,Illinois,Wheat,1996.0,winter,grouped_shap,excess_rain,0.2061401726684812,False
+United States|Illinois|Wheat|2002|winter,United States,Illinois,Wheat,2002.0,winter,grouped_shap,excess_rain,0.13820312816172248,False
+United States|Illinois|Wheat|2007|winter,United States,Illinois,Wheat,2007.0,winter,grouped_shap,excess_rain,0.208898758652811,False
+United States|Illinois|Wheat|2009|winter,United States,Illinois,Wheat,2009.0,winter,grouped_shap,excess_rain,0.17696173493818165,False
+United States|Illinois|Wheat|2010|winter,United States,Illinois,Wheat,2010.0,winter,grouped_shap,excess_rain,0.2911950625313887,False
+United States|Illinois|Wheat|2018|winter,United States,Illinois,Wheat,2018.0,winter,grouped_shap,excess_rain,0.04845489598209597,False
+United States|Illinois|Wheat|2019|winter,United States,Illinois,Wheat,2019.0,winter,grouped_shap,drought,0.043186463054248225,False
+United States|Illinois|Wheat|2020|winter,United States,Illinois,Wheat,2020.0,winter,grouped_shap,excess_rain,0.11979052974928028,False
+United States|Iowa|Oats|1991|spring,United States,Iowa,Oats,1991.0,spring,grouped_shap,excess_rain,0.14635237842825946,False
+United States|Iowa|Oats|1993|spring,United States,Iowa,Oats,1993.0,spring,grouped_shap,drought,0.281578453001407,False
+United States|Iowa|Oats|2010|spring,United States,Iowa,Oats,2010.0,spring,grouped_shap,drought,0.18104065401358269,False
+United States|Iowa|Oats|2014|spring,United States,Iowa,Oats,2014.0,spring,grouped_shap,excess_rain,0.14267966662480847,False
+United States|Iowa|Oats|2018|spring,United States,Iowa,Oats,2018.0,spring,grouped_shap,excess_rain,0.07475233996733084,False
+United States|Iowa|Oats|2019|spring,United States,Iowa,Oats,2019.0,spring,grouped_shap,drought,0.05438416015486158,False
+United States|Iowa|Wheat|1993|winter,United States,Iowa,Wheat,1993.0,winter,grouped_shap,excess_rain,0.2650184612541598,False
+United States|Iowa|Wheat|2011|winter,United States,Iowa,Wheat,2011.0,winter,grouped_shap,drought,0.18897105738169065,False
+United States|Kansas|Barley|2004|spring,United States,Kansas,Barley,2004.0,spring,grouped_shap,heat,0.2274762602466268,False
+United States|Kansas|Barley|2006|spring,United States,Kansas,Barley,2006.0,spring,grouped_shap,heat,0.23207722594154034,False
+United States|Kansas|Barley|2011|spring,United States,Kansas,Barley,2011.0,spring,grouped_shap,heat,0.42995118492968576,False
+United States|Kansas|Barley|2018|spring,United States,Kansas,Barley,2018.0,spring,grouped_shap,heat,0.12500335801840676,False
+United States|Kansas|Barley|2019|spring,United States,Kansas,Barley,2019.0,spring,grouped_shap,excess_rain,0.09175697782117762,False
+United States|Kansas|Barley|2022|spring,United States,Kansas,Barley,2022.0,spring,grouped_shap,heat,0.15829574220249182,True
+United States|Kansas|Barley|2023|spring,United States,Kansas,Barley,2023.0,spring,grouped_shap,heat,0.13044644440242775,False
+United States|Kansas|Canola|2022|spring,United States,Kansas,Canola,2022.0,spring,grouped_shap,heat,0.16398432087413115,True
+United States|Kansas|Canola|2023|spring,United States,Kansas,Canola,2023.0,spring,grouped_shap,heat,0.14354314893095546,False
+United States|Kansas|Oats|1993|spring,United States,Kansas,Oats,1993.0,spring,grouped_shap,excess_rain,0.10108535782474481,False
+United States|Kansas|Oats|2011|spring,United States,Kansas,Oats,2011.0,spring,grouped_shap,heat,0.4356727605404795,False
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012.0,spring,grouped_shap,heat,0.1175473270238339,True
+United States|Kansas|Oats|2013|spring,United States,Kansas,Oats,2013.0,spring,grouped_shap,excess_rain,0.06458933047715408,False
+United States|Kansas|Oats|2022|spring,United States,Kansas,Oats,2022.0,spring,grouped_shap,heat,0.168459742838937,True
+United States|Kansas|Wheat|1995|winter,United States,Kansas,Wheat,1995.0,winter,grouped_shap,excess_rain,0.18313003947788165,False
+United States|Kansas|Wheat|1996|winter,United States,Kansas,Wheat,1996.0,winter,grouped_shap,drought,0.21653262114152066,False
+United States|Kansas|Wheat|2006|winter,United States,Kansas,Wheat,2006.0,winter,grouped_shap,drought,0.26736284329854226,False
+United States|Kansas|Wheat|2007|winter,United States,Kansas,Wheat,2007.0,winter,grouped_shap,heat,0.13472102892755095,False
+United States|Kansas|Wheat|2014|winter,United States,Kansas,Wheat,2014.0,winter,grouped_shap,drought,0.2983285486157882,False
+United States|Kansas|Wheat|2022|winter,United States,Kansas,Wheat,2022.0,winter,grouped_shap,heat,0.05852544987000797,True
+United States|Kansas|Wheat|2023|winter,United States,Kansas,Wheat,2023.0,winter,grouped_shap,drought,0.18022515837936315,False
+United States|Minnesota|Barley|1999|spring,United States,Minnesota,Barley,1999.0,spring,grouped_shap,excess_rain,0.06823294849378839,False
+United States|Minnesota|Barley|2002|spring,United States,Minnesota,Barley,2002.0,spring,grouped_shap,drought,0.17238550444000303,False
+United States|Minnesota|Barley|2005|spring,United States,Minnesota,Barley,2005.0,spring,grouped_shap,excess_rain,0.1117906853598297,False
+United States|Minnesota|Barley|2011|spring,United States,Minnesota,Barley,2011.0,spring,grouped_shap,drought,0.11788346654571225,False
+United States|Minnesota|Barley|2014|spring,United States,Minnesota,Barley,2014.0,spring,grouped_shap,excess_rain,0.08757949694926864,False
+United States|Minnesota|Barley|2020|spring,United States,Minnesota,Barley,2020.0,spring,grouped_shap,drought,0.08472382147663701,False
+United States|Minnesota|Barley|2021|spring,United States,Minnesota,Barley,2021.0,spring,grouped_shap,drought,0.05881430542871631,True
+United States|Minnesota|Canola|2002|spring,United States,Minnesota,Canola,2002.0,spring,grouped_shap,drought,0.18857222861873404,False
+United States|Minnesota|Canola|2005|spring,United States,Minnesota,Canola,2005.0,spring,grouped_shap,excess_rain,0.11478053255379972,False
+United States|Minnesota|Canola|2020|spring,United States,Minnesota,Canola,2020.0,spring,grouped_shap,drought,0.09075931592582824,False
+United States|Minnesota|Canola|2021|spring,United States,Minnesota,Canola,2021.0,spring,grouped_shap,drought,0.059721991044247344,True
+United States|Minnesota|Oats|1991|spring,United States,Minnesota,Oats,1991.0,spring,grouped_shap,drought,0.1621380147176597,False
+United States|Minnesota|Oats|1995|spring,United States,Minnesota,Oats,1995.0,spring,grouped_shap,drought,0.11522093078944505,False
+United States|Minnesota|Oats|2011|spring,United States,Minnesota,Oats,2011.0,spring,grouped_shap,drought,0.1187305119690404,False
+United States|Minnesota|Oats|2013|spring,United States,Minnesota,Oats,2013.0,spring,grouped_shap,drought,0.045925201249737965,False
+United States|Minnesota|Oats|2018|spring,United States,Minnesota,Oats,2018.0,spring,grouped_shap,excess_rain,0.05056904345602162,False
+United States|Minnesota|Oats|2021|spring,United States,Minnesota,Oats,2021.0,spring,grouped_shap,heat,0.05104702663626394,True
+United States|Minnesota|Oats|2022|spring,United States,Minnesota,Oats,2022.0,spring,grouped_shap,frost_cold,0.03867636706123784,False
+United States|Minnesota|Wheat|1994|spring,United States,Minnesota,Wheat,1994.0,spring,grouped_shap,drought,0.08485032510665902,False
+United States|Minnesota|Wheat|1995|spring,United States,Minnesota,Wheat,1995.0,spring,grouped_shap,drought,0.11236579640607852,False
+United States|Minnesota|Wheat|1997|spring,United States,Minnesota,Wheat,1997.0,spring,grouped_shap,frost_cold,0.07041251187374761,False
+United States|Minnesota|Wheat|2002|spring,United States,Minnesota,Wheat,2002.0,spring,grouped_shap,drought,0.18886353479293888,False
+United States|Minnesota|Wheat|2020|spring,United States,Minnesota,Wheat,2020.0,spring,grouped_shap,drought,0.08596957690525829,False
+United States|Minnesota|Wheat|2021|spring,United States,Minnesota,Wheat,2021.0,spring,grouped_shap,drought,0.059789530321615936,True
+United States|Montana|Barley|2000|spring,United States,Montana,Barley,2000.0,spring,grouped_shap,drought,0.0894940702069,False
+United States|Montana|Barley|2001|spring,United States,Montana,Barley,2001.0,spring,grouped_shap,drought,0.10544646410884478,False
+United States|Montana|Barley|2002|spring,United States,Montana,Barley,2002.0,spring,grouped_shap,heat,0.16749514006014762,False
+United States|Montana|Barley|2003|spring,United States,Montana,Barley,2003.0,spring,grouped_shap,heat,0.09831807078717603,False
+United States|Montana|Barley|2021|spring,United States,Montana,Barley,2021.0,spring,grouped_shap,heat,0.06211653077921079,True
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022.0,spring,grouped_shap,heat,0.0672752616702827,True
+United States|Montana|Canola|2001|spring,United States,Montana,Canola,2001.0,spring,grouped_shap,drought,0.11056205410534574,False
+United States|Montana|Canola|2002|spring,United States,Montana,Canola,2002.0,spring,grouped_shap,heat,0.16766034780594466,False
+United States|Montana|Canola|2003|spring,United States,Montana,Canola,2003.0,spring,grouped_shap,drought,0.09955666574508865,False
+United States|Montana|Canola|2017|spring,United States,Montana,Canola,2017.0,spring,grouped_shap,drought,0.07200812930921191,False
+United States|Montana|Canola|2021|spring,United States,Montana,Canola,2021.0,spring,grouped_shap,heat,0.06328831526428898,True
+United States|Montana|Oats|1990|spring,United States,Montana,Oats,1990.0,spring,grouped_shap,drought,0.12305957793040632,False
+United States|Montana|Oats|1996|spring,United States,Montana,Oats,1996.0,spring,grouped_shap,drought,0.13097205555407712,False
+United States|Montana|Oats|2021|spring,United States,Montana,Oats,2021.0,spring,grouped_shap,drought,0.06173268599843828,True
+United States|Montana|Oats|2023|spring,United States,Montana,Oats,2023.0,spring,grouped_shap,drought,0.0432985217768325,False
+United States|Montana|Oats|2024|spring,United States,Montana,Oats,2024.0,spring,grouped_shap,heat,0.042433276170901035,False
+United States|Montana|Wheat|2001|spring,United States,Montana,Wheat,2001.0,spring,grouped_shap,drought,0.10872892168149427,False
+United States|Montana|Wheat|2002|spring,United States,Montana,Wheat,2002.0,spring,grouped_shap,heat,0.17293831841325133,False
+United States|Montana|Wheat|2017|spring,United States,Montana,Wheat,2017.0,spring,grouped_shap,drought,0.0739173526800644,False
+United States|Montana|Wheat|2021|spring,United States,Montana,Wheat,2021.0,spring,grouped_shap,drought,0.06272338687532425,True
+United States|Montana|Wheat|2022|spring,United States,Montana,Wheat,2022.0,spring,grouped_shap,heat,0.06368284699175428,True
+United States|Nebraska|Barley|2000|spring,United States,Nebraska,Barley,2000.0,spring,grouped_shap,heat,0.25338224264191184,False
+United States|Nebraska|Barley|2002|spring,United States,Nebraska,Barley,2002.0,spring,grouped_shap,heat,0.21622726050901428,False
+United States|Nebraska|Oats|1993|spring,United States,Nebraska,Oats,1993.0,spring,grouped_shap,drought,0.14689670990008544,False
+United States|Nebraska|Oats|2000|spring,United States,Nebraska,Oats,2000.0,spring,grouped_shap,heat,0.2561807810947576,False
+United States|Nebraska|Oats|2002|spring,United States,Nebraska,Oats,2002.0,spring,grouped_shap,heat,0.21350189379010948,False
+United States|Nebraska|Oats|2006|spring,United States,Nebraska,Oats,2006.0,spring,grouped_shap,heat,0.15763808011975172,False
+United States|Nebraska|Oats|2017|spring,United States,Nebraska,Oats,2017.0,spring,grouped_shap,excess_rain,0.05129504726113493,False
+United States|Nebraska|Oats|2022|spring,United States,Nebraska,Oats,2022.0,spring,grouped_shap,heat,0.13477195233887207,True
+United States|Nebraska|Oats|2025|spring,United States,Nebraska,Oats,2025.0,spring,grouped_shap,frost_cold,0.052414326012128906,False
+United States|Nebraska|Wheat|1992|winter,United States,Nebraska,Wheat,1992.0,winter,grouped_shap,drought,0.16649600301422476,False
+United States|Nebraska|Wheat|2002|winter,United States,Nebraska,Wheat,2002.0,winter,grouped_shap,drought,0.2934030713869387,False
+United States|Nebraska|Wheat|2013|winter,United States,Nebraska,Wheat,2013.0,winter,grouped_shap,drought,0.3340375263539418,False
+United States|Nebraska|Wheat|2015|winter,United States,Nebraska,Wheat,2015.0,winter,grouped_shap,drought,0.2066589234976592,False
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022.0,winter,grouped_shap,drought,0.20495311325589913,True
+United States|North Dakota|Barley|1997|spring,United States,North Dakota,Barley,1997.0,spring,grouped_shap,heat,0.1031397889718229,False
+United States|North Dakota|Barley|2002|spring,United States,North Dakota,Barley,2002.0,spring,grouped_shap,heat,0.17158128628053285,False
+United States|North Dakota|Barley|2006|spring,United States,North Dakota,Barley,2006.0,spring,grouped_shap,excess_rain,0.14567037762480195,False
+United States|North Dakota|Barley|2011|spring,United States,North Dakota,Barley,2011.0,spring,grouped_shap,excess_rain,0.14861465410601132,False
+United States|North Dakota|Barley|2021|spring,United States,North Dakota,Barley,2021.0,spring,grouped_shap,heat,0.11461909891842495,True
+United States|North Dakota|Canola|2002|spring,United States,North Dakota,Canola,2002.0,spring,grouped_shap,heat,0.16603139580791335,False
+United States|North Dakota|Canola|2007|spring,United States,North Dakota,Canola,2007.0,spring,grouped_shap,heat,0.05925094201950307,False
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012.0,spring,grouped_shap,heat,0.07622805011038183,True
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021.0,spring,grouped_shap,heat,0.11893046280009548,True
+United States|North Dakota|Oats|1997|spring,United States,North Dakota,Oats,1997.0,spring,grouped_shap,heat,0.10925315308844435,False
+United States|North Dakota|Oats|2002|spring,United States,North Dakota,Oats,2002.0,spring,grouped_shap,heat,0.17246907002449527,False
+United States|North Dakota|Oats|2006|spring,United States,North Dakota,Oats,2006.0,spring,grouped_shap,excess_rain,0.1511152811790733,False
+United States|North Dakota|Oats|2008|spring,United States,North Dakota,Oats,2008.0,spring,grouped_shap,frost_cold,0.08358153505631469,False
+United States|North Dakota|Oats|2011|spring,United States,North Dakota,Oats,2011.0,spring,grouped_shap,excess_rain,0.13952650902930397,False
+United States|North Dakota|Oats|2017|spring,United States,North Dakota,Oats,2017.0,spring,grouped_shap,drought,0.09740326677707342,False
+United States|North Dakota|Oats|2021|spring,United States,North Dakota,Oats,2021.0,spring,grouped_shap,heat,0.11361467888875762,True
+United States|North Dakota|Wheat|1997|spring,United States,North Dakota,Wheat,1997.0,spring,grouped_shap,heat,0.10834241748156127,False
+United States|North Dakota|Wheat|2002|spring,United States,North Dakota,Wheat,2002.0,spring,grouped_shap,heat,0.16990414751097027,False
+United States|North Dakota|Wheat|2006|spring,United States,North Dakota,Wheat,2006.0,spring,grouped_shap,excess_rain,0.14638621986442757,False
+United States|North Dakota|Wheat|2011|spring,United States,North Dakota,Wheat,2011.0,spring,grouped_shap,excess_rain,0.14477556019990284,False
+United States|North Dakota|Wheat|2017|spring,United States,North Dakota,Wheat,2017.0,spring,grouped_shap,drought,0.10061644963984016,False
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021.0,spring,grouped_shap,heat,0.11616642403363106,True
+United States|Oklahoma|Barley|1996|spring,United States,Oklahoma,Barley,1996.0,spring,grouped_shap,heat,0.19431449602643866,False
+United States|Oklahoma|Canola|2014|spring,United States,Oklahoma,Canola,2014.0,spring,grouped_shap,heat,0.23008489572040924,False
+United States|Oklahoma|Canola|2022|spring,United States,Oklahoma,Canola,2022.0,spring,grouped_shap,drought,0.04785905584220758,True
+United States|Oklahoma|Canola|2023|spring,United States,Oklahoma,Canola,2023.0,spring,grouped_shap,drought,0.040267965655048074,False
+United States|Oklahoma|Oats|2006|spring,United States,Oklahoma,Oats,2006.0,spring,grouped_shap,heat,0.1706417516437705,False
+United States|Oklahoma|Oats|2007|spring,United States,Oklahoma,Oats,2007.0,spring,grouped_shap,excess_rain,0.12149674748538049,False
+United States|Oklahoma|Oats|2010|spring,United States,Oklahoma,Oats,2010.0,spring,grouped_shap,heat,0.10320613926405516,False
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022.0,spring,grouped_shap,drought,0.04857352674735042,True
+United States|Oklahoma|Wheat|1995|winter,United States,Oklahoma,Wheat,1995.0,winter,grouped_shap,excess_rain,0.24576184987860528,False
+United States|Oklahoma|Wheat|1996|winter,United States,Oklahoma,Wheat,1996.0,winter,grouped_shap,drought,0.26750431975519207,False
+United States|Oklahoma|Wheat|2006|winter,United States,Oklahoma,Wheat,2006.0,winter,grouped_shap,drought,0.2538383040476899,False
+United States|Oklahoma|Wheat|2009|winter,United States,Oklahoma,Wheat,2009.0,winter,grouped_shap,drought,0.12376251165040603,False
+United States|Oklahoma|Wheat|2011|winter,United States,Oklahoma,Wheat,2011.0,winter,grouped_shap,drought,0.2722267964027052,False
+United States|Oklahoma|Wheat|2014|winter,United States,Oklahoma,Wheat,2014.0,winter,grouped_shap,drought,0.2132840042130189,False
+United States|Oklahoma|Wheat|2015|winter,United States,Oklahoma,Wheat,2015.0,winter,grouped_shap,excess_rain,0.12672391435171676,False
+United States|South Dakota|Barley|2002|spring,United States,South Dakota,Barley,2002.0,spring,grouped_shap,heat,0.22961461454652893,False
+United States|South Dakota|Barley|2011|spring,United States,South Dakota,Barley,2011.0,spring,grouped_shap,excess_rain,0.2164519592591498,False
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012.0,spring,grouped_shap,heat,0.11291250176945412,True
+United States|South Dakota|Barley|2015|spring,United States,South Dakota,Barley,2015.0,spring,grouped_shap,drought,0.05241076495191026,False
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021.0,spring,grouped_shap,heat,0.1130527517140841,True
+United States|South Dakota|Oats|1995|spring,United States,South Dakota,Oats,1995.0,spring,grouped_shap,heat,0.1521968109234767,False
+United States|South Dakota|Oats|2002|spring,United States,South Dakota,Oats,2002.0,spring,grouped_shap,heat,0.23629909388514103,False
+United States|South Dakota|Oats|2006|spring,United States,South Dakota,Oats,2006.0,spring,grouped_shap,heat,0.17141948377462685,False
+United States|South Dakota|Oats|2011|spring,United States,South Dakota,Oats,2011.0,spring,grouped_shap,excess_rain,0.22320288300617805,False
+United States|South Dakota|Oats|2021|spring,United States,South Dakota,Oats,2021.0,spring,grouped_shap,heat,0.12587844489298758,True
+United States|South Dakota|Oats|2023|spring,United States,South Dakota,Oats,2023.0,spring,grouped_shap,drought,0.03708411605480569,False
+United States|South Dakota|Wheat|1997|spring,United States,South Dakota,Wheat,1997.0,spring,grouped_shap,heat,0.12116129668081452,False
+United States|South Dakota|Wheat|2002|spring,United States,South Dakota,Wheat,2002.0,spring,grouped_shap,heat,0.23204571426417828,False
+United States|South Dakota|Wheat|2006|spring,United States,South Dakota,Wheat,2006.0,spring,grouped_shap,heat,0.17169094117044476,False
+United States|South Dakota|Wheat|2017|spring,United States,South Dakota,Wheat,2017.0,spring,grouped_shap,drought,0.0291612307318052,False
+United States|South Dakota|Wheat|2021|spring,United States,South Dakota,Wheat,2021.0,spring,grouped_shap,heat,0.12422168766403374,True
+United States|Texas|Barley|1991|spring,United States,Texas,Barley,1991.0,spring,grouped_shap,heat,0.07211537168466739,False
+United States|Texas|Barley|1994|spring,United States,Texas,Barley,1994.0,spring,grouped_shap,heat,0.10970702215014964,False
+United States|Texas|Barley|1996|spring,United States,Texas,Barley,1996.0,spring,grouped_shap,heat,0.16150317159435987,False
+United States|Texas|Barley|1999|spring,United States,Texas,Barley,1999.0,spring,grouped_shap,heat,0.13941095797220635,False
+United States|Texas|Oats|1996|spring,United States,Texas,Oats,1996.0,spring,grouped_shap,heat,0.17772076791875077,False
+United States|Texas|Oats|2006|spring,United States,Texas,Oats,2006.0,spring,grouped_shap,excess_rain,0.1000781372311996,False
+United States|Texas|Oats|2007|spring,United States,Texas,Oats,2007.0,spring,grouped_shap,drought,0.07082311992033526,False
+United States|Texas|Oats|2011|spring,United States,Texas,Oats,2011.0,spring,grouped_shap,drought,0.22311549362019945,False
+United States|Texas|Oats|2014|spring,United States,Texas,Oats,2014.0,spring,grouped_shap,heat,0.19291884508347878,False
+United States|Texas|Wheat|1994|winter,United States,Texas,Wheat,1994.0,winter,grouped_shap,heat,0.06937069460711334,False
+United States|Texas|Wheat|1996|winter,United States,Texas,Wheat,1996.0,winter,grouped_shap,drought,0.18137313780730413,False
+United States|Texas|Wheat|2006|winter,United States,Texas,Wheat,2006.0,winter,grouped_shap,drought,0.23768918618307983,False
+United States|Texas|Wheat|2009|winter,United States,Texas,Wheat,2009.0,winter,grouped_shap,drought,0.2517437921406499,False
+United States|Texas|Wheat|2011|winter,United States,Texas,Wheat,2011.0,winter,grouped_shap,drought,0.2841717222279577,False
+United States|Washington|Barley|1992|spring,United States,Washington,Barley,1992.0,spring,grouped_shap,excess_rain,0.2396812727905135,False
+United States|Washington|Barley|1994|spring,United States,Washington,Barley,1994.0,spring,grouped_shap,excess_rain,0.16966207929893373,False
+United States|Washington|Barley|2001|spring,United States,Washington,Barley,2001.0,spring,grouped_shap,excess_rain,0.21555904551473049,False
+United States|Washington|Barley|2003|spring,United States,Washington,Barley,2003.0,spring,grouped_shap,drought,0.4570151959909217,False
+United States|Washington|Barley|2015|spring,United States,Washington,Barley,2015.0,spring,grouped_shap,drought,0.42063637347634786,False
+United States|Washington|Barley|2021|spring,United States,Washington,Barley,2021.0,spring,grouped_shap,drought,0.2243454235938647,True
+United States|Washington|Barley|2023|spring,United States,Washington,Barley,2023.0,spring,grouped_shap,drought,0.037699359067301264,False
+United States|Washington|Barley|2025|spring,United States,Washington,Barley,2025.0,spring,grouped_shap,drought,0.1884885654579133,False
+United States|Washington|Canola|2014|spring,United States,Washington,Canola,2014.0,spring,grouped_shap,frost_cold,0.08014569335417883,False
+United States|Washington|Canola|2015|spring,United States,Washington,Canola,2015.0,spring,grouped_shap,drought,0.42089127930565223,False
+United States|Washington|Canola|2021|spring,United States,Washington,Canola,2021.0,spring,grouped_shap,drought,0.22150836309427174,True
+United States|Washington|Oats|1994|spring,United States,Washington,Oats,1994.0,spring,grouped_shap,drought,0.1706740132908724,False
+United States|Washington|Oats|2001|spring,United States,Washington,Oats,2001.0,spring,grouped_shap,excess_rain,0.2071885891007349,False
+United States|Washington|Oats|2003|spring,United States,Washington,Oats,2003.0,spring,grouped_shap,drought,0.45609155715990135,False
+United States|Washington|Oats|2007|spring,United States,Washington,Oats,2007.0,spring,grouped_shap,drought,0.15127536322641452,False
+United States|Washington|Oats|2017|spring,United States,Washington,Oats,2017.0,spring,grouped_shap,drought,0.0180498580845765,False
+United States|Washington|Oats|2018|spring,United States,Washington,Oats,2018.0,spring,grouped_shap,drought,0.06382792426865957,False
+United States|Washington|Wheat|1991|winter,United States,Washington,Wheat,1991.0,winter,grouped_shap,drought,0.22507406185578058,False
+United States|Washington|Wheat|1992|winter,United States,Washington,Wheat,1992.0,winter,grouped_shap,drought,0.19833580588926414,False
+United States|Washington|Wheat|2014|winter,United States,Washington,Wheat,2014.0,winter,grouped_shap,drought,0.3123859004545929,False
+United States|Washington|Wheat|2015|winter,United States,Washington,Wheat,2015.0,winter,grouped_shap,drought,0.16985065824114937,False
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021.0,winter,grouped_shap,heat,0.020006623467198507,True
+United States|Washington|Wheat|2023|winter,United States,Washington,Wheat,2023.0,winter,grouped_shap,excess_rain,0.07163396057118979,False
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022.0,spring,lime_selected,drought,0.13857870710184808,True
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012.0,spring,lime_selected,drought,0.09782040237935878,True
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022.0,spring,lime_selected,drought,0.07501506126715328,True
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022.0,winter,lime_selected,drought,0.13130984083136854,True
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012.0,spring,lime_selected,heat,0.08525997136403501,True
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021.0,spring,lime_selected,heat,0.08413423884323039,True
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021.0,spring,lime_selected,excess_rain,0.08506037584699686,False
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022.0,spring,lime_selected,heat,0.10692407605350804,True
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012.0,spring,lime_selected,heat,0.14876950690037946,True
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021.0,spring,lime_selected,heat,0.1092372361175372,True
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021.0,winter,lime_selected,heat,0.11267056107634496,True

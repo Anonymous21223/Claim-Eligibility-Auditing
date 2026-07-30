@@ -1,0 +1,15 @@
+\begin{tabular}{lllrrrccc}
+\toprule
+Model & Features & Role & $n$ & RMSE & Seed SD & $P$(rank 1) & 1-SE & Selected \\
+\midrule
+ExtraTrees (leaf=1) & Weather only & Module A; D & 140 & 0.384 & 0.003 & 0.60 & Yes & Yes \\
+ExtraTrees (leaf=2) & Weather only & Validation candidate & 140 & 0.385 & 0.001 & 0.20 & No & No \\
+Random Forest (leaf=1) & Weather only & Validation candidate & 140 & 0.387 & 0.003 & 0.20 & No & No \\
+Random Forest (leaf=2) & Weather only & Validation candidate & 140 & 0.387 & 0.002 & 0.00 & No & No \\
+ExtraTrees (leaf=2) & Full & Validation candidate & 140 & 0.389 & 0.003 & 0.00 & No & No \\
+Random Forest (leaf=1) & Full & Validation candidate & 140 & 0.390 & 0.002 & 0.00 & No & No \\
+ExtraTrees (leaf=1) & Full & Module B Full & 140 & 0.391 & 0.003 & 0.00 & No & No \\
+Ridge ($\alpha=10$) & Metadata only & Best Ridge candidate & 140 & 0.407 & N/A & N/A & No & No \\
+ExtraTrees (leaf=1) & Metadata only & Module B/D Metadata & 140 & 0.407 & 0.000 & 0.00 & No & No \\
+\bottomrule
+\end{tabular}

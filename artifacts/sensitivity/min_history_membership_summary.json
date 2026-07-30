@@ -1,0 +1,30 @@
+{
+  "3": {
+    "count": 333,
+    "row_id_sha256": "8bdd690dffb85ecf732d29eca7b049f040d4330da3cc6bf856f184eb28aaa6a6",
+    "jaccard_vs_history3": 1.0,
+    "added_vs_history3": 0,
+    "removed_vs_history3": 0
+  },
+  "5": {
+    "count": 333,
+    "row_id_sha256": "8bdd690dffb85ecf732d29eca7b049f040d4330da3cc6bf856f184eb28aaa6a6",
+    "jaccard_vs_history3": 1.0,
+    "added_vs_history3": 0,
+    "removed_vs_history3": 0
+  },
+  "8": {
+    "count": 313,
+    "row_id_sha256": "5eff6de75ee2282db9f456589cf91a04956b8ae53b22a23500180f0438c94adf",
+    "jaccard_vs_history3": 0.93993993993994,
+    "added_vs_history3": 0,
+    "removed_vs_history3": 20
+  },
+  "10": {
+    "count": 313,
+    "row_id_sha256": "5eff6de75ee2282db9f456589cf91a04956b8ae53b22a23500180f0438c94adf",
+    "jaccard_vs_history3": 0.93993993993994,
+    "added_vs_history3": 0,
+    "removed_vs_history3": 20
+  }
+}

@@ -1,0 +1,7 @@
+config_id,feature_family,display_label,in_table_iii,in_table_iv
+extra_trees_leaf_1,weather_only,ExtraTrees (leaf=1),True,True
+extra_trees_leaf_2,weather_only,ExtraTrees (leaf=2),True,True
+random_forest_leaf_1,weather_only,Random Forest (leaf=1),True,True
+random_forest_leaf_2,weather_only,Random Forest (leaf=2),True,True
+extra_trees_leaf_2,full,ExtraTrees (leaf=2),True,True
+random_forest_leaf_1,full,Random Forest (leaf=1),True,True

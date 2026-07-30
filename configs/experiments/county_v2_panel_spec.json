@@ -1,0 +1,30 @@
+{
+  "experiment_id": "county-panel-v2",
+  "status": "PRE_MODEL_LOCKED",
+  "source_scope": "USDA NASS Quick Stats county annual yield responses acquired before model fitting",
+  "canonical_filters": {
+    "source_desc": "SURVEY",
+    "agg_level_desc": "COUNTY",
+    "statisticcat_desc": "YIELD",
+    "freq_desc": "ANNUAL",
+    "domain_desc": "TOTAL",
+    "prodn_practice_desc": "ALL PRODUCTION PRACTICES",
+    "util_practice_desc": "ALL UTILIZATION PRACTICES",
+    "unit_desc": "BU / ACRE",
+    "county_ansi": "exactly three digits and not 000"
+  },
+  "crop_variant_rule": "commodity_desc + '__' + normalized class_desc; variants are never combined as one target.",
+  "population_rule": "Select the sole crop variant with at least 500 county series having 10 or more observed train-period years (year <= 2018), zero conflicting canonical values, and the largest count of valid county-year records. Retain only those qualifying county series. This rule uses source coverage only, never model metrics or holdout performance.",
+  "expected_selected_variant": "WHEAT__WINTER",
+  "split_rule": {
+    "train": "year <= 2018",
+    "validation": "2019 <= year <= 2021",
+    "locked_holdout": "year >= 2022",
+    "selection_rule": "Tune only on train/validation. Do not alter this split after inspecting holdout metrics."
+  },
+  "temporal_contract": {
+    "weather_feature_date_max": "year-12-31",
+    "target_available_date": "year-12-31",
+    "rule": "Only full-season weather ending no later than the target reference-year end may be joined. This is retrospective anomaly modeling, not an in-season forecast claim."
+  }
+}

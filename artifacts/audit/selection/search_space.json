@@ -1,0 +1,50 @@
+{
+  "configs": [
+    {
+      "config_id": "ridge_alpha_1",
+      "model": "Ridge",
+      "kind": "ridge",
+      "alpha": 1.0
+    },
+    {
+      "config_id": "ridge_alpha_10",
+      "model": "Ridge",
+      "kind": "ridge",
+      "alpha": 10.0
+    },
+    {
+      "config_id": "random_forest_leaf_1",
+      "model": "Random Forest",
+      "kind": "random_forest",
+      "min_samples_leaf": 1,
+      "n_estimators": 160
+    },
+    {
+      "config_id": "random_forest_leaf_2",
+      "model": "Random Forest",
+      "kind": "random_forest",
+      "min_samples_leaf": 2,
+      "n_estimators": 160
+    },
+    {
+      "config_id": "extra_trees_leaf_1",
+      "model": "ExtraTrees",
+      "kind": "extra_trees",
+      "min_samples_leaf": 1,
+      "n_estimators": 160
+    },
+    {
+      "config_id": "extra_trees_leaf_2",
+      "model": "ExtraTrees",
+      "kind": "extra_trees",
+      "min_samples_leaf": 2,
+      "n_estimators": 160
+    }
+  ],
+  "feature_families": [
+    "metadata_only",
+    "weather_only",
+    "full"
+  ],
+  "preprocessing": "median imputation and standardization for numeric columns; most-frequent imputation and one-hot encoding for categorical columns; all fit on each training fold only"
+}

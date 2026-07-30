@@ -1,0 +1,7 @@
+{
+  "replicates": 2000,
+  "seed": 20260718,
+  "interval": "percentile 95%",
+  "unit": "calendar year block",
+  "invalid_replicate": "fail the audit; never silently drop"
+}

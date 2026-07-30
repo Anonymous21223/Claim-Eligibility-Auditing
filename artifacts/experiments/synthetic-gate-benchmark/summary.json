@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scenarios": 14,
+  "repeats_per_scenario": 30,
+  "runs": 420,
+  "requested_claim_level": "event_recovery",
+  "valid_ground_truth_runs": 180,
+  "invalid_ground_truth_runs": 240,
+  "policy_formula": "module_a_pass AND module_b_pass AND module_e_pass",
+  "policy_uses_gt_or_oracle": false,
+  "tp": 160,
+  "fp": 171,
+  "tn": 69,
+  "fn": 20,
+  "ungated_false_permission_rate": 1.0,
+  "ungated_false_permission_ci95": [
+    0.9842455102000642,
+    1.0
+  ],
+  "observable_policy_false_permission_rate": 0.7125,
+  "observable_policy_false_permission_ci95": [
+    0.6522450823474496,
+    0.7660592594875778
+  ],
+  "observable_policy_false_abstention_rate": 0.1111111111111111,
+  "observable_policy_false_abstention_ci95": [
+    0.07308697860315694,
+    0.16538788236411053
+  ],
+  "observable_policy_permission_rate": 0.7880952380952381,
+  "observable_policy_sensitivity": 0.8888888888888888,
+  "observable_policy_specificity": 0.2875,
+  "criterion": "observable policy is scored against GT labels without using GT, scenario name, hidden DGP parameters, or oracle invalidity in the policy decision"
+}

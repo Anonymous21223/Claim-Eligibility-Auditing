@@ -1,0 +1,5 @@
+selected_model: extra_trees
+selection_period: 2012-2015
+final_train: 1990-2015
+final_test: 2016-2025
+seeds: [7, 17, 29, 43, 71]

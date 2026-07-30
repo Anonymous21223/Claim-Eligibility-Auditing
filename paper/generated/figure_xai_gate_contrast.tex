@@ -1,0 +1,15 @@
+\begin{figure*}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{p{0.30\textwidth}p{0.33\textwidth}p{0.30\textwidth}}
+\toprule
+Global fitted-function summary & Local fitted-function case & Gate outcome on locked rows \\
+\midrule
+weather: 87.3\%; state: 7.3\%; crop: 4.0\%; location: 1.5\% & Barley--Colorado 2016: predicted residual 0.209, observed residual -0.510; signed groups: heat: 0.081; drought: 0.060; frost\_cold: 0.054; excess\_rain: 0.035; radiation: -0.013 & Gate A FAIL; Gate B1 FAIL; Gate B2 FAIL. Estimates: A -0.005 [-0.019, 0.009]; B1 -0.012 [-0.029, 0.002]; B2 -0.005 [-0.019, 0.009] t ha$^{-1}$. \\
+\bottomrule
+\end{tabular}
+\caption{Agricultural explanation output under abstention. SHAP family shares and the local signed group decomposition describe the locked fitted Weather-only model, but failed Gate A and Gate B1 block observed-event and weather-specific predictive-reliance claims.}
+\label{fig:xaiabstention}
+\end{figure*}

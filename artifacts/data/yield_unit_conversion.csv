@@ -1,0 +1,2 @@
+target,raw_file,raw_unit,conversion_factor,moisture_assumption,verification
+yield_t_ha,data/raw/us_yield_1989_2025_tha.csv,t ha-1 (as stored),1.0,not documented in repository,processed target has the same unit label; upstream USDA conversion cannot be audited from this repository

@@ -1,0 +1,128 @@
+event_key,country,region,crop,year,window,feature,driver_group,lime_description,lime_weight,abs_lime_weight
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012,spring,heatwave_events_3d_30,heat,heatwave_events_3d_30 > 7.00,-0.0632212547271527,0.0632212547271527
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012,spring,rain_mean,drought,rain_mean <= 1.74,-0.03658227379343985,0.03658227379343985
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012,spring,frost_events_2d,frost_cold,frost_events_2d <= 2.00,0.0280525925001191,0.0280525925001191
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012,spring,rain_sum,drought,rain_sum <= 339.00,-0.022148842244550868,0.022148842244550868
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012,spring,heat_days_30,heat,heat_days_30 > 58.00,-0.01490740143658717,0.01490740143658717
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012,spring,hot_dry_days_30_1mm,drought,hot_dry_days_30_1mm > 41.00,-0.014630864718094553,0.014630864718094553
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012,spring,max_7day_rain,excess_rain,51.15 < max_7day_rain <= 70.93,0.014560601540968653,0.014560601540968653
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012,spring,max_dry_spell_1mm,drought,12.00 < max_dry_spell_1mm <= 16.00,-0.01389322059916152,0.01389322059916152
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012,spring,max_1day_rain,excess_rain,31.37 < max_1day_rain <= 43.34,-0.01210240591989656,0.01210240591989656
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012,spring,dry_spell_events_14d,drought,0.00 < dry_spell_events_14d <= 1.00,0.010565201024111997,0.010565201024111997
+United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012,spring,heavy_rain_days_20,excess_rain,1.00 < heavy_rain_days_20 <= 3.00,-0.009319981625912148,0.009319981625912148
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012,spring,heatwave_events_3d_30,heat,3.00 < heatwave_events_3d_30 <= 7.00,-0.020547374643835804,0.020547374643835804
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012,spring,heavy_rain_days_20,excess_rain,heavy_rain_days_20 <= 1.00,-0.017071936483895364,0.017071936483895364
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012,spring,season_tmean_mean,heat,15.42 < season_tmean_mean <= 18.92,-0.015306395662844207,0.015306395662844207
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012,spring,heat_days_35,heat,2.00 < heat_days_35 <= 13.00,-0.014776311426673305,0.014776311426673305
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012,spring,season_tmax_mean,heat,21.66 < season_tmax_mean <= 25.36,0.013809512947915185,0.013809512947915185
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012,spring,min_tmin,frost_cold,-6.76 < min_tmin <= -4.71,0.013465068225348674,0.013465068225348674
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012,spring,heavy_rain_days_50,excess_rain,heavy_rain_days_50 <= 0.00,-0.011880411075845384,0.011880411075845384
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012,spring,growing_degree_days_base5,heat,2101.86 < growing_degree_days_base5 <= 2680.07,-0.011483147185094439,0.011483147185094439
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012,spring,dry_days_2mm,drought,138.00 < dry_days_2mm <= 155.00,0.011132685932076917,0.011132685932076917
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012,spring,dry_spell_events_14d,drought,0.00 < dry_spell_events_14d <= 1.00,0.010878490230178233,0.010878490230178233
+United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012,spring,max_consecutive_heat_days_30,heat,6.00 < max_consecutive_heat_days_30 <= 13.00,-0.009337229497672071,0.009337229497672071
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,heatwave_events_3d_30,heat,heatwave_events_3d_30 > 7.00,-0.09623044518489889,0.09623044518489889
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,rain_mean,drought,rain_mean <= 1.74,-0.04382857420253874,0.04382857420253874
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,rain_sum,drought,rain_sum <= 339.00,-0.027153848029994432,0.027153848029994432
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,wet_days_1mm,excess_rain,wet_days_1mm <= 60.00,-0.025138193598431315,0.025138193598431315
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,heat_days_30,heat,heat_days_30 > 58.00,-0.02488246971849909,0.02488246971849909
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,max_7day_rain,excess_rain,51.15 < max_7day_rain <= 70.93,0.023604776100336265,0.023604776100336265
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,heavy_rain_days_50,excess_rain,heavy_rain_days_50 <= 0.00,-0.019683465728268915,0.019683465728268915
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,frost_events_2d,frost_cold,frost_events_2d <= 2.00,0.017170348256911626,0.017170348256911626
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,season_tmax_mean,heat,season_tmax_mean > 25.36,-0.01485566540542066,0.01485566540542066
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,cold_days_5,frost_cold,cold_days_5 <= 30.00,-0.014312050181774824,0.014312050181774824
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,heatwave_events_3d_35,heat,heatwave_events_3d_35 > 2.00,-0.012800926591560836,0.012800926591560836
+United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012,spring,heavy_rain_days_25,excess_rain,1.00 < heavy_rain_days_25 <= 3.00,-0.010551521365313508,0.010551521365313508
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,heatwave_events_3d_30,heat,heatwave_events_3d_30 > 7.00,-0.08446554111431961,0.08446554111431961
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,rain_sum,drought,rain_sum <= 339.00,-0.03497251498928328,0.03497251498928328
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,rain_mean,drought,1.74 < rain_mean <= 2.23,0.023318314462189536,0.023318314462189536
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,max_3day_rain,excess_rain,38.29 < max_3day_rain <= 50.97,0.0228724899740993,0.0228724899740993
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,heavy_rain_days_20,excess_rain,heavy_rain_days_20 <= 1.00,-0.01793031167296438,0.01793031167296438
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,max_7day_rain,excess_rain,51.15 < max_7day_rain <= 70.93,0.01581504228091081,0.01581504228091081
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,season_tmin_mean,frost_cold,season_tmin_mean > 12.24,-0.015672727614200754,0.015672727614200754
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,heat_days_40,heat,heat_days_40 > 0.00,0.013989959230801683,0.013989959230801683
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,heavy_rain_days_25,excess_rain,heavy_rain_days_25 <= 0.00,0.012171687126524512,0.012171687126524512
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,radiation_sum,radiation,3608.74 < radiation_sum <= 3804.06,-0.011200143192317519,0.011200143192317519
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,heavy_rain_days_50,excess_rain,heavy_rain_days_50 <= 0.00,-0.010848697536671685,0.010848697536671685
+United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021,spring,season_tmean_mean,heat,season_tmean_mean > 18.92,-0.010781735772415908,0.010781735772415908
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021,winter,season_tmax_mean,heat,season_tmax_mean <= 19.33,0.026665391198038894,0.026665391198038894
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021,winter,dry_spell_events_14d,drought,1.00 < dry_spell_events_14d <= 2.00,0.025504951726421032,0.025504951726421032
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021,winter,heatwave_events_3d_30,heat,heatwave_events_3d_30 <= 1.00,0.02259468723326629,0.02259468723326629
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021,winter,min_tmin,frost_cold,min_tmin <= -12.42,-0.020830268079865603,0.020830268079865603
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021,winter,season_tmean_mean,heat,season_tmean_mean <= 12.56,0.019226716513919145,0.019226716513919145
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021,winter,heat_days_30,heat,heat_days_30 <= 9.00,0.016011182405638678,0.016011182405638678
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021,winter,heat_days_40,heat,heat_days_40 <= 0.00,-0.014354224128981139,0.014354224128981139
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021,winter,rain_mean,drought,2.23 < rain_mean <= 2.84,0.014274657776138289,0.014274657776138289
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021,winter,max_consecutive_heat_days_35,heat,1.00 < max_consecutive_heat_days_35 <= 4.00,-0.013818359596500818,0.013818359596500818
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021,winter,dry_spell_events_7d,drought,dry_spell_events_7d > 8.00,0.00927630629092855,0.00927630629092855
+United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021,winter,rain_sum,drought,rain_sum > 591.87,0.008704296784221566,0.008704296784221566
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021,spring,heatwave_events_3d_30,heat,heatwave_events_3d_30 > 7.00,-0.06693425514707091,0.06693425514707091
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021,spring,frost_events_2d,frost_cold,frost_events_2d <= 2.00,0.029160634771926968,0.029160634771926968
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021,spring,heavy_rain_days_50,excess_rain,heavy_rain_days_50 <= 0.00,-0.018200855081184936,0.018200855081184936
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021,spring,rain_sum,drought,rain_sum <= 339.00,-0.0163532871367783,0.0163532871367783
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021,spring,max_7day_rain,excess_rain,51.15 < max_7day_rain <= 70.93,0.015271560691065214,0.015271560691065214
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021,spring,rain_mean,drought,rain_mean <= 1.74,-0.011753660646946325,0.011753660646946325
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021,spring,heat_days_35,heat,heat_days_35 > 13.00,-0.010214536572970341,0.010214536572970341
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021,spring,heavy_rain_days_20,excess_rain,heavy_rain_days_20 <= 1.00,-0.009479686161709126,0.009479686161709126
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021,spring,season_tmin_mean,frost_cold,9.32 < season_tmin_mean <= 12.24,-0.009178439889766724,0.009178439889766724
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021,spring,heavy_rain_days_25,excess_rain,0.00 < heavy_rain_days_25 <= 1.00,-0.007658613429811706,0.007658613429811706
+United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021,spring,growing_degree_days_base5,heat,2101.86 < growing_degree_days_base5 <= 2680.07,-0.006985447123189137,0.006985447123189137
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,heatwave_events_3d_30,heat,heatwave_events_3d_30 > 7.00,-0.05424520863567762,0.05424520863567762
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,heavy_rain_days_20,excess_rain,heavy_rain_days_20 <= 1.00,-0.023660077852534586,0.023660077852534586
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,heavy_rain_days_50,excess_rain,heavy_rain_days_50 <= 0.00,-0.020279061724014964,0.020279061724014964
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,frost_events_2d,frost_cold,frost_events_2d <= 2.00,0.018718124677938597,0.018718124677938597
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,heat_days_35,heat,heat_days_35 > 13.00,-0.01606156139255476,0.01606156139255476
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,max_7day_rain,excess_rain,51.15 < max_7day_rain <= 70.93,0.0150027915541467,0.0150027915541467
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,wet_days_1mm,excess_rain,wet_days_1mm <= 60.00,-0.013733013315765196,0.013733013315765196
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,hot_dry_days_30_1mm,drought,hot_dry_days_30_1mm > 41.00,-0.013358597024106855,0.013358597024106855
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,heavy_rain_days_25,excess_rain,0.00 < heavy_rain_days_25 <= 1.00,-0.012385431400535411,0.012385431400535411
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,radiation_sum,radiation,3608.74 < radiation_sum <= 3804.06,-0.010881279339308497,0.010881279339308497
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,heatwave_events_3d_35,heat,0.00 < heatwave_events_3d_35 <= 2.00,0.010178994922239925,0.010178994922239925
+United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021,spring,dry_spell_events_14d,drought,0.00 < dry_spell_events_14d <= 1.00,0.009825612516060832,0.009825612516060832
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,dry_spell_events_14d,drought,dry_spell_events_14d > 2.00,-0.05274175381130854,0.05274175381130854
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,heatwave_events_3d_30,heat,heatwave_events_3d_30 > 7.00,-0.04787811668019758,0.04787811668019758
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,frost_events_2d,frost_cold,frost_events_2d <= 2.00,0.02351678091380386,0.02351678091380386
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,heavy_rain_days_50,excess_rain,heavy_rain_days_50 > 0.00,0.02062137115678825,0.02062137115678825
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,heat_days_30,heat,heat_days_30 > 58.00,-0.01942382299910278,0.01942382299910278
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,heat_degree_days_30,heat,heat_degree_days_30 > 191.26,0.013595363984257014,0.013595363984257014
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,heat_days_35,heat,heat_days_35 > 13.00,-0.013028974419796823,0.013028974419796823
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,heatwave_events_3d_35,heat,heatwave_events_3d_35 > 2.00,-0.012997797970153848,0.012997797970153848
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,max_3day_rain,excess_rain,max_3day_rain > 67.19,0.010996337662881068,0.010996337662881068
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,rain_sum,drought,443.60 < rain_sum <= 591.87,0.010429114371734568,0.010429114371734568
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,max_dry_spell_1mm,drought,16.00 < max_dry_spell_1mm <= 22.00,0.009788878058241962,0.009788878058241962
+United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022,spring,rain_mean,drought,rain_mean > 2.84,0.009635957152448783,0.009635957152448783
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,rain_mean,drought,rain_mean <= 1.74,-0.04434351883442236,0.04434351883442236
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,dry_spell_events_14d,drought,dry_spell_events_14d > 2.00,-0.041751747633461914,0.041751747633461914
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,frost_events_2d,frost_cold,frost_events_2d > 6.00,-0.03496579607820376,0.03496579607820376
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,heatwave_events_3d_30,heat,1.00 < heatwave_events_3d_30 <= 3.00,0.03340217334035332,0.03340217334035332
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,rain_sum,drought,rain_sum <= 339.00,-0.026646427477319518,0.026646427477319518
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,wet_days_1mm,excess_rain,wet_days_1mm <= 60.00,-0.021422990660975312,0.021422990660975312
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,min_tmin,frost_cold,min_tmin <= -12.42,-0.020704331829255147,0.020704331829255147
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,dry_days_2mm,drought,dry_days_2mm > 155.00,-0.018568146886164746,0.018568146886164746
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,season_tmax_mean,heat,season_tmax_mean <= 19.33,0.018328142106505702,0.018328142106505702
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,heat_degree_days_35,heat,1.04 < heat_degree_days_35 <= 25.21,0.012297717363473308,0.012297717363473308
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,max_3day_rain,excess_rain,38.29 < max_3day_rain <= 50.97,-0.010936470461847156,0.010936470461847156
+United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022,winter,max_consecutive_heat_days_30,heat,max_consecutive_heat_days_30 > 13.00,0.010143370039434987,0.010143370039434987
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,heatwave_events_3d_30,heat,heatwave_events_3d_30 <= 1.00,0.04882008957972053,0.04882008957972053
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,dry_spell_events_14d,drought,1.00 < dry_spell_events_14d <= 2.00,0.03919338702063453,0.03919338702063453
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,max_7day_rain,excess_rain,51.15 < max_7day_rain <= 70.93,0.03784041733684046,0.03784041733684046
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,rain_sum,drought,rain_sum <= 339.00,-0.033401072009048245,0.033401072009048245
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,rain_mean,drought,1.74 < rain_mean <= 2.23,0.03171347223928659,0.03171347223928659
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,max_dry_spell_1mm,drought,12.00 < max_dry_spell_1mm <= 16.00,-0.022845938021606612,0.022845938021606612
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,season_tmean_mean,heat,season_tmean_mean <= 12.56,0.018917226436596494,0.018917226436596494
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,heavy_rain_days_20,excess_rain,heavy_rain_days_20 <= 1.00,-0.01829254116855791,0.01829254116855791
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,hot_dry_days_30_1mm,drought,hot_dry_days_30_1mm <= 6.00,0.011424837811272114,0.011424837811272114
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,frost_days_0,frost_cold,frost_days_0 > 41.00,-0.01075494812317738,0.01075494812317738
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,heavy_rain_days_50,excess_rain,heavy_rain_days_50 <= 0.00,-0.0107407497789737,0.0107407497789737
+United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022,spring,max_consecutive_heat_days_35,heat,max_consecutive_heat_days_35 <= 0.00,0.010179719438060005,0.010179719438060005
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022,spring,rain_sum,drought,rain_sum <= 339.00,-0.04391344861807148,0.04391344861807148
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022,spring,rain_mean,drought,1.74 < rain_mean <= 2.23,0.02224175092961412,0.02224175092961412
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022,spring,heavy_rain_days_20,excess_rain,heavy_rain_days_20 <= 1.00,-0.019350539944473177,0.019350539944473177
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022,spring,growing_degree_days_base5,heat,1662.20 < growing_degree_days_base5 <= 2101.86,-0.01877077149418815,0.01877077149418815
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022,spring,min_tmin,frost_cold,min_tmin <= -12.42,-0.017347907039962893,0.017347907039962893
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022,spring,wet_days_1mm,excess_rain,60.00 < wet_days_1mm <= 68.00,-0.017094451954068408,0.017094451954068408
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022,spring,max_7day_rain,excess_rain,max_7day_rain <= 51.15,-0.016734301306611153,0.016734301306611153
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022,spring,max_consecutive_heat_days_35,heat,0.00 < max_consecutive_heat_days_35 <= 1.00,0.013854127760029502,0.013854127760029502
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022,spring,heat_days_40,heat,heat_days_40 <= 0.00,-0.010092391291557265,0.010092391291557265
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022,spring,dry_spell_events_14d,drought,dry_spell_events_14d <= 0.00,0.008859861719467685,0.008859861719467685
+United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022,spring,heavy_rain_days_50,excess_rain,heavy_rain_days_50 <= 0.00,-0.007952274813426956,0.007952274813426956

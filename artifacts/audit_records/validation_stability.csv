@@ -1,0 +1,19 @@
+config_id,model,feature_family,seed_count,rmse_mean,rmse_sd,first_rank_count,rank_first_probability,one_standard_error_eligible
+extra_trees_leaf_1,ExtraTrees,weather_only,5,0.3836746702420924,0.0026137401534477825,3,0.6,True
+extra_trees_leaf_2,ExtraTrees,weather_only,5,0.3848971207962804,0.0014358175355406852,1,0.2,False
+random_forest_leaf_1,Random Forest,weather_only,5,0.3870768893212215,0.002825341804487069,1,0.2,False
+random_forest_leaf_2,Random Forest,weather_only,5,0.3874282622229881,0.001963806805423995,0,0.0,False
+extra_trees_leaf_2,ExtraTrees,full,5,0.3889481532615446,0.0025205031044155035,0,0.0,False
+random_forest_leaf_1,Random Forest,full,5,0.3899082585275614,0.002070468445637054,0,0.0,False
+random_forest_leaf_2,Random Forest,full,5,0.3901267868919759,0.0014160902616535379,0,0.0,False
+extra_trees_leaf_1,ExtraTrees,full,5,0.3909456238429632,0.002619961624104043,0,0.0,False
+ridge_alpha_10,Ridge,metadata_only,1,0.4065692344648505,,1,1.0,False
+ridge_alpha_1,Ridge,metadata_only,1,0.4065692344648506,,0,0.0,False
+extra_trees_leaf_1,ExtraTrees,metadata_only,5,0.40656923446485094,0.0,0,0.0,False
+extra_trees_leaf_2,ExtraTrees,metadata_only,5,0.40656923446485094,0.0,0,0.0,False
+random_forest_leaf_2,Random Forest,metadata_only,5,0.40714501471960374,0.001037582554013443,0,0.0,False
+random_forest_leaf_1,Random Forest,metadata_only,5,0.4071565527336265,0.0011408700950122684,0,0.0,False
+ridge_alpha_10,Ridge,weather_only,1,0.41268431006987,,0,0.0,False
+ridge_alpha_10,Ridge,full,1,0.4133452104013454,,0,0.0,False
+ridge_alpha_1,Ridge,weather_only,1,0.4224491205409694,,0,0.0,False
+ridge_alpha_1,Ridge,full,1,0.4245068971377095,,0,0.0,False

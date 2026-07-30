@@ -1,0 +1,345 @@
+method,row_id,event_key,row_scope,present_in_scored_panel,output_scale,interpretation_status
+SHAP,Barley|Colorado|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Colorado|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Colorado|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Colorado|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Colorado|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Colorado|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Colorado|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Colorado|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Colorado|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Colorado|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Kansas|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Kansas|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Kansas|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Kansas|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Kansas|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Kansas|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Kansas|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Kansas|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Minnesota|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Minnesota|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Minnesota|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Minnesota|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Minnesota|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Minnesota|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Minnesota|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Minnesota|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Minnesota|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Minnesota|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Montana|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Montana|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Montana|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Montana|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Montana|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Montana|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Montana|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Montana|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Montana|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Montana|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|North Dakota|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|North Dakota|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|North Dakota|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|North Dakota|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|North Dakota|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|North Dakota|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|North Dakota|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|North Dakota|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|North Dakota|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|North Dakota|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|South Dakota|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|South Dakota|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|South Dakota|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|South Dakota|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|South Dakota|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|South Dakota|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|South Dakota|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|South Dakota|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Washington|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Washington|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Washington|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Washington|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Washington|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Washington|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Washington|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Washington|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Washington|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Barley|Washington|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Minnesota|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Minnesota|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Minnesota|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Minnesota|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Minnesota|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Minnesota|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Minnesota|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Minnesota|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Minnesota|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Minnesota|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Montana|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Montana|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Montana|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Montana|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Montana|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Montana|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Montana|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Montana|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Montana|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Montana|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|North Dakota|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|North Dakota|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|North Dakota|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|North Dakota|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|North Dakota|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|North Dakota|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|North Dakota|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|North Dakota|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|North Dakota|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|North Dakota|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Oklahoma|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Oklahoma|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Oklahoma|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Oklahoma|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Oklahoma|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Oklahoma|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Oklahoma|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Oklahoma|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Oklahoma|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Oklahoma|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Washington|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Washington|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Washington|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Washington|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Washington|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Washington|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Washington|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Washington|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Washington|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Canola|Washington|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Colorado|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Colorado|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Colorado|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Illinois|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Illinois|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Illinois|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Illinois|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Illinois|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Illinois|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Illinois|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Illinois|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Illinois|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Illinois|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Iowa|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Iowa|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Iowa|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Iowa|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Iowa|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Iowa|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Iowa|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Iowa|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Iowa|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Iowa|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Kansas|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Kansas|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Kansas|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Kansas|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Kansas|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Kansas|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Kansas|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Kansas|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Kansas|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Kansas|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Minnesota|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Minnesota|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Minnesota|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Minnesota|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Minnesota|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Minnesota|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Minnesota|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Minnesota|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Minnesota|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Minnesota|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Montana|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Montana|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Montana|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Montana|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Montana|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Montana|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Montana|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Montana|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Montana|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Montana|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Nebraska|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Nebraska|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Nebraska|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Nebraska|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Nebraska|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Nebraska|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Nebraska|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Nebraska|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Nebraska|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Nebraska|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|North Dakota|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|North Dakota|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|North Dakota|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|North Dakota|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|North Dakota|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|North Dakota|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|North Dakota|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|North Dakota|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|North Dakota|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|North Dakota|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Oklahoma|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Oklahoma|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Oklahoma|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Oklahoma|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Oklahoma|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Oklahoma|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Oklahoma|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Oklahoma|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|South Dakota|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|South Dakota|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|South Dakota|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|South Dakota|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|South Dakota|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|South Dakota|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|South Dakota|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|South Dakota|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|South Dakota|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|South Dakota|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Texas|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Texas|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Texas|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Texas|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Texas|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Texas|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Texas|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Texas|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Texas|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Texas|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Washington|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Washington|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Oats|Washington|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Colorado|2016|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Colorado|2017|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Colorado|2018|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Colorado|2019|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Colorado|2020|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Colorado|2021|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Colorado|2022|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Colorado|2023|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Colorado|2024|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Colorado|2025|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Illinois|2016|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Illinois|2017|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Illinois|2018|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Illinois|2019|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Illinois|2020|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Illinois|2021|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Illinois|2022|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Illinois|2023|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Illinois|2024|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Illinois|2025|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Iowa|2016|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Iowa|2017|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Iowa|2018|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Kansas|2016|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Kansas|2017|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Kansas|2018|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Kansas|2019|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Kansas|2020|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Kansas|2021|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Kansas|2022|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Kansas|2023|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Kansas|2024|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Kansas|2025|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Minnesota|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Minnesota|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Minnesota|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Minnesota|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Minnesota|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Minnesota|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Minnesota|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Minnesota|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Minnesota|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Minnesota|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Montana|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Montana|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Montana|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Montana|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Montana|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Montana|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Montana|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Montana|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Montana|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Montana|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Nebraska|2016|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Nebraska|2017|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Nebraska|2018|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Nebraska|2019|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Nebraska|2020|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Nebraska|2021|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Nebraska|2022|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Nebraska|2023|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Nebraska|2024|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Nebraska|2025|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|North Dakota|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|North Dakota|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|North Dakota|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|North Dakota|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|North Dakota|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|North Dakota|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|North Dakota|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|North Dakota|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|North Dakota|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|North Dakota|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Oklahoma|2016|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Oklahoma|2017|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Oklahoma|2018|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Oklahoma|2019|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Oklahoma|2020|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Oklahoma|2021|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Oklahoma|2022|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Oklahoma|2023|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Oklahoma|2024|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Oklahoma|2025|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|South Dakota|2016|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|South Dakota|2017|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|South Dakota|2018|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|South Dakota|2019|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|South Dakota|2020|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|South Dakota|2021|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|South Dakota|2022|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|South Dakota|2023|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|South Dakota|2024|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|South Dakota|2025|spring,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Texas|2016|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Texas|2017|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Texas|2018|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Texas|2019|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Texas|2020|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Texas|2021|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Texas|2022|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Texas|2023|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Texas|2024|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Texas|2025|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Washington|2016|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Washington|2017|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Washington|2018|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Washington|2019|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Washington|2020|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Washington|2021|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Washington|2022|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Washington|2023|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Washington|2024|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+SHAP,Wheat|Washington|2025|winter,,locked_2016_2025,True,predicted raw residual t/ha,descriptive_only_gate_failed
+LIME,Oats|Kansas|2012|spring,United States|Kansas|Oats|2012|spring,pre-specified selected anomaly cases,True,predicted raw residual t/ha,descriptive_only_gate_failed
+LIME,Canola|North Dakota|2012|spring,United States|North Dakota|Canola|2012|spring,pre-specified selected anomaly cases,True,predicted raw residual t/ha,descriptive_only_gate_failed
+LIME,Barley|South Dakota|2012|spring,United States|South Dakota|Barley|2012|spring,pre-specified selected anomaly cases,True,predicted raw residual t/ha,descriptive_only_gate_failed
+LIME,Barley|South Dakota|2021|spring,United States|South Dakota|Barley|2021|spring,pre-specified selected anomaly cases,True,predicted raw residual t/ha,descriptive_only_gate_failed
+LIME,Wheat|Washington|2021|winter,United States|Washington|Wheat|2021|winter,pre-specified selected anomaly cases,True,predicted raw residual t/ha,descriptive_only_gate_failed
+LIME,Canola|North Dakota|2021|spring,United States|North Dakota|Canola|2021|spring,pre-specified selected anomaly cases,True,predicted raw residual t/ha,descriptive_only_gate_failed
+LIME,Wheat|North Dakota|2021|spring,United States|North Dakota|Wheat|2021|spring,pre-specified selected anomaly cases,True,predicted raw residual t/ha,descriptive_only_gate_failed
+LIME,Oats|Oklahoma|2022|spring,United States|Oklahoma|Oats|2022|spring,pre-specified selected anomaly cases,True,predicted raw residual t/ha,descriptive_only_gate_failed
+LIME,Wheat|Nebraska|2022|winter,United States|Nebraska|Wheat|2022|winter,pre-specified selected anomaly cases,True,predicted raw residual t/ha,descriptive_only_gate_failed
+LIME,Barley|Colorado|2022|spring,United States|Colorado|Barley|2022|spring,pre-specified selected anomaly cases,True,predicted raw residual t/ha,descriptive_only_gate_failed
+LIME,Barley|Montana|2022|spring,United States|Montana|Barley|2022|spring,pre-specified selected anomaly cases,True,predicted raw residual t/ha,descriptive_only_gate_failed

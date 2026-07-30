@@ -1,0 +1,1091 @@
+scope,driver_group,mean_abs_group_shap,mean_signed_group_shap,mean_stress_group_shap,n_rows,rank_abs,rank_stress,table,event_key,country,region,crop,year,window,signed_group_shap,abs_group_shap,stress_score
+all_rows,heat,0.05844590403630286,-0.002750452414826089,0.03059817822556448,1257.0,2,2,summary,,,,,,,,,
+all_rows,drought,0.06867343812255776,8.358071403579812e-05,0.03429492870426098,1257.0,1,1,summary,,,,,,,,,
+all_rows,frost_cold,0.028328224311691838,-3.9108599802623e-06,0.01416606758583605,1257.0,4,4,summary,,,,,,,,,
+all_rows,excess_rain,0.05279958941771267,0.0006321000836660975,0.026083744667023286,1257.0,3,3,summary,,,,,,,,,
+all_rows,radiation,0.012038252655771967,-2.3035877137192728e-05,0.0060306442664545806,1257.0,5,5,summary,,,,,,,,,
+anomaly_rows,heat,0.08277435494289768,-0.07296520019640622,0.07786977756965195,214.0,2,2,summary,,,,,,,,,
+anomaly_rows,drought,0.11122370986407892,-0.09716442742794207,0.10419406864601048,214.0,1,1,summary,,,,,,,,,
+anomaly_rows,frost_cold,0.03710939971361434,-0.030845653770978268,0.0339775267422963,214.0,4,4,summary,,,,,,,,,
+anomaly_rows,excess_rain,0.08209825815262328,-0.07347744324239447,0.07778785069750889,214.0,3,3,summary,,,,,,,,,
+anomaly_rows,radiation,0.014908823720262346,-0.013421806334327862,0.014165315027295105,214.0,5,5,summary,,,,,,,,,
+eval_all_rows,heat,0.04112701111662533,-0.010079646313225641,0.025603328714925485,343.0,2,1,summary,,,,,,,,,
+eval_all_rows,drought,0.0479758059048274,0.0003063001677638511,0.023834752868531775,343.0,1,2,summary,,,,,,,,,
+eval_all_rows,frost_cold,0.018668750295459884,-1.433221864486602e-05,0.009341541257052374,343.0,4,4,summary,,,,,,,,,
+eval_all_rows,excess_rain,0.030611498534558423,0.002316471735184512,0.014147513399686956,343.0,3,3,summary,,,,,,,,,
+eval_all_rows,radiation,0.008951041024038275,-8.442010950860434e-05,0.004517730566773438,343.0,5,5,summary,,,,,,,,,
+eval_anomaly_rows,heat,0.056580327522528555,-0.03451926480098661,0.04554979616175758,67.0,2,1,summary,,,,,,,,,
+eval_anomaly_rows,drought,0.0613854462210235,-0.019579828327150727,0.04048263727408711,67.0,1,2,summary,,,,,,,,,
+eval_anomaly_rows,frost_cold,0.017580724396365998,-0.0034602148908249746,0.010520469643595487,67.0,4,4,summary,,,,,,,,,
+eval_anomaly_rows,excess_rain,0.035264140307453215,-0.009149010605499979,0.022206575456476602,67.0,3,3,summary,,,,,,,,,
+eval_anomaly_rows,radiation,0.008079032488231554,-0.005154397919236079,0.006616715203733818,67.0,5,5,summary,,,,,,,,,
+,heat,,,,,5,5,event,United States|Colorado|Barley|1990|spring,United States,Colorado,Barley,1990.0,spring,0.004026949053609225,0.004026949053609225,0.0
+,drought,,,,,1,1,event,United States|Colorado|Barley|1990|spring,United States,Colorado,Barley,1990.0,spring,-0.18220967240233793,0.18220967240233793,0.18220967240233793
+,frost_cold,,,,,3,3,event,United States|Colorado|Barley|1990|spring,United States,Colorado,Barley,1990.0,spring,-0.054513650291552015,0.054513650291552015,0.054513650291552015
+,excess_rain,,,,,2,2,event,United States|Colorado|Barley|1990|spring,United States,Colorado,Barley,1990.0,spring,-0.12201160002178615,0.12201160002178615,0.12201160002178615
+,radiation,,,,,4,4,event,United States|Colorado|Barley|1990|spring,United States,Colorado,Barley,1990.0,spring,-0.03152230901863357,0.03152230901863357,0.03152230901863357
+,heat,,,,,5,5,event,United States|Colorado|Oats|1990|spring,United States,Colorado,Oats,1990.0,spring,-0.006040587349271154,0.006040587349271154,0.006040587349271154
+,drought,,,,,1,1,event,United States|Colorado|Oats|1990|spring,United States,Colorado,Oats,1990.0,spring,-0.19324187810392407,0.19324187810392407,0.19324187810392407
+,frost_cold,,,,,3,3,event,United States|Colorado|Oats|1990|spring,United States,Colorado,Oats,1990.0,spring,-0.04558926884294251,0.04558926884294251,0.04558926884294251
+,excess_rain,,,,,2,2,event,United States|Colorado|Oats|1990|spring,United States,Colorado,Oats,1990.0,spring,-0.11672651639333692,0.11672651639333692,0.11672651639333692
+,radiation,,,,,4,4,event,United States|Colorado|Oats|1990|spring,United States,Colorado,Oats,1990.0,spring,-0.030194304074347388,0.030194304074347388,0.030194304074347388
+,heat,,,,,2,2,event,United States|Montana|Oats|1990|spring,United States,Montana,Oats,1990.0,spring,-0.04205645334720875,0.04205645334720875,0.04205645334720875
+,drought,,,,,1,1,event,United States|Montana|Oats|1990|spring,United States,Montana,Oats,1990.0,spring,-0.12305957793040632,0.12305957793040632,0.12305957793040632
+,frost_cold,,,,,4,4,event,United States|Montana|Oats|1990|spring,United States,Montana,Oats,1990.0,spring,-0.028963526403464557,0.028963526403464557,0.028963526403464557
+,excess_rain,,,,,3,3,event,United States|Montana|Oats|1990|spring,United States,Montana,Oats,1990.0,spring,-0.0374094221186569,0.0374094221186569,0.0374094221186569
+,radiation,,,,,5,5,event,United States|Montana|Oats|1990|spring,United States,Montana,Oats,1990.0,spring,-0.027568591142006847,0.027568591142006847,0.027568591142006847
+,heat,,,,,5,5,event,United States|Colorado|Barley|1991|spring,United States,Colorado,Barley,1991.0,spring,0.019952536825019487,0.019952536825019487,0.0
+,drought,,,,,1,1,event,United States|Colorado|Barley|1991|spring,United States,Colorado,Barley,1991.0,spring,-0.14575951271538443,0.14575951271538443,0.14575951271538443
+,frost_cold,,,,,3,3,event,United States|Colorado|Barley|1991|spring,United States,Colorado,Barley,1991.0,spring,-0.06543642743089711,0.06543642743089711,0.06543642743089711
+,excess_rain,,,,,2,2,event,United States|Colorado|Barley|1991|spring,United States,Colorado,Barley,1991.0,spring,-0.13193840633704298,0.13193840633704298,0.13193840633704298
+,radiation,,,,,4,4,event,United States|Colorado|Barley|1991|spring,United States,Colorado,Barley,1991.0,spring,-0.04054637189008277,0.04054637189008277,0.04054637189008277
+,heat,,,,,1,1,event,United States|Texas|Barley|1991|spring,United States,Texas,Barley,1991.0,spring,-0.07211537168466739,0.07211537168466739,0.07211537168466739
+,drought,,,,,3,3,event,United States|Texas|Barley|1991|spring,United States,Texas,Barley,1991.0,spring,-0.04993280932363094,0.04993280932363094,0.04993280932363094
+,frost_cold,,,,,4,4,event,United States|Texas|Barley|1991|spring,United States,Texas,Barley,1991.0,spring,-0.012159371460698214,0.012159371460698214,0.012159371460698214
+,excess_rain,,,,,2,2,event,United States|Texas|Barley|1991|spring,United States,Texas,Barley,1991.0,spring,-0.05382812970012011,0.05382812970012011,0.05382812970012011
+,radiation,,,,,5,5,event,United States|Texas|Barley|1991|spring,United States,Texas,Barley,1991.0,spring,-0.00368813150759724,0.00368813150759724,0.00368813150759724
+,heat,,,,,4,4,event,United States|Iowa|Oats|1991|spring,United States,Iowa,Oats,1991.0,spring,-0.036103586724536396,0.036103586724536396,0.036103586724536396
+,drought,,,,,2,2,event,United States|Iowa|Oats|1991|spring,United States,Iowa,Oats,1991.0,spring,-0.08687872861559781,0.08687872861559781,0.08687872861559781
+,frost_cold,,,,,5,5,event,United States|Iowa|Oats|1991|spring,United States,Iowa,Oats,1991.0,spring,-0.0016615339407111303,0.0016615339407111303,0.0016615339407111303
+,excess_rain,,,,,1,1,event,United States|Iowa|Oats|1991|spring,United States,Iowa,Oats,1991.0,spring,-0.14635237842825946,0.14635237842825946,0.14635237842825946
+,radiation,,,,,3,3,event,United States|Iowa|Oats|1991|spring,United States,Iowa,Oats,1991.0,spring,-0.039991408321343,0.039991408321343,0.039991408321343
+,heat,,,,,2,2,event,United States|Minnesota|Oats|1991|spring,United States,Minnesota,Oats,1991.0,spring,-0.06838438344919016,0.06838438344919016,0.06838438344919016
+,drought,,,,,1,1,event,United States|Minnesota|Oats|1991|spring,United States,Minnesota,Oats,1991.0,spring,-0.1621380147176597,0.1621380147176597,0.1621380147176597
+,frost_cold,,,,,4,4,event,United States|Minnesota|Oats|1991|spring,United States,Minnesota,Oats,1991.0,spring,-0.03979926935890018,0.03979926935890018,0.03979926935890018
+,excess_rain,,,,,3,3,event,United States|Minnesota|Oats|1991|spring,United States,Minnesota,Oats,1991.0,spring,-0.06817844290928585,0.06817844290928585,0.06817844290928585
+,radiation,,,,,5,5,event,United States|Minnesota|Oats|1991|spring,United States,Minnesota,Oats,1991.0,spring,-0.01593008936705006,0.01593008936705006,0.01593008936705006
+,heat,,,,,3,3,event,United States|Illinois|Wheat|1991|winter,United States,Illinois,Wheat,1991.0,winter,-0.1047484337403138,0.1047484337403138,0.1047484337403138
+,drought,,,,,1,1,event,United States|Illinois|Wheat|1991|winter,United States,Illinois,Wheat,1991.0,winter,-0.24442515572816784,0.24442515572816784,0.24442515572816784
+,frost_cold,,,,,4,4,event,United States|Illinois|Wheat|1991|winter,United States,Illinois,Wheat,1991.0,winter,-0.059125009244033855,0.059125009244033855,0.059125009244033855
+,excess_rain,,,,,2,2,event,United States|Illinois|Wheat|1991|winter,United States,Illinois,Wheat,1991.0,winter,-0.22907242238938336,0.22907242238938336,0.22907242238938336
+,radiation,,,,,5,5,event,United States|Illinois|Wheat|1991|winter,United States,Illinois,Wheat,1991.0,winter,-0.028539949330979832,0.028539949330979832,0.028539949330979832
+,heat,,,,,4,4,event,United States|Washington|Wheat|1991|winter,United States,Washington,Wheat,1991.0,winter,-0.08449981601678193,0.08449981601678193,0.08449981601678193
+,drought,,,,,1,1,event,United States|Washington|Wheat|1991|winter,United States,Washington,Wheat,1991.0,winter,-0.22507406185578058,0.22507406185578058,0.22507406185578058
+,frost_cold,,,,,3,3,event,United States|Washington|Wheat|1991|winter,United States,Washington,Wheat,1991.0,winter,-0.10514529179093282,0.10514529179093282,0.10514529179093282
+,excess_rain,,,,,2,2,event,United States|Washington|Wheat|1991|winter,United States,Washington,Wheat,1991.0,winter,-0.21362447602269957,0.21362447602269957,0.21362447602269957
+,radiation,,,,,5,5,event,United States|Washington|Wheat|1991|winter,United States,Washington,Wheat,1991.0,winter,-0.023357272539015234,0.023357272539015234,0.023357272539015234
+,heat,,,,,5,5,event,United States|Colorado|Barley|1992|spring,United States,Colorado,Barley,1992.0,spring,0.02298736764723592,0.02298736764723592,0.0
+,drought,,,,,2,2,event,United States|Colorado|Barley|1992|spring,United States,Colorado,Barley,1992.0,spring,-0.09833924997132705,0.09833924997132705,0.09833924997132705
+,frost_cold,,,,,3,3,event,United States|Colorado|Barley|1992|spring,United States,Colorado,Barley,1992.0,spring,-0.07860504200874327,0.07860504200874327,0.07860504200874327
+,excess_rain,,,,,1,1,event,United States|Colorado|Barley|1992|spring,United States,Colorado,Barley,1992.0,spring,-0.17741158512640248,0.17741158512640248,0.17741158512640248
+,radiation,,,,,4,4,event,United States|Colorado|Barley|1992|spring,United States,Colorado,Barley,1992.0,spring,-0.030207399415019293,0.030207399415019293,0.030207399415019293
+,heat,,,,,4,4,event,United States|Washington|Barley|1992|spring,United States,Washington,Barley,1992.0,spring,-0.0425317393895743,0.0425317393895743,0.0425317393895743
+,drought,,,,,2,2,event,United States|Washington|Barley|1992|spring,United States,Washington,Barley,1992.0,spring,-0.10283151936384259,0.10283151936384259,0.10283151936384259
+,frost_cold,,,,,3,3,event,United States|Washington|Barley|1992|spring,United States,Washington,Barley,1992.0,spring,-0.09485949768504083,0.09485949768504083,0.09485949768504083
+,excess_rain,,,,,1,1,event,United States|Washington|Barley|1992|spring,United States,Washington,Barley,1992.0,spring,-0.2396812727905135,0.2396812727905135,0.2396812727905135
+,radiation,,,,,5,5,event,United States|Washington|Barley|1992|spring,United States,Washington,Barley,1992.0,spring,-0.042395370096165744,0.042395370096165744,0.042395370096165744
+,heat,,,,,4,4,event,United States|Nebraska|Wheat|1992|winter,United States,Nebraska,Wheat,1992.0,winter,-0.027604546664186193,0.027604546664186193,0.027604546664186193
+,drought,,,,,1,1,event,United States|Nebraska|Wheat|1992|winter,United States,Nebraska,Wheat,1992.0,winter,-0.16649600301422476,0.16649600301422476,0.16649600301422476
+,frost_cold,,,,,2,2,event,United States|Nebraska|Wheat|1992|winter,United States,Nebraska,Wheat,1992.0,winter,-0.05722180582233462,0.05722180582233462,0.05722180582233462
+,excess_rain,,,,,3,3,event,United States|Nebraska|Wheat|1992|winter,United States,Nebraska,Wheat,1992.0,winter,-0.04940224998561551,0.04940224998561551,0.04940224998561551
+,radiation,,,,,5,5,event,United States|Nebraska|Wheat|1992|winter,United States,Nebraska,Wheat,1992.0,winter,0.014592254317072386,0.014592254317072386,0.0
+,heat,,,,,4,4,event,United States|Washington|Wheat|1992|winter,United States,Washington,Wheat,1992.0,winter,-0.06889903493845975,0.06889903493845975,0.06889903493845975
+,drought,,,,,1,1,event,United States|Washington|Wheat|1992|winter,United States,Washington,Wheat,1992.0,winter,-0.19833580588926414,0.19833580588926414,0.19833580588926414
+,frost_cold,,,,,3,3,event,United States|Washington|Wheat|1992|winter,United States,Washington,Wheat,1992.0,winter,-0.07498642546770437,0.07498642546770437,0.07498642546770437
+,excess_rain,,,,,2,2,event,United States|Washington|Wheat|1992|winter,United States,Washington,Wheat,1992.0,winter,-0.10553382467401522,0.10553382467401522,0.10553382467401522
+,radiation,,,,,5,5,event,United States|Washington|Wheat|1992|winter,United States,Washington,Wheat,1992.0,winter,-0.04732618073328709,0.04732618073328709,0.04732618073328709
+,heat,,,,,4,5,event,United States|Colorado|Barley|1993|spring,United States,Colorado,Barley,1993.0,spring,0.037069014049458816,0.037069014049458816,0.0
+,drought,,,,,3,3,event,United States|Colorado|Barley|1993|spring,United States,Colorado,Barley,1993.0,spring,-0.05860047315983809,0.05860047315983809,0.05860047315983809
+,frost_cold,,,,,2,2,event,United States|Colorado|Barley|1993|spring,United States,Colorado,Barley,1993.0,spring,-0.07724715464989274,0.07724715464989274,0.07724715464989274
+,excess_rain,,,,,1,1,event,United States|Colorado|Barley|1993|spring,United States,Colorado,Barley,1993.0,spring,-0.17290183836334277,0.17290183836334277,0.17290183836334277
+,radiation,,,,,5,4,event,United States|Colorado|Barley|1993|spring,United States,Colorado,Barley,1993.0,spring,-0.0029678990042318293,0.0029678990042318293,0.0029678990042318293
+,heat,,,,,4,4,event,United States|Illinois|Oats|1993|spring,United States,Illinois,Oats,1993.0,spring,-0.044115016710047125,0.044115016710047125,0.044115016710047125
+,drought,,,,,1,1,event,United States|Illinois|Oats|1993|spring,United States,Illinois,Oats,1993.0,spring,-0.2527622178077054,0.2527622178077054,0.2527622178077054
+,frost_cold,,,,,5,5,event,United States|Illinois|Oats|1993|spring,United States,Illinois,Oats,1993.0,spring,0.010585185815374565,0.010585185815374565,0.0
+,excess_rain,,,,,2,2,event,United States|Illinois|Oats|1993|spring,United States,Illinois,Oats,1993.0,spring,-0.08389975766541678,0.08389975766541678,0.08389975766541678
+,radiation,,,,,3,3,event,United States|Illinois|Oats|1993|spring,United States,Illinois,Oats,1993.0,spring,-0.07633046010422041,0.07633046010422041,0.07633046010422041
+,heat,,,,,4,4,event,United States|Iowa|Oats|1993|spring,United States,Iowa,Oats,1993.0,spring,-0.05379604909705338,0.05379604909705338,0.05379604909705338
+,drought,,,,,1,1,event,United States|Iowa|Oats|1993|spring,United States,Iowa,Oats,1993.0,spring,-0.281578453001407,0.281578453001407,0.281578453001407
+,frost_cold,,,,,5,5,event,United States|Iowa|Oats|1993|spring,United States,Iowa,Oats,1993.0,spring,0.0018382228416002717,0.0018382228416002717,0.0
+,excess_rain,,,,,2,2,event,United States|Iowa|Oats|1993|spring,United States,Iowa,Oats,1993.0,spring,-0.19408381681902834,0.19408381681902834,0.19408381681902834
+,radiation,,,,,3,3,event,United States|Iowa|Oats|1993|spring,United States,Iowa,Oats,1993.0,spring,-0.06653886899832533,0.06653886899832533,0.06653886899832533
+,heat,,,,,4,5,event,United States|Kansas|Oats|1993|spring,United States,Kansas,Oats,1993.0,spring,0.022789847107537498,0.022789847107537498,0.0
+,drought,,,,,2,2,event,United States|Kansas|Oats|1993|spring,United States,Kansas,Oats,1993.0,spring,-0.0795619804104097,0.0795619804104097,0.0795619804104097
+,frost_cold,,,,,5,4,event,United States|Kansas|Oats|1993|spring,United States,Kansas,Oats,1993.0,spring,-0.013240647514450065,0.013240647514450065,0.013240647514450065
+,excess_rain,,,,,1,1,event,United States|Kansas|Oats|1993|spring,United States,Kansas,Oats,1993.0,spring,-0.10108535782474481,0.10108535782474481,0.10108535782474481
+,radiation,,,,,3,3,event,United States|Kansas|Oats|1993|spring,United States,Kansas,Oats,1993.0,spring,-0.024011798001167622,0.024011798001167622,0.024011798001167622
+,heat,,,,,4,4,event,United States|Nebraska|Oats|1993|spring,United States,Nebraska,Oats,1993.0,spring,-0.0543224893333249,0.0543224893333249,0.0543224893333249
+,drought,,,,,1,1,event,United States|Nebraska|Oats|1993|spring,United States,Nebraska,Oats,1993.0,spring,-0.14689670990008544,0.14689670990008544,0.14689670990008544
+,frost_cold,,,,,2,2,event,United States|Nebraska|Oats|1993|spring,United States,Nebraska,Oats,1993.0,spring,-0.07189261578043198,0.07189261578043198,0.07189261578043198
+,excess_rain,,,,,3,3,event,United States|Nebraska|Oats|1993|spring,United States,Nebraska,Oats,1993.0,spring,-0.06753820270105376,0.06753820270105376,0.06753820270105376
+,radiation,,,,,5,5,event,United States|Nebraska|Oats|1993|spring,United States,Nebraska,Oats,1993.0,spring,-0.0014502385853695295,0.0014502385853695295,0.0014502385853695295
+,heat,,,,,4,4,event,United States|Iowa|Wheat|1993|winter,United States,Iowa,Wheat,1993.0,winter,-0.11658791112995666,0.11658791112995666,0.11658791112995666
+,drought,,,,,2,2,event,United States|Iowa|Wheat|1993|winter,United States,Iowa,Wheat,1993.0,winter,-0.1345114155690668,0.1345114155690668,0.1345114155690668
+,frost_cold,,,,,3,3,event,United States|Iowa|Wheat|1993|winter,United States,Iowa,Wheat,1993.0,winter,-0.11767447062370286,0.11767447062370286,0.11767447062370286
+,excess_rain,,,,,1,1,event,United States|Iowa|Wheat|1993|winter,United States,Iowa,Wheat,1993.0,winter,-0.2650184612541598,0.2650184612541598,0.2650184612541598
+,radiation,,,,,5,5,event,United States|Iowa|Wheat|1993|winter,United States,Iowa,Wheat,1993.0,winter,-0.032108362411252304,0.032108362411252304,0.032108362411252304
+,heat,,,,,1,1,event,United States|Texas|Barley|1994|spring,United States,Texas,Barley,1994.0,spring,-0.10970702215014964,0.10970702215014964,0.10970702215014964
+,drought,,,,,3,5,event,United States|Texas|Barley|1994|spring,United States,Texas,Barley,1994.0,spring,0.02027781172894081,0.02027781172894081,0.0
+,frost_cold,,,,,4,3,event,United States|Texas|Barley|1994|spring,United States,Texas,Barley,1994.0,spring,-0.01616647404708815,0.01616647404708815,0.01616647404708815
+,excess_rain,,,,,2,2,event,United States|Texas|Barley|1994|spring,United States,Texas,Barley,1994.0,spring,-0.0769756829293741,0.0769756829293741,0.0769756829293741
+,radiation,,,,,5,4,event,United States|Texas|Barley|1994|spring,United States,Texas,Barley,1994.0,spring,-0.010699315388754616,0.010699315388754616,0.010699315388754616
+,heat,,,,,3,3,event,United States|Washington|Barley|1994|spring,United States,Washington,Barley,1994.0,spring,-0.11434415937266194,0.11434415937266194,0.11434415937266194
+,drought,,,,,2,2,event,United States|Washington|Barley|1994|spring,United States,Washington,Barley,1994.0,spring,-0.16639252728482418,0.16639252728482418,0.16639252728482418
+,frost_cold,,,,,4,4,event,United States|Washington|Barley|1994|spring,United States,Washington,Barley,1994.0,spring,-0.08000995038334736,0.08000995038334736,0.08000995038334736
+,excess_rain,,,,,1,1,event,United States|Washington|Barley|1994|spring,United States,Washington,Barley,1994.0,spring,-0.16966207929893373,0.16966207929893373,0.16966207929893373
+,radiation,,,,,5,5,event,United States|Washington|Barley|1994|spring,United States,Washington,Barley,1994.0,spring,-0.053424834139796984,0.053424834139796984,0.053424834139796984
+,heat,,,,,3,3,event,United States|Washington|Oats|1994|spring,United States,Washington,Oats,1994.0,spring,-0.11134148936198475,0.11134148936198475,0.11134148936198475
+,drought,,,,,1,1,event,United States|Washington|Oats|1994|spring,United States,Washington,Oats,1994.0,spring,-0.1706740132908724,0.1706740132908724,0.1706740132908724
+,frost_cold,,,,,4,4,event,United States|Washington|Oats|1994|spring,United States,Washington,Oats,1994.0,spring,-0.07665316385551063,0.07665316385551063,0.07665316385551063
+,excess_rain,,,,,2,2,event,United States|Washington|Oats|1994|spring,United States,Washington,Oats,1994.0,spring,-0.15902459209299297,0.15902459209299297,0.15902459209299297
+,radiation,,,,,5,5,event,United States|Washington|Oats|1994|spring,United States,Washington,Oats,1994.0,spring,-0.06823315187154139,0.06823315187154139,0.06823315187154139
+,heat,,,,,4,4,event,United States|Minnesota|Wheat|1994|spring,United States,Minnesota,Wheat,1994.0,spring,-0.029484874588426725,0.029484874588426725,0.029484874588426725
+,drought,,,,,1,1,event,United States|Minnesota|Wheat|1994|spring,United States,Minnesota,Wheat,1994.0,spring,-0.08485032510665902,0.08485032510665902,0.08485032510665902
+,frost_cold,,,,,2,2,event,United States|Minnesota|Wheat|1994|spring,United States,Minnesota,Wheat,1994.0,spring,-0.08316658432451851,0.08316658432451851,0.08316658432451851
+,excess_rain,,,,,3,3,event,United States|Minnesota|Wheat|1994|spring,United States,Minnesota,Wheat,1994.0,spring,-0.08119360443175973,0.08119360443175973,0.08119360443175973
+,radiation,,,,,5,5,event,United States|Minnesota|Wheat|1994|spring,United States,Minnesota,Wheat,1994.0,spring,-0.011535462622113375,0.011535462622113375,0.011535462622113375
+,heat,,,,,1,1,event,United States|Texas|Wheat|1994|winter,United States,Texas,Wheat,1994.0,winter,-0.06937069460711334,0.06937069460711334,0.06937069460711334
+,drought,,,,,5,5,event,United States|Texas|Wheat|1994|winter,United States,Texas,Wheat,1994.0,winter,0.002114997629767945,0.002114997629767945,0.0
+,frost_cold,,,,,2,2,event,United States|Texas|Wheat|1994|winter,United States,Texas,Wheat,1994.0,winter,-0.06057328711652303,0.06057328711652303,0.06057328711652303
+,excess_rain,,,,,3,3,event,United States|Texas|Wheat|1994|winter,United States,Texas,Wheat,1994.0,winter,-0.04988759753472312,0.04988759753472312,0.04988759753472312
+,radiation,,,,,4,4,event,United States|Texas|Wheat|1994|winter,United States,Texas,Wheat,1994.0,winter,-0.019825006224231355,0.019825006224231355,0.019825006224231355
+,heat,,,,,3,3,event,United States|Minnesota|Oats|1995|spring,United States,Minnesota,Oats,1995.0,spring,-0.07868506184727031,0.07868506184727031,0.07868506184727031
+,drought,,,,,1,1,event,United States|Minnesota|Oats|1995|spring,United States,Minnesota,Oats,1995.0,spring,-0.11522093078944505,0.11522093078944505,0.11522093078944505
+,frost_cold,,,,,4,4,event,United States|Minnesota|Oats|1995|spring,United States,Minnesota,Oats,1995.0,spring,-0.0644358889292991,0.0644358889292991,0.0644358889292991
+,excess_rain,,,,,2,2,event,United States|Minnesota|Oats|1995|spring,United States,Minnesota,Oats,1995.0,spring,-0.09844631316866809,0.09844631316866809,0.09844631316866809
+,radiation,,,,,5,5,event,United States|Minnesota|Oats|1995|spring,United States,Minnesota,Oats,1995.0,spring,-0.025837752242014407,0.025837752242014407,0.025837752242014407
+,heat,,,,,1,1,event,United States|South Dakota|Oats|1995|spring,United States,South Dakota,Oats,1995.0,spring,-0.1521968109234767,0.1521968109234767,0.1521968109234767
+,drought,,,,,4,4,event,United States|South Dakota|Oats|1995|spring,United States,South Dakota,Oats,1995.0,spring,-0.02460652060700699,0.02460652060700699,0.02460652060700699
+,frost_cold,,,,,2,2,event,United States|South Dakota|Oats|1995|spring,United States,South Dakota,Oats,1995.0,spring,-0.0714894734587948,0.0714894734587948,0.0714894734587948
+,excess_rain,,,,,3,3,event,United States|South Dakota|Oats|1995|spring,United States,South Dakota,Oats,1995.0,spring,-0.030108145533425383,0.030108145533425383,0.030108145533425383
+,radiation,,,,,5,5,event,United States|South Dakota|Oats|1995|spring,United States,South Dakota,Oats,1995.0,spring,-0.004284991809795354,0.004284991809795354,0.004284991809795354
+,heat,,,,,2,2,event,United States|Kansas|Wheat|1995|winter,United States,Kansas,Wheat,1995.0,winter,-0.1087572323429445,0.1087572323429445,0.1087572323429445
+,drought,,,,,3,3,event,United States|Kansas|Wheat|1995|winter,United States,Kansas,Wheat,1995.0,winter,-0.0830482697831878,0.0830482697831878,0.0830482697831878
+,frost_cold,,,,,4,4,event,United States|Kansas|Wheat|1995|winter,United States,Kansas,Wheat,1995.0,winter,-0.05702833440479252,0.05702833440479252,0.05702833440479252
+,excess_rain,,,,,1,1,event,United States|Kansas|Wheat|1995|winter,United States,Kansas,Wheat,1995.0,winter,-0.18313003947788165,0.18313003947788165,0.18313003947788165
+,radiation,,,,,5,5,event,United States|Kansas|Wheat|1995|winter,United States,Kansas,Wheat,1995.0,winter,-0.02490172214071975,0.02490172214071975,0.02490172214071975
+,heat,,,,,3,3,event,United States|Minnesota|Wheat|1995|spring,United States,Minnesota,Wheat,1995.0,spring,-0.06506485317706448,0.06506485317706448,0.06506485317706448
+,drought,,,,,1,1,event,United States|Minnesota|Wheat|1995|spring,United States,Minnesota,Wheat,1995.0,spring,-0.11236579640607852,0.11236579640607852,0.11236579640607852
+,frost_cold,,,,,4,4,event,United States|Minnesota|Wheat|1995|spring,United States,Minnesota,Wheat,1995.0,spring,-0.06211132571568713,0.06211132571568713,0.06211132571568713
+,excess_rain,,,,,2,2,event,United States|Minnesota|Wheat|1995|spring,United States,Minnesota,Wheat,1995.0,spring,-0.08929310105728314,0.08929310105728314,0.08929310105728314
+,radiation,,,,,5,5,event,United States|Minnesota|Wheat|1995|spring,United States,Minnesota,Wheat,1995.0,spring,-0.023836485460511946,0.023836485460511946,0.023836485460511946
+,heat,,,,,3,3,event,United States|Oklahoma|Wheat|1995|winter,United States,Oklahoma,Wheat,1995.0,winter,-0.04002376119918054,0.04002376119918054,0.04002376119918054
+,drought,,,,,2,2,event,United States|Oklahoma|Wheat|1995|winter,United States,Oklahoma,Wheat,1995.0,winter,-0.1489951423988998,0.1489951423988998,0.1489951423988998
+,frost_cold,,,,,4,4,event,United States|Oklahoma|Wheat|1995|winter,United States,Oklahoma,Wheat,1995.0,winter,-0.024919597462288112,0.024919597462288112,0.024919597462288112
+,excess_rain,,,,,1,1,event,United States|Oklahoma|Wheat|1995|winter,United States,Oklahoma,Wheat,1995.0,winter,-0.24576184987860528,0.24576184987860528,0.24576184987860528
+,radiation,,,,,5,5,event,United States|Oklahoma|Wheat|1995|winter,United States,Oklahoma,Wheat,1995.0,winter,-0.015664694349037122,0.015664694349037122,0.015664694349037122
+,heat,,,,,1,1,event,United States|Oklahoma|Barley|1996|spring,United States,Oklahoma,Barley,1996.0,spring,-0.19431449602643866,0.19431449602643866,0.19431449602643866
+,drought,,,,,2,2,event,United States|Oklahoma|Barley|1996|spring,United States,Oklahoma,Barley,1996.0,spring,-0.10188112156191345,0.10188112156191345,0.10188112156191345
+,frost_cold,,,,,4,4,event,United States|Oklahoma|Barley|1996|spring,United States,Oklahoma,Barley,1996.0,spring,-0.02607480394867448,0.02607480394867448,0.02607480394867448
+,excess_rain,,,,,3,3,event,United States|Oklahoma|Barley|1996|spring,United States,Oklahoma,Barley,1996.0,spring,-0.09519205586040869,0.09519205586040869,0.09519205586040869
+,radiation,,,,,5,5,event,United States|Oklahoma|Barley|1996|spring,United States,Oklahoma,Barley,1996.0,spring,-0.003842616801578761,0.003842616801578761,0.003842616801578761
+,heat,,,,,1,1,event,United States|Texas|Barley|1996|spring,United States,Texas,Barley,1996.0,spring,-0.16150317159435987,0.16150317159435987,0.16150317159435987
+,drought,,,,,5,5,event,United States|Texas|Barley|1996|spring,United States,Texas,Barley,1996.0,spring,-0.00338204370375286,0.00338204370375286,0.00338204370375286
+,frost_cold,,,,,4,4,event,United States|Texas|Barley|1996|spring,United States,Texas,Barley,1996.0,spring,-0.02468072636084126,0.02468072636084126,0.02468072636084126
+,excess_rain,,,,,2,2,event,United States|Texas|Barley|1996|spring,United States,Texas,Barley,1996.0,spring,-0.0507673787729832,0.0507673787729832,0.0507673787729832
+,radiation,,,,,3,3,event,United States|Texas|Barley|1996|spring,United States,Texas,Barley,1996.0,spring,-0.025056743400892673,0.025056743400892673,0.025056743400892673
+,heat,,,,,2,5,event,United States|Colorado|Oats|1996|spring,United States,Colorado,Oats,1996.0,spring,0.05926981045743395,0.05926981045743395,0.0
+,drought,,,,,1,1,event,United States|Colorado|Oats|1996|spring,United States,Colorado,Oats,1996.0,spring,-0.10265511504038384,0.10265511504038384,0.10265511504038384
+,frost_cold,,,,,3,2,event,United States|Colorado|Oats|1996|spring,United States,Colorado,Oats,1996.0,spring,-0.03748589546861525,0.03748589546861525,0.03748589546861525
+,excess_rain,,,,,5,4,event,United States|Colorado|Oats|1996|spring,United States,Colorado,Oats,1996.0,spring,-0.006925894518294642,0.006925894518294642,0.006925894518294642
+,radiation,,,,,4,3,event,United States|Colorado|Oats|1996|spring,United States,Colorado,Oats,1996.0,spring,-0.010277016128946881,0.010277016128946881,0.010277016128946881
+,heat,,,,,4,4,event,United States|Montana|Oats|1996|spring,United States,Montana,Oats,1996.0,spring,-0.029566969390855707,0.029566969390855707,0.029566969390855707
+,drought,,,,,1,1,event,United States|Montana|Oats|1996|spring,United States,Montana,Oats,1996.0,spring,-0.13097205555407712,0.13097205555407712,0.13097205555407712
+,frost_cold,,,,,2,2,event,United States|Montana|Oats|1996|spring,United States,Montana,Oats,1996.0,spring,-0.06229737721491101,0.06229737721491101,0.06229737721491101
+,excess_rain,,,,,3,3,event,United States|Montana|Oats|1996|spring,United States,Montana,Oats,1996.0,spring,-0.04408870597634398,0.04408870597634398,0.04408870597634398
+,radiation,,,,,5,5,event,United States|Montana|Oats|1996|spring,United States,Montana,Oats,1996.0,spring,-0.0029343948033194074,0.0029343948033194074,0.0029343948033194074
+,heat,,,,,1,1,event,United States|Texas|Oats|1996|spring,United States,Texas,Oats,1996.0,spring,-0.17772076791875077,0.17772076791875077,0.17772076791875077
+,drought,,,,,5,5,event,United States|Texas|Oats|1996|spring,United States,Texas,Oats,1996.0,spring,-0.015121035806048469,0.015121035806048469,0.015121035806048469
+,frost_cold,,,,,3,3,event,United States|Texas|Oats|1996|spring,United States,Texas,Oats,1996.0,spring,-0.028893647915213976,0.028893647915213976,0.028893647915213976
+,excess_rain,,,,,2,2,event,United States|Texas|Oats|1996|spring,United States,Texas,Oats,1996.0,spring,-0.05912835711131261,0.05912835711131261,0.05912835711131261
+,radiation,,,,,4,4,event,United States|Texas|Oats|1996|spring,United States,Texas,Oats,1996.0,spring,-0.02639725884784267,0.02639725884784267,0.02639725884784267
+,heat,,,,,2,2,event,United States|Illinois|Wheat|1996|winter,United States,Illinois,Wheat,1996.0,winter,-0.12399390745968789,0.12399390745968789,0.12399390745968789
+,drought,,,,,3,3,event,United States|Illinois|Wheat|1996|winter,United States,Illinois,Wheat,1996.0,winter,-0.1225091133889557,0.1225091133889557,0.1225091133889557
+,frost_cold,,,,,4,4,event,United States|Illinois|Wheat|1996|winter,United States,Illinois,Wheat,1996.0,winter,-0.11299755681630806,0.11299755681630806,0.11299755681630806
+,excess_rain,,,,,1,1,event,United States|Illinois|Wheat|1996|winter,United States,Illinois,Wheat,1996.0,winter,-0.2061401726684812,0.2061401726684812,0.2061401726684812
+,radiation,,,,,5,5,event,United States|Illinois|Wheat|1996|winter,United States,Illinois,Wheat,1996.0,winter,-0.04685133815790407,0.04685133815790407,0.04685133815790407
+,heat,,,,,2,2,event,United States|Kansas|Wheat|1996|winter,United States,Kansas,Wheat,1996.0,winter,-0.13974160857413018,0.13974160857413018,0.13974160857413018
+,drought,,,,,1,1,event,United States|Kansas|Wheat|1996|winter,United States,Kansas,Wheat,1996.0,winter,-0.21653262114152066,0.21653262114152066,0.21653262114152066
+,frost_cold,,,,,4,4,event,United States|Kansas|Wheat|1996|winter,United States,Kansas,Wheat,1996.0,winter,-0.050135465499400136,0.050135465499400136,0.050135465499400136
+,excess_rain,,,,,3,3,event,United States|Kansas|Wheat|1996|winter,United States,Kansas,Wheat,1996.0,winter,-0.10800568336204906,0.10800568336204906,0.10800568336204906
+,radiation,,,,,5,5,event,United States|Kansas|Wheat|1996|winter,United States,Kansas,Wheat,1996.0,winter,0.0019404347720860214,0.0019404347720860214,0.0
+,heat,,,,,2,2,event,United States|Oklahoma|Wheat|1996|winter,United States,Oklahoma,Wheat,1996.0,winter,-0.08933721310972194,0.08933721310972194,0.08933721310972194
+,drought,,,,,1,1,event,United States|Oklahoma|Wheat|1996|winter,United States,Oklahoma,Wheat,1996.0,winter,-0.26750431975519207,0.26750431975519207,0.26750431975519207
+,frost_cold,,,,,4,4,event,United States|Oklahoma|Wheat|1996|winter,United States,Oklahoma,Wheat,1996.0,winter,-0.04608773525126221,0.04608773525126221,0.04608773525126221
+,excess_rain,,,,,3,3,event,United States|Oklahoma|Wheat|1996|winter,United States,Oklahoma,Wheat,1996.0,winter,-0.08391481216230073,0.08391481216230073,0.08391481216230073
+,radiation,,,,,5,5,event,United States|Oklahoma|Wheat|1996|winter,United States,Oklahoma,Wheat,1996.0,winter,-0.037134081443132426,0.037134081443132426,0.037134081443132426
+,heat,,,,,2,2,event,United States|Texas|Wheat|1996|winter,United States,Texas,Wheat,1996.0,winter,-0.07175948197475909,0.07175948197475909,0.07175948197475909
+,drought,,,,,1,1,event,United States|Texas|Wheat|1996|winter,United States,Texas,Wheat,1996.0,winter,-0.18137313780730413,0.18137313780730413,0.18137313780730413
+,frost_cold,,,,,5,5,event,United States|Texas|Wheat|1996|winter,United States,Texas,Wheat,1996.0,winter,-0.02017157510690973,0.02017157510690973,0.02017157510690973
+,excess_rain,,,,,4,4,event,United States|Texas|Wheat|1996|winter,United States,Texas,Wheat,1996.0,winter,-0.020585054563238142,0.020585054563238142,0.020585054563238142
+,radiation,,,,,3,3,event,United States|Texas|Wheat|1996|winter,United States,Texas,Wheat,1996.0,winter,-0.02331328013056668,0.02331328013056668,0.02331328013056668
+,heat,,,,,1,1,event,United States|North Dakota|Barley|1997|spring,United States,North Dakota,Barley,1997.0,spring,-0.1031397889718229,0.1031397889718229,0.1031397889718229
+,drought,,,,,2,2,event,United States|North Dakota|Barley|1997|spring,United States,North Dakota,Barley,1997.0,spring,-0.10299031626205762,0.10299031626205762,0.10299031626205762
+,frost_cold,,,,,3,3,event,United States|North Dakota|Barley|1997|spring,United States,North Dakota,Barley,1997.0,spring,-0.05660169004568301,0.05660169004568301,0.05660169004568301
+,excess_rain,,,,,4,4,event,United States|North Dakota|Barley|1997|spring,United States,North Dakota,Barley,1997.0,spring,-0.05599502098779291,0.05599502098779291,0.05599502098779291
+,radiation,,,,,5,5,event,United States|North Dakota|Barley|1997|spring,United States,North Dakota,Barley,1997.0,spring,-0.02171631323404282,0.02171631323404282,0.02171631323404282
+,heat,,,,,1,1,event,United States|North Dakota|Oats|1997|spring,United States,North Dakota,Oats,1997.0,spring,-0.10925315308844435,0.10925315308844435,0.10925315308844435
+,drought,,,,,2,2,event,United States|North Dakota|Oats|1997|spring,United States,North Dakota,Oats,1997.0,spring,-0.10552349252656218,0.10552349252656218,0.10552349252656218
+,frost_cold,,,,,3,3,event,United States|North Dakota|Oats|1997|spring,United States,North Dakota,Oats,1997.0,spring,-0.05922650163518954,0.05922650163518954,0.05922650163518954
+,excess_rain,,,,,4,4,event,United States|North Dakota|Oats|1997|spring,United States,North Dakota,Oats,1997.0,spring,-0.057945315188465046,0.057945315188465046,0.057945315188465046
+,radiation,,,,,5,5,event,United States|North Dakota|Oats|1997|spring,United States,North Dakota,Oats,1997.0,spring,-0.021765277938205638,0.021765277938205638,0.021765277938205638
+,heat,,,,,5,5,event,United States|Minnesota|Wheat|1997|spring,United States,Minnesota,Wheat,1997.0,spring,-0.004179837631974477,0.004179837631974477,0.004179837631974477
+,drought,,,,,3,3,event,United States|Minnesota|Wheat|1997|spring,United States,Minnesota,Wheat,1997.0,spring,-0.04014791615649714,0.04014791615649714,0.04014791615649714
+,frost_cold,,,,,1,1,event,United States|Minnesota|Wheat|1997|spring,United States,Minnesota,Wheat,1997.0,spring,-0.07041251187374761,0.07041251187374761,0.07041251187374761
+,excess_rain,,,,,2,2,event,United States|Minnesota|Wheat|1997|spring,United States,Minnesota,Wheat,1997.0,spring,-0.06735355337097448,0.06735355337097448,0.06735355337097448
+,radiation,,,,,4,4,event,United States|Minnesota|Wheat|1997|spring,United States,Minnesota,Wheat,1997.0,spring,-0.0095663675734924,0.0095663675734924,0.0095663675734924
+,heat,,,,,1,1,event,United States|North Dakota|Wheat|1997|spring,United States,North Dakota,Wheat,1997.0,spring,-0.10834241748156127,0.10834241748156127,0.10834241748156127
+,drought,,,,,2,2,event,United States|North Dakota|Wheat|1997|spring,United States,North Dakota,Wheat,1997.0,spring,-0.1074614061013692,0.1074614061013692,0.1074614061013692
+,frost_cold,,,,,3,3,event,United States|North Dakota|Wheat|1997|spring,United States,North Dakota,Wheat,1997.0,spring,-0.05902081040269963,0.05902081040269963,0.05902081040269963
+,excess_rain,,,,,4,4,event,United States|North Dakota|Wheat|1997|spring,United States,North Dakota,Wheat,1997.0,spring,-0.05767425105218653,0.05767425105218653,0.05767425105218653
+,radiation,,,,,5,5,event,United States|North Dakota|Wheat|1997|spring,United States,North Dakota,Wheat,1997.0,spring,-0.02007070999792953,0.02007070999792953,0.02007070999792953
+,heat,,,,,1,1,event,United States|South Dakota|Wheat|1997|spring,United States,South Dakota,Wheat,1997.0,spring,-0.12116129668081452,0.12116129668081452,0.12116129668081452
+,drought,,,,,5,5,event,United States|South Dakota|Wheat|1997|spring,United States,South Dakota,Wheat,1997.0,spring,-0.012266864625625488,0.012266864625625488,0.012266864625625488
+,frost_cold,,,,,2,2,event,United States|South Dakota|Wheat|1997|spring,United States,South Dakota,Wheat,1997.0,spring,-0.10524465507145742,0.10524465507145742,0.10524465507145742
+,excess_rain,,,,,3,3,event,United States|South Dakota|Wheat|1997|spring,United States,South Dakota,Wheat,1997.0,spring,-0.04118827938156682,0.04118827938156682,0.04118827938156682
+,radiation,,,,,4,4,event,United States|South Dakota|Wheat|1997|spring,United States,South Dakota,Wheat,1997.0,spring,-0.012929306014403338,0.012929306014403338,0.012929306014403338
+,heat,,,,,3,3,event,United States|Illinois|Oats|1998|spring,United States,Illinois,Oats,1998.0,spring,-0.060605392722578505,0.060605392722578505,0.060605392722578505
+,drought,,,,,2,2,event,United States|Illinois|Oats|1998|spring,United States,Illinois,Oats,1998.0,spring,-0.09422533884482197,0.09422533884482197,0.09422533884482197
+,frost_cold,,,,,5,5,event,United States|Illinois|Oats|1998|spring,United States,Illinois,Oats,1998.0,spring,-0.016668110023077692,0.016668110023077692,0.016668110023077692
+,excess_rain,,,,,1,1,event,United States|Illinois|Oats|1998|spring,United States,Illinois,Oats,1998.0,spring,-0.09733164132375813,0.09733164132375813,0.09733164132375813
+,radiation,,,,,4,4,event,United States|Illinois|Oats|1998|spring,United States,Illinois,Oats,1998.0,spring,-0.017724394972210525,0.017724394972210525,0.017724394972210525
+,heat,,,,,3,3,event,United States|Minnesota|Barley|1999|spring,United States,Minnesota,Barley,1999.0,spring,-0.028430965040681346,0.028430965040681346,0.028430965040681346
+,drought,,,,,2,2,event,United States|Minnesota|Barley|1999|spring,United States,Minnesota,Barley,1999.0,spring,-0.0638608487715207,0.0638608487715207,0.0638608487715207
+,frost_cold,,,,,4,5,event,United States|Minnesota|Barley|1999|spring,United States,Minnesota,Barley,1999.0,spring,0.016237621690176562,0.016237621690176562,0.0
+,excess_rain,,,,,1,1,event,United States|Minnesota|Barley|1999|spring,United States,Minnesota,Barley,1999.0,spring,-0.06823294849378839,0.06823294849378839,0.06823294849378839
+,radiation,,,,,5,4,event,United States|Minnesota|Barley|1999|spring,United States,Minnesota,Barley,1999.0,spring,-0.008816785645636939,0.008816785645636939,0.008816785645636939
+,heat,,,,,1,1,event,United States|Texas|Barley|1999|spring,United States,Texas,Barley,1999.0,spring,-0.13941095797220635,0.13941095797220635,0.13941095797220635
+,drought,,,,,2,2,event,United States|Texas|Barley|1999|spring,United States,Texas,Barley,1999.0,spring,-0.028051893460617774,0.028051893460617774,0.028051893460617774
+,frost_cold,,,,,3,5,event,United States|Texas|Barley|1999|spring,United States,Texas,Barley,1999.0,spring,0.02704011799289942,0.02704011799289942,0.0
+,excess_rain,,,,,4,3,event,United States|Texas|Barley|1999|spring,United States,Texas,Barley,1999.0,spring,-0.005308602700890808,0.005308602700890808,0.005308602700890808
+,radiation,,,,,5,4,event,United States|Texas|Barley|1999|spring,United States,Texas,Barley,1999.0,spring,-9.591599921425888e-05,9.591599921425888e-05,9.591599921425888e-05
+,heat,,,,,2,2,event,United States|Montana|Barley|2000|spring,United States,Montana,Barley,2000.0,spring,-0.07956870541723433,0.07956870541723433,0.07956870541723433
+,drought,,,,,1,1,event,United States|Montana|Barley|2000|spring,United States,Montana,Barley,2000.0,spring,-0.0894940702069,0.0894940702069,0.0894940702069
+,frost_cold,,,,,4,4,event,United States|Montana|Barley|2000|spring,United States,Montana,Barley,2000.0,spring,-0.028708697137093973,0.028708697137093973,0.028708697137093973
+,excess_rain,,,,,3,3,event,United States|Montana|Barley|2000|spring,United States,Montana,Barley,2000.0,spring,-0.029926061188621907,0.029926061188621907,0.029926061188621907
+,radiation,,,,,5,5,event,United States|Montana|Barley|2000|spring,United States,Montana,Barley,2000.0,spring,-0.010004564887178307,0.010004564887178307,0.010004564887178307
+,heat,,,,,1,1,event,United States|Nebraska|Barley|2000|spring,United States,Nebraska,Barley,2000.0,spring,-0.25338224264191184,0.25338224264191184,0.25338224264191184
+,drought,,,,,4,4,event,United States|Nebraska|Barley|2000|spring,United States,Nebraska,Barley,2000.0,spring,-0.05612057088286556,0.05612057088286556,0.05612057088286556
+,frost_cold,,,,,3,3,event,United States|Nebraska|Barley|2000|spring,United States,Nebraska,Barley,2000.0,spring,-0.056180717178965445,0.056180717178965445,0.056180717178965445
+,excess_rain,,,,,2,2,event,United States|Nebraska|Barley|2000|spring,United States,Nebraska,Barley,2000.0,spring,-0.1809854069663291,0.1809854069663291,0.1809854069663291
+,radiation,,,,,5,5,event,United States|Nebraska|Barley|2000|spring,United States,Nebraska,Barley,2000.0,spring,-0.0029024162483907213,0.0029024162483907213,0.0029024162483907213
+,heat,,,,,1,1,event,United States|Nebraska|Oats|2000|spring,United States,Nebraska,Oats,2000.0,spring,-0.2561807810947576,0.2561807810947576,0.2561807810947576
+,drought,,,,,4,4,event,United States|Nebraska|Oats|2000|spring,United States,Nebraska,Oats,2000.0,spring,-0.03606169166989891,0.03606169166989891,0.03606169166989891
+,frost_cold,,,,,3,3,event,United States|Nebraska|Oats|2000|spring,United States,Nebraska,Oats,2000.0,spring,-0.057592946707480774,0.057592946707480774,0.057592946707480774
+,excess_rain,,,,,2,2,event,United States|Nebraska|Oats|2000|spring,United States,Nebraska,Oats,2000.0,spring,-0.19331393820566597,0.19331393820566597,0.19331393820566597
+,radiation,,,,,5,5,event,United States|Nebraska|Oats|2000|spring,United States,Nebraska,Oats,2000.0,spring,-0.004178667946049877,0.004178667946049877,0.004178667946049877
+,heat,,,,,2,2,event,United States|Montana|Barley|2001|spring,United States,Montana,Barley,2001.0,spring,-0.09826675770626271,0.09826675770626271,0.09826675770626271
+,drought,,,,,1,1,event,United States|Montana|Barley|2001|spring,United States,Montana,Barley,2001.0,spring,-0.10544646410884478,0.10544646410884478,0.10544646410884478
+,frost_cold,,,,,4,4,event,United States|Montana|Barley|2001|spring,United States,Montana,Barley,2001.0,spring,-0.030518226841037523,0.030518226841037523,0.030518226841037523
+,excess_rain,,,,,3,3,event,United States|Montana|Barley|2001|spring,United States,Montana,Barley,2001.0,spring,-0.05937285713774593,0.05937285713774593,0.05937285713774593
+,radiation,,,,,5,5,event,United States|Montana|Barley|2001|spring,United States,Montana,Barley,2001.0,spring,-0.022702418988712926,0.022702418988712926,0.022702418988712926
+,heat,,,,,3,3,event,United States|Washington|Barley|2001|spring,United States,Washington,Barley,2001.0,spring,-0.0917621621861544,0.0917621621861544,0.0917621621861544
+,drought,,,,,2,2,event,United States|Washington|Barley|2001|spring,United States,Washington,Barley,2001.0,spring,-0.1792913686852252,0.1792913686852252,0.1792913686852252
+,frost_cold,,,,,4,4,event,United States|Washington|Barley|2001|spring,United States,Washington,Barley,2001.0,spring,-0.040126367079699965,0.040126367079699965,0.040126367079699965
+,excess_rain,,,,,1,1,event,United States|Washington|Barley|2001|spring,United States,Washington,Barley,2001.0,spring,-0.21555904551473049,0.21555904551473049,0.21555904551473049
+,radiation,,,,,5,5,event,United States|Washington|Barley|2001|spring,United States,Washington,Barley,2001.0,spring,-0.015656754064690262,0.015656754064690262,0.015656754064690262
+,heat,,,,,2,2,event,United States|Montana|Canola|2001|spring,United States,Montana,Canola,2001.0,spring,-0.10231979755475974,0.10231979755475974,0.10231979755475974
+,drought,,,,,1,1,event,United States|Montana|Canola|2001|spring,United States,Montana,Canola,2001.0,spring,-0.11056205410534574,0.11056205410534574,0.11056205410534574
+,frost_cold,,,,,4,4,event,United States|Montana|Canola|2001|spring,United States,Montana,Canola,2001.0,spring,-0.031633695407551746,0.031633695407551746,0.031633695407551746
+,excess_rain,,,,,3,3,event,United States|Montana|Canola|2001|spring,United States,Montana,Canola,2001.0,spring,-0.06259558457488723,0.06259558457488723,0.06259558457488723
+,radiation,,,,,5,5,event,United States|Montana|Canola|2001|spring,United States,Montana,Canola,2001.0,spring,-0.02470618537810496,0.02470618537810496,0.02470618537810496
+,heat,,,,,3,3,event,United States|Washington|Oats|2001|spring,United States,Washington,Oats,2001.0,spring,-0.11054925960376061,0.11054925960376061,0.11054925960376061
+,drought,,,,,2,2,event,United States|Washington|Oats|2001|spring,United States,Washington,Oats,2001.0,spring,-0.18046590625990844,0.18046590625990844,0.18046590625990844
+,frost_cold,,,,,4,4,event,United States|Washington|Oats|2001|spring,United States,Washington,Oats,2001.0,spring,-0.04081182591932454,0.04081182591932454,0.04081182591932454
+,excess_rain,,,,,1,1,event,United States|Washington|Oats|2001|spring,United States,Washington,Oats,2001.0,spring,-0.2071885891007349,0.2071885891007349,0.2071885891007349
+,radiation,,,,,5,5,event,United States|Washington|Oats|2001|spring,United States,Washington,Oats,2001.0,spring,-0.010826285809472026,0.010826285809472026,0.010826285809472026
+,heat,,,,,2,2,event,United States|Montana|Wheat|2001|spring,United States,Montana,Wheat,2001.0,spring,-0.10059483974248329,0.10059483974248329,0.10059483974248329
+,drought,,,,,1,1,event,United States|Montana|Wheat|2001|spring,United States,Montana,Wheat,2001.0,spring,-0.10872892168149427,0.10872892168149427,0.10872892168149427
+,frost_cold,,,,,4,4,event,United States|Montana|Wheat|2001|spring,United States,Montana,Wheat,2001.0,spring,-0.030760262118127595,0.030760262118127595,0.030760262118127595
+,excess_rain,,,,,3,3,event,United States|Montana|Wheat|2001|spring,United States,Montana,Wheat,2001.0,spring,-0.06289883280964645,0.06289883280964645,0.06289883280964645
+,radiation,,,,,5,5,event,United States|Montana|Wheat|2001|spring,United States,Montana,Wheat,2001.0,spring,-0.02404820215429768,0.02404820215429768,0.02404820215429768
+,heat,,,,,4,4,event,United States|Minnesota|Barley|2002|spring,United States,Minnesota,Barley,2002.0,spring,-0.06514848618997884,0.06514848618997884,0.06514848618997884
+,drought,,,,,1,1,event,United States|Minnesota|Barley|2002|spring,United States,Minnesota,Barley,2002.0,spring,-0.17238550444000303,0.17238550444000303,0.17238550444000303
+,frost_cold,,,,,2,2,event,United States|Minnesota|Barley|2002|spring,United States,Minnesota,Barley,2002.0,spring,-0.14678752865567785,0.14678752865567785,0.14678752865567785
+,excess_rain,,,,,3,3,event,United States|Minnesota|Barley|2002|spring,United States,Minnesota,Barley,2002.0,spring,-0.11477473236284541,0.11477473236284541,0.11477473236284541
+,radiation,,,,,5,5,event,United States|Minnesota|Barley|2002|spring,United States,Minnesota,Barley,2002.0,spring,-0.012035029317633587,0.012035029317633587,0.012035029317633587
+,heat,,,,,1,1,event,United States|Montana|Barley|2002|spring,United States,Montana,Barley,2002.0,spring,-0.16749514006014762,0.16749514006014762,0.16749514006014762
+,drought,,,,,5,5,event,United States|Montana|Barley|2002|spring,United States,Montana,Barley,2002.0,spring,-0.004421522052413616,0.004421522052413616,0.004421522052413616
+,frost_cold,,,,,2,2,event,United States|Montana|Barley|2002|spring,United States,Montana,Barley,2002.0,spring,-0.09765873289979371,0.09765873289979371,0.09765873289979371
+,excess_rain,,,,,3,3,event,United States|Montana|Barley|2002|spring,United States,Montana,Barley,2002.0,spring,-0.059695916546475256,0.059695916546475256,0.059695916546475256
+,radiation,,,,,4,4,event,United States|Montana|Barley|2002|spring,United States,Montana,Barley,2002.0,spring,-0.005648684544477606,0.005648684544477606,0.005648684544477606
+,heat,,,,,1,1,event,United States|Nebraska|Barley|2002|spring,United States,Nebraska,Barley,2002.0,spring,-0.21622726050901428,0.21622726050901428,0.21622726050901428
+,drought,,,,,3,3,event,United States|Nebraska|Barley|2002|spring,United States,Nebraska,Barley,2002.0,spring,-0.1290845945203442,0.1290845945203442,0.1290845945203442
+,frost_cold,,,,,4,4,event,United States|Nebraska|Barley|2002|spring,United States,Nebraska,Barley,2002.0,spring,-0.034344156248066735,0.034344156248066735,0.034344156248066735
+,excess_rain,,,,,2,2,event,United States|Nebraska|Barley|2002|spring,United States,Nebraska,Barley,2002.0,spring,-0.16595643727381232,0.16595643727381232,0.16595643727381232
+,radiation,,,,,5,5,event,United States|Nebraska|Barley|2002|spring,United States,Nebraska,Barley,2002.0,spring,-0.011352129193865138,0.011352129193865138,0.011352129193865138
+,heat,,,,,1,1,event,United States|North Dakota|Barley|2002|spring,United States,North Dakota,Barley,2002.0,spring,-0.17158128628053285,0.17158128628053285,0.17158128628053285
+,drought,,,,,3,3,event,United States|North Dakota|Barley|2002|spring,United States,North Dakota,Barley,2002.0,spring,-0.10039795552821759,0.10039795552821759,0.10039795552821759
+,frost_cold,,,,,4,4,event,United States|North Dakota|Barley|2002|spring,United States,North Dakota,Barley,2002.0,spring,-0.0621711204683263,0.0621711204683263,0.0621711204683263
+,excess_rain,,,,,2,2,event,United States|North Dakota|Barley|2002|spring,United States,North Dakota,Barley,2002.0,spring,-0.13087310506886962,0.13087310506886962,0.13087310506886962
+,radiation,,,,,5,5,event,United States|North Dakota|Barley|2002|spring,United States,North Dakota,Barley,2002.0,spring,-0.0060062023694720905,0.0060062023694720905,0.0060062023694720905
+,heat,,,,,1,1,event,United States|South Dakota|Barley|2002|spring,United States,South Dakota,Barley,2002.0,spring,-0.22961461454652893,0.22961461454652893,0.22961461454652893
+,drought,,,,,3,3,event,United States|South Dakota|Barley|2002|spring,United States,South Dakota,Barley,2002.0,spring,-0.14914313799687468,0.14914313799687468,0.14914313799687468
+,frost_cold,,,,,4,4,event,United States|South Dakota|Barley|2002|spring,United States,South Dakota,Barley,2002.0,spring,-0.07196551007815484,0.07196551007815484,0.07196551007815484
+,excess_rain,,,,,2,2,event,United States|South Dakota|Barley|2002|spring,United States,South Dakota,Barley,2002.0,spring,-0.1509576492830482,0.1509576492830482,0.1509576492830482
+,radiation,,,,,5,5,event,United States|South Dakota|Barley|2002|spring,United States,South Dakota,Barley,2002.0,spring,-0.012498972326058212,0.012498972326058212,0.012498972326058212
+,heat,,,,,4,4,event,United States|Minnesota|Canola|2002|spring,United States,Minnesota,Canola,2002.0,spring,-0.06702606464953821,0.06702606464953821,0.06702606464953821
+,drought,,,,,1,1,event,United States|Minnesota|Canola|2002|spring,United States,Minnesota,Canola,2002.0,spring,-0.18857222861873404,0.18857222861873404,0.18857222861873404
+,frost_cold,,,,,2,2,event,United States|Minnesota|Canola|2002|spring,United States,Minnesota,Canola,2002.0,spring,-0.13765090677069075,0.13765090677069075,0.13765090677069075
+,excess_rain,,,,,3,3,event,United States|Minnesota|Canola|2002|spring,United States,Minnesota,Canola,2002.0,spring,-0.10897928579245464,0.10897928579245464,0.10897928579245464
+,radiation,,,,,5,5,event,United States|Minnesota|Canola|2002|spring,United States,Minnesota,Canola,2002.0,spring,-0.010087284069744767,0.010087284069744767,0.010087284069744767
+,heat,,,,,1,1,event,United States|Montana|Canola|2002|spring,United States,Montana,Canola,2002.0,spring,-0.16766034780594466,0.16766034780594466,0.16766034780594466
+,drought,,,,,5,5,event,United States|Montana|Canola|2002|spring,United States,Montana,Canola,2002.0,spring,-0.005102160490576813,0.005102160490576813,0.005102160490576813
+,frost_cold,,,,,2,2,event,United States|Montana|Canola|2002|spring,United States,Montana,Canola,2002.0,spring,-0.09890435838064325,0.09890435838064325,0.09890435838064325
+,excess_rain,,,,,3,3,event,United States|Montana|Canola|2002|spring,United States,Montana,Canola,2002.0,spring,-0.060424865669705605,0.060424865669705605,0.060424865669705605
+,radiation,,,,,4,4,event,United States|Montana|Canola|2002|spring,United States,Montana,Canola,2002.0,spring,-0.005769783992139545,0.005769783992139545,0.005769783992139545
+,heat,,,,,1,1,event,United States|North Dakota|Canola|2002|spring,United States,North Dakota,Canola,2002.0,spring,-0.16603139580791335,0.16603139580791335,0.16603139580791335
+,drought,,,,,3,3,event,United States|North Dakota|Canola|2002|spring,United States,North Dakota,Canola,2002.0,spring,-0.09737900352697057,0.09737900352697057,0.09737900352697057
+,frost_cold,,,,,4,4,event,United States|North Dakota|Canola|2002|spring,United States,North Dakota,Canola,2002.0,spring,-0.05869937847479298,0.05869937847479298,0.05869937847479298
+,excess_rain,,,,,2,2,event,United States|North Dakota|Canola|2002|spring,United States,North Dakota,Canola,2002.0,spring,-0.12594134681347724,0.12594134681347724,0.12594134681347724
+,radiation,,,,,5,5,event,United States|North Dakota|Canola|2002|spring,United States,North Dakota,Canola,2002.0,spring,-0.0021542857354504424,0.0021542857354504424,0.0021542857354504424
+,heat,,,,,5,5,event,United States|Colorado|Oats|2002|spring,United States,Colorado,Oats,2002.0,spring,0.00443496101835814,0.00443496101835814,0.0
+,drought,,,,,1,1,event,United States|Colorado|Oats|2002|spring,United States,Colorado,Oats,2002.0,spring,-0.19686230784100417,0.19686230784100417,0.19686230784100417
+,frost_cold,,,,,3,3,event,United States|Colorado|Oats|2002|spring,United States,Colorado,Oats,2002.0,spring,-0.0188126868598579,0.0188126868598579,0.0188126868598579
+,excess_rain,,,,,2,2,event,United States|Colorado|Oats|2002|spring,United States,Colorado,Oats,2002.0,spring,-0.1187216856413067,0.1187216856413067,0.1187216856413067
+,radiation,,,,,4,4,event,United States|Colorado|Oats|2002|spring,United States,Colorado,Oats,2002.0,spring,-0.010645671481547898,0.010645671481547898,0.010645671481547898
+,heat,,,,,1,1,event,United States|Nebraska|Oats|2002|spring,United States,Nebraska,Oats,2002.0,spring,-0.21350189379010948,0.21350189379010948,0.21350189379010948
+,drought,,,,,3,3,event,United States|Nebraska|Oats|2002|spring,United States,Nebraska,Oats,2002.0,spring,-0.12865286161361206,0.12865286161361206,0.12865286161361206
+,frost_cold,,,,,4,4,event,United States|Nebraska|Oats|2002|spring,United States,Nebraska,Oats,2002.0,spring,-0.032397946233661656,0.032397946233661656,0.032397946233661656
+,excess_rain,,,,,2,2,event,United States|Nebraska|Oats|2002|spring,United States,Nebraska,Oats,2002.0,spring,-0.16491754819949003,0.16491754819949003,0.16491754819949003
+,radiation,,,,,5,5,event,United States|Nebraska|Oats|2002|spring,United States,Nebraska,Oats,2002.0,spring,-0.011604116705204429,0.011604116705204429,0.011604116705204429
+,heat,,,,,1,1,event,United States|North Dakota|Oats|2002|spring,United States,North Dakota,Oats,2002.0,spring,-0.17246907002449527,0.17246907002449527,0.17246907002449527
+,drought,,,,,3,3,event,United States|North Dakota|Oats|2002|spring,United States,North Dakota,Oats,2002.0,spring,-0.10021286978752598,0.10021286978752598,0.10021286978752598
+,frost_cold,,,,,4,4,event,United States|North Dakota|Oats|2002|spring,United States,North Dakota,Oats,2002.0,spring,-0.06186761553630216,0.06186761553630216,0.06186761553630216
+,excess_rain,,,,,2,2,event,United States|North Dakota|Oats|2002|spring,United States,North Dakota,Oats,2002.0,spring,-0.13086857656545556,0.13086857656545556,0.13086857656545556
+,radiation,,,,,5,5,event,United States|North Dakota|Oats|2002|spring,United States,North Dakota,Oats,2002.0,spring,-0.006082966878786867,0.006082966878786867,0.006082966878786867
+,heat,,,,,1,1,event,United States|South Dakota|Oats|2002|spring,United States,South Dakota,Oats,2002.0,spring,-0.23629909388514103,0.23629909388514103,0.23629909388514103
+,drought,,,,,2,2,event,United States|South Dakota|Oats|2002|spring,United States,South Dakota,Oats,2002.0,spring,-0.152223911017007,0.152223911017007,0.152223911017007
+,frost_cold,,,,,4,4,event,United States|South Dakota|Oats|2002|spring,United States,South Dakota,Oats,2002.0,spring,-0.07582691920549112,0.07582691920549112,0.07582691920549112
+,excess_rain,,,,,3,3,event,United States|South Dakota|Oats|2002|spring,United States,South Dakota,Oats,2002.0,spring,-0.15166958834866603,0.15166958834866603,0.15166958834866603
+,radiation,,,,,5,5,event,United States|South Dakota|Oats|2002|spring,United States,South Dakota,Oats,2002.0,spring,-0.013075885614346486,0.013075885614346486,0.013075885614346486
+,heat,,,,,4,4,event,United States|Colorado|Wheat|2002|winter,United States,Colorado,Wheat,2002.0,winter,-0.04281364301424848,0.04281364301424848,0.04281364301424848
+,drought,,,,,1,1,event,United States|Colorado|Wheat|2002|winter,United States,Colorado,Wheat,2002.0,winter,-0.45512084505927547,0.45512084505927547,0.45512084505927547
+,frost_cold,,,,,3,3,event,United States|Colorado|Wheat|2002|winter,United States,Colorado,Wheat,2002.0,winter,-0.04791766425359615,0.04791766425359615,0.04791766425359615
+,excess_rain,,,,,2,2,event,United States|Colorado|Wheat|2002|winter,United States,Colorado,Wheat,2002.0,winter,-0.0675811676297308,0.0675811676297308,0.0675811676297308
+,radiation,,,,,5,5,event,United States|Colorado|Wheat|2002|winter,United States,Colorado,Wheat,2002.0,winter,-0.020510985173764852,0.020510985173764852,0.020510985173764852
+,heat,,,,,3,3,event,United States|Illinois|Wheat|2002|winter,United States,Illinois,Wheat,2002.0,winter,-0.08174002472342905,0.08174002472342905,0.08174002472342905
+,drought,,,,,2,2,event,United States|Illinois|Wheat|2002|winter,United States,Illinois,Wheat,2002.0,winter,-0.1069789027330469,0.1069789027330469,0.1069789027330469
+,frost_cold,,,,,4,4,event,United States|Illinois|Wheat|2002|winter,United States,Illinois,Wheat,2002.0,winter,-0.05382308331886186,0.05382308331886186,0.05382308331886186
+,excess_rain,,,,,1,1,event,United States|Illinois|Wheat|2002|winter,United States,Illinois,Wheat,2002.0,winter,-0.13820312816172248,0.13820312816172248,0.13820312816172248
+,radiation,,,,,5,5,event,United States|Illinois|Wheat|2002|winter,United States,Illinois,Wheat,2002.0,winter,-0.021727150146650977,0.021727150146650977,0.021727150146650977
+,heat,,,,,4,4,event,United States|Minnesota|Wheat|2002|spring,United States,Minnesota,Wheat,2002.0,spring,-0.07070148476054099,0.07070148476054099,0.07070148476054099
+,drought,,,,,1,1,event,United States|Minnesota|Wheat|2002|spring,United States,Minnesota,Wheat,2002.0,spring,-0.18886353479293888,0.18886353479293888,0.18886353479293888
+,frost_cold,,,,,2,2,event,United States|Minnesota|Wheat|2002|spring,United States,Minnesota,Wheat,2002.0,spring,-0.13842573712247114,0.13842573712247114,0.13842573712247114
+,excess_rain,,,,,3,3,event,United States|Minnesota|Wheat|2002|spring,United States,Minnesota,Wheat,2002.0,spring,-0.11299976665770903,0.11299976665770903,0.11299976665770903
+,radiation,,,,,5,5,event,United States|Minnesota|Wheat|2002|spring,United States,Minnesota,Wheat,2002.0,spring,-0.009972053538984008,0.009972053538984008,0.009972053538984008
+,heat,,,,,1,1,event,United States|Montana|Wheat|2002|spring,United States,Montana,Wheat,2002.0,spring,-0.17293831841325133,0.17293831841325133,0.17293831841325133
+,drought,,,,,5,5,event,United States|Montana|Wheat|2002|spring,United States,Montana,Wheat,2002.0,spring,-0.005430154706803594,0.005430154706803594,0.005430154706803594
+,frost_cold,,,,,2,2,event,United States|Montana|Wheat|2002|spring,United States,Montana,Wheat,2002.0,spring,-0.10010702178319261,0.10010702178319261,0.10010702178319261
+,excess_rain,,,,,3,3,event,United States|Montana|Wheat|2002|spring,United States,Montana,Wheat,2002.0,spring,-0.06035584331282763,0.06035584331282763,0.06035584331282763
+,radiation,,,,,4,4,event,United States|Montana|Wheat|2002|spring,United States,Montana,Wheat,2002.0,spring,-0.005648684544477606,0.005648684544477606,0.005648684544477606
+,heat,,,,,2,2,event,United States|Nebraska|Wheat|2002|winter,United States,Nebraska,Wheat,2002.0,winter,-0.05604747409605971,0.05604747409605971,0.05604747409605971
+,drought,,,,,1,1,event,United States|Nebraska|Wheat|2002|winter,United States,Nebraska,Wheat,2002.0,winter,-0.2934030713869387,0.2934030713869387,0.2934030713869387
+,frost_cold,,,,,4,4,event,United States|Nebraska|Wheat|2002|winter,United States,Nebraska,Wheat,2002.0,winter,-0.009914251677082393,0.009914251677082393,0.009914251677082393
+,excess_rain,,,,,3,3,event,United States|Nebraska|Wheat|2002|winter,United States,Nebraska,Wheat,2002.0,winter,-0.05522902467292607,0.05522902467292607,0.05522902467292607
+,radiation,,,,,5,5,event,United States|Nebraska|Wheat|2002|winter,United States,Nebraska,Wheat,2002.0,winter,-0.005432351187149183,0.005432351187149183,0.005432351187149183
+,heat,,,,,1,1,event,United States|North Dakota|Wheat|2002|spring,United States,North Dakota,Wheat,2002.0,spring,-0.16990414751097027,0.16990414751097027,0.16990414751097027
+,drought,,,,,3,3,event,United States|North Dakota|Wheat|2002|spring,United States,North Dakota,Wheat,2002.0,spring,-0.09986379917282978,0.09986379917282978,0.09986379917282978
+,frost_cold,,,,,4,4,event,United States|North Dakota|Wheat|2002|spring,United States,North Dakota,Wheat,2002.0,spring,-0.061840934993315506,0.061840934993315506,0.061840934993315506
+,excess_rain,,,,,2,2,event,United States|North Dakota|Wheat|2002|spring,United States,North Dakota,Wheat,2002.0,spring,-0.13155741702310692,0.13155741702310692,0.13155741702310692
+,radiation,,,,,5,5,event,United States|North Dakota|Wheat|2002|spring,United States,North Dakota,Wheat,2002.0,spring,-0.004696613885429567,0.004696613885429567,0.004696613885429567
+,heat,,,,,1,1,event,United States|South Dakota|Wheat|2002|spring,United States,South Dakota,Wheat,2002.0,spring,-0.23204571426417828,0.23204571426417828,0.23204571426417828
+,drought,,,,,3,3,event,United States|South Dakota|Wheat|2002|spring,United States,South Dakota,Wheat,2002.0,spring,-0.1499875019708718,0.1499875019708718,0.1499875019708718
+,frost_cold,,,,,4,4,event,United States|South Dakota|Wheat|2002|spring,United States,South Dakota,Wheat,2002.0,spring,-0.07186205631395653,0.07186205631395653,0.07186205631395653
+,excess_rain,,,,,2,2,event,United States|South Dakota|Wheat|2002|spring,United States,South Dakota,Wheat,2002.0,spring,-0.15052661297164716,0.15052661297164716,0.15052661297164716
+,radiation,,,,,5,5,event,United States|South Dakota|Wheat|2002|spring,United States,South Dakota,Wheat,2002.0,spring,-0.012498972326058212,0.012498972326058212,0.012498972326058212
+,heat,,,,,1,1,event,United States|Montana|Barley|2003|spring,United States,Montana,Barley,2003.0,spring,-0.09831807078717603,0.09831807078717603,0.09831807078717603
+,drought,,,,,2,2,event,United States|Montana|Barley|2003|spring,United States,Montana,Barley,2003.0,spring,-0.09823044132348525,0.09823044132348525,0.09823044132348525
+,frost_cold,,,,,4,4,event,United States|Montana|Barley|2003|spring,United States,Montana,Barley,2003.0,spring,-0.024851495559076935,0.024851495559076935,0.024851495559076935
+,excess_rain,,,,,3,3,event,United States|Montana|Barley|2003|spring,United States,Montana,Barley,2003.0,spring,-0.05007251938489346,0.05007251938489346,0.05007251938489346
+,radiation,,,,,5,5,event,United States|Montana|Barley|2003|spring,United States,Montana,Barley,2003.0,spring,-0.01559268226396784,0.01559268226396784,0.01559268226396784
+,heat,,,,,4,4,event,United States|Washington|Barley|2003|spring,United States,Washington,Barley,2003.0,spring,-0.019818169257750137,0.019818169257750137,0.019818169257750137
+,drought,,,,,1,1,event,United States|Washington|Barley|2003|spring,United States,Washington,Barley,2003.0,spring,-0.4570151959909217,0.4570151959909217,0.4570151959909217
+,frost_cold,,,,,3,3,event,United States|Washington|Barley|2003|spring,United States,Washington,Barley,2003.0,spring,-0.02203878691680396,0.02203878691680396,0.02203878691680396
+,excess_rain,,,,,2,2,event,United States|Washington|Barley|2003|spring,United States,Washington,Barley,2003.0,spring,-0.16811839164730907,0.16811839164730907,0.16811839164730907
+,radiation,,,,,5,5,event,United States|Washington|Barley|2003|spring,United States,Washington,Barley,2003.0,spring,-0.005391934223393756,0.005391934223393756,0.005391934223393756
+,heat,,,,,2,2,event,United States|Montana|Canola|2003|spring,United States,Montana,Canola,2003.0,spring,-0.08884883665982032,0.08884883665982032,0.08884883665982032
+,drought,,,,,1,1,event,United States|Montana|Canola|2003|spring,United States,Montana,Canola,2003.0,spring,-0.09955666574508865,0.09955666574508865,0.09955666574508865
+,frost_cold,,,,,4,4,event,United States|Montana|Canola|2003|spring,United States,Montana,Canola,2003.0,spring,-0.03011745205167519,0.03011745205167519,0.03011745205167519
+,excess_rain,,,,,3,3,event,United States|Montana|Canola|2003|spring,United States,Montana,Canola,2003.0,spring,-0.054113790806166996,0.054113790806166996,0.054113790806166996
+,radiation,,,,,5,5,event,United States|Montana|Canola|2003|spring,United States,Montana,Canola,2003.0,spring,-0.016784871611504614,0.016784871611504614,0.016784871611504614
+,heat,,,,,4,4,event,United States|Washington|Oats|2003|spring,United States,Washington,Oats,2003.0,spring,-0.02046978162180588,0.02046978162180588,0.02046978162180588
+,drought,,,,,1,1,event,United States|Washington|Oats|2003|spring,United States,Washington,Oats,2003.0,spring,-0.45609155715990135,0.45609155715990135,0.45609155715990135
+,frost_cold,,,,,3,3,event,United States|Washington|Oats|2003|spring,United States,Washington,Oats,2003.0,spring,-0.025220729119513105,0.025220729119513105,0.025220729119513105
+,excess_rain,,,,,2,2,event,United States|Washington|Oats|2003|spring,United States,Washington,Oats,2003.0,spring,-0.16936945399110295,0.16936945399110295,0.16936945399110295
+,radiation,,,,,5,5,event,United States|Washington|Oats|2003|spring,United States,Washington,Oats,2003.0,spring,-0.00497665779696733,0.00497665779696733,0.00497665779696733
+,heat,,,,,1,1,event,United States|Kansas|Barley|2004|spring,United States,Kansas,Barley,2004.0,spring,-0.2274762602466268,0.2274762602466268,0.2274762602466268
+,drought,,,,,4,4,event,United States|Kansas|Barley|2004|spring,United States,Kansas,Barley,2004.0,spring,-0.03447057334173928,0.03447057334173928,0.03447057334173928
+,frost_cold,,,,,3,3,event,United States|Kansas|Barley|2004|spring,United States,Kansas,Barley,2004.0,spring,-0.04012642950718885,0.04012642950718885,0.04012642950718885
+,excess_rain,,,,,2,2,event,United States|Kansas|Barley|2004|spring,United States,Kansas,Barley,2004.0,spring,-0.07292325671042961,0.07292325671042961,0.07292325671042961
+,radiation,,,,,5,5,event,United States|Kansas|Barley|2004|spring,United States,Kansas,Barley,2004.0,spring,-0.019938601777009127,0.019938601777009127,0.019938601777009127
+,heat,,,,,1,4,event,United States|Colorado|Oats|2004|spring,United States,Colorado,Oats,2004.0,spring,0.03464831216865147,0.03464831216865147,0.0
+,drought,,,,,3,2,event,United States|Colorado|Oats|2004|spring,United States,Colorado,Oats,2004.0,spring,-0.030957042006902996,0.030957042006902996,0.030957042006902996
+,frost_cold,,,,,5,5,event,United States|Colorado|Oats|2004|spring,United States,Colorado,Oats,2004.0,spring,0.0014348691298504829,0.0014348691298504829,0.0
+,excess_rain,,,,,4,3,event,United States|Colorado|Oats|2004|spring,United States,Colorado,Oats,2004.0,spring,-0.019867203916344965,0.019867203916344965,0.019867203916344965
+,radiation,,,,,2,1,event,United States|Colorado|Oats|2004|spring,United States,Colorado,Oats,2004.0,spring,-0.03155748691741579,0.03155748691741579,0.03155748691741579
+,heat,,,,,4,4,event,United States|Colorado|Wheat|2004|winter,United States,Colorado,Wheat,2004.0,winter,-0.01677244141726032,0.01677244141726032,0.01677244141726032
+,drought,,,,,1,1,event,United States|Colorado|Wheat|2004|winter,United States,Colorado,Wheat,2004.0,winter,-0.266786919837737,0.266786919837737,0.266786919837737
+,frost_cold,,,,,5,5,event,United States|Colorado|Wheat|2004|winter,United States,Colorado,Wheat,2004.0,winter,0.0017981779100743932,0.0017981779100743932,0.0
+,excess_rain,,,,,2,2,event,United States|Colorado|Wheat|2004|winter,United States,Colorado,Wheat,2004.0,winter,-0.05227512163100166,0.05227512163100166,0.05227512163100166
+,radiation,,,,,3,3,event,United States|Colorado|Wheat|2004|winter,United States,Colorado,Wheat,2004.0,winter,-0.021154521778508836,0.021154521778508836,0.021154521778508836
+,heat,,,,,2,2,event,United States|Minnesota|Barley|2005|spring,United States,Minnesota,Barley,2005.0,spring,-0.08085762622388276,0.08085762622388276,0.08085762622388276
+,drought,,,,,4,4,event,United States|Minnesota|Barley|2005|spring,United States,Minnesota,Barley,2005.0,spring,-0.059816134004264054,0.059816134004264054,0.059816134004264054
+,frost_cold,,,,,3,3,event,United States|Minnesota|Barley|2005|spring,United States,Minnesota,Barley,2005.0,spring,-0.06332160463977045,0.06332160463977045,0.06332160463977045
+,excess_rain,,,,,1,1,event,United States|Minnesota|Barley|2005|spring,United States,Minnesota,Barley,2005.0,spring,-0.1117906853598297,0.1117906853598297,0.1117906853598297
+,radiation,,,,,5,5,event,United States|Minnesota|Barley|2005|spring,United States,Minnesota,Barley,2005.0,spring,-0.049186125840357,0.049186125840357,0.049186125840357
+,heat,,,,,2,2,event,United States|Minnesota|Canola|2005|spring,United States,Minnesota,Canola,2005.0,spring,-0.08341382812810533,0.08341382812810533,0.08341382812810533
+,drought,,,,,4,4,event,United States|Minnesota|Canola|2005|spring,United States,Minnesota,Canola,2005.0,spring,-0.05614910030495119,0.05614910030495119,0.05614910030495119
+,frost_cold,,,,,3,3,event,United States|Minnesota|Canola|2005|spring,United States,Minnesota,Canola,2005.0,spring,-0.06253371875749529,0.06253371875749529,0.06253371875749529
+,excess_rain,,,,,1,1,event,United States|Minnesota|Canola|2005|spring,United States,Minnesota,Canola,2005.0,spring,-0.11478053255379972,0.11478053255379972,0.11478053255379972
+,radiation,,,,,5,5,event,United States|Minnesota|Canola|2005|spring,United States,Minnesota,Canola,2005.0,spring,-0.0487150824887792,0.0487150824887792,0.0487150824887792
+,heat,,,,,5,5,event,United States|Colorado|Wheat|2005|winter,United States,Colorado,Wheat,2005.0,winter,0.006696078872938169,0.006696078872938169,0.0
+,drought,,,,,1,1,event,United States|Colorado|Wheat|2005|winter,United States,Colorado,Wheat,2005.0,winter,-0.28516853550376403,0.28516853550376403,0.28516853550376403
+,frost_cold,,,,,3,3,event,United States|Colorado|Wheat|2005|winter,United States,Colorado,Wheat,2005.0,winter,-0.06915189323205134,0.06915189323205134,0.06915189323205134
+,excess_rain,,,,,2,2,event,United States|Colorado|Wheat|2005|winter,United States,Colorado,Wheat,2005.0,winter,-0.11368961564379984,0.11368961564379984,0.11368961564379984
+,radiation,,,,,4,4,event,United States|Colorado|Wheat|2005|winter,United States,Colorado,Wheat,2005.0,winter,-0.012455656102305295,0.012455656102305295,0.012455656102305295
+,heat,,,,,1,1,event,United States|Kansas|Barley|2006|spring,United States,Kansas,Barley,2006.0,spring,-0.23207722594154034,0.23207722594154034,0.23207722594154034
+,drought,,,,,2,2,event,United States|Kansas|Barley|2006|spring,United States,Kansas,Barley,2006.0,spring,-0.10247760890116607,0.10247760890116607,0.10247760890116607
+,frost_cold,,,,,4,4,event,United States|Kansas|Barley|2006|spring,United States,Kansas,Barley,2006.0,spring,-0.03800047818765606,0.03800047818765606,0.03800047818765606
+,excess_rain,,,,,3,3,event,United States|Kansas|Barley|2006|spring,United States,Kansas,Barley,2006.0,spring,-0.055750878413113505,0.055750878413113505,0.055750878413113505
+,radiation,,,,,5,5,event,United States|Kansas|Barley|2006|spring,United States,Kansas,Barley,2006.0,spring,-0.020507992694427227,0.020507992694427227,0.020507992694427227
+,heat,,,,,2,2,event,United States|North Dakota|Barley|2006|spring,United States,North Dakota,Barley,2006.0,spring,-0.13140923477014346,0.13140923477014346,0.13140923477014346
+,drought,,,,,3,3,event,United States|North Dakota|Barley|2006|spring,United States,North Dakota,Barley,2006.0,spring,-0.12049998200712177,0.12049998200712177,0.12049998200712177
+,frost_cold,,,,,4,4,event,United States|North Dakota|Barley|2006|spring,United States,North Dakota,Barley,2006.0,spring,-0.029658822646307974,0.029658822646307974,0.029658822646307974
+,excess_rain,,,,,1,1,event,United States|North Dakota|Barley|2006|spring,United States,North Dakota,Barley,2006.0,spring,-0.14567037762480195,0.14567037762480195,0.14567037762480195
+,radiation,,,,,5,5,event,United States|North Dakota|Barley|2006|spring,United States,North Dakota,Barley,2006.0,spring,-0.014296210244894827,0.014296210244894827,0.014296210244894827
+,heat,,,,,1,1,event,United States|Nebraska|Oats|2006|spring,United States,Nebraska,Oats,2006.0,spring,-0.15763808011975172,0.15763808011975172,0.15763808011975172
+,drought,,,,,3,3,event,United States|Nebraska|Oats|2006|spring,United States,Nebraska,Oats,2006.0,spring,-0.04247383696159597,0.04247383696159597,0.04247383696159597
+,frost_cold,,,,,4,4,event,United States|Nebraska|Oats|2006|spring,United States,Nebraska,Oats,2006.0,spring,-0.03360577819839343,0.03360577819839343,0.03360577819839343
+,excess_rain,,,,,2,2,event,United States|Nebraska|Oats|2006|spring,United States,Nebraska,Oats,2006.0,spring,-0.085595037912124,0.085595037912124,0.085595037912124
+,radiation,,,,,5,5,event,United States|Nebraska|Oats|2006|spring,United States,Nebraska,Oats,2006.0,spring,-0.006972803144097596,0.006972803144097596,0.006972803144097596
+,heat,,,,,2,2,event,United States|North Dakota|Oats|2006|spring,United States,North Dakota,Oats,2006.0,spring,-0.1330464078748718,0.1330464078748718,0.1330464078748718
+,drought,,,,,3,3,event,United States|North Dakota|Oats|2006|spring,United States,North Dakota,Oats,2006.0,spring,-0.1325735423169676,0.1325735423169676,0.1325735423169676
+,frost_cold,,,,,4,4,event,United States|North Dakota|Oats|2006|spring,United States,North Dakota,Oats,2006.0,spring,-0.031065544119626715,0.031065544119626715,0.031065544119626715
+,excess_rain,,,,,1,1,event,United States|North Dakota|Oats|2006|spring,United States,North Dakota,Oats,2006.0,spring,-0.1511152811790733,0.1511152811790733,0.1511152811790733
+,radiation,,,,,5,5,event,United States|North Dakota|Oats|2006|spring,United States,North Dakota,Oats,2006.0,spring,-0.015872727168842964,0.015872727168842964,0.015872727168842964
+,heat,,,,,1,1,event,United States|Oklahoma|Oats|2006|spring,United States,Oklahoma,Oats,2006.0,spring,-0.1706417516437705,0.1706417516437705,0.1706417516437705
+,drought,,,,,5,5,event,United States|Oklahoma|Oats|2006|spring,United States,Oklahoma,Oats,2006.0,spring,0.00443641386464328,0.00443641386464328,0.0
+,frost_cold,,,,,4,4,event,United States|Oklahoma|Oats|2006|spring,United States,Oklahoma,Oats,2006.0,spring,-0.006320590929095688,0.006320590929095688,0.006320590929095688
+,excess_rain,,,,,2,2,event,United States|Oklahoma|Oats|2006|spring,United States,Oklahoma,Oats,2006.0,spring,-0.03554686276530235,0.03554686276530235,0.03554686276530235
+,radiation,,,,,3,3,event,United States|Oklahoma|Oats|2006|spring,United States,Oklahoma,Oats,2006.0,spring,-0.024582250207701276,0.024582250207701276,0.024582250207701276
+,heat,,,,,1,1,event,United States|South Dakota|Oats|2006|spring,United States,South Dakota,Oats,2006.0,spring,-0.17141948377462685,0.17141948377462685,0.17141948377462685
+,drought,,,,,2,2,event,United States|South Dakota|Oats|2006|spring,United States,South Dakota,Oats,2006.0,spring,-0.12827583941929496,0.12827583941929496,0.12827583941929496
+,frost_cold,,,,,4,5,event,United States|South Dakota|Oats|2006|spring,United States,South Dakota,Oats,2006.0,spring,0.014601091859613445,0.014601091859613445,0.0
+,excess_rain,,,,,3,3,event,United States|South Dakota|Oats|2006|spring,United States,South Dakota,Oats,2006.0,spring,-0.0917158131001026,0.0917158131001026,0.0917158131001026
+,radiation,,,,,5,4,event,United States|South Dakota|Oats|2006|spring,United States,South Dakota,Oats,2006.0,spring,-0.0021241012085375676,0.0021241012085375676,0.0021241012085375676
+,heat,,,,,3,3,event,United States|Texas|Oats|2006|spring,United States,Texas,Oats,2006.0,spring,-0.0720408932827333,0.0720408932827333,0.0720408932827333
+,drought,,,,,2,2,event,United States|Texas|Oats|2006|spring,United States,Texas,Oats,2006.0,spring,-0.08944474934578887,0.08944474934578887,0.08944474934578887
+,frost_cold,,,,,4,5,event,United States|Texas|Oats|2006|spring,United States,Texas,Oats,2006.0,spring,0.021037352755736684,0.021037352755736684,0.0
+,excess_rain,,,,,1,1,event,United States|Texas|Oats|2006|spring,United States,Texas,Oats,2006.0,spring,-0.1000781372311996,0.1000781372311996,0.1000781372311996
+,radiation,,,,,5,4,event,United States|Texas|Oats|2006|spring,United States,Texas,Oats,2006.0,spring,-0.007634364518910247,0.007634364518910247,0.007634364518910247
+,heat,,,,,5,5,event,United States|Colorado|Wheat|2006|winter,United States,Colorado,Wheat,2006.0,winter,-0.011530023140739927,0.011530023140739927,0.011530023140739927
+,drought,,,,,1,1,event,United States|Colorado|Wheat|2006|winter,United States,Colorado,Wheat,2006.0,winter,-0.4088803162460981,0.4088803162460981,0.4088803162460981
+,frost_cold,,,,,2,2,event,United States|Colorado|Wheat|2006|winter,United States,Colorado,Wheat,2006.0,winter,-0.09156397845945957,0.09156397845945957,0.09156397845945957
+,excess_rain,,,,,3,3,event,United States|Colorado|Wheat|2006|winter,United States,Colorado,Wheat,2006.0,winter,-0.07345517536941357,0.07345517536941357,0.07345517536941357
+,radiation,,,,,4,4,event,United States|Colorado|Wheat|2006|winter,United States,Colorado,Wheat,2006.0,winter,-0.02958673899318942,0.02958673899318942,0.02958673899318942
+,heat,,,,,2,2,event,United States|Kansas|Wheat|2006|winter,United States,Kansas,Wheat,2006.0,winter,-0.10062372059599142,0.10062372059599142,0.10062372059599142
+,drought,,,,,1,1,event,United States|Kansas|Wheat|2006|winter,United States,Kansas,Wheat,2006.0,winter,-0.26736284329854226,0.26736284329854226,0.26736284329854226
+,frost_cold,,,,,4,4,event,United States|Kansas|Wheat|2006|winter,United States,Kansas,Wheat,2006.0,winter,-0.028362905771331687,0.028362905771331687,0.028362905771331687
+,excess_rain,,,,,3,3,event,United States|Kansas|Wheat|2006|winter,United States,Kansas,Wheat,2006.0,winter,-0.036416139953937124,0.036416139953937124,0.036416139953937124
+,radiation,,,,,5,5,event,United States|Kansas|Wheat|2006|winter,United States,Kansas,Wheat,2006.0,winter,-0.020774347916184946,0.020774347916184946,0.020774347916184946
+,heat,,,,,2,2,event,United States|North Dakota|Wheat|2006|spring,United States,North Dakota,Wheat,2006.0,spring,-0.12851228739912854,0.12851228739912854,0.12851228739912854
+,drought,,,,,3,3,event,United States|North Dakota|Wheat|2006|spring,United States,North Dakota,Wheat,2006.0,spring,-0.12561808457363408,0.12561808457363408,0.12561808457363408
+,frost_cold,,,,,4,4,event,United States|North Dakota|Wheat|2006|spring,United States,North Dakota,Wheat,2006.0,spring,-0.029622993456722275,0.029622993456722275,0.029622993456722275
+,excess_rain,,,,,1,1,event,United States|North Dakota|Wheat|2006|spring,United States,North Dakota,Wheat,2006.0,spring,-0.14638621986442757,0.14638621986442757,0.14638621986442757
+,radiation,,,,,5,5,event,United States|North Dakota|Wheat|2006|spring,United States,North Dakota,Wheat,2006.0,spring,-0.01512511104452239,0.01512511104452239,0.01512511104452239
+,heat,,,,,2,2,event,United States|Oklahoma|Wheat|2006|winter,United States,Oklahoma,Wheat,2006.0,winter,-0.04823102342687687,0.04823102342687687,0.04823102342687687
+,drought,,,,,1,1,event,United States|Oklahoma|Wheat|2006|winter,United States,Oklahoma,Wheat,2006.0,winter,-0.2538383040476899,0.2538383040476899,0.2538383040476899
+,frost_cold,,,,,5,5,event,United States|Oklahoma|Wheat|2006|winter,United States,Oklahoma,Wheat,2006.0,winter,0.0036706086329449925,0.0036706086329449925,0.0
+,excess_rain,,,,,3,3,event,United States|Oklahoma|Wheat|2006|winter,United States,Oklahoma,Wheat,2006.0,winter,-0.03997709023675939,0.03997709023675939,0.03997709023675939
+,radiation,,,,,4,4,event,United States|Oklahoma|Wheat|2006|winter,United States,Oklahoma,Wheat,2006.0,winter,-0.01264268643132715,0.01264268643132715,0.01264268643132715
+,heat,,,,,1,1,event,United States|South Dakota|Wheat|2006|spring,United States,South Dakota,Wheat,2006.0,spring,-0.17169094117044476,0.17169094117044476,0.17169094117044476
+,drought,,,,,2,2,event,United States|South Dakota|Wheat|2006|spring,United States,South Dakota,Wheat,2006.0,spring,-0.12825687981047657,0.12825687981047657,0.12825687981047657
+,frost_cold,,,,,4,5,event,United States|South Dakota|Wheat|2006|spring,United States,South Dakota,Wheat,2006.0,spring,0.016068734306581622,0.016068734306581622,0.0
+,excess_rain,,,,,3,3,event,United States|South Dakota|Wheat|2006|spring,United States,South Dakota,Wheat,2006.0,spring,-0.08918328784379934,0.08918328784379934,0.08918328784379934
+,radiation,,,,,5,4,event,United States|South Dakota|Wheat|2006|spring,United States,South Dakota,Wheat,2006.0,spring,-0.0021783107885129773,0.0021783107885129773,0.0021783107885129773
+,heat,,,,,2,2,event,United States|Texas|Wheat|2006|winter,United States,Texas,Wheat,2006.0,winter,-0.1038237923094089,0.1038237923094089,0.1038237923094089
+,drought,,,,,1,1,event,United States|Texas|Wheat|2006|winter,United States,Texas,Wheat,2006.0,winter,-0.23768918618307983,0.23768918618307983,0.23768918618307983
+,frost_cold,,,,,5,5,event,United States|Texas|Wheat|2006|winter,United States,Texas,Wheat,2006.0,winter,-0.007011843852716668,0.007011843852716668,0.007011843852716668
+,excess_rain,,,,,3,3,event,United States|Texas|Wheat|2006|winter,United States,Texas,Wheat,2006.0,winter,-0.058714513539129196,0.058714513539129196,0.058714513539129196
+,radiation,,,,,4,4,event,United States|Texas|Wheat|2006|winter,United States,Texas,Wheat,2006.0,winter,-0.022860870827503356,0.022860870827503356,0.022860870827503356
+,heat,,,,,1,1,event,United States|North Dakota|Canola|2007|spring,United States,North Dakota,Canola,2007.0,spring,-0.05925094201950307,0.05925094201950307,0.05925094201950307
+,drought,,,,,4,5,event,United States|North Dakota|Canola|2007|spring,United States,North Dakota,Canola,2007.0,spring,0.012211297886055456,0.012211297886055456,0.0
+,frost_cold,,,,,2,2,event,United States|North Dakota|Canola|2007|spring,United States,North Dakota,Canola,2007.0,spring,-0.04347615737762421,0.04347615737762421,0.04347615737762421
+,excess_rain,,,,,3,3,event,United States|North Dakota|Canola|2007|spring,United States,North Dakota,Canola,2007.0,spring,-0.04260286949446708,0.04260286949446708,0.04260286949446708
+,radiation,,,,,5,4,event,United States|North Dakota|Canola|2007|spring,United States,North Dakota,Canola,2007.0,spring,-0.011297910535251508,0.011297910535251508,0.011297910535251508
+,heat,,,,,2,5,event,United States|Colorado|Oats|2007|spring,United States,Colorado,Oats,2007.0,spring,0.05795196941773113,0.05795196941773113,0.0
+,drought,,,,,1,1,event,United States|Colorado|Oats|2007|spring,United States,Colorado,Oats,2007.0,spring,-0.06722026174043291,0.06722026174043291,0.06722026174043291
+,frost_cold,,,,,3,2,event,United States|Colorado|Oats|2007|spring,United States,Colorado,Oats,2007.0,spring,-0.033175334167181665,0.033175334167181665,0.033175334167181665
+,excess_rain,,,,,4,3,event,United States|Colorado|Oats|2007|spring,United States,Colorado,Oats,2007.0,spring,-0.03200343934415348,0.03200343934415348,0.03200343934415348
+,radiation,,,,,5,4,event,United States|Colorado|Oats|2007|spring,United States,Colorado,Oats,2007.0,spring,-0.025541467833061184,0.025541467833061184,0.025541467833061184
+,heat,,,,,1,1,event,United States|Illinois|Oats|2007|spring,United States,Illinois,Oats,2007.0,spring,-0.12619133446514497,0.12619133446514497,0.12619133446514497
+,drought,,,,,2,2,event,United States|Illinois|Oats|2007|spring,United States,Illinois,Oats,2007.0,spring,-0.0350305285548447,0.0350305285548447,0.0350305285548447
+,frost_cold,,,,,4,4,event,United States|Illinois|Oats|2007|spring,United States,Illinois,Oats,2007.0,spring,-0.016170979342046553,0.016170979342046553,0.016170979342046553
+,excess_rain,,,,,3,3,event,United States|Illinois|Oats|2007|spring,United States,Illinois,Oats,2007.0,spring,-0.030946556692480507,0.030946556692480507,0.030946556692480507
+,radiation,,,,,5,5,event,United States|Illinois|Oats|2007|spring,United States,Illinois,Oats,2007.0,spring,-0.012027710954476585,0.012027710954476585,0.012027710954476585
+,heat,,,,,5,5,event,United States|Oklahoma|Oats|2007|spring,United States,Oklahoma,Oats,2007.0,spring,-0.006963736774359158,0.006963736774359158,0.006963736774359158
+,drought,,,,,2,2,event,United States|Oklahoma|Oats|2007|spring,United States,Oklahoma,Oats,2007.0,spring,-0.10737121811475628,0.10737121811475628,0.10737121811475628
+,frost_cold,,,,,3,3,event,United States|Oklahoma|Oats|2007|spring,United States,Oklahoma,Oats,2007.0,spring,-0.014248548578832548,0.014248548578832548,0.014248548578832548
+,excess_rain,,,,,1,1,event,United States|Oklahoma|Oats|2007|spring,United States,Oklahoma,Oats,2007.0,spring,-0.12149674748538049,0.12149674748538049,0.12149674748538049
+,radiation,,,,,4,4,event,United States|Oklahoma|Oats|2007|spring,United States,Oklahoma,Oats,2007.0,spring,-0.008417071414548082,0.008417071414548082,0.008417071414548082
+,heat,,,,,4,4,event,United States|Texas|Oats|2007|spring,United States,Texas,Oats,2007.0,spring,0.015461792495821141,0.015461792495821141,0.0
+,drought,,,,,1,1,event,United States|Texas|Oats|2007|spring,United States,Texas,Oats,2007.0,spring,-0.07082311992033526,0.07082311992033526,0.07082311992033526
+,frost_cold,,,,,3,3,event,United States|Texas|Oats|2007|spring,United States,Texas,Oats,2007.0,spring,-0.017987902425113916,0.017987902425113916,0.017987902425113916
+,excess_rain,,,,,2,2,event,United States|Texas|Oats|2007|spring,United States,Texas,Oats,2007.0,spring,-0.05680432920523901,0.05680432920523901,0.05680432920523901
+,radiation,,,,,5,5,event,United States|Texas|Oats|2007|spring,United States,Texas,Oats,2007.0,spring,0.0017040019601603342,0.0017040019601603342,0.0
+,heat,,,,,3,3,event,United States|Washington|Oats|2007|spring,United States,Washington,Oats,2007.0,spring,-0.020429927957662544,0.020429927957662544,0.020429927957662544
+,drought,,,,,1,1,event,United States|Washington|Oats|2007|spring,United States,Washington,Oats,2007.0,spring,-0.15127536322641452,0.15127536322641452,0.15127536322641452
+,frost_cold,,,,,5,5,event,United States|Washington|Oats|2007|spring,United States,Washington,Oats,2007.0,spring,-0.007280085343567055,0.007280085343567055,0.007280085343567055
+,excess_rain,,,,,2,2,event,United States|Washington|Oats|2007|spring,United States,Washington,Oats,2007.0,spring,-0.14055780084201605,0.14055780084201605,0.14055780084201605
+,radiation,,,,,4,4,event,United States|Washington|Oats|2007|spring,United States,Washington,Oats,2007.0,spring,-0.008698525544007327,0.008698525544007327,0.008698525544007327
+,heat,,,,,3,3,event,United States|Illinois|Wheat|2007|winter,United States,Illinois,Wheat,2007.0,winter,-0.04071259249742665,0.04071259249742665,0.04071259249742665
+,drought,,,,,4,4,event,United States|Illinois|Wheat|2007|winter,United States,Illinois,Wheat,2007.0,winter,-0.039566370267757875,0.039566370267757875,0.039566370267757875
+,frost_cold,,,,,2,2,event,United States|Illinois|Wheat|2007|winter,United States,Illinois,Wheat,2007.0,winter,-0.04562788383634379,0.04562788383634379,0.04562788383634379
+,excess_rain,,,,,1,1,event,United States|Illinois|Wheat|2007|winter,United States,Illinois,Wheat,2007.0,winter,-0.208898758652811,0.208898758652811,0.208898758652811
+,radiation,,,,,5,5,event,United States|Illinois|Wheat|2007|winter,United States,Illinois,Wheat,2007.0,winter,-0.02760428200081049,0.02760428200081049,0.02760428200081049
+,heat,,,,,1,1,event,United States|Kansas|Wheat|2007|winter,United States,Kansas,Wheat,2007.0,winter,-0.13472102892755095,0.13472102892755095,0.13472102892755095
+,drought,,,,,2,2,event,United States|Kansas|Wheat|2007|winter,United States,Kansas,Wheat,2007.0,winter,-0.07893000802661528,0.07893000802661528,0.07893000802661528
+,frost_cold,,,,,3,3,event,United States|Kansas|Wheat|2007|winter,United States,Kansas,Wheat,2007.0,winter,-0.0561078015304557,0.0561078015304557,0.0561078015304557
+,excess_rain,,,,,4,4,event,United States|Kansas|Wheat|2007|winter,United States,Kansas,Wheat,2007.0,winter,-0.04743730394780681,0.04743730394780681,0.04743730394780681
+,radiation,,,,,5,5,event,United States|Kansas|Wheat|2007|winter,United States,Kansas,Wheat,2007.0,winter,-0.005764290665979905,0.005764290665979905,0.005764290665979905
+,heat,,,,,2,2,event,United States|North Dakota|Oats|2008|spring,United States,North Dakota,Oats,2008.0,spring,-0.051652613105443536,0.051652613105443536,0.051652613105443536
+,drought,,,,,4,5,event,United States|North Dakota|Oats|2008|spring,United States,North Dakota,Oats,2008.0,spring,0.018889298862758447,0.018889298862758447,0.0
+,frost_cold,,,,,1,1,event,United States|North Dakota|Oats|2008|spring,United States,North Dakota,Oats,2008.0,spring,-0.08358153505631469,0.08358153505631469,0.08358153505631469
+,excess_rain,,,,,3,3,event,United States|North Dakota|Oats|2008|spring,United States,North Dakota,Oats,2008.0,spring,-0.04213669081144812,0.04213669081144812,0.04213669081144812
+,radiation,,,,,5,4,event,United States|North Dakota|Oats|2008|spring,United States,North Dakota,Oats,2008.0,spring,-0.017440304010514777,0.017440304010514777,0.017440304010514777
+,heat,,,,,3,3,event,United States|Illinois|Oats|2009|spring,United States,Illinois,Oats,2009.0,spring,-0.05416845575577759,0.05416845575577759,0.05416845575577759
+,drought,,,,,2,2,event,United States|Illinois|Oats|2009|spring,United States,Illinois,Oats,2009.0,spring,-0.08181818911958551,0.08181818911958551,0.08181818911958551
+,frost_cold,,,,,4,5,event,United States|Illinois|Oats|2009|spring,United States,Illinois,Oats,2009.0,spring,0.02368288587294419,0.02368288587294419,0.0
+,excess_rain,,,,,1,1,event,United States|Illinois|Oats|2009|spring,United States,Illinois,Oats,2009.0,spring,-0.12195169862797278,0.12195169862797278,0.12195169862797278
+,radiation,,,,,5,4,event,United States|Illinois|Oats|2009|spring,United States,Illinois,Oats,2009.0,spring,-0.017309639242423756,0.017309639242423756,0.017309639242423756
+,heat,,,,,3,3,event,United States|Illinois|Wheat|2009|winter,United States,Illinois,Wheat,2009.0,winter,-0.08059610994668037,0.08059610994668037,0.08059610994668037
+,drought,,,,,2,2,event,United States|Illinois|Wheat|2009|winter,United States,Illinois,Wheat,2009.0,winter,-0.12944413233819146,0.12944413233819146,0.12944413233819146
+,frost_cold,,,,,4,4,event,United States|Illinois|Wheat|2009|winter,United States,Illinois,Wheat,2009.0,winter,-0.06130452072638726,0.06130452072638726,0.06130452072638726
+,excess_rain,,,,,1,1,event,United States|Illinois|Wheat|2009|winter,United States,Illinois,Wheat,2009.0,winter,-0.17696173493818165,0.17696173493818165,0.17696173493818165
+,radiation,,,,,5,5,event,United States|Illinois|Wheat|2009|winter,United States,Illinois,Wheat,2009.0,winter,-0.01845700440679928,0.01845700440679928,0.01845700440679928
+,heat,,,,,2,2,event,United States|Oklahoma|Wheat|2009|winter,United States,Oklahoma,Wheat,2009.0,winter,-0.10733955974818588,0.10733955974818588,0.10733955974818588
+,drought,,,,,1,1,event,United States|Oklahoma|Wheat|2009|winter,United States,Oklahoma,Wheat,2009.0,winter,-0.12376251165040603,0.12376251165040603,0.12376251165040603
+,frost_cold,,,,,3,3,event,United States|Oklahoma|Wheat|2009|winter,United States,Oklahoma,Wheat,2009.0,winter,-0.07141123560081264,0.07141123560081264,0.07141123560081264
+,excess_rain,,,,,4,4,event,United States|Oklahoma|Wheat|2009|winter,United States,Oklahoma,Wheat,2009.0,winter,-0.07114463183979225,0.07114463183979225,0.07114463183979225
+,radiation,,,,,5,5,event,United States|Oklahoma|Wheat|2009|winter,United States,Oklahoma,Wheat,2009.0,winter,-0.02385116911251243,0.02385116911251243,0.02385116911251243
+,heat,,,,,3,3,event,United States|Texas|Wheat|2009|winter,United States,Texas,Wheat,2009.0,winter,-0.04932470918053704,0.04932470918053704,0.04932470918053704
+,drought,,,,,1,1,event,United States|Texas|Wheat|2009|winter,United States,Texas,Wheat,2009.0,winter,-0.2517437921406499,0.2517437921406499,0.2517437921406499
+,frost_cold,,,,,5,5,event,United States|Texas|Wheat|2009|winter,United States,Texas,Wheat,2009.0,winter,0.0025765338848628564,0.0025765338848628564,0.0
+,excess_rain,,,,,2,2,event,United States|Texas|Wheat|2009|winter,United States,Texas,Wheat,2009.0,winter,-0.1383714310660329,0.1383714310660329,0.1383714310660329
+,radiation,,,,,4,4,event,United States|Texas|Wheat|2009|winter,United States,Texas,Wheat,2009.0,winter,-0.015621530858689427,0.015621530858689427,0.015621530858689427
+,heat,,,,,3,3,event,United States|Illinois|Oats|2010|spring,United States,Illinois,Oats,2010.0,spring,-0.04369755763553365,0.04369755763553365,0.04369755763553365
+,drought,,,,,2,2,event,United States|Illinois|Oats|2010|spring,United States,Illinois,Oats,2010.0,spring,-0.10538387726700481,0.10538387726700481,0.10538387726700481
+,frost_cold,,,,,5,4,event,United States|Illinois|Oats|2010|spring,United States,Illinois,Oats,2010.0,spring,-0.0007847130555807642,0.0007847130555807642,0.0007847130555807642
+,excess_rain,,,,,1,1,event,United States|Illinois|Oats|2010|spring,United States,Illinois,Oats,2010.0,spring,-0.14457836423542317,0.14457836423542317,0.14457836423542317
+,radiation,,,,,4,5,event,United States|Illinois|Oats|2010|spring,United States,Illinois,Oats,2010.0,spring,0.008528536694860277,0.008528536694860277,0.0
+,heat,,,,,3,3,event,United States|Iowa|Oats|2010|spring,United States,Iowa,Oats,2010.0,spring,-0.03465221068390172,0.03465221068390172,0.03465221068390172
+,drought,,,,,1,1,event,United States|Iowa|Oats|2010|spring,United States,Iowa,Oats,2010.0,spring,-0.18104065401358269,0.18104065401358269,0.18104065401358269
+,frost_cold,,,,,4,4,event,United States|Iowa|Oats|2010|spring,United States,Iowa,Oats,2010.0,spring,0.014715625751765334,0.014715625751765334,0.0
+,excess_rain,,,,,2,2,event,United States|Iowa|Oats|2010|spring,United States,Iowa,Oats,2010.0,spring,-0.1215358332166038,0.1215358332166038,0.1215358332166038
+,radiation,,,,,5,5,event,United States|Iowa|Oats|2010|spring,United States,Iowa,Oats,2010.0,spring,0.014393908146850324,0.014393908146850324,0.0
+,heat,,,,,1,1,event,United States|Oklahoma|Oats|2010|spring,United States,Oklahoma,Oats,2010.0,spring,-0.10320613926405516,0.10320613926405516,0.10320613926405516
+,drought,,,,,3,2,event,United States|Oklahoma|Oats|2010|spring,United States,Oklahoma,Oats,2010.0,spring,-0.005704002306469701,0.005704002306469701,0.005704002306469701
+,frost_cold,,,,,4,3,event,United States|Oklahoma|Oats|2010|spring,United States,Oklahoma,Oats,2010.0,spring,-0.005585810201318227,0.005585810201318227,0.005585810201318227
+,excess_rain,,,,,2,4,event,United States|Oklahoma|Oats|2010|spring,United States,Oklahoma,Oats,2010.0,spring,0.03521631270492425,0.03521631270492425,0.0
+,radiation,,,,,5,5,event,United States|Oklahoma|Oats|2010|spring,United States,Oklahoma,Oats,2010.0,spring,0.004256713740714792,0.004256713740714792,0.0
+,heat,,,,,4,4,event,United States|Illinois|Wheat|2010|winter,United States,Illinois,Wheat,2010.0,winter,-0.04423390014735227,0.04423390014735227,0.04423390014735227
+,drought,,,,,2,2,event,United States|Illinois|Wheat|2010|winter,United States,Illinois,Wheat,2010.0,winter,-0.11765770852846491,0.11765770852846491,0.11765770852846491
+,frost_cold,,,,,3,3,event,United States|Illinois|Wheat|2010|winter,United States,Illinois,Wheat,2010.0,winter,-0.05029294692303167,0.05029294692303167,0.05029294692303167
+,excess_rain,,,,,1,1,event,United States|Illinois|Wheat|2010|winter,United States,Illinois,Wheat,2010.0,winter,-0.2911950625313887,0.2911950625313887,0.2911950625313887
+,radiation,,,,,5,5,event,United States|Illinois|Wheat|2010|winter,United States,Illinois,Wheat,2010.0,winter,-0.01976981224283557,0.01976981224283557,0.01976981224283557
+,heat,,,,,1,1,event,United States|Kansas|Barley|2011|spring,United States,Kansas,Barley,2011.0,spring,-0.42995118492968576,0.42995118492968576,0.42995118492968576
+,drought,,,,,5,5,event,United States|Kansas|Barley|2011|spring,United States,Kansas,Barley,2011.0,spring,-0.007139892331576962,0.007139892331576962,0.007139892331576962
+,frost_cold,,,,,2,2,event,United States|Kansas|Barley|2011|spring,United States,Kansas,Barley,2011.0,spring,-0.033011260086383075,0.033011260086383075,0.033011260086383075
+,excess_rain,,,,,3,3,event,United States|Kansas|Barley|2011|spring,United States,Kansas,Barley,2011.0,spring,-0.03096831550808509,0.03096831550808509,0.03096831550808509
+,radiation,,,,,4,4,event,United States|Kansas|Barley|2011|spring,United States,Kansas,Barley,2011.0,spring,-0.023209727826285925,0.023209727826285925,0.023209727826285925
+,heat,,,,,4,4,event,United States|Minnesota|Barley|2011|spring,United States,Minnesota,Barley,2011.0,spring,-0.050540174826306926,0.050540174826306926,0.050540174826306926
+,drought,,,,,1,1,event,United States|Minnesota|Barley|2011|spring,United States,Minnesota,Barley,2011.0,spring,-0.11788346654571225,0.11788346654571225,0.11788346654571225
+,frost_cold,,,,,2,2,event,United States|Minnesota|Barley|2011|spring,United States,Minnesota,Barley,2011.0,spring,-0.10359455912586191,0.10359455912586191,0.10359455912586191
+,excess_rain,,,,,3,3,event,United States|Minnesota|Barley|2011|spring,United States,Minnesota,Barley,2011.0,spring,-0.0828205241917439,0.0828205241917439,0.0828205241917439
+,radiation,,,,,5,5,event,United States|Minnesota|Barley|2011|spring,United States,Minnesota,Barley,2011.0,spring,-0.030222609402541564,0.030222609402541564,0.030222609402541564
+,heat,,,,,3,3,event,United States|North Dakota|Barley|2011|spring,United States,North Dakota,Barley,2011.0,spring,-0.07590109893249344,0.07590109893249344,0.07590109893249344
+,drought,,,,,2,2,event,United States|North Dakota|Barley|2011|spring,United States,North Dakota,Barley,2011.0,spring,-0.13405991850660112,0.13405991850660112,0.13405991850660112
+,frost_cold,,,,,4,4,event,United States|North Dakota|Barley|2011|spring,United States,North Dakota,Barley,2011.0,spring,-0.06307753475324156,0.06307753475324156,0.06307753475324156
+,excess_rain,,,,,1,1,event,United States|North Dakota|Barley|2011|spring,United States,North Dakota,Barley,2011.0,spring,-0.14861465410601132,0.14861465410601132,0.14861465410601132
+,radiation,,,,,5,5,event,United States|North Dakota|Barley|2011|spring,United States,North Dakota,Barley,2011.0,spring,-0.01516564037729564,0.01516564037729564,0.01516564037729564
+,heat,,,,,2,2,event,United States|South Dakota|Barley|2011|spring,United States,South Dakota,Barley,2011.0,spring,-0.0971667834588444,0.0971667834588444,0.0971667834588444
+,drought,,,,,3,3,event,United States|South Dakota|Barley|2011|spring,United States,South Dakota,Barley,2011.0,spring,-0.05691087203035477,0.05691087203035477,0.05691087203035477
+,frost_cold,,,,,4,4,event,United States|South Dakota|Barley|2011|spring,United States,South Dakota,Barley,2011.0,spring,-0.047859008237272314,0.047859008237272314,0.047859008237272314
+,excess_rain,,,,,1,1,event,United States|South Dakota|Barley|2011|spring,United States,South Dakota,Barley,2011.0,spring,-0.2164519592591498,0.2164519592591498,0.2164519592591498
+,radiation,,,,,5,5,event,United States|South Dakota|Barley|2011|spring,United States,South Dakota,Barley,2011.0,spring,-0.012053671152028054,0.012053671152028054,0.012053671152028054
+,heat,,,,,1,1,event,United States|Kansas|Oats|2011|spring,United States,Kansas,Oats,2011.0,spring,-0.4356727605404795,0.4356727605404795,0.4356727605404795
+,drought,,,,,5,5,event,United States|Kansas|Oats|2011|spring,United States,Kansas,Oats,2011.0,spring,-0.00721674511035777,0.00721674511035777,0.00721674511035777
+,frost_cold,,,,,3,3,event,United States|Kansas|Oats|2011|spring,United States,Kansas,Oats,2011.0,spring,-0.028818995389989565,0.028818995389989565,0.028818995389989565
+,excess_rain,,,,,2,2,event,United States|Kansas|Oats|2011|spring,United States,Kansas,Oats,2011.0,spring,-0.033061579224071255,0.033061579224071255,0.033061579224071255
+,radiation,,,,,4,4,event,United States|Kansas|Oats|2011|spring,United States,Kansas,Oats,2011.0,spring,-0.02020847295653184,0.02020847295653184,0.02020847295653184
+,heat,,,,,4,4,event,United States|Minnesota|Oats|2011|spring,United States,Minnesota,Oats,2011.0,spring,-0.06328859552926777,0.06328859552926777,0.06328859552926777
+,drought,,,,,1,1,event,United States|Minnesota|Oats|2011|spring,United States,Minnesota,Oats,2011.0,spring,-0.1187305119690404,0.1187305119690404,0.1187305119690404
+,frost_cold,,,,,2,2,event,United States|Minnesota|Oats|2011|spring,United States,Minnesota,Oats,2011.0,spring,-0.10035455166639395,0.10035455166639395,0.10035455166639395
+,excess_rain,,,,,3,3,event,United States|Minnesota|Oats|2011|spring,United States,Minnesota,Oats,2011.0,spring,-0.08979545269826537,0.08979545269826537,0.08979545269826537
+,radiation,,,,,5,5,event,United States|Minnesota|Oats|2011|spring,United States,Minnesota,Oats,2011.0,spring,-0.03061367784567471,0.03061367784567471,0.03061367784567471
+,heat,,,,,3,3,event,United States|North Dakota|Oats|2011|spring,United States,North Dakota,Oats,2011.0,spring,-0.07375054439419539,0.07375054439419539,0.07375054439419539
+,drought,,,,,2,2,event,United States|North Dakota|Oats|2011|spring,United States,North Dakota,Oats,2011.0,spring,-0.13586314441280273,0.13586314441280273,0.13586314441280273
+,frost_cold,,,,,4,4,event,United States|North Dakota|Oats|2011|spring,United States,North Dakota,Oats,2011.0,spring,-0.062399529323704864,0.062399529323704864,0.062399529323704864
+,excess_rain,,,,,1,1,event,United States|North Dakota|Oats|2011|spring,United States,North Dakota,Oats,2011.0,spring,-0.13952650902930397,0.13952650902930397,0.13952650902930397
+,radiation,,,,,5,5,event,United States|North Dakota|Oats|2011|spring,United States,North Dakota,Oats,2011.0,spring,-0.013700557031929217,0.013700557031929217,0.013700557031929217
+,heat,,,,,2,2,event,United States|South Dakota|Oats|2011|spring,United States,South Dakota,Oats,2011.0,spring,-0.098631622004022,0.098631622004022,0.098631622004022
+,drought,,,,,3,3,event,United States|South Dakota|Oats|2011|spring,United States,South Dakota,Oats,2011.0,spring,-0.052159301284646645,0.052159301284646645,0.052159301284646645
+,frost_cold,,,,,4,4,event,United States|South Dakota|Oats|2011|spring,United States,South Dakota,Oats,2011.0,spring,-0.046875865149425676,0.046875865149425676,0.046875865149425676
+,excess_rain,,,,,1,1,event,United States|South Dakota|Oats|2011|spring,United States,South Dakota,Oats,2011.0,spring,-0.22320288300617805,0.22320288300617805,0.22320288300617805
+,radiation,,,,,5,5,event,United States|South Dakota|Oats|2011|spring,United States,South Dakota,Oats,2011.0,spring,-0.010613541351864555,0.010613541351864555,0.010613541351864555
+,heat,,,,,2,2,event,United States|Texas|Oats|2011|spring,United States,Texas,Oats,2011.0,spring,-0.1118034200064727,0.1118034200064727,0.1118034200064727
+,drought,,,,,1,1,event,United States|Texas|Oats|2011|spring,United States,Texas,Oats,2011.0,spring,-0.22311549362019945,0.22311549362019945,0.22311549362019945
+,frost_cold,,,,,4,5,event,United States|Texas|Oats|2011|spring,United States,Texas,Oats,2011.0,spring,0.00876149785524052,0.00876149785524052,0.0
+,excess_rain,,,,,3,3,event,United States|Texas|Oats|2011|spring,United States,Texas,Oats,2011.0,spring,-0.08353943904334127,0.08353943904334127,0.08353943904334127
+,radiation,,,,,5,4,event,United States|Texas|Oats|2011|spring,United States,Texas,Oats,2011.0,spring,-0.005749338344408047,0.005749338344408047,0.005749338344408047
+,heat,,,,,3,3,event,United States|Iowa|Wheat|2011|winter,United States,Iowa,Wheat,2011.0,winter,-0.0705936884642224,0.0705936884642224,0.0705936884642224
+,drought,,,,,1,1,event,United States|Iowa|Wheat|2011|winter,United States,Iowa,Wheat,2011.0,winter,-0.18897105738169065,0.18897105738169065,0.18897105738169065
+,frost_cold,,,,,4,4,event,United States|Iowa|Wheat|2011|winter,United States,Iowa,Wheat,2011.0,winter,-0.049855574022925016,0.049855574022925016,0.049855574022925016
+,excess_rain,,,,,2,2,event,United States|Iowa|Wheat|2011|winter,United States,Iowa,Wheat,2011.0,winter,-0.1334399793593612,0.1334399793593612,0.1334399793593612
+,radiation,,,,,5,5,event,United States|Iowa|Wheat|2011|winter,United States,Iowa,Wheat,2011.0,winter,-0.034091614453687344,0.034091614453687344,0.034091614453687344
+,heat,,,,,3,3,event,United States|North Dakota|Wheat|2011|spring,United States,North Dakota,Wheat,2011.0,spring,-0.07756599790676066,0.07756599790676066,0.07756599790676066
+,drought,,,,,2,2,event,United States|North Dakota|Wheat|2011|spring,United States,North Dakota,Wheat,2011.0,spring,-0.13497139883991607,0.13497139883991607,0.13497139883991607
+,frost_cold,,,,,4,4,event,United States|North Dakota|Wheat|2011|spring,United States,North Dakota,Wheat,2011.0,spring,-0.06194545502437548,0.06194545502437548,0.06194545502437548
+,excess_rain,,,,,1,1,event,United States|North Dakota|Wheat|2011|spring,United States,North Dakota,Wheat,2011.0,spring,-0.14477556019990284,0.14477556019990284,0.14477556019990284
+,radiation,,,,,5,5,event,United States|North Dakota|Wheat|2011|spring,United States,North Dakota,Wheat,2011.0,spring,-0.01352198485793691,0.01352198485793691,0.01352198485793691
+,heat,,,,,3,3,event,United States|Oklahoma|Wheat|2011|winter,United States,Oklahoma,Wheat,2011.0,winter,-0.04305401135454174,0.04305401135454174,0.04305401135454174
+,drought,,,,,1,1,event,United States|Oklahoma|Wheat|2011|winter,United States,Oklahoma,Wheat,2011.0,winter,-0.2722267964027052,0.2722267964027052,0.2722267964027052
+,frost_cold,,,,,5,5,event,United States|Oklahoma|Wheat|2011|winter,United States,Oklahoma,Wheat,2011.0,winter,-0.01361855900545739,0.01361855900545739,0.01361855900545739
+,excess_rain,,,,,2,2,event,United States|Oklahoma|Wheat|2011|winter,United States,Oklahoma,Wheat,2011.0,winter,-0.08202320558641313,0.08202320558641313,0.08202320558641313
+,radiation,,,,,4,4,event,United States|Oklahoma|Wheat|2011|winter,United States,Oklahoma,Wheat,2011.0,winter,-0.015215075278997127,0.015215075278997127,0.015215075278997127
+,heat,,,,,3,3,event,United States|Texas|Wheat|2011|winter,United States,Texas,Wheat,2011.0,winter,-0.0430026905646337,0.0430026905646337,0.0430026905646337
+,drought,,,,,1,1,event,United States|Texas|Wheat|2011|winter,United States,Texas,Wheat,2011.0,winter,-0.2841717222279577,0.2841717222279577,0.2841717222279577
+,frost_cold,,,,,5,5,event,United States|Texas|Wheat|2011|winter,United States,Texas,Wheat,2011.0,winter,-0.0072459418323240045,0.0072459418323240045,0.0072459418323240045
+,excess_rain,,,,,2,2,event,United States|Texas|Wheat|2011|winter,United States,Texas,Wheat,2011.0,winter,-0.1115483658554155,0.1115483658554155,0.1115483658554155
+,radiation,,,,,4,4,event,United States|Texas|Wheat|2011|winter,United States,Texas,Wheat,2011.0,winter,-0.012049429689822012,0.012049429689822012,0.012049429689822012
+,heat,,,,,1,1,event,United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012.0,spring,-0.11291250176945412,0.11291250176945412,0.11291250176945412
+,drought,,,,,2,2,event,United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012.0,spring,-0.08942436099338122,0.08942436099338122,0.08942436099338122
+,frost_cold,,,,,4,4,event,United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012.0,spring,0.005077014158622569,0.005077014158622569,0.0
+,excess_rain,,,,,5,5,event,United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012.0,spring,0.0020357574880538153,0.0020357574880538153,0.0
+,radiation,,,,,3,3,event,United States|South Dakota|Barley|2012|spring,United States,South Dakota,Barley,2012.0,spring,-0.00536126988611813,0.00536126988611813,0.00536126988611813
+,heat,,,,,1,1,event,United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012.0,spring,-0.07622805011038183,0.07622805011038183,0.07622805011038183
+,drought,,,,,2,2,event,United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012.0,spring,-0.05991805178360543,0.05991805178360543,0.05991805178360543
+,frost_cold,,,,,4,3,event,United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012.0,spring,0.008295966218915827,0.008295966218915827,0.0
+,excess_rain,,,,,3,4,event,United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012.0,spring,0.010318280186070321,0.010318280186070321,0.0
+,radiation,,,,,5,5,event,United States|North Dakota|Canola|2012|spring,United States,North Dakota,Canola,2012.0,spring,0.002829819679778408,0.002829819679778408,0.0
+,heat,,,,,1,1,event,United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012.0,spring,-0.1175473270238339,0.1175473270238339,0.1175473270238339
+,drought,,,,,2,2,event,United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012.0,spring,-0.03574408471187261,0.03574408471187261,0.03574408471187261
+,frost_cold,,,,,5,5,event,United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012.0,spring,0.006645203727305361,0.006645203727305361,0.0
+,excess_rain,,,,,3,3,event,United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012.0,spring,-0.02849435758663002,0.02849435758663002,0.02849435758663002
+,radiation,,,,,4,4,event,United States|Kansas|Oats|2012|spring,United States,Kansas,Oats,2012.0,spring,-0.006889960521616587,0.006889960521616587,0.006889960521616587
+,heat,,,,,2,2,event,United States|Kansas|Oats|2013|spring,United States,Kansas,Oats,2013.0,spring,-0.05970515933765544,0.05970515933765544,0.05970515933765544
+,drought,,,,,3,3,event,United States|Kansas|Oats|2013|spring,United States,Kansas,Oats,2013.0,spring,-0.015430330758241871,0.015430330758241871,0.015430330758241871
+,frost_cold,,,,,4,4,event,United States|Kansas|Oats|2013|spring,United States,Kansas,Oats,2013.0,spring,-0.007463596107645758,0.007463596107645758,0.007463596107645758
+,excess_rain,,,,,1,1,event,United States|Kansas|Oats|2013|spring,United States,Kansas,Oats,2013.0,spring,-0.06458933047715408,0.06458933047715408,0.06458933047715408
+,radiation,,,,,5,5,event,United States|Kansas|Oats|2013|spring,United States,Kansas,Oats,2013.0,spring,0.0019226350447189996,0.0019226350447189996,0.0
+,heat,,,,,2,3,event,United States|Minnesota|Oats|2013|spring,United States,Minnesota,Oats,2013.0,spring,0.025245317589138533,0.025245317589138533,0.0
+,drought,,,,,1,4,event,United States|Minnesota|Oats|2013|spring,United States,Minnesota,Oats,2013.0,spring,0.045925201249737965,0.045925201249737965,0.0
+,frost_cold,,,,,5,2,event,United States|Minnesota|Oats|2013|spring,United States,Minnesota,Oats,2013.0,spring,-0.007472256556418061,0.007472256556418061,0.007472256556418061
+,excess_rain,,,,,3,1,event,United States|Minnesota|Oats|2013|spring,United States,Minnesota,Oats,2013.0,spring,-0.011833511041290512,0.011833511041290512,0.011833511041290512
+,radiation,,,,,4,5,event,United States|Minnesota|Oats|2013|spring,United States,Minnesota,Oats,2013.0,spring,0.010967297877399673,0.010967297877399673,0.0
+,heat,,,,,4,4,event,United States|Colorado|Wheat|2013|winter,United States,Colorado,Wheat,2013.0,winter,-0.03293449991463242,0.03293449991463242,0.03293449991463242
+,drought,,,,,1,1,event,United States|Colorado|Wheat|2013|winter,United States,Colorado,Wheat,2013.0,winter,-0.3628015767388178,0.3628015767388178,0.3628015767388178
+,frost_cold,,,,,2,2,event,United States|Colorado|Wheat|2013|winter,United States,Colorado,Wheat,2013.0,winter,-0.09601904408110032,0.09601904408110032,0.09601904408110032
+,excess_rain,,,,,3,3,event,United States|Colorado|Wheat|2013|winter,United States,Colorado,Wheat,2013.0,winter,-0.04689772341537907,0.04689772341537907,0.04689772341537907
+,radiation,,,,,5,5,event,United States|Colorado|Wheat|2013|winter,United States,Colorado,Wheat,2013.0,winter,-0.027112282414983375,0.027112282414983375,0.027112282414983375
+,heat,,,,,3,3,event,United States|Nebraska|Wheat|2013|winter,United States,Nebraska,Wheat,2013.0,winter,-0.06847608783940878,0.06847608783940878,0.06847608783940878
+,drought,,,,,1,1,event,United States|Nebraska|Wheat|2013|winter,United States,Nebraska,Wheat,2013.0,winter,-0.3340375263539418,0.3340375263539418,0.3340375263539418
+,frost_cold,,,,,4,4,event,United States|Nebraska|Wheat|2013|winter,United States,Nebraska,Wheat,2013.0,winter,-0.030130937888407934,0.030130937888407934,0.030130937888407934
+,excess_rain,,,,,2,2,event,United States|Nebraska|Wheat|2013|winter,United States,Nebraska,Wheat,2013.0,winter,-0.08440626220272576,0.08440626220272576,0.08440626220272576
+,radiation,,,,,5,5,event,United States|Nebraska|Wheat|2013|winter,United States,Nebraska,Wheat,2013.0,winter,-0.007108645480785146,0.007108645480785146,0.007108645480785146
+,heat,,,,,4,4,event,United States|Minnesota|Barley|2014|spring,United States,Minnesota,Barley,2014.0,spring,-0.012730701306893223,0.012730701306893223,0.012730701306893223
+,drought,,,,,3,3,event,United States|Minnesota|Barley|2014|spring,United States,Minnesota,Barley,2014.0,spring,-0.05167290180492628,0.05167290180492628,0.05167290180492628
+,frost_cold,,,,,2,2,event,United States|Minnesota|Barley|2014|spring,United States,Minnesota,Barley,2014.0,spring,-0.0674421239907697,0.0674421239907697,0.0674421239907697
+,excess_rain,,,,,1,1,event,United States|Minnesota|Barley|2014|spring,United States,Minnesota,Barley,2014.0,spring,-0.08757949694926864,0.08757949694926864,0.08757949694926864
+,radiation,,,,,5,5,event,United States|Minnesota|Barley|2014|spring,United States,Minnesota,Barley,2014.0,spring,-0.011196268791955354,0.011196268791955354,0.011196268791955354
+,heat,,,,,1,1,event,United States|Oklahoma|Canola|2014|spring,United States,Oklahoma,Canola,2014.0,spring,-0.23008489572040924,0.23008489572040924,0.23008489572040924
+,drought,,,,,4,4,event,United States|Oklahoma|Canola|2014|spring,United States,Oklahoma,Canola,2014.0,spring,-0.01873546519157749,0.01873546519157749,0.01873546519157749
+,frost_cold,,,,,3,3,event,United States|Oklahoma|Canola|2014|spring,United States,Oklahoma,Canola,2014.0,spring,-0.04606123747175314,0.04606123747175314,0.04606123747175314
+,excess_rain,,,,,2,2,event,United States|Oklahoma|Canola|2014|spring,United States,Oklahoma,Canola,2014.0,spring,-0.06313832350491275,0.06313832350491275,0.06313832350491275
+,radiation,,,,,5,5,event,United States|Oklahoma|Canola|2014|spring,United States,Oklahoma,Canola,2014.0,spring,-0.011321572640846904,0.011321572640846904,0.011321572640846904
+,heat,,,,,3,3,event,United States|Washington|Canola|2014|spring,United States,Washington,Canola,2014.0,spring,-0.03293984038619382,0.03293984038619382,0.03293984038619382
+,drought,,,,,2,2,event,United States|Washington|Canola|2014|spring,United States,Washington,Canola,2014.0,spring,-0.06406405850766661,0.06406405850766661,0.06406405850766661
+,frost_cold,,,,,1,1,event,United States|Washington|Canola|2014|spring,United States,Washington,Canola,2014.0,spring,-0.08014569335417883,0.08014569335417883,0.08014569335417883
+,excess_rain,,,,,4,4,event,United States|Washington|Canola|2014|spring,United States,Washington,Canola,2014.0,spring,-0.02312688589751205,0.02312688589751205,0.02312688589751205
+,radiation,,,,,5,5,event,United States|Washington|Canola|2014|spring,United States,Washington,Canola,2014.0,spring,-0.0022846643370155626,0.0022846643370155626,0.0022846643370155626
+,heat,,,,,3,3,event,United States|Iowa|Oats|2014|spring,United States,Iowa,Oats,2014.0,spring,-0.03334199644815505,0.03334199644815505,0.03334199644815505
+,drought,,,,,2,2,event,United States|Iowa|Oats|2014|spring,United States,Iowa,Oats,2014.0,spring,-0.07184662000106116,0.07184662000106116,0.07184662000106116
+,frost_cold,,,,,5,5,event,United States|Iowa|Oats|2014|spring,United States,Iowa,Oats,2014.0,spring,0.0032065075282869094,0.0032065075282869094,0.0
+,excess_rain,,,,,1,1,event,United States|Iowa|Oats|2014|spring,United States,Iowa,Oats,2014.0,spring,-0.14267966662480847,0.14267966662480847,0.14267966662480847
+,radiation,,,,,4,4,event,United States|Iowa|Oats|2014|spring,United States,Iowa,Oats,2014.0,spring,-0.02124799478364943,0.02124799478364943,0.02124799478364943
+,heat,,,,,1,1,event,United States|Texas|Oats|2014|spring,United States,Texas,Oats,2014.0,spring,-0.19291884508347878,0.19291884508347878,0.19291884508347878
+,drought,,,,,3,3,event,United States|Texas|Oats|2014|spring,United States,Texas,Oats,2014.0,spring,-0.04142237127268241,0.04142237127268241,0.04142237127268241
+,frost_cold,,,,,4,4,event,United States|Texas|Oats|2014|spring,United States,Texas,Oats,2014.0,spring,-0.02205033618972707,0.02205033618972707,0.02205033618972707
+,excess_rain,,,,,2,2,event,United States|Texas|Oats|2014|spring,United States,Texas,Oats,2014.0,spring,-0.05260191951386256,0.05260191951386256,0.05260191951386256
+,radiation,,,,,5,5,event,United States|Texas|Oats|2014|spring,United States,Texas,Oats,2014.0,spring,-0.01456699458926105,0.01456699458926105,0.01456699458926105
+,heat,,,,,3,3,event,United States|Kansas|Wheat|2014|winter,United States,Kansas,Wheat,2014.0,winter,-0.0895492575755909,0.0895492575755909,0.0895492575755909
+,drought,,,,,1,1,event,United States|Kansas|Wheat|2014|winter,United States,Kansas,Wheat,2014.0,winter,-0.2983285486157882,0.2983285486157882,0.2983285486157882
+,frost_cold,,,,,4,4,event,United States|Kansas|Wheat|2014|winter,United States,Kansas,Wheat,2014.0,winter,-0.035975315050656695,0.035975315050656695,0.035975315050656695
+,excess_rain,,,,,2,2,event,United States|Kansas|Wheat|2014|winter,United States,Kansas,Wheat,2014.0,winter,-0.20139716982082512,0.20139716982082512,0.20139716982082512
+,radiation,,,,,5,5,event,United States|Kansas|Wheat|2014|winter,United States,Kansas,Wheat,2014.0,winter,-0.024512746886053073,0.024512746886053073,0.024512746886053073
+,heat,,,,,2,2,event,United States|Oklahoma|Wheat|2014|winter,United States,Oklahoma,Wheat,2014.0,winter,-0.13760655593284166,0.13760655593284166,0.13760655593284166
+,drought,,,,,1,1,event,United States|Oklahoma|Wheat|2014|winter,United States,Oklahoma,Wheat,2014.0,winter,-0.2132840042130189,0.2132840042130189,0.2132840042130189
+,frost_cold,,,,,3,3,event,United States|Oklahoma|Wheat|2014|winter,United States,Oklahoma,Wheat,2014.0,winter,-0.08962467775069896,0.08962467775069896,0.08962467775069896
+,excess_rain,,,,,4,4,event,United States|Oklahoma|Wheat|2014|winter,United States,Oklahoma,Wheat,2014.0,winter,-0.08752862372523759,0.08752862372523759,0.08752862372523759
+,radiation,,,,,5,5,event,United States|Oklahoma|Wheat|2014|winter,United States,Oklahoma,Wheat,2014.0,winter,-0.03791172640183371,0.03791172640183371,0.03791172640183371
+,heat,,,,,4,4,event,United States|Washington|Wheat|2014|winter,United States,Washington,Wheat,2014.0,winter,-0.04585820669763848,0.04585820669763848,0.04585820669763848
+,drought,,,,,1,1,event,United States|Washington|Wheat|2014|winter,United States,Washington,Wheat,2014.0,winter,-0.3123859004545929,0.3123859004545929,0.3123859004545929
+,frost_cold,,,,,5,5,event,United States|Washington|Wheat|2014|winter,United States,Washington,Wheat,2014.0,winter,-0.04270110214301354,0.04270110214301354,0.04270110214301354
+,excess_rain,,,,,2,2,event,United States|Washington|Wheat|2014|winter,United States,Washington,Wheat,2014.0,winter,-0.21301203831667218,0.21301203831667218,0.21301203831667218
+,radiation,,,,,3,3,event,United States|Washington|Wheat|2014|winter,United States,Washington,Wheat,2014.0,winter,-0.04811223755871208,0.04811223755871208,0.04811223755871208
+,heat,,,,,2,2,event,United States|South Dakota|Barley|2015|spring,United States,South Dakota,Barley,2015.0,spring,-0.03448043555219052,0.03448043555219052,0.03448043555219052
+,drought,,,,,1,1,event,United States|South Dakota|Barley|2015|spring,United States,South Dakota,Barley,2015.0,spring,-0.05241076495191026,0.05241076495191026,0.05241076495191026
+,frost_cold,,,,,5,5,event,United States|South Dakota|Barley|2015|spring,United States,South Dakota,Barley,2015.0,spring,0.009910529493639875,0.009910529493639875,0.0
+,excess_rain,,,,,3,3,event,United States|South Dakota|Barley|2015|spring,United States,South Dakota,Barley,2015.0,spring,-0.03159485226684761,0.03159485226684761,0.03159485226684761
+,radiation,,,,,4,4,event,United States|South Dakota|Barley|2015|spring,United States,South Dakota,Barley,2015.0,spring,-0.013138421589662334,0.013138421589662334,0.013138421589662334
+,heat,,,,,3,3,event,United States|Washington|Barley|2015|spring,United States,Washington,Barley,2015.0,spring,-0.030451108932843116,0.030451108932843116,0.030451108932843116
+,drought,,,,,1,1,event,United States|Washington|Barley|2015|spring,United States,Washington,Barley,2015.0,spring,-0.42063637347634786,0.42063637347634786,0.42063637347634786
+,frost_cold,,,,,4,4,event,United States|Washington|Barley|2015|spring,United States,Washington,Barley,2015.0,spring,-0.0210923912215626,0.0210923912215626,0.0210923912215626
+,excess_rain,,,,,2,2,event,United States|Washington|Barley|2015|spring,United States,Washington,Barley,2015.0,spring,-0.14269705019191484,0.14269705019191484,0.14269705019191484
+,radiation,,,,,5,5,event,United States|Washington|Barley|2015|spring,United States,Washington,Barley,2015.0,spring,-0.0065843143122260115,0.0065843143122260115,0.0065843143122260115
+,heat,,,,,3,3,event,United States|Washington|Canola|2015|spring,United States,Washington,Canola,2015.0,spring,-0.02769908593495941,0.02769908593495941,0.02769908593495941
+,drought,,,,,1,1,event,United States|Washington|Canola|2015|spring,United States,Washington,Canola,2015.0,spring,-0.42089127930565223,0.42089127930565223,0.42089127930565223
+,frost_cold,,,,,4,4,event,United States|Washington|Canola|2015|spring,United States,Washington,Canola,2015.0,spring,-0.021976200637037438,0.021976200637037438,0.021976200637037438
+,excess_rain,,,,,2,2,event,United States|Washington|Canola|2015|spring,United States,Washington,Canola,2015.0,spring,-0.14131645789383632,0.14131645789383632,0.14131645789383632
+,radiation,,,,,5,5,event,United States|Washington|Canola|2015|spring,United States,Washington,Canola,2015.0,spring,-0.0065843143122260115,0.0065843143122260115,0.0065843143122260115
+,heat,,,,,2,2,event,United States|Nebraska|Wheat|2015|winter,United States,Nebraska,Wheat,2015.0,winter,-0.06142844374707175,0.06142844374707175,0.06142844374707175
+,drought,,,,,1,1,event,United States|Nebraska|Wheat|2015|winter,United States,Nebraska,Wheat,2015.0,winter,-0.2066589234976592,0.2066589234976592,0.2066589234976592
+,frost_cold,,,,,4,4,event,United States|Nebraska|Wheat|2015|winter,United States,Nebraska,Wheat,2015.0,winter,-0.03515230360627891,0.03515230360627891,0.03515230360627891
+,excess_rain,,,,,3,3,event,United States|Nebraska|Wheat|2015|winter,United States,Nebraska,Wheat,2015.0,winter,-0.05043136110859617,0.05043136110859617,0.05043136110859617
+,radiation,,,,,5,5,event,United States|Nebraska|Wheat|2015|winter,United States,Nebraska,Wheat,2015.0,winter,-0.009879249381734482,0.009879249381734482,0.009879249381734482
+,heat,,,,,2,2,event,United States|Oklahoma|Wheat|2015|winter,United States,Oklahoma,Wheat,2015.0,winter,-0.07846930766421747,0.07846930766421747,0.07846930766421747
+,drought,,,,,3,3,event,United States|Oklahoma|Wheat|2015|winter,United States,Oklahoma,Wheat,2015.0,winter,-0.058322475287502604,0.058322475287502604,0.058322475287502604
+,frost_cold,,,,,4,4,event,United States|Oklahoma|Wheat|2015|winter,United States,Oklahoma,Wheat,2015.0,winter,-0.04466755610844883,0.04466755610844883,0.04466755610844883
+,excess_rain,,,,,1,1,event,United States|Oklahoma|Wheat|2015|winter,United States,Oklahoma,Wheat,2015.0,winter,-0.12672391435171676,0.12672391435171676,0.12672391435171676
+,radiation,,,,,5,5,event,United States|Oklahoma|Wheat|2015|winter,United States,Oklahoma,Wheat,2015.0,winter,-0.006527895842018213,0.006527895842018213,0.006527895842018213
+,heat,,,,,4,4,event,United States|Washington|Wheat|2015|winter,United States,Washington,Wheat,2015.0,winter,-0.08509766821343404,0.08509766821343404,0.08509766821343404
+,drought,,,,,1,1,event,United States|Washington|Wheat|2015|winter,United States,Washington,Wheat,2015.0,winter,-0.16985065824114937,0.16985065824114937,0.16985065824114937
+,frost_cold,,,,,3,3,event,United States|Washington|Wheat|2015|winter,United States,Washington,Wheat,2015.0,winter,-0.09209265307447273,0.09209265307447273,0.09209265307447273
+,excess_rain,,,,,2,2,event,United States|Washington|Wheat|2015|winter,United States,Washington,Wheat,2015.0,winter,-0.11668057420048794,0.11668057420048794,0.11668057420048794
+,radiation,,,,,5,5,event,United States|Washington|Wheat|2015|winter,United States,Washington,Wheat,2015.0,winter,-0.044705201694446695,0.044705201694446695,0.044705201694446695
+,heat,,,,,2,2,event,United States|Montana|Canola|2017|spring,United States,Montana,Canola,2017.0,spring,-0.0558826347188766,0.0558826347188766,0.0558826347188766
+,drought,,,,,1,1,event,United States|Montana|Canola|2017|spring,United States,Montana,Canola,2017.0,spring,-0.07200812930921191,0.07200812930921191,0.07200812930921191
+,frost_cold,,,,,4,3,event,United States|Montana|Canola|2017|spring,United States,Montana,Canola,2017.0,spring,-0.01594746466204361,0.01594746466204361,0.01594746466204361
+,excess_rain,,,,,3,5,event,United States|Montana|Canola|2017|spring,United States,Montana,Canola,2017.0,spring,0.05095480312056666,0.05095480312056666,0.0
+,radiation,,,,,5,4,event,United States|Montana|Canola|2017|spring,United States,Montana,Canola,2017.0,spring,-0.005564139604342479,0.005564139604342479,0.005564139604342479
+,heat,,,,,4,1,event,United States|Nebraska|Oats|2017|spring,United States,Nebraska,Oats,2017.0,spring,0.030684754166751444,0.030684754166751444,0.0
+,drought,,,,,2,2,event,United States|Nebraska|Oats|2017|spring,United States,Nebraska,Oats,2017.0,spring,0.049088002916586736,0.049088002916586736,0.0
+,frost_cold,,,,,3,3,event,United States|Nebraska|Oats|2017|spring,United States,Nebraska,Oats,2017.0,spring,0.031271917902229204,0.031271917902229204,0.0
+,excess_rain,,,,,1,4,event,United States|Nebraska|Oats|2017|spring,United States,Nebraska,Oats,2017.0,spring,0.05129504726113493,0.05129504726113493,0.0
+,radiation,,,,,5,5,event,United States|Nebraska|Oats|2017|spring,United States,Nebraska,Oats,2017.0,spring,0.010500994242187119,0.010500994242187119,0.0
+,heat,,,,,2,2,event,United States|North Dakota|Oats|2017|spring,United States,North Dakota,Oats,2017.0,spring,-0.07549978775070364,0.07549978775070364,0.07549978775070364
+,drought,,,,,1,1,event,United States|North Dakota|Oats|2017|spring,United States,North Dakota,Oats,2017.0,spring,-0.09740326677707342,0.09740326677707342,0.09740326677707342
+,frost_cold,,,,,4,4,event,United States|North Dakota|Oats|2017|spring,United States,North Dakota,Oats,2017.0,spring,-0.013037120911319665,0.013037120911319665,0.013037120911319665
+,excess_rain,,,,,5,5,event,United States|North Dakota|Oats|2017|spring,United States,North Dakota,Oats,2017.0,spring,-0.0005912795757684226,0.0005912795757684226,0.0005912795757684226
+,radiation,,,,,3,3,event,United States|North Dakota|Oats|2017|spring,United States,North Dakota,Oats,2017.0,spring,-0.013534792177852776,0.013534792177852776,0.013534792177852776
+,heat,,,,,5,4,event,United States|Washington|Oats|2017|spring,United States,Washington,Oats,2017.0,spring,-0.001519720816941027,0.001519720816941027,0.001519720816941027
+,drought,,,,,1,5,event,United States|Washington|Oats|2017|spring,United States,Washington,Oats,2017.0,spring,0.0180498580845765,0.0180498580845765,0.0
+,frost_cold,,,,,2,1,event,United States|Washington|Oats|2017|spring,United States,Washington,Oats,2017.0,spring,-0.011977226456237822,0.011977226456237822,0.011977226456237822
+,excess_rain,,,,,4,3,event,United States|Washington|Oats|2017|spring,United States,Washington,Oats,2017.0,spring,-0.0025956953178871128,0.0025956953178871128,0.0025956953178871128
+,radiation,,,,,3,2,event,United States|Washington|Oats|2017|spring,United States,Washington,Oats,2017.0,spring,-0.006999989546311888,0.006999989546311888,0.006999989546311888
+,heat,,,,,2,2,event,United States|Montana|Wheat|2017|spring,United States,Montana,Wheat,2017.0,spring,-0.055010245800694454,0.055010245800694454,0.055010245800694454
+,drought,,,,,1,1,event,United States|Montana|Wheat|2017|spring,United States,Montana,Wheat,2017.0,spring,-0.0739173526800644,0.0739173526800644,0.0739173526800644
+,frost_cold,,,,,4,3,event,United States|Montana|Wheat|2017|spring,United States,Montana,Wheat,2017.0,spring,-0.017464037756280165,0.017464037756280165,0.017464037756280165
+,excess_rain,,,,,3,5,event,United States|Montana|Wheat|2017|spring,United States,Montana,Wheat,2017.0,spring,0.05460948173681847,0.05460948173681847,0.0
+,radiation,,,,,5,4,event,United States|Montana|Wheat|2017|spring,United States,Montana,Wheat,2017.0,spring,-0.00749245354636951,0.00749245354636951,0.00749245354636951
+,heat,,,,,2,2,event,United States|North Dakota|Wheat|2017|spring,United States,North Dakota,Wheat,2017.0,spring,-0.0767908426095023,0.0767908426095023,0.0767908426095023
+,drought,,,,,1,1,event,United States|North Dakota|Wheat|2017|spring,United States,North Dakota,Wheat,2017.0,spring,-0.10061644963984016,0.10061644963984016,0.10061644963984016
+,frost_cold,,,,,4,4,event,United States|North Dakota|Wheat|2017|spring,United States,North Dakota,Wheat,2017.0,spring,-0.012228158416004619,0.012228158416004619,0.012228158416004619
+,excess_rain,,,,,5,5,event,United States|North Dakota|Wheat|2017|spring,United States,North Dakota,Wheat,2017.0,spring,-0.0018679806789518028,0.0018679806789518028,0.0018679806789518028
+,radiation,,,,,3,3,event,United States|North Dakota|Wheat|2017|spring,United States,North Dakota,Wheat,2017.0,spring,-0.013085108937519893,0.013085108937519893,0.013085108937519893
+,heat,,,,,3,1,event,United States|South Dakota|Wheat|2017|spring,United States,South Dakota,Wheat,2017.0,spring,-0.01319209214173059,0.01319209214173059,0.01319209214173059
+,drought,,,,,1,3,event,United States|South Dakota|Wheat|2017|spring,United States,South Dakota,Wheat,2017.0,spring,0.0291612307318052,0.0291612307318052,0.0
+,frost_cold,,,,,2,4,event,United States|South Dakota|Wheat|2017|spring,United States,South Dakota,Wheat,2017.0,spring,0.018596091901538037,0.018596091901538037,0.0
+,excess_rain,,,,,4,2,event,United States|South Dakota|Wheat|2017|spring,United States,South Dakota,Wheat,2017.0,spring,-0.01111693283392313,0.01111693283392313,0.01111693283392313
+,radiation,,,,,5,5,event,United States|South Dakota|Wheat|2017|spring,United States,South Dakota,Wheat,2017.0,spring,0.006089846698644462,0.006089846698644462,0.0
+,heat,,,,,1,1,event,United States|Kansas|Barley|2018|spring,United States,Kansas,Barley,2018.0,spring,-0.12500335801840676,0.12500335801840676,0.12500335801840676
+,drought,,,,,3,2,event,United States|Kansas|Barley|2018|spring,United States,Kansas,Barley,2018.0,spring,-0.00862446988845104,0.00862446988845104,0.00862446988845104
+,frost_cold,,,,,2,4,event,United States|Kansas|Barley|2018|spring,United States,Kansas,Barley,2018.0,spring,0.02679601862164615,0.02679601862164615,0.0
+,excess_rain,,,,,5,5,event,United States|Kansas|Barley|2018|spring,United States,Kansas,Barley,2018.0,spring,0.00013525317353506837,0.00013525317353506837,0.0
+,radiation,,,,,4,3,event,United States|Kansas|Barley|2018|spring,United States,Kansas,Barley,2018.0,spring,-0.0007757743335746027,0.0007757743335746027,0.0007757743335746027
+,heat,,,,,1,3,event,United States|Colorado|Oats|2018|spring,United States,Colorado,Oats,2018.0,spring,0.05908734415708509,0.05908734415708509,0.0
+,drought,,,,,5,2,event,United States|Colorado|Oats|2018|spring,United States,Colorado,Oats,2018.0,spring,-0.008158043522299159,0.008158043522299159,0.008158043522299159
+,frost_cold,,,,,3,4,event,United States|Colorado|Oats|2018|spring,United States,Colorado,Oats,2018.0,spring,0.02796866471771002,0.02796866471771002,0.0
+,excess_rain,,,,,2,1,event,United States|Colorado|Oats|2018|spring,United States,Colorado,Oats,2018.0,spring,-0.03253885120431316,0.03253885120431316,0.03253885120431316
+,radiation,,,,,4,5,event,United States|Colorado|Oats|2018|spring,United States,Colorado,Oats,2018.0,spring,0.013141027797705186,0.013141027797705186,0.0
+,heat,,,,,2,4,event,United States|Iowa|Oats|2018|spring,United States,Iowa,Oats,2018.0,spring,0.0445207787467768,0.0445207787467768,0.0
+,drought,,,,,4,2,event,United States|Iowa|Oats|2018|spring,United States,Iowa,Oats,2018.0,spring,-0.03846772608824846,0.03846772608824846,0.03846772608824846
+,frost_cold,,,,,3,5,event,United States|Iowa|Oats|2018|spring,United States,Iowa,Oats,2018.0,spring,0.042626813848524445,0.042626813848524445,0.0
+,excess_rain,,,,,1,1,event,United States|Iowa|Oats|2018|spring,United States,Iowa,Oats,2018.0,spring,-0.07475233996733084,0.07475233996733084,0.07475233996733084
+,radiation,,,,,5,3,event,United States|Iowa|Oats|2018|spring,United States,Iowa,Oats,2018.0,spring,-0.008040202610192157,0.008040202610192157,0.008040202610192157
+,heat,,,,,4,2,event,United States|Minnesota|Oats|2018|spring,United States,Minnesota,Oats,2018.0,spring,0.01995135199754824,0.01995135199754824,0.0
+,drought,,,,,3,3,event,United States|Minnesota|Oats|2018|spring,United States,Minnesota,Oats,2018.0,spring,0.02904393115792443,0.02904393115792443,0.0
+,frost_cold,,,,,2,1,event,United States|Minnesota|Oats|2018|spring,United States,Minnesota,Oats,2018.0,spring,-0.03703090829348797,0.03703090829348797,0.03703090829348797
+,excess_rain,,,,,1,4,event,United States|Minnesota|Oats|2018|spring,United States,Minnesota,Oats,2018.0,spring,0.05056904345602162,0.05056904345602162,0.0
+,radiation,,,,,5,5,event,United States|Minnesota|Oats|2018|spring,United States,Minnesota,Oats,2018.0,spring,0.000537622478002531,0.000537622478002531,0.0
+,heat,,,,,3,4,event,United States|Washington|Oats|2018|spring,United States,Washington,Oats,2018.0,spring,0.019633095364797334,0.019633095364797334,0.0
+,drought,,,,,1,1,event,United States|Washington|Oats|2018|spring,United States,Washington,Oats,2018.0,spring,-0.06382792426865957,0.06382792426865957,0.06382792426865957
+,frost_cold,,,,,5,5,event,United States|Washington|Oats|2018|spring,United States,Washington,Oats,2018.0,spring,0.0027099867427569126,0.0027099867427569126,0.0
+,excess_rain,,,,,2,2,event,United States|Washington|Oats|2018|spring,United States,Washington,Oats,2018.0,spring,-0.05156807702848219,0.05156807702848219,0.05156807702848219
+,radiation,,,,,4,3,event,United States|Washington|Oats|2018|spring,United States,Washington,Oats,2018.0,spring,-0.013954200455166309,0.013954200455166309,0.013954200455166309
+,heat,,,,,4,3,event,United States|Illinois|Wheat|2018|winter,United States,Illinois,Wheat,2018.0,winter,0.0024954344936119256,0.0024954344936119256,0.0
+,drought,,,,,2,4,event,United States|Illinois|Wheat|2018|winter,United States,Illinois,Wheat,2018.0,winter,0.004189405449857313,0.004189405449857313,0.0
+,frost_cold,,,,,3,2,event,United States|Illinois|Wheat|2018|winter,United States,Illinois,Wheat,2018.0,winter,-0.0029968661254188844,0.0029968661254188844,0.0029968661254188844
+,excess_rain,,,,,1,1,event,United States|Illinois|Wheat|2018|winter,United States,Illinois,Wheat,2018.0,winter,-0.04845489598209597,0.04845489598209597,0.04845489598209597
+,radiation,,,,,5,5,event,United States|Illinois|Wheat|2018|winter,United States,Illinois,Wheat,2018.0,winter,0.001128650596598735,0.001128650596598735,0.0
+,heat,,,,,2,3,event,United States|Kansas|Barley|2019|spring,United States,Kansas,Barley,2019.0,spring,0.05287246275165818,0.05287246275165818,0.0
+,drought,,,,,4,2,event,United States|Kansas|Barley|2019|spring,United States,Kansas,Barley,2019.0,spring,-0.022307293914690975,0.022307293914690975,0.022307293914690975
+,frost_cold,,,,,3,4,event,United States|Kansas|Barley|2019|spring,United States,Kansas,Barley,2019.0,spring,0.02971357644103024,0.02971357644103024,0.0
+,excess_rain,,,,,1,1,event,United States|Kansas|Barley|2019|spring,United States,Kansas,Barley,2019.0,spring,-0.09175697782117762,0.09175697782117762,0.09175697782117762
+,radiation,,,,,5,5,event,United States|Kansas|Barley|2019|spring,United States,Kansas,Barley,2019.0,spring,0.001023041451801105,0.001023041451801105,0.0
+,heat,,,,,3,1,event,United States|Illinois|Oats|2019|spring,United States,Illinois,Oats,2019.0,spring,-0.022389076012089445,0.022389076012089445,0.022389076012089445
+,drought,,,,,2,3,event,United States|Illinois|Oats|2019|spring,United States,Illinois,Oats,2019.0,spring,0.030010393140609628,0.030010393140609628,0.0
+,frost_cold,,,,,1,4,event,United States|Illinois|Oats|2019|spring,United States,Illinois,Oats,2019.0,spring,0.031932307946518634,0.031932307946518634,0.0
+,excess_rain,,,,,5,5,event,United States|Illinois|Oats|2019|spring,United States,Illinois,Oats,2019.0,spring,0.005592799757341163,0.005592799757341163,0.0
+,radiation,,,,,4,2,event,United States|Illinois|Oats|2019|spring,United States,Illinois,Oats,2019.0,spring,-0.01420219820856503,0.01420219820856503,0.01420219820856503
+,heat,,,,,5,4,event,United States|Iowa|Oats|2019|spring,United States,Iowa,Oats,2019.0,spring,-0.006718832280841049,0.006718832280841049,0.006718832280841049
+,drought,,,,,1,1,event,United States|Iowa|Oats|2019|spring,United States,Iowa,Oats,2019.0,spring,-0.05438416015486158,0.05438416015486158,0.05438416015486158
+,frost_cold,,,,,3,5,event,United States|Iowa|Oats|2019|spring,United States,Iowa,Oats,2019.0,spring,0.010294905074452224,0.010294905074452224,0.0
+,excess_rain,,,,,2,2,event,United States|Iowa|Oats|2019|spring,United States,Iowa,Oats,2019.0,spring,-0.013983773633740936,0.013983773633740936,0.013983773633740936
+,radiation,,,,,4,3,event,United States|Iowa|Oats|2019|spring,United States,Iowa,Oats,2019.0,spring,-0.008603976062271508,0.008603976062271508,0.008603976062271508
+,heat,,,,,4,4,event,United States|Illinois|Wheat|2019|winter,United States,Illinois,Wheat,2019.0,winter,-0.02923011113393919,0.02923011113393919,0.02923011113393919
+,drought,,,,,1,1,event,United States|Illinois|Wheat|2019|winter,United States,Illinois,Wheat,2019.0,winter,-0.043186463054248225,0.043186463054248225,0.043186463054248225
+,frost_cold,,,,,3,3,event,United States|Illinois|Wheat|2019|winter,United States,Illinois,Wheat,2019.0,winter,-0.0367824252091177,0.0367824252091177,0.0367824252091177
+,excess_rain,,,,,2,2,event,United States|Illinois|Wheat|2019|winter,United States,Illinois,Wheat,2019.0,winter,-0.042808366998683185,0.042808366998683185,0.042808366998683185
+,radiation,,,,,5,5,event,United States|Illinois|Wheat|2019|winter,United States,Illinois,Wheat,2019.0,winter,-0.019581726937642197,0.019581726937642197,0.019581726937642197
+,heat,,,,,3,2,event,United States|Minnesota|Barley|2020|spring,United States,Minnesota,Barley,2020.0,spring,0.034228305051345366,0.034228305051345366,0.0
+,drought,,,,,1,3,event,United States|Minnesota|Barley|2020|spring,United States,Minnesota,Barley,2020.0,spring,0.08472382147663701,0.08472382147663701,0.0
+,frost_cold,,,,,5,4,event,United States|Minnesota|Barley|2020|spring,United States,Minnesota,Barley,2020.0,spring,0.009415023052414677,0.009415023052414677,0.0
+,excess_rain,,,,,2,5,event,United States|Minnesota|Barley|2020|spring,United States,Minnesota,Barley,2020.0,spring,0.0508296916717949,0.0508296916717949,0.0
+,radiation,,,,,4,1,event,United States|Minnesota|Barley|2020|spring,United States,Minnesota,Barley,2020.0,spring,-0.011997799591169252,0.011997799591169252,0.011997799591169252
+,heat,,,,,3,2,event,United States|Minnesota|Canola|2020|spring,United States,Minnesota,Canola,2020.0,spring,0.0278285067298751,0.0278285067298751,0.0
+,drought,,,,,1,3,event,United States|Minnesota|Canola|2020|spring,United States,Minnesota,Canola,2020.0,spring,0.09075931592582824,0.09075931592582824,0.0
+,frost_cold,,,,,5,4,event,United States|Minnesota|Canola|2020|spring,United States,Minnesota,Canola,2020.0,spring,0.007530305512707714,0.007530305512707714,0.0
+,excess_rain,,,,,2,5,event,United States|Minnesota|Canola|2020|spring,United States,Minnesota,Canola,2020.0,spring,0.048680954258236035,0.048680954258236035,0.0
+,radiation,,,,,4,1,event,United States|Minnesota|Canola|2020|spring,United States,Minnesota,Canola,2020.0,spring,-0.010673495299083208,0.010673495299083208,0.010673495299083208
+,heat,,,,,4,2,event,United States|Illinois|Oats|2020|spring,United States,Illinois,Oats,2020.0,spring,0.00956588668843567,0.00956588668843567,0.0
+,drought,,,,,3,3,event,United States|Illinois|Oats|2020|spring,United States,Illinois,Oats,2020.0,spring,0.014937596531963459,0.014937596531963459,0.0
+,frost_cold,,,,,2,4,event,United States|Illinois|Oats|2020|spring,United States,Illinois,Oats,2020.0,spring,0.019099852309266564,0.019099852309266564,0.0
+,excess_rain,,,,,1,1,event,United States|Illinois|Oats|2020|spring,United States,Illinois,Oats,2020.0,spring,-0.020156989794987715,0.020156989794987715,0.020156989794987715
+,radiation,,,,,5,5,event,United States|Illinois|Oats|2020|spring,United States,Illinois,Oats,2020.0,spring,0.0026927034561349305,0.0026927034561349305,0.0
+,heat,,,,,3,5,event,United States|Colorado|Wheat|2020|winter,United States,Colorado,Wheat,2020.0,winter,0.0383524063356898,0.0383524063356898,0.0
+,drought,,,,,1,1,event,United States|Colorado|Wheat|2020|winter,United States,Colorado,Wheat,2020.0,winter,-0.10240698119616795,0.10240698119616795,0.10240698119616795
+,frost_cold,,,,,4,3,event,United States|Colorado|Wheat|2020|winter,United States,Colorado,Wheat,2020.0,winter,-0.012008421189408902,0.012008421189408902,0.012008421189408902
+,excess_rain,,,,,2,2,event,United States|Colorado|Wheat|2020|winter,United States,Colorado,Wheat,2020.0,winter,-0.06964173430703091,0.06964173430703091,0.06964173430703091
+,radiation,,,,,5,4,event,United States|Colorado|Wheat|2020|winter,United States,Colorado,Wheat,2020.0,winter,-0.008350420947782896,0.008350420947782896,0.008350420947782896
+,heat,,,,,5,4,event,United States|Illinois|Wheat|2020|winter,United States,Illinois,Wheat,2020.0,winter,-0.007803716859995212,0.007803716859995212,0.007803716859995212
+,drought,,,,,2,2,event,United States|Illinois|Wheat|2020|winter,United States,Illinois,Wheat,2020.0,winter,-0.029673911181979075,0.029673911181979075,0.029673911181979075
+,frost_cold,,,,,3,5,event,United States|Illinois|Wheat|2020|winter,United States,Illinois,Wheat,2020.0,winter,0.021369800592488466,0.021369800592488466,0.0
+,excess_rain,,,,,1,1,event,United States|Illinois|Wheat|2020|winter,United States,Illinois,Wheat,2020.0,winter,-0.11979052974928028,0.11979052974928028,0.11979052974928028
+,radiation,,,,,4,3,event,United States|Illinois|Wheat|2020|winter,United States,Illinois,Wheat,2020.0,winter,-0.014825531915237847,0.014825531915237847,0.014825531915237847
+,heat,,,,,3,2,event,United States|Minnesota|Wheat|2020|spring,United States,Minnesota,Wheat,2020.0,spring,0.03275599920722999,0.03275599920722999,0.0
+,drought,,,,,1,3,event,United States|Minnesota|Wheat|2020|spring,United States,Minnesota,Wheat,2020.0,spring,0.08596957690525829,0.08596957690525829,0.0
+,frost_cold,,,,,5,4,event,United States|Minnesota|Wheat|2020|spring,United States,Minnesota,Wheat,2020.0,spring,0.01118747673540109,0.01118747673540109,0.0
+,excess_rain,,,,,2,5,event,United States|Minnesota|Wheat|2020|spring,United States,Minnesota,Wheat,2020.0,spring,0.05579031087713321,0.05579031087713321,0.0
+,radiation,,,,,4,1,event,United States|Minnesota|Wheat|2020|spring,United States,Minnesota,Wheat,2020.0,spring,-0.011640733827640849,0.011640733827640849,0.011640733827640849
+,heat,,,,,2,3,event,United States|Colorado|Barley|2021|spring,United States,Colorado,Barley,2021.0,spring,0.07200743633150757,0.07200743633150757,0.0
+,drought,,,,,1,4,event,United States|Colorado|Barley|2021|spring,United States,Colorado,Barley,2021.0,spring,0.09000610605539439,0.09000610605539439,0.0
+,frost_cold,,,,,5,2,event,United States|Colorado|Barley|2021|spring,United States,Colorado,Barley,2021.0,spring,-7.984702456245198e-05,7.984702456245198e-05,7.984702456245198e-05
+,excess_rain,,,,,3,5,event,United States|Colorado|Barley|2021|spring,United States,Colorado,Barley,2021.0,spring,0.02036306160502612,0.02036306160502612,0.0
+,radiation,,,,,4,1,event,United States|Colorado|Barley|2021|spring,United States,Colorado,Barley,2021.0,spring,-0.019644278462499158,0.019644278462499158,0.019644278462499158
+,heat,,,,,2,1,event,United States|Minnesota|Barley|2021|spring,United States,Minnesota,Barley,2021.0,spring,-0.05676463172291996,0.05676463172291996,0.05676463172291996
+,drought,,,,,1,3,event,United States|Minnesota|Barley|2021|spring,United States,Minnesota,Barley,2021.0,spring,0.05881430542871631,0.05881430542871631,0.0
+,frost_cold,,,,,4,2,event,United States|Minnesota|Barley|2021|spring,United States,Minnesota,Barley,2021.0,spring,-0.026986948947394163,0.026986948947394163,0.026986948947394163
+,excess_rain,,,,,3,4,event,United States|Minnesota|Barley|2021|spring,United States,Minnesota,Barley,2021.0,spring,0.032648352300409134,0.032648352300409134,0.0
+,radiation,,,,,5,5,event,United States|Minnesota|Barley|2021|spring,United States,Minnesota,Barley,2021.0,spring,0.000457818787465928,0.000457818787465928,0.0
+,heat,,,,,1,1,event,United States|Montana|Barley|2021|spring,United States,Montana,Barley,2021.0,spring,-0.06211653077921079,0.06211653077921079,0.06211653077921079
+,drought,,,,,2,2,event,United States|Montana|Barley|2021|spring,United States,Montana,Barley,2021.0,spring,-0.06116606793654354,0.06116606793654354,0.06116606793654354
+,frost_cold,,,,,5,4,event,United States|Montana|Barley|2021|spring,United States,Montana,Barley,2021.0,spring,-0.004688138960571299,0.004688138960571299,0.004688138960571299
+,excess_rain,,,,,3,3,event,United States|Montana|Barley|2021|spring,United States,Montana,Barley,2021.0,spring,-0.03809310749194725,0.03809310749194725,0.03809310749194725
+,radiation,,,,,4,5,event,United States|Montana|Barley|2021|spring,United States,Montana,Barley,2021.0,spring,0.006585759007352218,0.006585759007352218,0.0
+,heat,,,,,1,1,event,United States|North Dakota|Barley|2021|spring,United States,North Dakota,Barley,2021.0,spring,-0.11461909891842495,0.11461909891842495,0.11461909891842495
+,drought,,,,,2,2,event,United States|North Dakota|Barley|2021|spring,United States,North Dakota,Barley,2021.0,spring,-0.09871569661523452,0.09871569661523452,0.09871569661523452
+,frost_cold,,,,,4,4,event,United States|North Dakota|Barley|2021|spring,United States,North Dakota,Barley,2021.0,spring,0.009276399650805183,0.009276399650805183,0.0
+,excess_rain,,,,,3,3,event,United States|North Dakota|Barley|2021|spring,United States,North Dakota,Barley,2021.0,spring,-0.04167299974470486,0.04167299974470486,0.04167299974470486
+,radiation,,,,,5,5,event,United States|North Dakota|Barley|2021|spring,United States,North Dakota,Barley,2021.0,spring,0.003985767596948308,0.003985767596948308,0.0
+,heat,,,,,1,1,event,United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021.0,spring,-0.1130527517140841,0.1130527517140841,0.1130527517140841
+,drought,,,,,4,4,event,United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021.0,spring,0.005526121479558287,0.005526121479558287,0.0
+,frost_cold,,,,,3,2,event,United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021.0,spring,-0.006521892777934704,0.006521892777934704,0.006521892777934704
+,excess_rain,,,,,2,5,event,United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021.0,spring,0.020067895639975665,0.020067895639975665,0.0
+,radiation,,,,,5,3,event,United States|South Dakota|Barley|2021|spring,United States,South Dakota,Barley,2021.0,spring,-0.003788908897887497,0.003788908897887497,0.003788908897887497
+,heat,,,,,3,3,event,United States|Washington|Barley|2021|spring,United States,Washington,Barley,2021.0,spring,-0.02015886088746376,0.02015886088746376,0.02015886088746376
+,drought,,,,,1,1,event,United States|Washington|Barley|2021|spring,United States,Washington,Barley,2021.0,spring,-0.2243454235938647,0.2243454235938647,0.2243454235938647
+,frost_cold,,,,,5,5,event,United States|Washington|Barley|2021|spring,United States,Washington,Barley,2021.0,spring,-0.0019839282073661215,0.0019839282073661215,0.0019839282073661215
+,excess_rain,,,,,2,2,event,United States|Washington|Barley|2021|spring,United States,Washington,Barley,2021.0,spring,-0.13679565279756042,0.13679565279756042,0.13679565279756042
+,radiation,,,,,4,4,event,United States|Washington|Barley|2021|spring,United States,Washington,Barley,2021.0,spring,-0.007332997560605736,0.007332997560605736,0.007332997560605736
+,heat,,,,,2,1,event,United States|Minnesota|Canola|2021|spring,United States,Minnesota,Canola,2021.0,spring,-0.05708082298166153,0.05708082298166153,0.05708082298166153
+,drought,,,,,1,3,event,United States|Minnesota|Canola|2021|spring,United States,Minnesota,Canola,2021.0,spring,0.059721991044247344,0.059721991044247344,0.0
+,frost_cold,,,,,4,2,event,United States|Minnesota|Canola|2021|spring,United States,Minnesota,Canola,2021.0,spring,-0.02852307162219531,0.02852307162219531,0.02852307162219531
+,excess_rain,,,,,3,4,event,United States|Minnesota|Canola|2021|spring,United States,Minnesota,Canola,2021.0,spring,0.03152443712128204,0.03152443712128204,0.0
+,radiation,,,,,5,5,event,United States|Minnesota|Canola|2021|spring,United States,Minnesota,Canola,2021.0,spring,0.0008428569866837496,0.0008428569866837496,0.0
+,heat,,,,,1,1,event,United States|Montana|Canola|2021|spring,United States,Montana,Canola,2021.0,spring,-0.06328831526428898,0.06328831526428898,0.06328831526428898
+,drought,,,,,2,2,event,United States|Montana|Canola|2021|spring,United States,Montana,Canola,2021.0,spring,-0.06154652833870941,0.06154652833870941,0.06154652833870941
+,frost_cold,,,,,5,4,event,United States|Montana|Canola|2021|spring,United States,Montana,Canola,2021.0,spring,-0.001184721611799066,0.001184721611799066,0.001184721611799066
+,excess_rain,,,,,3,3,event,United States|Montana|Canola|2021|spring,United States,Montana,Canola,2021.0,spring,-0.038805474945278556,0.038805474945278556,0.038805474945278556
+,radiation,,,,,4,5,event,United States|Montana|Canola|2021|spring,United States,Montana,Canola,2021.0,spring,0.004998864864447521,0.004998864864447521,0.0
+,heat,,,,,1,1,event,United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021.0,spring,-0.11893046280009548,0.11893046280009548,0.11893046280009548
+,drought,,,,,2,2,event,United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021.0,spring,-0.10099206430381762,0.10099206430381762,0.10099206430381762
+,frost_cold,,,,,4,4,event,United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021.0,spring,0.009866212578926323,0.009866212578926323,0.0
+,excess_rain,,,,,3,3,event,United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021.0,spring,-0.03725837564784649,0.03725837564784649,0.03725837564784649
+,radiation,,,,,5,5,event,United States|North Dakota|Canola|2021|spring,United States,North Dakota,Canola,2021.0,spring,0.004027943253369974,0.004027943253369974,0.0
+,heat,,,,,3,3,event,United States|Washington|Canola|2021|spring,United States,Washington,Canola,2021.0,spring,-0.017845427866868845,0.017845427866868845,0.017845427866868845
+,drought,,,,,1,1,event,United States|Washington|Canola|2021|spring,United States,Washington,Canola,2021.0,spring,-0.22150836309427174,0.22150836309427174,0.22150836309427174
+,frost_cold,,,,,5,5,event,United States|Washington|Canola|2021|spring,United States,Washington,Canola,2021.0,spring,-0.0026727677315334917,0.0026727677315334917,0.0026727677315334917
+,excess_rain,,,,,2,2,event,United States|Washington|Canola|2021|spring,United States,Washington,Canola,2021.0,spring,-0.13667426408849964,0.13667426408849964,0.13667426408849964
+,radiation,,,,,4,4,event,United States|Washington|Canola|2021|spring,United States,Washington,Canola,2021.0,spring,-0.007332997560605736,0.007332997560605736,0.007332997560605736
+,heat,,,,,1,1,event,United States|Minnesota|Oats|2021|spring,United States,Minnesota,Oats,2021.0,spring,-0.05104702663626394,0.05104702663626394,0.05104702663626394
+,drought,,,,,2,4,event,United States|Minnesota|Oats|2021|spring,United States,Minnesota,Oats,2021.0,spring,0.04920997089439993,0.04920997089439993,0.0
+,frost_cold,,,,,4,2,event,United States|Minnesota|Oats|2021|spring,United States,Minnesota,Oats,2021.0,spring,-0.026952069374754205,0.026952069374754205,0.026952069374754205
+,excess_rain,,,,,3,5,event,United States|Minnesota|Oats|2021|spring,United States,Minnesota,Oats,2021.0,spring,0.029233670509910437,0.029233670509910437,0.0
+,radiation,,,,,5,3,event,United States|Minnesota|Oats|2021|spring,United States,Minnesota,Oats,2021.0,spring,-0.0013599460028082386,0.0013599460028082386,0.0013599460028082386
+,heat,,,,,2,2,event,United States|Montana|Oats|2021|spring,United States,Montana,Oats,2021.0,spring,-0.0583196397893184,0.0583196397893184,0.0583196397893184
+,drought,,,,,1,1,event,United States|Montana|Oats|2021|spring,United States,Montana,Oats,2021.0,spring,-0.06173268599843828,0.06173268599843828,0.06173268599843828
+,frost_cold,,,,,5,4,event,United States|Montana|Oats|2021|spring,United States,Montana,Oats,2021.0,spring,-0.0014779634107865633,0.0014779634107865633,0.0014779634107865633
+,excess_rain,,,,,3,3,event,United States|Montana|Oats|2021|spring,United States,Montana,Oats,2021.0,spring,-0.04110596908029027,0.04110596908029027,0.04110596908029027
+,radiation,,,,,4,5,event,United States|Montana|Oats|2021|spring,United States,Montana,Oats,2021.0,spring,0.004650627274745958,0.004650627274745958,0.0
+,heat,,,,,1,1,event,United States|North Dakota|Oats|2021|spring,United States,North Dakota,Oats,2021.0,spring,-0.11361467888875762,0.11361467888875762,0.11361467888875762
+,drought,,,,,2,2,event,United States|North Dakota|Oats|2021|spring,United States,North Dakota,Oats,2021.0,spring,-0.10322170668095647,0.10322170668095647,0.10322170668095647
+,frost_cold,,,,,4,4,event,United States|North Dakota|Oats|2021|spring,United States,North Dakota,Oats,2021.0,spring,0.01009499704596589,0.01009499704596589,0.0
+,excess_rain,,,,,3,3,event,United States|North Dakota|Oats|2021|spring,United States,North Dakota,Oats,2021.0,spring,-0.03426329132164195,0.03426329132164195,0.03426329132164195
+,radiation,,,,,5,5,event,United States|North Dakota|Oats|2021|spring,United States,North Dakota,Oats,2021.0,spring,0.002641951159344127,0.002641951159344127,0.0
+,heat,,,,,1,1,event,United States|South Dakota|Oats|2021|spring,United States,South Dakota,Oats,2021.0,spring,-0.12587844489298758,0.12587844489298758,0.12587844489298758
+,drought,,,,,3,3,event,United States|South Dakota|Oats|2021|spring,United States,South Dakota,Oats,2021.0,spring,-0.00786616239070059,0.00786616239070059,0.00786616239070059
+,frost_cold,,,,,2,2,event,United States|South Dakota|Oats|2021|spring,United States,South Dakota,Oats,2021.0,spring,-0.01413119309175803,0.01413119309175803,0.01413119309175803
+,excess_rain,,,,,4,4,event,United States|South Dakota|Oats|2021|spring,United States,South Dakota,Oats,2021.0,spring,0.0028187842791197078,0.0028187842791197078,0.0
+,radiation,,,,,5,5,event,United States|South Dakota|Oats|2021|spring,United States,South Dakota,Oats,2021.0,spring,0.0009877448033112075,0.0009877448033112075,0.0
+,heat,,,,,2,1,event,United States|Minnesota|Wheat|2021|spring,United States,Minnesota,Wheat,2021.0,spring,-0.054142699477320366,0.054142699477320366,0.054142699477320366
+,drought,,,,,1,3,event,United States|Minnesota|Wheat|2021|spring,United States,Minnesota,Wheat,2021.0,spring,0.059789530321615936,0.059789530321615936,0.0
+,frost_cold,,,,,4,2,event,United States|Minnesota|Wheat|2021|spring,United States,Minnesota,Wheat,2021.0,spring,-0.02687527131632957,0.02687527131632957,0.02687527131632957
+,excess_rain,,,,,3,4,event,United States|Minnesota|Wheat|2021|spring,United States,Minnesota,Wheat,2021.0,spring,0.03094650788203613,0.03094650788203613,0.0
+,radiation,,,,,5,5,event,United States|Minnesota|Wheat|2021|spring,United States,Minnesota,Wheat,2021.0,spring,0.00040245906066174947,0.00040245906066174947,0.0
+,heat,,,,,2,2,event,United States|Montana|Wheat|2021|spring,United States,Montana,Wheat,2021.0,spring,-0.059951453135538735,0.059951453135538735,0.059951453135538735
+,drought,,,,,1,1,event,United States|Montana|Wheat|2021|spring,United States,Montana,Wheat,2021.0,spring,-0.06272338687532425,0.06272338687532425,0.06272338687532425
+,frost_cold,,,,,5,4,event,United States|Montana|Wheat|2021|spring,United States,Montana,Wheat,2021.0,spring,-0.005440718988744063,0.005440718988744063,0.005440718988744063
+,excess_rain,,,,,3,3,event,United States|Montana|Wheat|2021|spring,United States,Montana,Wheat,2021.0,spring,-0.03928314160075467,0.03928314160075467,0.03928314160075467
+,radiation,,,,,4,5,event,United States|Montana|Wheat|2021|spring,United States,Montana,Wheat,2021.0,spring,0.006453677258387543,0.006453677258387543,0.0
+,heat,,,,,1,1,event,United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021.0,spring,-0.11616642403363106,0.11616642403363106,0.11616642403363106
+,drought,,,,,2,2,event,United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021.0,spring,-0.1032993090032306,0.1032993090032306,0.1032993090032306
+,frost_cold,,,,,4,4,event,United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021.0,spring,0.009996627784498844,0.009996627784498844,0.0
+,excess_rain,,,,,3,3,event,United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021.0,spring,-0.03254805717286889,0.03254805717286889,0.03254805717286889
+,radiation,,,,,5,5,event,United States|North Dakota|Wheat|2021|spring,United States,North Dakota,Wheat,2021.0,spring,0.005594739474647385,0.005594739474647385,0.0
+,heat,,,,,1,1,event,United States|South Dakota|Wheat|2021|spring,United States,South Dakota,Wheat,2021.0,spring,-0.12422168766403374,0.12422168766403374,0.12422168766403374
+,drought,,,,,4,3,event,United States|South Dakota|Wheat|2021|spring,United States,South Dakota,Wheat,2021.0,spring,-0.002306167939799611,0.002306167939799611,0.002306167939799611
+,frost_cold,,,,,2,2,event,United States|South Dakota|Wheat|2021|spring,United States,South Dakota,Wheat,2021.0,spring,-0.009472412532365224,0.009472412532365224,0.009472412532365224
+,excess_rain,,,,,3,5,event,United States|South Dakota|Wheat|2021|spring,United States,South Dakota,Wheat,2021.0,spring,0.003015362458705097,0.003015362458705097,0.0
+,radiation,,,,,5,4,event,United States|South Dakota|Wheat|2021|spring,United States,South Dakota,Wheat,2021.0,spring,-0.0017694810562250505,0.0017694810562250505,0.0017694810562250505
+,heat,,,,,1,1,event,United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021.0,winter,-0.020006623467198507,0.020006623467198507,0.020006623467198507
+,drought,,,,,4,3,event,United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021.0,winter,-0.010155485867544263,0.010155485867544263,0.010155485867544263
+,frost_cold,,,,,5,4,event,United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021.0,winter,0.00717958797183014,0.00717958797183014,0.0
+,excess_rain,,,,,2,5,event,United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021.0,winter,0.016424539902033738,0.016424539902033738,0.0
+,radiation,,,,,3,2,event,United States|Washington|Wheat|2021|winter,United States,Washington,Wheat,2021.0,winter,-0.01578001075665628,0.01578001075665628,0.01578001075665628
+,heat,,,,,2,2,event,United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022.0,spring,0.07151917972143672,0.07151917972143672,0.0
+,drought,,,,,1,3,event,United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022.0,spring,0.10278404359583082,0.10278404359583082,0.0
+,frost_cold,,,,,4,4,event,United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022.0,spring,0.024927541849938117,0.024927541849938117,0.0
+,excess_rain,,,,,5,5,event,United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022.0,spring,0.0007761140740423327,0.0007761140740423327,0.0
+,radiation,,,,,3,1,event,United States|Colorado|Barley|2022|spring,United States,Colorado,Barley,2022.0,spring,-0.03671703631429517,0.03671703631429517,0.03671703631429517
+,heat,,,,,1,1,event,United States|Kansas|Barley|2022|spring,United States,Kansas,Barley,2022.0,spring,-0.15829574220249182,0.15829574220249182,0.15829574220249182
+,drought,,,,,2,4,event,United States|Kansas|Barley|2022|spring,United States,Kansas,Barley,2022.0,spring,0.07828402783349948,0.07828402783349948,0.0
+,frost_cold,,,,,3,2,event,United States|Kansas|Barley|2022|spring,United States,Kansas,Barley,2022.0,spring,-0.01893377607097331,0.01893377607097331,0.01893377607097331
+,excess_rain,,,,,5,5,event,United States|Kansas|Barley|2022|spring,United States,Kansas,Barley,2022.0,spring,0.00842582052989204,0.00842582052989204,0.0
+,radiation,,,,,4,3,event,United States|Kansas|Barley|2022|spring,United States,Kansas,Barley,2022.0,spring,-0.01201255936066394,0.01201255936066394,0.01201255936066394
+,heat,,,,,1,1,event,United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022.0,spring,-0.0672752616702827,0.0672752616702827,0.0672752616702827
+,drought,,,,,3,4,event,United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022.0,spring,0.018422586860524642,0.018422586860524642,0.0
+,frost_cold,,,,,2,2,event,United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022.0,spring,-0.0559016574250059,0.0559016574250059,0.0559016574250059
+,excess_rain,,,,,4,3,event,United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022.0,spring,-0.015984586142195903,0.015984586142195903,0.015984586142195903
+,radiation,,,,,5,5,event,United States|Montana|Barley|2022|spring,United States,Montana,Barley,2022.0,spring,0.0023366237263387573,0.0023366237263387573,0.0
+,heat,,,,,1,1,event,United States|Kansas|Canola|2022|spring,United States,Kansas,Canola,2022.0,spring,-0.16398432087413115,0.16398432087413115,0.16398432087413115
+,drought,,,,,2,4,event,United States|Kansas|Canola|2022|spring,United States,Kansas,Canola,2022.0,spring,0.038701066896798975,0.038701066896798975,0.0
+,frost_cold,,,,,3,2,event,United States|Kansas|Canola|2022|spring,United States,Kansas,Canola,2022.0,spring,-0.02628555673916258,0.02628555673916258,0.02628555673916258
+,excess_rain,,,,,5,5,event,United States|Kansas|Canola|2022|spring,United States,Kansas,Canola,2022.0,spring,0.007901857214777857,0.007901857214777857,0.0
+,radiation,,,,,4,3,event,United States|Kansas|Canola|2022|spring,United States,Kansas,Canola,2022.0,spring,-0.015016994703698465,0.015016994703698465,0.015016994703698465
+,heat,,,,,5,2,event,United States|Oklahoma|Canola|2022|spring,United States,Oklahoma,Canola,2022.0,spring,-0.00020861905894962573,0.00020861905894962573,0.00020861905894962573
+,drought,,,,,1,3,event,United States|Oklahoma|Canola|2022|spring,United States,Oklahoma,Canola,2022.0,spring,0.04785905584220758,0.04785905584220758,0.0
+,frost_cold,,,,,4,1,event,United States|Oklahoma|Canola|2022|spring,United States,Oklahoma,Canola,2022.0,spring,-0.002105633438986226,0.002105633438986226,0.002105633438986226
+,excess_rain,,,,,2,4,event,United States|Oklahoma|Canola|2022|spring,United States,Oklahoma,Canola,2022.0,spring,0.02969528714276581,0.02969528714276581,0.0
+,radiation,,,,,3,5,event,United States|Oklahoma|Canola|2022|spring,United States,Oklahoma,Canola,2022.0,spring,0.004622442262728812,0.004622442262728812,0.0
+,heat,,,,,1,1,event,United States|Kansas|Oats|2022|spring,United States,Kansas,Oats,2022.0,spring,-0.168459742838937,0.168459742838937,0.168459742838937
+,drought,,,,,2,4,event,United States|Kansas|Oats|2022|spring,United States,Kansas,Oats,2022.0,spring,0.030854034070760872,0.030854034070760872,0.0
+,frost_cold,,,,,4,2,event,United States|Kansas|Oats|2022|spring,United States,Kansas,Oats,2022.0,spring,-0.022348371374966813,0.022348371374966813,0.022348371374966813
+,excess_rain,,,,,3,5,event,United States|Kansas|Oats|2022|spring,United States,Kansas,Oats,2022.0,spring,0.026473221932336487,0.026473221932336487,0.0
+,radiation,,,,,5,3,event,United States|Kansas|Oats|2022|spring,United States,Kansas,Oats,2022.0,spring,-0.016582926960911022,0.016582926960911022,0.016582926960911022
+,heat,,,,,4,3,event,United States|Minnesota|Oats|2022|spring,United States,Minnesota,Oats,2022.0,spring,0.005325081782716163,0.005325081782716163,0.0
+,drought,,,,,3,2,event,United States|Minnesota|Oats|2022|spring,United States,Minnesota,Oats,2022.0,spring,-0.006639799424407941,0.006639799424407941,0.006639799424407941
+,frost_cold,,,,,1,1,event,United States|Minnesota|Oats|2022|spring,United States,Minnesota,Oats,2022.0,spring,-0.03867636706123784,0.03867636706123784,0.03867636706123784
+,excess_rain,,,,,2,4,event,United States|Minnesota|Oats|2022|spring,United States,Minnesota,Oats,2022.0,spring,0.019852136744632397,0.019852136744632397,0.0
+,radiation,,,,,5,5,event,United States|Minnesota|Oats|2022|spring,United States,Minnesota,Oats,2022.0,spring,0.0007533284322210482,0.0007533284322210482,0.0
+,heat,,,,,1,1,event,United States|Nebraska|Oats|2022|spring,United States,Nebraska,Oats,2022.0,spring,-0.13477195233887207,0.13477195233887207,0.13477195233887207
+,drought,,,,,5,4,event,United States|Nebraska|Oats|2022|spring,United States,Nebraska,Oats,2022.0,spring,0.0011252356004904582,0.0011252356004904582,0.0
+,frost_cold,,,,,3,2,event,United States|Nebraska|Oats|2022|spring,United States,Nebraska,Oats,2022.0,spring,-0.00967334056103348,0.00967334056103348,0.00967334056103348
+,excess_rain,,,,,2,5,event,United States|Nebraska|Oats|2022|spring,United States,Nebraska,Oats,2022.0,spring,0.035340005885646175,0.035340005885646175,0.0
+,radiation,,,,,4,3,event,United States|Nebraska|Oats|2022|spring,United States,Nebraska,Oats,2022.0,spring,-0.004079638328461047,0.004079638328461047,0.004079638328461047
+,heat,,,,,3,1,event,United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022.0,spring,-0.025581932695698306,0.025581932695698306,0.025581932695698306
+,drought,,,,,1,4,event,United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022.0,spring,0.04857352674735042,0.04857352674735042,0.0
+,frost_cold,,,,,4,2,event,United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022.0,spring,-0.004366199649740137,0.004366199649740137,0.004366199649740137
+,excess_rain,,,,,2,5,event,United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022.0,spring,0.029780977518645543,0.029780977518645543,0.0
+,radiation,,,,,5,3,event,United States|Oklahoma|Oats|2022|spring,United States,Oklahoma,Oats,2022.0,spring,-0.002898297360453206,0.002898297360453206,0.002898297360453206
+,heat,,,,,5,5,event,United States|Colorado|Wheat|2022|winter,United States,Colorado,Wheat,2022.0,winter,0.005159357449506413,0.005159357449506413,0.0
+,drought,,,,,1,1,event,United States|Colorado|Wheat|2022|winter,United States,Colorado,Wheat,2022.0,winter,-0.15824357008073078,0.15824357008073078,0.15824357008073078
+,frost_cold,,,,,3,3,event,United States|Colorado|Wheat|2022|winter,United States,Colorado,Wheat,2022.0,winter,-0.0237239350555309,0.0237239350555309,0.0237239350555309
+,excess_rain,,,,,2,2,event,United States|Colorado|Wheat|2022|winter,United States,Colorado,Wheat,2022.0,winter,-0.03254062177415558,0.03254062177415558,0.03254062177415558
+,radiation,,,,,4,4,event,United States|Colorado|Wheat|2022|winter,United States,Colorado,Wheat,2022.0,winter,-0.017825224565804224,0.017825224565804224,0.017825224565804224
+,heat,,,,,1,1,event,United States|Kansas|Wheat|2022|winter,United States,Kansas,Wheat,2022.0,winter,-0.05852544987000797,0.05852544987000797,0.05852544987000797
+,drought,,,,,2,2,event,United States|Kansas|Wheat|2022|winter,United States,Kansas,Wheat,2022.0,winter,-0.02997564558815538,0.02997564558815538,0.02997564558815538
+,frost_cold,,,,,3,3,event,United States|Kansas|Wheat|2022|winter,United States,Kansas,Wheat,2022.0,winter,-0.015321536515796663,0.015321536515796663,0.015321536515796663
+,excess_rain,,,,,4,4,event,United States|Kansas|Wheat|2022|winter,United States,Kansas,Wheat,2022.0,winter,0.004067362709009734,0.004067362709009734,0.0
+,radiation,,,,,5,5,event,United States|Kansas|Wheat|2022|winter,United States,Kansas,Wheat,2022.0,winter,0.0019392156845175143,0.0019392156845175143,0.0
+,heat,,,,,1,1,event,United States|Montana|Wheat|2022|spring,United States,Montana,Wheat,2022.0,spring,-0.06368284699175428,0.06368284699175428,0.06368284699175428
+,drought,,,,,3,4,event,United States|Montana|Wheat|2022|spring,United States,Montana,Wheat,2022.0,spring,0.021322411284642913,0.021322411284642913,0.0
+,frost_cold,,,,,2,2,event,United States|Montana|Wheat|2022|spring,United States,Montana,Wheat,2022.0,spring,-0.056794593764463414,0.056794593764463414,0.056794593764463414
+,excess_rain,,,,,4,3,event,United States|Montana|Wheat|2022|spring,United States,Montana,Wheat,2022.0,spring,-0.016401676233142228,0.016401676233142228,0.016401676233142228
+,radiation,,,,,5,5,event,United States|Montana|Wheat|2022|spring,United States,Montana,Wheat,2022.0,spring,0.0015866360098275533,0.0015866360098275533,0.0
+,heat,,,,,4,5,event,United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022.0,winter,0.009339754105025203,0.009339754105025203,0.0
+,drought,,,,,1,1,event,United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022.0,winter,-0.20495311325589913,0.20495311325589913,0.20495311325589913
+,frost_cold,,,,,3,3,event,United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022.0,winter,-0.014310722591819296,0.014310722591819296,0.014310722591819296
+,excess_rain,,,,,2,2,event,United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022.0,winter,-0.01983843658220015,0.01983843658220015,0.01983843658220015
+,radiation,,,,,5,4,event,United States|Nebraska|Wheat|2022|winter,United States,Nebraska,Wheat,2022.0,winter,-0.004957948756462913,0.004957948756462913,0.004957948756462913
+,heat,,,,,1,1,event,United States|Kansas|Barley|2023|spring,United States,Kansas,Barley,2023.0,spring,-0.13044644440242775,0.13044644440242775,0.13044644440242775
+,drought,,,,,2,3,event,United States|Kansas|Barley|2023|spring,United States,Kansas,Barley,2023.0,spring,0.04378855280258402,0.04378855280258402,0.0
+,frost_cold,,,,,5,4,event,United States|Kansas|Barley|2023|spring,United States,Kansas,Barley,2023.0,spring,0.005311620728300428,0.005311620728300428,0.0
+,excess_rain,,,,,3,5,event,United States|Kansas|Barley|2023|spring,United States,Kansas,Barley,2023.0,spring,0.02055566449600544,0.02055566449600544,0.0
+,radiation,,,,,4,2,event,United States|Kansas|Barley|2023|spring,United States,Kansas,Barley,2023.0,spring,-0.014724080165852785,0.014724080165852785,0.014724080165852785
+,heat,,,,,2,4,event,United States|Washington|Barley|2023|spring,United States,Washington,Barley,2023.0,spring,0.030942761617920183,0.030942761617920183,0.0
+,drought,,,,,1,1,event,United States|Washington|Barley|2023|spring,United States,Washington,Barley,2023.0,spring,-0.037699359067301264,0.037699359067301264,0.037699359067301264
+,frost_cold,,,,,3,5,event,United States|Washington|Barley|2023|spring,United States,Washington,Barley,2023.0,spring,0.026056829386707517,0.026056829386707517,0.0
+,excess_rain,,,,,4,2,event,United States|Washington|Barley|2023|spring,United States,Washington,Barley,2023.0,spring,-0.025465733636984646,0.025465733636984646,0.025465733636984646
+,radiation,,,,,5,3,event,United States|Washington|Barley|2023|spring,United States,Washington,Barley,2023.0,spring,-0.011047281229398766,0.011047281229398766,0.011047281229398766
+,heat,,,,,1,1,event,United States|Kansas|Canola|2023|spring,United States,Kansas,Canola,2023.0,spring,-0.14354314893095546,0.14354314893095546,0.14354314893095546
+,drought,,,,,2,3,event,United States|Kansas|Canola|2023|spring,United States,Kansas,Canola,2023.0,spring,0.03030863350338347,0.03030863350338347,0.0
+,frost_cold,,,,,4,4,event,United States|Kansas|Canola|2023|spring,United States,Kansas,Canola,2023.0,spring,0.00565600503641763,0.00565600503641763,0.0
+,excess_rain,,,,,5,5,event,United States|Kansas|Canola|2023|spring,United States,Kansas,Canola,2023.0,spring,0.001969743085138264,0.001969743085138264,0.0
+,radiation,,,,,3,2,event,United States|Kansas|Canola|2023|spring,United States,Kansas,Canola,2023.0,spring,-0.015562351143301652,0.015562351143301652,0.015562351143301652
+,heat,,,,,5,2,event,United States|Oklahoma|Canola|2023|spring,United States,Oklahoma,Canola,2023.0,spring,0.003977466287986213,0.003977466287986213,0.0
+,drought,,,,,1,3,event,United States|Oklahoma|Canola|2023|spring,United States,Oklahoma,Canola,2023.0,spring,0.040267965655048074,0.040267965655048074,0.0
+,frost_cold,,,,,4,1,event,United States|Oklahoma|Canola|2023|spring,United States,Oklahoma,Canola,2023.0,spring,-0.006787949138532318,0.006787949138532318,0.006787949138532318
+,excess_rain,,,,,2,4,event,United States|Oklahoma|Canola|2023|spring,United States,Oklahoma,Canola,2023.0,spring,0.01601498025972701,0.01601498025972701,0.0
+,radiation,,,,,3,5,event,United States|Oklahoma|Canola|2023|spring,United States,Oklahoma,Canola,2023.0,spring,0.007614840678503024,0.007614840678503024,0.0
+,heat,,,,,2,2,event,United States|Montana|Oats|2023|spring,United States,Montana,Oats,2023.0,spring,0.03381210132260191,0.03381210132260191,0.0
+,drought,,,,,1,3,event,United States|Montana|Oats|2023|spring,United States,Montana,Oats,2023.0,spring,0.0432985217768325,0.0432985217768325,0.0
+,frost_cold,,,,,4,1,event,United States|Montana|Oats|2023|spring,United States,Montana,Oats,2023.0,spring,-0.02633232531834192,0.02633232531834192,0.02633232531834192
+,excess_rain,,,,,3,4,event,United States|Montana|Oats|2023|spring,United States,Montana,Oats,2023.0,spring,0.02743243911821214,0.02743243911821214,0.0
+,radiation,,,,,5,5,event,United States|Montana|Oats|2023|spring,United States,Montana,Oats,2023.0,spring,0.001238747940058217,0.001238747940058217,0.0
+,heat,,,,,3,1,event,United States|South Dakota|Oats|2023|spring,United States,South Dakota,Oats,2023.0,spring,-0.019915130741672067,0.019915130741672067,0.019915130741672067
+,drought,,,,,1,4,event,United States|South Dakota|Oats|2023|spring,United States,South Dakota,Oats,2023.0,spring,0.03708411605480569,0.03708411605480569,0.0
+,frost_cold,,,,,4,2,event,United States|South Dakota|Oats|2023|spring,United States,South Dakota,Oats,2023.0,spring,-0.011648781400905353,0.011648781400905353,0.011648781400905353
+,excess_rain,,,,,2,5,event,United States|South Dakota|Oats|2023|spring,United States,South Dakota,Oats,2023.0,spring,0.032378240189642055,0.032378240189642055,0.0
+,radiation,,,,,5,3,event,United States|South Dakota|Oats|2023|spring,United States,South Dakota,Oats,2023.0,spring,-0.0013329452824534754,0.0013329452824534754,0.0013329452824534754
+,heat,,,,,2,2,event,United States|Kansas|Wheat|2023|winter,United States,Kansas,Wheat,2023.0,winter,-0.058466474986888284,0.058466474986888284,0.058466474986888284
+,drought,,,,,1,1,event,United States|Kansas|Wheat|2023|winter,United States,Kansas,Wheat,2023.0,winter,-0.18022515837936315,0.18022515837936315,0.18022515837936315
+,frost_cold,,,,,3,3,event,United States|Kansas|Wheat|2023|winter,United States,Kansas,Wheat,2023.0,winter,-0.010451117120792244,0.010451117120792244,0.010451117120792244
+,excess_rain,,,,,5,5,event,United States|Kansas|Wheat|2023|winter,United States,Kansas,Wheat,2023.0,winter,0.0009413296052222728,0.0009413296052222728,0.0
+,radiation,,,,,4,4,event,United States|Kansas|Wheat|2023|winter,United States,Kansas,Wheat,2023.0,winter,-0.009119158781306626,0.009119158781306626,0.009119158781306626
+,heat,,,,,5,5,event,United States|Washington|Wheat|2023|winter,United States,Washington,Wheat,2023.0,winter,0.014434277110373836,0.014434277110373836,0.0
+,drought,,,,,2,2,event,United States|Washington|Wheat|2023|winter,United States,Washington,Wheat,2023.0,winter,-0.07024463323258798,0.07024463323258798,0.07024463323258798
+,frost_cold,,,,,4,4,event,United States|Washington|Wheat|2023|winter,United States,Washington,Wheat,2023.0,winter,-0.01485211662673307,0.01485211662673307,0.01485211662673307
+,excess_rain,,,,,1,1,event,United States|Washington|Wheat|2023|winter,United States,Washington,Wheat,2023.0,winter,-0.07163396057118979,0.07163396057118979,0.07163396057118979
+,radiation,,,,,3,3,event,United States|Washington|Wheat|2023|winter,United States,Washington,Wheat,2023.0,winter,-0.036880059089364946,0.036880059089364946,0.036880059089364946
+,heat,,,,,1,1,event,United States|Montana|Oats|2024|spring,United States,Montana,Oats,2024.0,spring,-0.042433276170901035,0.042433276170901035,0.042433276170901035
+,drought,,,,,2,2,event,United States|Montana|Oats|2024|spring,United States,Montana,Oats,2024.0,spring,0.03139208315126932,0.03139208315126932,0.0
+,frost_cold,,,,,4,3,event,United States|Montana|Oats|2024|spring,United States,Montana,Oats,2024.0,spring,0.01637090660293332,0.01637090660293332,0.0
+,excess_rain,,,,,3,4,event,United States|Montana|Oats|2024|spring,United States,Montana,Oats,2024.0,spring,0.018844325071781288,0.018844325071781288,0.0
+,radiation,,,,,5,5,event,United States|Montana|Oats|2024|spring,United States,Montana,Oats,2024.0,spring,0.001139327078713838,0.001139327078713838,0.0
+,heat,,,,,1,3,event,United States|Colorado|Barley|2025|spring,United States,Colorado,Barley,2025.0,spring,0.06341911781004371,0.06341911781004371,0.0
+,drought,,,,,4,4,event,United States|Colorado|Barley|2025|spring,United States,Colorado,Barley,2025.0,spring,0.027421180223729583,0.027421180223729583,0.0
+,frost_cold,,,,,3,1,event,United States|Colorado|Barley|2025|spring,United States,Colorado,Barley,2025.0,spring,-0.02989391164946252,0.02989391164946252,0.02989391164946252
+,excess_rain,,,,,2,5,event,United States|Colorado|Barley|2025|spring,United States,Colorado,Barley,2025.0,spring,0.03890734242687652,0.03890734242687652,0.0
+,radiation,,,,,5,2,event,United States|Colorado|Barley|2025|spring,United States,Colorado,Barley,2025.0,spring,-0.012163927603479781,0.012163927603479781,0.012163927603479781
+,heat,,,,,3,4,event,United States|Washington|Barley|2025|spring,United States,Washington,Barley,2025.0,spring,0.04848192080943536,0.04848192080943536,0.0
+,drought,,,,,1,1,event,United States|Washington|Barley|2025|spring,United States,Washington,Barley,2025.0,spring,-0.1884885654579133,0.1884885654579133,0.1884885654579133
+,frost_cold,,,,,4,5,event,United States|Washington|Barley|2025|spring,United States,Washington,Barley,2025.0,spring,0.005373272388487634,0.005373272388487634,0.0
+,excess_rain,,,,,2,2,event,United States|Washington|Barley|2025|spring,United States,Washington,Barley,2025.0,spring,-0.14760507661191444,0.14760507661191444,0.14760507661191444
+,radiation,,,,,5,3,event,United States|Washington|Barley|2025|spring,United States,Washington,Barley,2025.0,spring,-0.005131513306540506,0.005131513306540506,0.005131513306540506
+,heat,,,,,2,4,event,United States|Nebraska|Oats|2025|spring,United States,Nebraska,Oats,2025.0,spring,0.008650821132297063,0.008650821132297063,0.0
+,drought,,,,,3,1,event,United States|Nebraska|Oats|2025|spring,United States,Nebraska,Oats,2025.0,spring,-0.001305632563246159,0.001305632563246159,0.001305632563246159
+,frost_cold,,,,,1,5,event,United States|Nebraska|Oats|2025|spring,United States,Nebraska,Oats,2025.0,spring,0.052414326012128906,0.052414326012128906,0.0
+,excess_rain,,,,,5,3,event,United States|Nebraska|Oats|2025|spring,United States,Nebraska,Oats,2025.0,spring,-0.0002457052471031458,0.0002457052471031458,0.0002457052471031458
+,radiation,,,,,4,2,event,United States|Nebraska|Oats|2025|spring,United States,Nebraska,Oats,2025.0,spring,-0.0009368113997071765,0.0009368113997071765,0.0009368113997071765

@@ -1,0 +1,7 @@
+method,year,n_events,expected_driver_groups,match_rate
+grouped_shap,2012,3,"drought, heat",1.0
+grouped_shap,2021,19,"drought, heat",1.0
+grouped_shap,2022,13,"drought, excess_rain, heat",0.9230769230769231
+lime_selected,2012,3,"drought, heat",1.0
+lime_selected,2021,4,"drought, heat",0.75
+lime_selected,2022,4,"drought, excess_rain, heat",1.0

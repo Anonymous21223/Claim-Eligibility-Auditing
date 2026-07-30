@@ -1,0 +1,7 @@
+model,target,protocol,scope,n_train,n_test,r2,rmse_t_ha,mae_t_ha
+ExtraTrees yield,yield_t_ha,forward_time_train_1990_2015_test_2016_2021,all_rows,914,209,0.8065554342009551,0.5273672208604474,0.4212925408692184
+ExtraTrees yield,yield_t_ha,forward_time_train_1990_2018_test_2019_2025,all_rows,1021,236,0.8126350407653116,0.5292625546043245,0.41897692399364406
+ExtraTrees residual,trend_residual_t_ha,forward_time_train_1990_2015_test_2016_2025,all_rows,914,343,0.09148149087483792,0.43112064180284815,0.32640041006799236
+ExtraTrees residual,trend_residual_t_ha,forward_time_train_1990_2015_test_2016_2025,anomaly_rows,914,67,-4.395776927439492,0.660000554766311,0.581741615644599
+ExtraTrees residual,trend_residual_t_ha,leave_one_event_year_out_2012_2021_2022,all_rows_in_anomaly_years,varies_by_year,104,-0.01787571903831764,0.5020279364940066,0.37848275696654743
+ExtraTrees residual,trend_residual_t_ha,leave_one_event_year_out_2012_2021_2022,anomaly_rows,varies_by_year,35,-3.358699607306333,0.7041949616607597,0.6084280557802478

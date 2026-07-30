@@ -1,0 +1,64 @@
+scope,config_id,model,feature_family,metric,estimate,ci95_low,ci95_high,n_boot,resampling_unit
+overall,crop_train_mean,Crop train mean,baseline,r2,-0.03062820793412535,-0.12801266810483003,-0.0004649431376943621,2000,year_block
+overall,crop_train_mean,Crop train mean,baseline,rmse_t_ha,0.6740646712450404,0.5890220291624026,0.7556970779270511,2000,year_block
+overall,crop_train_mean,Crop train mean,baseline,mae_t_ha,0.4931358218097477,0.4342877704020932,0.5622729630450544,2000,year_block
+overall,extra_trees_leaf_1,ExtraTrees,full,r2,0.006114508928306561,-0.12330524158205981,0.07876838270876851,2000,year_block
+overall,extra_trees_leaf_1,ExtraTrees,full,rmse_t_ha,0.6619401570843584,0.5819244761358962,0.7388095812912205,2000,year_block
+overall,extra_trees_leaf_1,ExtraTrees,full,mae_t_ha,0.4702849357294545,0.41930366515675827,0.5301201838125494,2000,year_block
+overall,extra_trees_leaf_1,ExtraTrees,metadata_only,r2,-0.0306282079341218,-0.12801266810483022,-0.0004649431376863685,2000,year_block
+overall,extra_trees_leaf_1,ExtraTrees,metadata_only,rmse_t_ha,0.6740646712450393,0.5890220291624023,0.7556970779270521,2000,year_block
+overall,extra_trees_leaf_1,ExtraTrees,metadata_only,mae_t_ha,0.4931358218097434,0.4342877704020909,0.5622729630450504,2000,year_block
+overall,extra_trees_leaf_1,ExtraTrees,weather_only,r2,-0.014123481645498037,-0.14111758812774872,0.05167650646706899,2000,year_block
+overall,extra_trees_leaf_1,ExtraTrees,weather_only,rmse_t_ha,0.6686455716705484,0.5854967660086283,0.7496027985503565,2000,year_block
+overall,extra_trees_leaf_1,ExtraTrees,weather_only,mae_t_ha,0.47415457766762137,0.41996468325352687,0.5369802378487771,2000,year_block
+overall,extra_trees_leaf_2,ExtraTrees,full,r2,-0.0019064940846091893,-0.12656882161889768,0.06352954648470722,2000,year_block
+overall,extra_trees_leaf_2,ExtraTrees,full,rmse_t_ha,0.664605833776681,0.5833725520629045,0.7439284334519294,2000,year_block
+overall,extra_trees_leaf_2,ExtraTrees,full,mae_t_ha,0.4699380884070064,0.4181518497068064,0.5314583403189146,2000,year_block
+overall,extra_trees_leaf_2,ExtraTrees,metadata_only,r2,-0.0306282079341218,-0.12801266810483022,-0.0004649431376863685,2000,year_block
+overall,extra_trees_leaf_2,ExtraTrees,metadata_only,rmse_t_ha,0.6740646712450393,0.5890220291624023,0.7556970779270521,2000,year_block
+overall,extra_trees_leaf_2,ExtraTrees,metadata_only,mae_t_ha,0.4931358218097434,0.4342877704020909,0.5622729630450504,2000,year_block
+overall,extra_trees_leaf_2,ExtraTrees,weather_only,r2,-0.016533254078429094,-0.14049151897311085,0.0474432161394183,2000,year_block
+overall,extra_trees_leaf_2,ExtraTrees,weather_only,rmse_t_ha,0.6694395221325969,0.5858292837278539,0.7501660516886508,2000,year_block
+overall,extra_trees_leaf_2,ExtraTrees,weather_only,mae_t_ha,0.47574548933655425,0.42195327612937494,0.5384678710500693,2000,year_block
+overall,random_forest_leaf_1,Random Forest,full,r2,0.007022426893564471,-0.12191017891987133,0.07090881683082875,2000,year_block
+overall,random_forest_leaf_1,Random Forest,full,rmse_t_ha,0.6616377456497937,0.5797451198028838,0.7406503222145603,2000,year_block
+overall,random_forest_leaf_1,Random Forest,full,mae_t_ha,0.47201101788027683,0.41754540914273397,0.5356150625715925,2000,year_block
+overall,random_forest_leaf_1,Random Forest,metadata_only,r2,-0.03192305036479626,-0.12966935181549272,-0.0014797499617709656,2000,year_block
+overall,random_forest_leaf_1,Random Forest,metadata_only,rmse_t_ha,0.6744879730536266,0.5895147950289296,0.756173441788668,2000,year_block
+overall,random_forest_leaf_1,Random Forest,metadata_only,mae_t_ha,0.49360947703429864,0.43472409954777325,0.5628500886585807,2000,year_block
+overall,random_forest_leaf_1,Random Forest,weather_only,r2,-0.007669848293912596,-0.13657344823690365,0.05595642184623828,2000,year_block
+overall,random_forest_leaf_1,Random Forest,weather_only,rmse_t_ha,0.6665146277668835,0.5839932205234705,0.746854951016729,2000,year_block
+overall,random_forest_leaf_1,Random Forest,weather_only,mae_t_ha,0.4743701712392755,0.42103333077860056,0.5379296763613322,2000,year_block
+overall,random_forest_leaf_2,Random Forest,full,r2,0.0005263029078000914,-0.126716601928475,0.06443310797393839,2000,year_block
+overall,random_forest_leaf_2,Random Forest,full,rmse_t_ha,0.6637984561556545,0.581070175843263,0.7439091982127339,2000,year_block
+overall,random_forest_leaf_2,Random Forest,full,mae_t_ha,0.4721639256284884,0.41838660606344846,0.5363302016331523,2000,year_block
+overall,random_forest_leaf_2,Random Forest,metadata_only,r2,-0.031864265101707145,-0.12959313274061238,-0.0014313582630075762,2000,year_block
+overall,random_forest_leaf_2,Random Forest,metadata_only,rmse_t_ha,0.6744687610989997,0.5895005922942348,0.7561471972225549,2000,year_block
+overall,random_forest_leaf_2,Random Forest,metadata_only,mae_t_ha,0.4935963634705462,0.4347115890467278,0.5628360174575978,2000,year_block
+overall,random_forest_leaf_2,Random Forest,weather_only,r2,-0.008066198121404966,-0.13711629348324444,0.05750591784658463,2000,year_block
+overall,random_forest_leaf_2,Random Forest,weather_only,rmse_t_ha,0.6666456959864517,0.5844758023195117,0.7465627158323319,2000,year_block
+overall,random_forest_leaf_2,Random Forest,weather_only,mae_t_ha,0.47430248772434375,0.42150774350747916,0.5371346299713723,2000,year_block
+overall,ridge_alpha_1,Ridge,full,r2,-0.06445034072883393,-0.21092962772923554,0.02757530333647587,2000,year_block
+overall,ridge_alpha_1,Ridge,full,rmse_t_ha,0.68503578050489,0.6054755077377031,0.7598366132982893,2000,year_block
+overall,ridge_alpha_1,Ridge,full,mae_t_ha,0.5140951832536101,0.4601181009245917,0.5765571877168277,2000,year_block
+overall,ridge_alpha_1,Ridge,metadata_only,r2,-0.030628207934118468,-0.12801266810482242,-0.0004649431376834153,2000,year_block
+overall,ridge_alpha_1,Ridge,metadata_only,rmse_t_ha,0.6740646712450382,0.5890220291624014,0.7556970779270489,2000,year_block
+overall,ridge_alpha_1,Ridge,metadata_only,mae_t_ha,0.49313582180974624,0.4342877704020926,0.5622729630450537,2000,year_block
+overall,ridge_alpha_1,Ridge,weather_only,r2,-0.03379396780661481,-0.1287374748953087,0.007301801942641396,2000,year_block
+overall,ridge_alpha_1,Ridge,weather_only,rmse_t_ha,0.6750991328957939,0.5868708501563451,0.7598227768788495,2000,year_block
+overall,ridge_alpha_1,Ridge,weather_only,mae_t_ha,0.49559106332271946,0.4353761897322474,0.5667554514946036,2000,year_block
+overall,ridge_alpha_10,Ridge,full,r2,-0.04697621982600486,-0.16638813029458457,0.014838175087463474,2000,year_block
+overall,ridge_alpha_10,Ridge,full,rmse_t_ha,0.6793897058040478,0.5975688815006239,0.7563811345426039,2000,year_block
+overall,ridge_alpha_10,Ridge,full,mae_t_ha,0.5011104913007839,0.4461700140072524,0.5664588910827396,2000,year_block
+overall,ridge_alpha_10,Ridge,metadata_only,r2,-0.0306282079341198,-0.12801266810482376,-0.00046494313768495295,2000,year_block
+overall,ridge_alpha_10,Ridge,metadata_only,rmse_t_ha,0.6740646712450387,0.5890220291624017,0.7556970779270492,2000,year_block
+overall,ridge_alpha_10,Ridge,metadata_only,mae_t_ha,0.4931358218097464,0.43428777040209277,0.5622729630450539,2000,year_block
+overall,ridge_alpha_10,Ridge,weather_only,r2,-0.03256607890980523,-0.12960334732004053,0.008071527444227794,2000,year_block
+overall,ridge_alpha_10,Ridge,weather_only,rmse_t_ha,0.6746980892415307,0.5863641156847097,0.7581356552288677,2000,year_block
+overall,ridge_alpha_10,Ridge,weather_only,mae_t_ha,0.49379306157236197,0.43464969831512584,0.5629307578151631,2000,year_block
+overall,train_mean,Train mean,baseline,r2,-0.03062820793413157,-0.1280126681048365,-0.0004649431376999354,2000,year_block
+overall,train_mean,Train mean,baseline,rmse_t_ha,0.6740646712450425,0.5890220291624041,0.7556970779270535,2000,year_block
+overall,train_mean,Train mean,baseline,mae_t_ha,0.4931358218097483,0.4342877704020936,0.5622729630450553,2000,year_block
+overall,zero_residual,Zero residual,baseline,r2,-0.030628207934121354,-0.12801266810481324,-0.0004649431376986087,2000,year_block
+overall,zero_residual,Zero residual,baseline,rmse_t_ha,0.6740646712450391,0.5890220291624005,0.7556970779270473,2000,year_block
+overall,zero_residual,Zero residual,baseline,mae_t_ha,0.4931358218097436,0.43428777040208605,0.5622729630450513,2000,year_block

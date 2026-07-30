@@ -1,0 +1,32 @@
+{
+  "decision_function": "decide_policy(observed_module_results, requested_claim_level)",
+  "allowed_inputs": [
+    "module_a_pass",
+    "module_b_pass",
+    "module_e_pass",
+    "requested_claim_level"
+  ],
+  "forbidden_inputs": [
+    "ground_truth_permission",
+    "scenario",
+    "effect",
+    "hidden_dgp",
+    "admissibility_label",
+    "driver",
+    "valid"
+  ],
+  "required_modules": {
+    "overall": [
+      "module_a_pass"
+    ],
+    "weather_reliance": [
+      "module_a_pass",
+      "module_b_pass"
+    ],
+    "event_recovery": [
+      "module_a_pass",
+      "module_b_pass",
+      "module_e_pass"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+feature,role,source,unit,temporal_availability,notes
+county_fips,identifier,USDA NASS and Census TIGERweb,none,static,Five-digit state plus county FIPS code.
+state_fips,identifier,USDA NASS,none,static,Two-digit state FIPS code.
+crop_variant,target scope,USDA NASS,none,annual,WHEAT__WINTER is selected by the locked source-coverage rule.
+yield_bu_acre,target,USDA NASS Quick Stats,BU / ACRE,annual,Survey annual county yield; canonical all-production and all-utilization practices.
+county_lat,metadata,U.S. Census TIGERweb,degrees,static,Current county interior point; not a historical boundary reconstruction.
+county_lon,metadata,U.S. Census TIGERweb,degrees,static,Current county interior point; not a historical boundary reconstruction.
+t2m_mean_c,weather,NASA POWER daily point API,degrees C,year end,Mean daily 2 m temperature over January through December.
+t2m_max_c,weather,NASA POWER daily point API,degrees C,year end,Maximum daily 2 m temperature over January through December.
+t2m_min_c,weather,NASA POWER daily point API,degrees C,year end,Minimum daily 2 m temperature over January through December.
+precip_total_mm,weather,NASA POWER daily point API,mm,year end,Sum of corrected daily precipitation over January through December.
+weather_feature_date_max,temporal contract,pipeline,date,year end,Latest allowed weather date for the retrospective annual feature set.
+target_available_date,temporal contract,pipeline,date,year end,Conservative reference-year end bound used for feature join validation.
+split_role,evaluation,panel specification,none,pre-model locked,Train through 2018; validation 2019-2021; locked holdout 2022-2025.

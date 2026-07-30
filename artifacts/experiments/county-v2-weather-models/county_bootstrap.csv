@@ -1,0 +1,3 @@
+comparison,point_delta_rmse,ci95_low,ci95_high,draws,resampling_unit,status
+Gate A selected weather model vs zero residual baseline,-0.31021493157361846,-0.6718875143189234,0.2602226115343349,2000,calendar_year_block,FAIL
+Gate B1 full vs metadata-only,-0.7133741611472129,-1.2329136302429209,-0.3423626837355087,2000,calendar_year_block,PASS

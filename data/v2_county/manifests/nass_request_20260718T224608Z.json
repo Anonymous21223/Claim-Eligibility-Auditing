@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-07-18T22:46:08.556693+00:00",
+  "source_mode": "NASS_API",
+  "endpoint": "api_GET",
+  "request": {
+    "key": "<REDACTED>",
+    "source_desc": "SURVEY",
+    "sector_desc": "CROPS",
+    "group_desc": "FIELD CROPS",
+    "agg_level_desc": "COUNTY",
+    "statisticcat_desc": "YIELD",
+    "commodity_desc": "WHEAT",
+    "year__GE": "2000",
+    "format": "JSON",
+    "state_name": "KANSAS"
+  },
+  "count_before_download": 8756,
+  "http_status": 200,
+  "raw_path": "data/v2_county/raw/nass/wheat_kansas_2000_20260718T224608Z.json",
+  "sha256": "10adf28ad9ee7d5f80599fe447e09a1f9e971bfe69c8aff13c7de50a4e2c9d37",
+  "records": 8756
+}

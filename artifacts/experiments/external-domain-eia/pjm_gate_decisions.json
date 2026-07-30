@@ -1,0 +1,41 @@
+{
+  "schema": "pjm-gate-decisions-v1",
+  "selection_rule": "ExtraTrees configuration and naive baseline are fixed before the October-December 2024 locked holdout; no locked-period model or baseline reselection.",
+  "xai_release_requires": [
+    "Gate A",
+    "Gate B1"
+  ],
+  "gates": [
+    {
+      "gate": "Gate A",
+      "role": "predictive_fidelity",
+      "comparison": "full vs train-mean naive demand baseline",
+      "metric": "rmse_mwh",
+      "left": "calendar_plus_day_ahead_forecast_full_model",
+      "right": "train_period_mean_demand_naive_baseline",
+      "point_delta_rmse": -257515.90971332905,
+      "ci95_low": -296661.0544153947,
+      "ci95_high": -221790.08265716373,
+      "draws": 2000,
+      "status": "PASS",
+      "left_prediction_sha256": "d4266c2bf843c9b29fef62e150ad74e55a4bcbe03ca6854e8a7e55a957b57e13",
+      "right_prediction_sha256": "e9bcc876bedaa0e7d4f7282a6c8bc030bf430f7510c0ca09029020b8474a8c68"
+    },
+    {
+      "gate": "Gate B1",
+      "role": "incremental_feature_group_value",
+      "comparison": "full vs calendar-only",
+      "metric": "rmse_mwh",
+      "left": "calendar_plus_day_ahead_forecast_full_model",
+      "right": "calendar_only_model",
+      "point_delta_rmse": -149896.29770323378,
+      "ci95_low": -186036.7146584073,
+      "ci95_high": -119309.20913647949,
+      "draws": 2000,
+      "status": "PASS",
+      "left_prediction_sha256": "d4266c2bf843c9b29fef62e150ad74e55a4bcbe03ca6854e8a7e55a957b57e13",
+      "right_prediction_sha256": "3e17023f1c6e7189aa2afe5f62fd5cb2bbd376a58ba07d02ec9f443ae557d0c4"
+    }
+  ],
+  "xai_release": "INTERPRET"
+}

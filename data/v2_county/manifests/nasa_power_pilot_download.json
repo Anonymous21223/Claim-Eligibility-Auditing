@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-07-18T22:57:29.053256+00:00",
+  "status": "PASS_PILOT",
+  "source": "NASA POWER daily point API",
+  "endpoint": "temporal/daily/point",
+  "parameters": [
+    "T2M",
+    "T2M_MAX",
+    "T2M_MIN",
+    "PRECTOTCORR"
+  ],
+  "community": "AG",
+  "date_range": [
+    "2000-01-01",
+    "2025-12-31"
+  ],
+  "population_count": 574,
+  "requested_counties": 5,
+  "workers": 2,
+  "status_counts": {
+    "downloaded": 5
+  },
+  "failed_counties": [],
+  "raw_file_hashes": {
+    "data/v2_county/raw/nasa_power/08001.json": "c0e744b743b9d044989ce980692fc96245ca0614b556b7a9f9f1b94d44c2c887",
+    "data/v2_county/raw/nasa_power/08005.json": "d590725412f0dfd6c114bfc775d4458ebd20d82c7fc8947114c0c990a414e44e",
+    "data/v2_county/raw/nasa_power/08009.json": "f5b8b27cb6eb1d6a5daca3de7782cf708440168b3ff737141f0e900733532cf4",
+    "data/v2_county/raw/nasa_power/08017.json": "b696cef675d009eaf9ecd2ab20b564233275f8574049f57ebeb2de69fb954982",
+    "data/v2_county/raw/nasa_power/08033.json": "22293d28efe94a13ad90c84754b1e4c553f68b4863f8f3ca9f6b225d74724a1f"
+  },
+  "panel_sha256": "45eb442cd80580657516ff5c5a7f11c7fa7ab2676112ab70bfa5e157923d8668",
+  "centroid_sha256": "0ccf7587b3bb2b135a56324705ce1e97cfc5cacb0040507b8cb4c969e03a4845"
+}

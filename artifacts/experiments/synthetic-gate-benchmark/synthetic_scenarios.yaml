@@ -1,0 +1,73 @@
+# Synthetic scenarios for the fidelity-gated explanation benchmark.
+repeats_per_scenario: 30
+scenarios:
+  - scenario: no_signal
+    effect: 0.0
+    ground_truth_permission: false
+    requested_claim_level: event_recovery
+    reason: invalid, too weak, ambiguous, or not interpretable
+  - scenario: weak_signal
+    effect: 0.25
+    ground_truth_permission: false
+    requested_claim_level: event_recovery
+    reason: invalid, too weak, ambiguous, or not interpretable
+  - scenario: moderate_signal
+    effect: 0.7
+    ground_truth_permission: true
+    requested_claim_level: event_recovery
+    reason: valid signal scenario
+  - scenario: strong_signal
+    effect: 1.4
+    ground_truth_permission: true
+    requested_claim_level: event_recovery
+    reason: valid signal scenario
+  - scenario: correlated_features
+    effect: 0.7
+    ground_truth_permission: false
+    requested_claim_level: event_recovery
+    reason: invalid, too weak, ambiguous, or not interpretable
+  - scenario: omitted_confounder
+    effect: 0.0
+    ground_truth_permission: false
+    requested_claim_level: event_recovery
+    reason: invalid, too weak, ambiguous, or not interpretable
+  - scenario: temporal_drift
+    effect: 0.7
+    ground_truth_permission: false
+    requested_claim_level: event_recovery
+    reason: invalid, too weak, ambiguous, or not interpretable
+  - scenario: geographic_shift
+    effect: 0.7
+    ground_truth_permission: false
+    requested_claim_level: event_recovery
+    reason: invalid, too weak, ambiguous, or not interpretable
+  - scenario: leakage
+    effect: 0.0
+    ground_truth_permission: false
+    requested_claim_level: event_recovery
+    reason: invalid, too weak, ambiguous, or not interpretable
+  - scenario: train_only_detrending
+    effect: 0.7
+    ground_truth_permission: true
+    requested_claim_level: event_recovery
+    reason: valid signal scenario
+  - scenario: small_sample
+    effect: 0.7
+    ground_truth_permission: true
+    requested_claim_level: event_recovery
+    reason: valid signal scenario
+  - scenario: imbalanced_tail
+    effect: 0.7
+    ground_truth_permission: true
+    requested_claim_level: event_recovery
+    reason: valid signal scenario
+  - scenario: measurement_error
+    effect: 0.7
+    ground_truth_permission: false
+    requested_claim_level: event_recovery
+    reason: invalid, too weak, ambiguous, or not interpretable
+  - scenario: spatial_resolution_mismatch
+    effect: 0.7
+    ground_truth_permission: true
+    requested_claim_level: event_recovery
+    reason: valid signal scenario

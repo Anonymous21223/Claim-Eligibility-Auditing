@@ -1,0 +1,24 @@
+{
+  "final_weather_specific_claim_requires": [
+    "Gate A",
+    "Gate B1"
+  ],
+  "gate_b1": {
+    "comparison": "extra_trees_leaf_1_full_vs_metadata_only",
+    "role": "primary",
+    "n": 333,
+    "delta_left_minus_right": -0.012124514160681055,
+    "ci95_low": -0.02936628904004752,
+    "ci95_high": 0.0019502340837606342,
+    "status": "FAIL"
+  },
+  "gate_b2_diagnostic": {
+    "comparison": "extra_trees_leaf_1_weather_only_vs_metadata_only",
+    "role": "diagnostic",
+    "n": 333,
+    "delta_left_minus_right": -0.005419099574491049,
+    "ci95_low": -0.019363716160996775,
+    "ci95_high": 0.009077511675201743,
+    "status": "FAIL"
+  }
+}
