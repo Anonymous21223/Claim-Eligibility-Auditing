@@ -1,0 +1,82 @@
+{
+  "status": "INCONCLUSIVE",
+  "explanation_availability": "ABSTAIN",
+  "data": "data/v2_county/processed/county_winter_wheat_weather_panel.csv",
+  "data_sha256": "f0da73423685ff6a4d285f3fd091657204ec2b3e3a571426ac32562a7467e593",
+  "spec": "configs/experiments/county_v2_model_spec.json",
+  "selected_on_validation": "extra_trees_weather",
+  "validation_metrics": [
+    {
+      "config_id": "extra_trees_weather",
+      "family": "weather_only",
+      "model": "ExtraTrees",
+      "rmse_bu_acre": 11.39611728651672,
+      "r2": -0.006029167206174302,
+      "n": 1152
+    },
+    {
+      "config_id": "extra_trees_full",
+      "family": "full",
+      "model": "ExtraTrees",
+      "rmse_bu_acre": 11.426239434774194,
+      "r2": -0.011354456218249265,
+      "n": 1152
+    },
+    {
+      "config_id": "ridge_metadata",
+      "family": "metadata_only",
+      "model": "Ridge",
+      "rmse_bu_acre": 11.534328809881773,
+      "r2": -0.03057928097947271,
+      "n": 1152
+    },
+    {
+      "config_id": "extra_trees_metadata",
+      "family": "metadata_only",
+      "model": "ExtraTrees",
+      "rmse_bu_acre": 11.534328809881774,
+      "r2": -0.030579280979472934,
+      "n": 1152
+    },
+    {
+      "config_id": "ridge_weather",
+      "family": "weather_only",
+      "model": "Ridge",
+      "rmse_bu_acre": 11.614902544567105,
+      "r2": -0.04502791601226064,
+      "n": 1152
+    },
+    {
+      "config_id": "ridge_full",
+      "family": "full",
+      "model": "Ridge",
+      "rmse_bu_acre": 11.62232295138393,
+      "r2": -0.046363615439614536,
+      "n": 1152
+    }
+  ],
+  "holdout_selected_rmse_bu_acre": 13.467175243591125,
+  "holdout_zero_rmse_bu_acre": 13.777390175164744,
+  "gate_a_selected_vs_zero": {
+    "point_delta_rmse": -0.31021493157361846,
+    "ci95_low": -0.6718875143189234,
+    "ci95_high": 0.2602226115343349,
+    "draws": 2000
+  },
+  "gate_b1_weather_increment": {
+    "point_delta_rmse": -0.7133741611472129,
+    "ci95_low": -1.2329136302429209,
+    "ci95_high": -0.3423626837355087,
+    "draws": 2000
+  },
+  "tail_precision_at_10pct": 0.11650485436893204,
+  "tail_chance_precision": 0.1,
+  "holdout_rows": 1024,
+  "holdout_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "prediction_path": "artifacts/experiments/county-v2-weather-models/locked_holdout_predictions.csv"
+}

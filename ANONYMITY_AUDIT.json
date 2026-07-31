@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-07-31T03:18:17.885791+00:00",
+  "status": "PASS",
+  "files_scanned": 66,
+  "git_paths_checked": true,
+  "binary_bytes_checked": true,
+  "forbidden_markers": [
+    "author_name",
+    "email",
+    "windows_home",
+    "unix_home",
+    "institution",
+    "personal_github",
+    "credential"
+  ],
+  "hits": []
+}

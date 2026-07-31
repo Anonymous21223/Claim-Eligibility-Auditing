@@ -1,0 +1,21 @@
+{
+  "analysis": "Module A nested year-block bootstrap power calibration",
+  "status": "retrospective sensitivity; not a predictive result",
+  "source": "data/legacy/state_panel_v1/snapshot/artifacts/audit/final_test/seed_aggregated_predictions.csv",
+  "source_sha256": "0749b94444b975cc9776cdd5e214e1198139fe3001829cce36ed40beff3afb52",
+  "selected_config": "extra_trees_leaf_1",
+  "selected_family": "weather_only",
+  "baseline": "zero_residual",
+  "n_rows": 333,
+  "year_blocks": 10,
+  "outer_replicates": 1000,
+  "inner_replicates": 1000,
+  "outer_seed": 2026073001,
+  "inner_seed": 2026073002,
+  "target_power": 0.8,
+  "injection_rule": "p_lambda = p + lambda * (y - p)",
+  "mde_effect_fraction": 0.021,
+  "mde_delta_rmse_t_ha": -0.01946065657957219,
+  "mde_absolute_improvement_t_ha": 0.01946065657957219,
+  "estimated_power_at_mde": 0.822
+}

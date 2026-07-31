@@ -1,0 +1,7 @@
+record_type,baseline_left,baseline_right,n,prediction_sha256,max_abs_difference,identical
+vector,crop_train_mean,,333,b060c0e88e12eec135fad2fc51280cce7776737a9c65b1d05383319f5c31981c,0.0,True
+vector,train_mean,,333,cf287b8636e7c37349caa243adf9ea12d7647b4cc936b5c2d2f4e011c7396775,0.0,True
+vector,zero_residual,,333,870f4d10309408e7dccc9ab45d8a62350e0e14710fa6c5f0332b38a07c2c59dc,0.0,True
+pairwise_difference,crop_train_mean,train_mean,333,,2.259453950718013e-14,False
+pairwise_difference,crop_train_mean,zero_residual,333,,2.7998258981909155e-14,False
+pairwise_difference,train_mean,zero_residual,333,,1.9619750142568067e-14,False

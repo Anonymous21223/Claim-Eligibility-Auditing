@@ -1,0 +1,40 @@
+\begin{minipage}[t]{0.55\textwidth}
+\centering
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\multicolumn{5}{l}{\textit{Impermissible: signal absent or degraded}} \\
+Scenario & A & B & E & Rule \\
+\midrule
+No signal & 0/30 & 14/30 & 3/30 & 0/30 \\
+Weak signal & 3/30 & 24/30 & 16/30 & 2/30 \\
+Measurement error & 21/30 & 30/30 & 25/30 & 20/30 \\
+\multicolumn{4}{r}{\textit{correct stops}} & 68/90 \\
+\multicolumn{5}{l}{\textit{Impermissible: predictive-design violations}} \\
+Scenario & A & B & E & Rule \\
+\midrule
+Temporal drift & 29/30 & 30/30 & 30/30 & 29/30 \\
+Leakage & 30/30 & 30/30 & 30/30 & 30/30 \\
+Omitted confounder & 30/30 & 30/30 & 30/30 & 30/30 \\
+Correlated features & 30/30 & 30/30 & 30/30 & 30/30 \\
+Geographic shift & 30/30 & 30/30 & 30/30 & 30/30 \\
+\multicolumn{4}{r}{\textit{correct stops}} & 1/150 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.42\textwidth}
+\centering
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\multicolumn{5}{l}{\textit{Permissible regimes}} \\
+Scenario & A & B & E & Rule \\
+\midrule
+Imbalanced tail & 30/30 & 30/30 & 30/30 & 30/30 \\
+Moderate signal & 30/30 & 30/30 & 30/30 & 30/30 \\
+Small sample & 28/30 & 29/30 & 29/30 & 28/30 \\
+Spatial mismatch & 13/30 & 30/30 & 24/30 & 12/30 \\
+Strong signal & 30/30 & 30/30 & 30/30 & 30/30 \\
+Train-only detrending & 30/30 & 30/30 & 30/30 & 30/30 \\
+\multicolumn{4}{r}{\textit{correct permissions}} & 160/180 \\
+\bottomrule
+\end{tabular}
+\end{minipage}

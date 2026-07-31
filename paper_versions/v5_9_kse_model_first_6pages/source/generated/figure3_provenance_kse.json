@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "row_id": "Barley|Colorado|2016|spring",
+  "source": "artifacts\\xai\\local_case_decomposition.csv",
+  "source_sha256": "8e2f929244d28d68327cdd1168eff4cb39342ac98ff32a81e5782c64b7baed1e",
+  "observed_residual": -0.5095273846155033,
+  "predicted_residual": 0.20949014122422643,
+  "uniform_panel_a_ticks": [
+    -0.6,
+    -0.4,
+    -0.2,
+    0.0,
+    0.2,
+    0.4
+  ],
+  "minimum_font_pt": 7.0,
+  "outputs": [
+    "paper_versions\\v5_9_kse_model_first_6pages\\source\\figures\\figure_xai_evidence_board_kse.pdf",
+    "paper_versions\\v5_9_kse_model_first_6pages\\source\\figures\\figure_xai_evidence_board_kse.png"
+  ]
+}

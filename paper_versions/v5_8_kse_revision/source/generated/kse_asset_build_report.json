@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "output_directory": "paper_versions/v5_8_kse_revision/source/generated",
+  "source_hashes": {
+    "artifacts/audit/final_test/naive_baselines.csv": "b5dc49f3952a8540eaa501e1d00a4733ed8b914af6ec99cafc83fe52510bda54",
+    "artifacts/audit/final_test/seed_aggregated_predictions.csv": "2b013499644460335744be802373acb46761de1f4629dc80c21dc7f9c41dae51",
+    "artifacts/audit/bootstrap/paired_feature_family_ci.csv": "c23922d8c599fbc1ac37d015164081945bae5edd9332415d43cf90a5f69ce7e8",
+    "artifacts/audit/tail/tail_metrics_by_threshold.csv": "5549252d620778f52bee7ac405900c05f695ee7188b02cca52294f84c7a1c684",
+    "artifacts/audit_records/rank_null_audit.csv": "5eacc542de5599232add429540d11fb2307b3932d3666afdce71b32722788a86",
+    "artifacts/audit_records/topk_null_audit.csv": "c7eff7f13d06c06efe80aeb854a2ff8f76212860b3591477406e19ccc8c344d0",
+    "artifacts/experiments/synthetic-gate-benchmark/scenario_level_decisions.csv": "7f835b7906a6256d3400dd9af1fa6f0754329310192b48e0860f4678ead04e2d",
+    "artifacts/experiments/synthetic-gate-benchmark/summary.json": "4058744c716e0c359fe02b83c91a0fe2ccc95402b229c3edc0d5b95f23dfa286",
+    "artifacts/experiments/external-domain-eia/pjm_predictions.csv": "412ae6cd87026d47436a9d8429998987563fb19ede04a0415598ce3ee59d602f",
+    "artifacts/experiments/county-v2-weather-models/summary.json": "68b8664cac2cb7e926e2924d4e2f97603ad285dda079e711b4beeff9f34fbeba",
+    "artifacts/experiments/kse-v5-8/mde/module_a_mde_summary.json": "256333d867d54d6ce21948a8912e6c594ca3ef6acd0251d251d7a187f3c882be",
+    "artifacts/experiments/kse-v5-8/lightgbm/lightgbm_summary.json": "8ce92902f8fe0186d017a5cbf96a5971557f3f00f0550c9e6eb6ec718bfae874"
+  },
+  "baseline_max_pairwise_prediction_difference": 2.7998258981909155e-14,
+  "pjm": {
+    "n": 92,
+    "mean_demand_mwh": 2101106.347826087,
+    "naive_rmse_mwh": 335036.7965348758,
+    "calendar_rmse_mwh": 227417.18452478028,
+    "full_rmse_mwh": 77520.88682154648,
+    "naive_relative_rmse": 0.15945732441459814,
+    "calendar_relative_rmse": 0.10823687471130523,
+    "full_relative_rmse": 0.0368952703901702
+  },
+  "synthetic_group_checks": {
+    "signal_absent_or_degraded_correct_stop": "68/90",
+    "predictive_design_violation_correct_stop": "1/150",
+    "valid_correct_permission": "160/180"
+  },
+  "top10_prevalence_expectation": 2.1921921921921923,
+  "top10_all_row_event_overlap": 2
+}

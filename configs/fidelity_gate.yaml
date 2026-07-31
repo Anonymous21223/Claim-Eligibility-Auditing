@@ -1,0 +1,30 @@
+{
+  "version": "ictai2026-audit-v2",
+  "decision_rule": "Module A/Gate A, Module B/Gate B1, and Module E are distinct claim-eligibility modules. Overall predictive interpretation requires Module A; weather-specific predictive reliance requires Module A and Gate B1; observed below-trend event interpretation requires Module A, Gate B1, and Module E. Gate B2 is an exploratory representation diagnostic only.",
+  "paired_error_rule": "Model-minus-baseline RMSE or MAE passes only when the upper percentile-95 year-block interval is below zero.",
+  "overall": {
+    "comparison": "validation-selected model versus zero-residual baseline",
+    "metric": "rmse_t_ha"
+  },
+  "tail_policy": {
+    "primary_tail": "z<-1",
+    "sensitivity_tails": ["z<-1.5", "z<-2"],
+    "primary_tail_reason": "The z<-1 train-only residual target is the broad operational below-trend event definition; more severe tails are sensitivity analyses because their sample sizes are smaller.",
+    "all_tail_conjunction": false
+  },
+  "tail_thresholds": {
+    "z<-1": {"top_k": 10, "event_fraction_sensitivity": 0.1},
+    "z<-1.5": {"top_k": 10, "event_fraction_sensitivity": 0.1},
+    "z<-2": {"top_k": 10, "event_fraction_sensitivity": 0.1}
+  },
+  "rank_recovery": {"permutations": 10000, "alpha": 0.05, "rule": "lower 95% year-block bootstrap CI for Spearman rho > 0 and block permutation p < alpha"},
+  "topk_recovery": {"permutations": 10000, "alpha": 0.05, "rule": "observed lift > 1 AND lower 95% year-block bootstrap CI of lift > 1 AND hypergeometric p < alpha AND within-year permutation p < alpha", "k_values": [5, 10], "fraction_values": [0.1]},
+  "event_detection": {"threshold_selection": "validation F1 maximization on negative predicted residual score; the locked threshold is not tuned on final test", "diagnostic_only": true},
+  "temporal_stability": {"minimum_passing_folds": 3, "total_folds": 4, "metric": "rmse_t_ha"},
+  "module_a": {"name": "overall predictive adequacy", "comparison": "validation-selected model versus zero-residual baseline", "metric": "rmse_t_ha", "requires": ["overall paired RMSE upper 95% CI below zero"]},
+  "module_e": {"name": "event-recovery adequacy", "comparison": "validation-selected model versus null-aware primary tail checks", "primary_tail": "z<-1", "requires": ["primary-tail paired RMSE and MAE", "primary-tail rank recovery", "primary-tail chance-adjusted top-k recovery"]},
+  "gate_a": {"name": "overall predictive adequacy", "comparison": "validation-selected model versus zero-residual baseline", "requires": ["overall paired RMSE upper 95% CI below zero"]},
+  "gate_b": {"name": "conditional incremental weather value", "primary_contrast": "full versus metadata-only", "diagnostic_contrast": "validation-selected weather-only versus metadata-only", "metric": "rmse_t_ha", "decision_rule": "Gate B1 passes only when the Full-minus-Metadata-only upper paired 95% CI is below zero. Gate B2 is an exploratory weather-only-vs-metadata-only representation diagnostic and cannot replace Gate B1 or trigger re-selection."},
+  "incremental_weather": {"comparison": "full model versus metadata-only model", "metric": "rmse_t_ha"},
+  "bootstrap": {"replicates": 2000, "seed": 20260718, "interval": "percentile 95%", "unit": "calendar year block", "invalid_replicate": "fail the audit; never silently drop"}
+}

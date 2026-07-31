@@ -1,0 +1,5 @@
+scope,comparison,metric,delta_left_minus_right,ci95_low,ci95_high,n,n_boot,resampling_unit
+overall,lightgbm_validation_selected_vs_zero,rmse_t_ha,-0.006916639162558802,-0.025420852757185235,0.011519606631225183,333,2000,year_block
+overall,lightgbm_validation_selected_vs_zero,mae_t_ha,-0.019129014112927556,-0.040098236238534944,0.002354935819857928,333,2000,year_block
+overall,lightgbm_full_vs_metadata_only,rmse_t_ha,-0.006916638831055422,-0.025420852540564642,0.011519607007952074,333,2000,year_block
+overall,lightgbm_full_vs_metadata_only,mae_t_ha,-0.01912901355885588,-0.04009823590419877,0.002354936667130416,333,2000,year_block
