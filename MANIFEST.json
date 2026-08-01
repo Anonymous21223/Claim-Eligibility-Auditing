@@ -440,13 +440,13 @@
     },
     {
       "path": "paper/final/ictai2026_claim_eligibility_extension_factorial_v6_1_anonymous.pdf",
-      "bytes": 512373,
-      "sha256": "73af882f0748dd5cc9f9aebafa53c5adc64d4710c07ce285148df645a1152dd3"
+      "bytes": 512351,
+      "sha256": "5c656bc58dea517ed3b28e2c6e6299403c91d026a1b540792fe01b37caa465ff"
     },
     {
       "path": "paper/final/ictai2026_claim_eligibility_extension_factorial_v6_1_anonymous.sha256",
       "bytes": 134,
-      "sha256": "482f46e31aea4903769096ec1350ffa27261a9cf867f3ecff953d6af4ee2f040"
+      "sha256": "8937e3f1a55e6d63318f7eff2bb9414887df8f575b10fed8efe4144bb12fd937"
     },
     {
       "path": "paper_versions/v6_1_extension_factorial_anonymous/source/figures/leaderboard_delta_rmse.pdf",
@@ -540,8 +540,8 @@
     },
     {
       "path": "paper_versions/v6_1_extension_factorial_anonymous/source/main.tex",
-      "bytes": 22021,
-      "sha256": "c5e88707581e2eb44e94ca4d106f09e3c7ee36f341f26f3da0f4eb26a0a0dc90"
+      "bytes": 22047,
+      "sha256": "a99132990674061685454bebc2d97f35d1759bca742d0284c92c2627ada234f3"
     },
     {
       "path": "paper_versions/v6_1_extension_factorial_anonymous/source/references_extension.bib",
