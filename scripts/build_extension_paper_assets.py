@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CORE = ROOT / "artifacts" / "extensions" / "v1" / "core"
 EXT = CORE.parent
 DEST = ROOT / "paper_versions" / "v6_1_extension_factorial_anonymous" / "source" / "generated"
-AUDIT = ROOT / "reports" / "extension_factorial_v6_1_submission" / "artifact_audit.json"
+AUDIT = ROOT / "reports" / "extension_factorial_v6_1_release" / "artifact_audit.json"
 
 
 def write(name: str, text: str) -> None:

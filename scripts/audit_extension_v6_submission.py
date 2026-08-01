@@ -29,7 +29,7 @@ from finalize_extension_factorial import (
 ROOT = Path(__file__).resolve().parents[1]
 ART = ROOT / "artifacts" / "extensions" / "v1"
 CORE = ART / "core"
-REPORT_DIR = ROOT / "reports" / "extension_factorial_v6_1_submission"
+REPORT_DIR = ROOT / "reports" / "extension_factorial_v6_1_release"
 AUTHORED_SOURCE = ROOT / "paper_versions" / "v6_extension_factorial_authored" / "source" / "main.tex"
 AUTHORED_PDF = ROOT / "paper" / "final" / "ictai2026_claim_eligibility_extension_factorial_v6_authored.pdf"
 

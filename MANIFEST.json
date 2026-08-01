@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "artifact": "ictai-v6.1-factorial",
+  "artifact": "v6.1-factorial",
   "file_count": 136,
   "files": [
     {
@@ -439,14 +439,14 @@
       "sha256": "5d13adf3f084911d9e5fe5be1bf37d90fba0f82beeb2f99af9e20971e25f48ad"
     },
     {
-      "path": "paper/final/ictai2026_claim_eligibility_extension_factorial_v6_1_anonymous.pdf",
-      "bytes": 512351,
-      "sha256": "5c656bc58dea517ed3b28e2c6e6299403c91d026a1b540792fe01b37caa465ff"
+      "path": "paper/final/claim_eligibility_extension_factorial_v6_1_anonymous.pdf",
+      "bytes": 512334,
+      "sha256": "fc926547e69ad18b31c3b3fd5d3b5dc131ae9dc0b64d72f5865fd2c3ea718298"
     },
     {
-      "path": "paper/final/ictai2026_claim_eligibility_extension_factorial_v6_1_anonymous.sha256",
-      "bytes": 134,
-      "sha256": "8937e3f1a55e6d63318f7eff2bb9414887df8f575b10fed8efe4144bb12fd937"
+      "path": "paper/final/claim_eligibility_extension_factorial_v6_1_anonymous.sha256",
+      "bytes": 123,
+      "sha256": "4eb086d2900fd72b895c753eb84cff1ccab0b9127088ab75062f7e0b6e168c2a"
     },
     {
       "path": "paper_versions/v6_1_extension_factorial_anonymous/source/figures/leaderboard_delta_rmse.pdf",
@@ -540,8 +540,8 @@
     },
     {
       "path": "paper_versions/v6_1_extension_factorial_anonymous/source/main.tex",
-      "bytes": 22047,
-      "sha256": "a99132990674061685454bebc2d97f35d1759bca742d0284c92c2627ada234f3"
+      "bytes": 22035,
+      "sha256": "2a23551addfd4cf62207176ed7678e902f5d497670416b2fa06168803caaec28"
     },
     {
       "path": "paper_versions/v6_1_extension_factorial_anonymous/source/references_extension.bib",
@@ -559,12 +559,12 @@
       "sha256": "95ccefd083e4b946fcc742d0e6c687a7ee79b9c76c1349c6024ebd6537b4b3cb"
     },
     {
-      "path": "reports/extension_factorial_v6_1_submission/artifact_audit.json",
+      "path": "reports/extension_factorial_v6_1_release/artifact_audit.json",
       "bytes": 11284,
       "sha256": "474d65a59e32d6433bec59c41eeb1a2cc552efb57368b756c9a81b78053cabf0"
     },
     {
-      "path": "reports/extension_factorial_v6_1_submission/artifact_audit.md",
+      "path": "reports/extension_factorial_v6_1_release/artifact_audit.md",
       "bytes": 1493,
       "sha256": "aa37e15eab5817dbf1afc0ff22eab05e2e8a2f8f626732cd9d5f001c9bcc847c"
     },
@@ -585,8 +585,8 @@
     },
     {
       "path": "scripts/audit_extension_v6_submission.py",
-      "bytes": 32796,
-      "sha256": "40e98ba516e2cceaf7047d8d850afc21c3f442cb3f4e853d4fa838d455499d7f"
+      "bytes": 32793,
+      "sha256": "310ef5ebddd0710306dce1d86e6259fd1192a882bd09f1075c589db9de77bb6e"
     },
     {
       "path": "scripts/build_extension_coverage_map.py",
@@ -600,8 +600,8 @@
     },
     {
       "path": "scripts/build_extension_paper_assets.py",
-      "bytes": 9384,
-      "sha256": "e34eb752f163db9fa8ee7c7669a1ab021fd46966f97e13f82003f717ab2ee4d3"
+      "bytes": 9381,
+      "sha256": "b9584b5f240445909713cfbc5ce06e60ef7184c5767c621643958809ff07da9b"
     },
     {
       "path": "scripts/build_extension_stage_features.py",
