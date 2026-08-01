@@ -560,13 +560,13 @@
     },
     {
       "path": "reports/extension_factorial_v6_1_submission/artifact_audit.json",
-      "bytes": 7505,
-      "sha256": "3c2d7983cce1e3f47153b8360e5492a0275a11e8e165d677225f1f07e38bad5f"
+      "bytes": 11284,
+      "sha256": "474d65a59e32d6433bec59c41eeb1a2cc552efb57368b756c9a81b78053cabf0"
     },
     {
       "path": "reports/extension_factorial_v6_1_submission/artifact_audit.md",
-      "bytes": 1397,
-      "sha256": "f8a3a9ddc4d5af7a0b6e7d971aa5fb879a2ae0e033390829e111b5a736e23b65"
+      "bytes": 1493,
+      "sha256": "aa37e15eab5817dbf1afc0ff22eab05e2e8a2f8f626732cd9d5f001c9bcc847c"
     },
     {
       "path": "reports/extension_factorial_work_log.md",
@@ -585,8 +585,8 @@
     },
     {
       "path": "scripts/audit_extension_v6_submission.py",
-      "bytes": 18934,
-      "sha256": "55afb7db51296e2771c8e058882bfa8c5cfccb0f73fe79adf5530980378d71a8"
+      "bytes": 32796,
+      "sha256": "40e98ba516e2cceaf7047d8d850afc21c3f442cb3f4e853d4fa838d455499d7f"
     },
     {
       "path": "scripts/build_extension_coverage_map.py",

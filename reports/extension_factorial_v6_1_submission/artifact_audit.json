@@ -118,6 +118,79 @@
         "pipelines": 240
       }
     },
+    "all_core_tables_and_selection_reproduced": {
+      "status": "PASS",
+      "evidence": {
+        "all_a_b_rows_match": true,
+        "all_claim_tiers_match": true,
+        "all_e_failures_proved": true,
+        "tier_first_top_three_match": true,
+        "pipelines": 240,
+        "paired_rows_aligned": true,
+        "e_evaluated": 46,
+        "e_permutation_candidates": 1,
+        "expected_top_three": [
+          {
+            "arm_id": "C310",
+            "model_id": "catboost",
+            "feature_family": "full",
+            "claim_tier": "A+B",
+            "pooled_rmse": 0.46072841308590917,
+            "pooled_r2": 0.11020184512953846,
+            "positive_r2_folds": 4
+          },
+          {
+            "arm_id": "C300",
+            "model_id": "catboost",
+            "feature_family": "full",
+            "claim_tier": "A+B",
+            "pooled_rmse": 0.46072841308591084,
+            "pooled_r2": 0.11020184512953202,
+            "positive_r2_folds": 4
+          },
+          {
+            "arm_id": "C301",
+            "model_id": "extra_trees",
+            "feature_family": "full",
+            "claim_tier": "A+B",
+            "pooled_rmse": 0.46187074082337787,
+            "pooled_r2": 0.1057840529392875,
+            "positive_r2_folds": 4
+          }
+        ],
+        "calculated_top_three": [
+          {
+            "arm_id": "C310",
+            "model_id": "catboost",
+            "feature_family": "full",
+            "claim_tier": "A+B",
+            "pooled_rmse": 0.4607284130859091,
+            "pooled_r2": 0.1102018451295384,
+            "positive_r2_folds": 4
+          },
+          {
+            "arm_id": "C300",
+            "model_id": "catboost",
+            "feature_family": "full",
+            "claim_tier": "A+B",
+            "pooled_rmse": 0.4607284130859108,
+            "pooled_r2": 0.110201845129532,
+            "positive_r2_folds": 4
+          },
+          {
+            "arm_id": "C301",
+            "model_id": "extra_trees",
+            "feature_family": "full",
+            "claim_tier": "A+B",
+            "pooled_rmse": 0.4618707408233778,
+            "pooled_r2": 0.1057840529392875,
+            "positive_r2_folds": 4
+          }
+        ],
+        "model_fits_executed": false,
+        "source": "locked outer_mean_predictions.parquet"
+      }
+    },
     "winner_modules_reproduced": {
       "status": "PASS",
       "evidence": {
@@ -196,6 +269,58 @@
         "semi_seeds": 30,
         "pjm_rows": 600,
         "pjm_curve_rows": 20
+      }
+    },
+    "external_tables_reproduced": {
+      "status": "PASS",
+      "evidence": {
+        "semi_summary_matches_run_rows": true,
+        "pjm_curve_matches_seed_rows": true,
+        "table_v_permission_probabilities": {
+          "winner": [
+            0.03958333333333333,
+            0.06458333333333334,
+            0.0875
+          ],
+          "runner_up_1": [
+            0.04375,
+            0.06041666666666667,
+            0.075
+          ],
+          "runner_up_2": [
+            0.09791666666666667,
+            0.14375,
+            0.2
+          ],
+          "kse_primary": [
+            0.0375,
+            0.04583333333333333,
+            0.05
+          ]
+        },
+        "table_vi_endpoints": {
+          "dropout": {
+            "max_level": 0.75,
+            "p_b_at_zero": 1.0,
+            "p_b_at_max": 0.8666666666666667
+          },
+          "lag_substitution": {
+            "max_level": 7.0,
+            "p_b_at_zero": 1.0,
+            "p_b_at_max": 0.0
+          },
+          "noise": {
+            "max_level": 2.0,
+            "p_b_at_zero": 1.0,
+            "p_b_at_max": 0.5
+          },
+          "permutation_mix": {
+            "max_level": 1.0,
+            "p_b_at_zero": 1.0,
+            "p_b_at_max": 0.8333333333333334
+          }
+        },
+        "model_fits_executed": false
       }
     }
   }

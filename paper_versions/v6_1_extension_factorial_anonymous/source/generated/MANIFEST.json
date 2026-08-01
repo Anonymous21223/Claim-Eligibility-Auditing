@@ -1,7 +1,7 @@
 {
   "source": "artifacts/extensions/v1",
   "winner_lock_sha256": "51766cf2ca29201191d13e93f2590455734a0699b5d66135e3a3b1b511c43ec0",
-  "artifact_audit_sha256": "3c2d7983cce1e3f47153b8360e5492a0275a11e8e165d677225f1f07e38bad5f",
+  "artifact_audit_sha256": "474d65a59e32d6433bec59c41eeb1a2cc552efb57368b756c9a81b78053cabf0",
   "files": {
     "extension_numbers.tex": "4e97c517e5f15c00a71ca8d234f3486ce76e40fb0a48699d01fdc8de4c3cf451",
     "table_design.tex": "f889bc33ba07d17e3c8102645aeb7c07e1c1f24a3c510adb0f6b7ca31c54f3a0",

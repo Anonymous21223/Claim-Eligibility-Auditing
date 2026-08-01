@@ -18,10 +18,12 @@
 | `seed_mean_predictions_reproduced` | PASS |
 | `all_outer_fold_metrics_reproduced` | PASS |
 | `all_pooled_metrics_reproduced` | PASS |
+| `all_core_tables_and_selection_reproduced` | PASS |
 | `winner_modules_reproduced` | PASS |
 | `candidate_wide_counts` | PASS |
 | `winner_lock_and_external_order` | PASS |
 | `external_suite_completion` | PASS |
+| `external_tables_reproduced` | PASS |
 
 ## Candidate-Wide Counts
 
