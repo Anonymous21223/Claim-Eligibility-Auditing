@@ -1,8 +1,13 @@
 {
   "status": "PASS",
   "artifact": "ictai-v6.1-factorial",
-  "file_count": 135,
+  "file_count": 136,
   "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 43,
+      "sha256": "e9eb11d3c15cced00b023a817ff097c55360d2793ee0c8181a62e01cd28d1063"
+    },
     {
       "path": ".gitignore",
       "bytes": 82,
