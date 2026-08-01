@@ -2,5 +2,6 @@
   "status": "PASS",
   "identity_terms_checked": 14,
   "hits": [],
-  "pdf_metadata_scanned": true
+  "pdf_metadata_scanned": true,
+  "png_metadata_files_scanned": 4
 }
