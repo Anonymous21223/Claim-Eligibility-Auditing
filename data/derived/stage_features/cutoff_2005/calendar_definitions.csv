@@ -1,0 +1,41 @@
+crop,region,window,boundary1_stage,boundary1_month,boundary1_day,boundary2_stage,boundary2_month,boundary2_day,source_scope,source_complete_years
+Wheat,Colorado,winter,JOINTING,4,21,HEADED,5,15,crop-season fallback,25
+Barley,Colorado,spring,JOINTING,6,19,HEADED,7,5,frozen external crop-season fallback,28
+Oats,Colorado,spring,JOINTING,6,8,HEADED,6,22,frozen external crop-season fallback,43
+Wheat,Illinois,winter,JOINTING,4,21,HEADED,5,15,crop-season fallback,25
+Oats,Illinois,spring,JOINTING,6,8,HEADED,6,22,frozen external crop-season fallback,43
+Wheat,Iowa,winter,JOINTING,4,21,HEADED,5,15,crop-season fallback,25
+Oats,Iowa,spring,JOINTING,6,8,HEADED,6,22,frozen external crop-season fallback,43
+Wheat,Kansas,winter,JOINTING,4,21,HEADED,5,15,state,25
+Barley,Kansas,spring,JOINTING,6,19,HEADED,7,5,frozen external crop-season fallback,28
+Oats,Kansas,spring,JOINTING,6,8,HEADED,6,22,frozen external crop-season fallback,43
+Canola,Kansas,spring,BLOOMING,7,1,COLORING,7,29,crop-season fallback,36
+Wheat,Minnesota,spring,JOINTING,6,18,HEADED,7,2,frozen external state fallback,12
+Barley,Minnesota,spring,JOINTING,6,18,HEADED,7,1,frozen external state fallback,12
+Oats,Minnesota,spring,JOINTING,6,9,HEADED,6,29,frozen external state fallback,12
+Canola,Minnesota,spring,BLOOMING,7,1,COLORING,7,29,crop-season fallback,36
+Wheat,Montana,spring,JOINTING,6,19,HEADED,7,3,frozen external crop-season fallback,28
+Barley,Montana,spring,JOINTING,6,19,HEADED,7,5,frozen external crop-season fallback,28
+Oats,Montana,spring,JOINTING,6,8,HEADED,6,22,frozen external crop-season fallback,43
+Canola,Montana,spring,BLOOMING,7,7,COLORING,7,29,state,12
+Wheat,Nebraska,winter,JOINTING,4,21,HEADED,5,15,crop-season fallback,25
+Barley,Nebraska,spring,JOINTING,6,19,HEADED,7,5,frozen external crop-season fallback,28
+Oats,Nebraska,spring,JOINTING,5,29,HEADED,6,13,frozen external state fallback,4
+Wheat,North Dakota,spring,JOINTING,6,22,HEADED,7,6,frozen external state fallback,12
+Barley,North Dakota,spring,JOINTING,6,22,HEADED,7,6,frozen external state fallback,12
+Oats,North Dakota,spring,JOINTING,6,21,HEADED,7,6,frozen external state fallback,12
+Canola,North Dakota,spring,BLOOMING,7,6,COLORING,8,3,state,12
+Wheat,Oklahoma,winter,JOINTING,4,21,HEADED,5,15,crop-season fallback,25
+Barley,Oklahoma,spring,JOINTING,6,19,HEADED,7,5,frozen external crop-season fallback,28
+Oats,Oklahoma,spring,JOINTING,4,28,HEADED,5,30,frozen external state fallback,12
+Canola,Oklahoma,spring,BLOOMING,4,20,COLORING,5,26,state,12
+Wheat,South Dakota,spring,JOINTING,6,10,HEADED,6,24,frozen external state fallback,4
+Barley,South Dakota,spring,JOINTING,6,13,HEADED,7,1,frozen external state fallback,4
+Oats,South Dakota,spring,JOINTING,6,6,HEADED,6,20,frozen external state fallback,3
+Wheat,Texas,winter,JOINTING,4,21,HEADED,5,15,crop-season fallback,25
+Barley,Texas,spring,JOINTING,6,19,HEADED,7,5,frozen external crop-season fallback,28
+Oats,Texas,spring,JOINTING,6,8,HEADED,6,22,frozen external crop-season fallback,43
+Wheat,Washington,winter,JOINTING,4,21,HEADED,5,15,crop-season fallback,25
+Barley,Washington,spring,JOINTING,6,19,HEADED,7,5,frozen external crop-season fallback,28
+Oats,Washington,spring,JOINTING,6,8,HEADED,6,22,frozen external crop-season fallback,43
+Canola,Washington,spring,BLOOMING,7,1,COLORING,7,29,crop-season fallback,36

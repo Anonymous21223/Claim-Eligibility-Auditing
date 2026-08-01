@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "cutoff_year": 2002,
+  "status": "PASS",
+  "files": {
+    "calendar_definitions.csv": {
+      "sha256": "dd32a0961681b46b2b0db68ec953060fd6a19a544cd393a1c3a41a0e22933890",
+      "bytes": 3351,
+      "rows": 40
+    },
+    "gdd_definitions.csv": {
+      "sha256": "e17086ff182fa0d8dca10c935924570675f81ec96ad5dd09b0e1c7ef5cef3ce6",
+      "bytes": 640,
+      "rows": 5
+    },
+    "source_coverage.csv": {
+      "sha256": "798eeabbd87efd8d67047bffb14a6100935c034be70b073d8d9cf9fee94220e2",
+      "bytes": 2675,
+      "rows": 40
+    },
+    "stage_features.csv": {
+      "sha256": "58bb5f289c5f1bb1c1030dcab096f97d4287bddf17da653770f52ed68d7d42c6",
+      "bytes": 373823,
+      "rows": 1257
+    }
+  }
+}

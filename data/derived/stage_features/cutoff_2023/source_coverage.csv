@@ -1,0 +1,41 @@
+cutoff_year,crop,region,window,calendar_status,calendar_source_scope,calendar_complete_years
+2023,Wheat,Colorado,winter,PASS,state,10
+2023,Barley,Colorado,spring,PASS,crop-season fallback,24
+2023,Oats,Colorado,spring,PASS,crop-season fallback,37
+2023,Wheat,Illinois,winter,PASS,crop-season fallback,80
+2023,Oats,Illinois,spring,PASS,crop-season fallback,37
+2023,Wheat,Iowa,winter,PASS,crop-season fallback,80
+2023,Oats,Iowa,spring,PASS,crop-season fallback,37
+2023,Wheat,Kansas,winter,PASS,state,42
+2023,Barley,Kansas,spring,PASS,crop-season fallback,24
+2023,Oats,Kansas,spring,PASS,crop-season fallback,37
+2023,Canola,Kansas,spring,PASS,crop-season fallback,36
+2023,Wheat,Minnesota,spring,PASS,state,10
+2023,Barley,Minnesota,spring,PASS,state,10
+2023,Oats,Minnesota,spring,PASS,state,10
+2023,Canola,Minnesota,spring,PASS,crop-season fallback,36
+2023,Wheat,Montana,spring,PASS,crop-season fallback,24
+2023,Barley,Montana,spring,PASS,crop-season fallback,24
+2023,Oats,Montana,spring,PASS,crop-season fallback,37
+2023,Canola,Montana,spring,PASS,state,12
+2023,Wheat,Nebraska,winter,PASS,state,4
+2023,Barley,Nebraska,spring,PASS,crop-season fallback,24
+2023,Oats,Nebraska,spring,PASS,state,4
+2023,Wheat,North Dakota,spring,PASS,state,10
+2023,Barley,North Dakota,spring,PASS,state,10
+2023,Oats,North Dakota,spring,PASS,state,10
+2023,Canola,North Dakota,spring,PASS,state,12
+2023,Wheat,Oklahoma,winter,PASS,state,10
+2023,Barley,Oklahoma,spring,PASS,crop-season fallback,24
+2023,Oats,Oklahoma,spring,PASS,state,10
+2023,Canola,Oklahoma,spring,PASS,state,12
+2023,Wheat,South Dakota,spring,PASS,state,4
+2023,Barley,South Dakota,spring,PASS,state,4
+2023,Oats,South Dakota,spring,PASS,state,3
+2023,Wheat,Texas,winter,PASS,crop-season fallback,80
+2023,Barley,Texas,spring,PASS,crop-season fallback,24
+2023,Oats,Texas,spring,PASS,crop-season fallback,37
+2023,Wheat,Washington,winter,PASS,crop-season fallback,80
+2023,Barley,Washington,spring,PASS,crop-season fallback,24
+2023,Oats,Washington,spring,PASS,crop-season fallback,37
+2023,Canola,Washington,spring,PASS,crop-season fallback,36

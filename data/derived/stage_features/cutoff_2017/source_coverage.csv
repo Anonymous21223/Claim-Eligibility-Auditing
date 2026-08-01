@@ -1,0 +1,41 @@
+cutoff_year,crop,region,window,calendar_status,calendar_source_scope,calendar_complete_years
+2017,Wheat,Colorado,winter,PASS,state,4
+2017,Barley,Colorado,spring,PASS,crop-season fallback,12
+2017,Oats,Colorado,spring,PASS,crop-season fallback,19
+2017,Wheat,Illinois,winter,PASS,crop-season fallback,56
+2017,Oats,Illinois,spring,PASS,crop-season fallback,19
+2017,Wheat,Iowa,winter,PASS,crop-season fallback,56
+2017,Oats,Iowa,spring,PASS,crop-season fallback,19
+2017,Wheat,Kansas,winter,PASS,state,36
+2017,Barley,Kansas,spring,PASS,crop-season fallback,12
+2017,Oats,Kansas,spring,PASS,crop-season fallback,19
+2017,Canola,Kansas,spring,PASS,crop-season fallback,36
+2017,Wheat,Minnesota,spring,PASS,state,4
+2017,Barley,Minnesota,spring,PASS,state,4
+2017,Oats,Minnesota,spring,PASS,state,4
+2017,Canola,Minnesota,spring,PASS,crop-season fallback,36
+2017,Wheat,Montana,spring,PASS,crop-season fallback,12
+2017,Barley,Montana,spring,PASS,crop-season fallback,12
+2017,Oats,Montana,spring,PASS,crop-season fallback,19
+2017,Canola,Montana,spring,PASS,state,12
+2017,Wheat,Nebraska,winter,PASS,state,4
+2017,Barley,Nebraska,spring,PASS,crop-season fallback,12
+2017,Oats,Nebraska,spring,PASS,state,4
+2017,Wheat,North Dakota,spring,PASS,state,4
+2017,Barley,North Dakota,spring,PASS,state,4
+2017,Oats,North Dakota,spring,PASS,state,4
+2017,Canola,North Dakota,spring,PASS,state,12
+2017,Wheat,Oklahoma,winter,PASS,state,4
+2017,Barley,Oklahoma,spring,PASS,crop-season fallback,12
+2017,Oats,Oklahoma,spring,PASS,state,4
+2017,Canola,Oklahoma,spring,PASS,state,12
+2017,Wheat,South Dakota,spring,PASS,state,4
+2017,Barley,South Dakota,spring,PASS,state,4
+2017,Oats,South Dakota,spring,PASS,state,3
+2017,Wheat,Texas,winter,PASS,crop-season fallback,56
+2017,Barley,Texas,spring,PASS,crop-season fallback,12
+2017,Oats,Texas,spring,PASS,crop-season fallback,19
+2017,Wheat,Washington,winter,PASS,crop-season fallback,56
+2017,Barley,Washington,spring,PASS,crop-season fallback,12
+2017,Oats,Washington,spring,PASS,crop-season fallback,19
+2017,Canola,Washington,spring,PASS,crop-season fallback,36

@@ -1,0 +1,41 @@
+cutoff_year,crop,region,window,calendar_status,calendar_source_scope,calendar_complete_years
+2014,Wheat,Colorado,winter,PASS,crop-season fallback,38
+2014,Barley,Colorado,spring,PASS,crop-season fallback,3
+2014,Oats,Colorado,spring,PASS,crop-season fallback,5
+2014,Wheat,Illinois,winter,PASS,crop-season fallback,38
+2014,Oats,Illinois,spring,PASS,crop-season fallback,5
+2014,Wheat,Iowa,winter,PASS,crop-season fallback,38
+2014,Oats,Iowa,spring,PASS,crop-season fallback,5
+2014,Wheat,Kansas,winter,PASS,state,33
+2014,Barley,Kansas,spring,PASS,crop-season fallback,3
+2014,Oats,Kansas,spring,PASS,crop-season fallback,5
+2014,Canola,Kansas,spring,PASS,crop-season fallback,36
+2014,Wheat,Minnesota,spring,PASS,crop-season fallback,3
+2014,Barley,Minnesota,spring,PASS,crop-season fallback,3
+2014,Oats,Minnesota,spring,PASS,crop-season fallback,5
+2014,Canola,Minnesota,spring,PASS,crop-season fallback,36
+2014,Wheat,Montana,spring,PASS,crop-season fallback,3
+2014,Barley,Montana,spring,PASS,crop-season fallback,3
+2014,Oats,Montana,spring,PASS,crop-season fallback,5
+2014,Canola,Montana,spring,PASS,state,12
+2014,Wheat,Nebraska,winter,PASS,crop-season fallback,38
+2014,Barley,Nebraska,spring,PASS,crop-season fallback,3
+2014,Oats,Nebraska,spring,PASS,crop-season fallback,5
+2014,Wheat,North Dakota,spring,PASS,crop-season fallback,3
+2014,Barley,North Dakota,spring,PASS,crop-season fallback,3
+2014,Oats,North Dakota,spring,PASS,crop-season fallback,5
+2014,Canola,North Dakota,spring,PASS,state,12
+2014,Wheat,Oklahoma,winter,PASS,crop-season fallback,38
+2014,Barley,Oklahoma,spring,PASS,crop-season fallback,3
+2014,Oats,Oklahoma,spring,PASS,crop-season fallback,5
+2014,Canola,Oklahoma,spring,PASS,state,12
+2014,Wheat,South Dakota,spring,PASS,crop-season fallback,3
+2014,Barley,South Dakota,spring,PASS,crop-season fallback,3
+2014,Oats,South Dakota,spring,PASS,crop-season fallback,5
+2014,Wheat,Texas,winter,PASS,crop-season fallback,38
+2014,Barley,Texas,spring,PASS,crop-season fallback,3
+2014,Oats,Texas,spring,PASS,crop-season fallback,5
+2014,Wheat,Washington,winter,PASS,crop-season fallback,38
+2014,Barley,Washington,spring,PASS,crop-season fallback,3
+2014,Oats,Washington,spring,PASS,crop-season fallback,5
+2014,Canola,Washington,spring,PASS,crop-season fallback,36

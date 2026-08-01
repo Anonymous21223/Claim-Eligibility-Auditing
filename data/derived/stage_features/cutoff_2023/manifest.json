@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "cutoff_year": 2023,
+  "status": "PASS",
+  "files": {
+    "calendar_definitions.csv": {
+      "sha256": "9df9b8a97de916ffbfcca5042166c1254a59e13a1c86d1b734ae9022a2d949e6",
+      "bytes": 2786,
+      "rows": 40
+    },
+    "gdd_definitions.csv": {
+      "sha256": "2cc6fbb6d49fd9e9f05375e44a5f783bb96587e1c897615a3256b4c8a06c7af6",
+      "bytes": 639,
+      "rows": 5
+    },
+    "source_coverage.csv": {
+      "sha256": "7f67641d77c73a9710d4ba070ac505992eff8cb761ba7dad1ffe00f02fac03ca",
+      "bytes": 2114,
+      "rows": 40
+    },
+    "stage_features.csv": {
+      "sha256": "dc9f52a5a214af3cc3f72e9b6b90e5d365bcc4a54a812cec58b88bb4c16b65fa",
+      "bytes": 374586,
+      "rows": 1257
+    }
+  }
+}

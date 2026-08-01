@@ -1,0 +1,6 @@
+crop,window,boundary1_stage,boundary1_gdd,boundary2_stage,boundary2_gdd,base_celsius,source_scope,source_complete_stage_dates
+Wheat,winter,JOINTING,1957.3025000000007,HEADED,2338.75,0.0,cutoff-safe crop-season progress,30
+Barley,spring,JOINTING,1013.56,HEADED,1281.645,0.0,cutoff-safe crop-season progress,3
+Oats,spring,JOINTING,741.7049999999999,HEADED,1145.06,0.0,cutoff-safe crop-season progress,3
+Canola,spring,BLOOMING,404.4444444444,COLORING,776.6666666667,5.0,fixed external extension fallback,0
+Wheat,spring,JOINTING,1013.56,HEADED,1258.315,0.0,cutoff-safe crop-season progress,3

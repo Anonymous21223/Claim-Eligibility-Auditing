@@ -1,0 +1,274 @@
+{
+  "protocol_id": "extension-factorial-v1",
+  "status": "LOCKED_AFTER_SOURCE_COVERAGE_AUDIT_BEFORE_MODEL_RUN",
+  "protocol_amendment": {
+    "initial_protocol_sha256": "d2c9357c8e5f060a9ce029d79a2b358e65ca740fa6f88a5a414e7a68041937f2",
+    "timing": "after source coverage audit and before any model fit",
+    "reason": "USDA QuickStats has fewer than three complete boundary-stage years for some crop-state-season cells at early training cutoffs, and canola progress begins too late for the earliest cutoffs",
+    "yield_or_model_metric_used": false,
+    "amendment": "prefer cutoff-safe progress records; where fewer than three complete boundary-stage years exist, use the median from the frozen 1981-2025 external USDA progress snapshot and label every affected definition as a frozen external fallback"
+  },
+  "purpose": "Retrospective development backtest; never a replacement for the frozen KSE submission",
+  "data": {
+    "yield": "data/raw/us_yield_1989_2025_tha.csv",
+    "daily_weather": "data/raw/nasa_power_daily.zip",
+    "processed_reference": "data/processed/us_model_frame_hemisphere_aware_1990_2025.csv",
+    "crop_progress_snapshot": "data/reference/crop_calendar/quickstats_crop_progress_1981_2025.csv",
+    "calendar_handbook_snapshot": "data/reference/crop_calendar/usda_field_crops_planting_harvest_2010.pdf",
+    "target": "raw crop-state residual from a linear trend fitted on training years only",
+    "event_scale": "training-only residual standard deviation",
+    "minimum_training_history": 3
+  },
+  "representations": [
+    "BASE",
+    "STAGE-CAL",
+    "STAGE-GDD",
+    "STAGE-HYBRID"
+  ],
+  "hierarchies": [
+    "FLAT",
+    "HIER-RESIDUAL"
+  ],
+  "grids": [
+    "COMPACT",
+    "EXPANDED"
+  ],
+  "feature_families": [
+    "metadata_only",
+    "weather_only",
+    "full"
+  ],
+  "models": [
+    "linear_shrinkage",
+    "extra_trees",
+    "lightgbm",
+    "catboost",
+    "hist_gradient_boosting"
+  ],
+  "arms": [
+    {"arm_id": "C000", "representation": "BASE", "hierarchy": "FLAT", "grid": "COMPACT"},
+    {"arm_id": "C001", "representation": "BASE", "hierarchy": "FLAT", "grid": "EXPANDED"},
+    {"arm_id": "C010", "representation": "BASE", "hierarchy": "HIER-RESIDUAL", "grid": "COMPACT"},
+    {"arm_id": "C011", "representation": "BASE", "hierarchy": "HIER-RESIDUAL", "grid": "EXPANDED"},
+    {"arm_id": "C100", "representation": "STAGE-CAL", "hierarchy": "FLAT", "grid": "COMPACT"},
+    {"arm_id": "C101", "representation": "STAGE-CAL", "hierarchy": "FLAT", "grid": "EXPANDED"},
+    {"arm_id": "C110", "representation": "STAGE-CAL", "hierarchy": "HIER-RESIDUAL", "grid": "COMPACT"},
+    {"arm_id": "C111", "representation": "STAGE-CAL", "hierarchy": "HIER-RESIDUAL", "grid": "EXPANDED"},
+    {"arm_id": "C200", "representation": "STAGE-GDD", "hierarchy": "FLAT", "grid": "COMPACT"},
+    {"arm_id": "C201", "representation": "STAGE-GDD", "hierarchy": "FLAT", "grid": "EXPANDED"},
+    {"arm_id": "C210", "representation": "STAGE-GDD", "hierarchy": "HIER-RESIDUAL", "grid": "COMPACT"},
+    {"arm_id": "C211", "representation": "STAGE-GDD", "hierarchy": "HIER-RESIDUAL", "grid": "EXPANDED"},
+    {"arm_id": "C300", "representation": "STAGE-HYBRID", "hierarchy": "FLAT", "grid": "COMPACT"},
+    {"arm_id": "C301", "representation": "STAGE-HYBRID", "hierarchy": "FLAT", "grid": "EXPANDED"},
+    {"arm_id": "C310", "representation": "STAGE-HYBRID", "hierarchy": "HIER-RESIDUAL", "grid": "COMPACT"},
+    {"arm_id": "C311", "representation": "STAGE-HYBRID", "hierarchy": "HIER-RESIDUAL", "grid": "EXPANDED"}
+  ],
+  "outer_folds": [
+    {"outer_fold": "O1", "train_end": 2007, "test_start": 2008, "test_end": 2011,
+     "inner": [{"inner_fold": "I1", "train_end": 1998, "validation_start": 1999, "validation_end": 2001},
+               {"inner_fold": "I2", "train_end": 2001, "validation_start": 2002, "validation_end": 2004},
+               {"inner_fold": "I3", "train_end": 2004, "validation_start": 2005, "validation_end": 2007}]},
+    {"outer_fold": "O2", "train_end": 2011, "test_start": 2012, "test_end": 2014,
+     "inner": [{"inner_fold": "I1", "train_end": 2002, "validation_start": 2003, "validation_end": 2005},
+               {"inner_fold": "I2", "train_end": 2005, "validation_start": 2006, "validation_end": 2008},
+               {"inner_fold": "I3", "train_end": 2008, "validation_start": 2009, "validation_end": 2011}]},
+    {"outer_fold": "O3", "train_end": 2014, "test_start": 2015, "test_end": 2017,
+     "inner": [{"inner_fold": "I1", "train_end": 2005, "validation_start": 2006, "validation_end": 2008},
+               {"inner_fold": "I2", "train_end": 2008, "validation_start": 2009, "validation_end": 2011},
+               {"inner_fold": "I3", "train_end": 2011, "validation_start": 2012, "validation_end": 2014}]},
+    {"outer_fold": "O4", "train_end": 2017, "test_start": 2018, "test_end": 2020,
+     "inner": [{"inner_fold": "I1", "train_end": 2008, "validation_start": 2009, "validation_end": 2011},
+               {"inner_fold": "I2", "train_end": 2011, "validation_start": 2012, "validation_end": 2014},
+               {"inner_fold": "I3", "train_end": 2014, "validation_start": 2015, "validation_end": 2017}]},
+    {"outer_fold": "O5", "train_end": 2020, "test_start": 2021, "test_end": 2023,
+     "inner": [{"inner_fold": "I1", "train_end": 2011, "validation_start": 2012, "validation_end": 2014},
+               {"inner_fold": "I2", "train_end": 2014, "validation_start": 2015, "validation_end": 2017},
+               {"inner_fold": "I3", "train_end": 2017, "validation_start": 2018, "validation_end": 2020}]},
+    {"outer_fold": "O6", "train_end": 2023, "test_start": 2024, "test_end": 2025,
+     "inner": [{"inner_fold": "I1", "train_end": 2014, "validation_start": 2015, "validation_end": 2017},
+               {"inner_fold": "I2", "train_end": 2017, "validation_start": 2018, "validation_end": 2020},
+               {"inner_fold": "I3", "train_end": 2020, "validation_start": 2021, "validation_end": 2023}]}
+  ],
+  "seeds": [7, 17, 27, 37, 47],
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 20260731,
+    "primary_unit": "calendar_year",
+    "sensitivity_unit": "crop_state"
+  },
+  "selection": {
+    "inner_metric": "mean RMSE",
+    "inner_tie_break": ["worst_inner_fold_rmse", "complexity_rank"],
+    "winner_filters": [
+      "R0_integrity_pass",
+      "R1_pooled_oof_r2_gt_0_and_at_least_4_of_6_outer_r2_gt_0"
+    ],
+    "claim_tier_order": ["A+B+E", "A+B", "A", "none"],
+    "within_tier": ["pooled_oof_rmse", "worst_outer_fold_rmse", "complexity_rank"],
+    "rmse_tie_tolerance": 0.001,
+    "maximum_runners_up": 2
+  },
+  "stage_source_rules": {
+    "minimum_complete_boundary_years": 3,
+    "sparse_cutoff_fallback": "frozen 1981-2025 external USDA progress snapshot; no yield or model result is used",
+    "progress_value": "weekly percent complete from USDA NASS QuickStats",
+    "stage_date": "first week-ending date reaching at least 50 percent",
+    "cutoff": "for cereals, only progress records with year <= the corresponding inner or outer train_end",
+    "calendar_boundaries": {
+      "barley": ["JOINTING", "HEADED"],
+      "oats": ["JOINTING", "HEADED"],
+      "wheat": ["JOINTING", "HEADED"],
+      "canola": ["BLOOMING", "COLORING"]
+    },
+    "gdd_base_celsius": {
+      "Barley": 0.0,
+      "Canola": 5.0,
+      "Oats": 0.0,
+      "Wheat": 0.0
+    },
+    "fallback": "crop-season median across reporting panel states, using records no later than train_end",
+    "canola_fixed_external_fallback": {
+      "calendar": "median 50-percent BLOOMING and COLORING dates in the frozen 1981-2025 QuickStats snapshot; no yield values",
+      "gdd_base_celsius": 5.0,
+      "gdd_boundaries_celsius_days": [404.4444444444, 776.6666666667],
+      "gdd_source": "Montana Climate Office canola GDD table: Early Bud 728 and Early Ripening 1398 Fahrenheit degree-days, converted by division by 1.8",
+      "url": "https://climate.umt.edu/mesonet/ag_tools/gdds/"
+    },
+    "blocking_rule": "block all stage arms if any crop-season lacks two ordered boundaries or source provenance"
+  },
+  "hierarchical_residual": {
+    "implementation": "ridge partial pooling on crop, state, crop-state intercepts and centered crop-state time slopes",
+    "fixed_effects": ["crop", "centered_year", "lat", "lon"],
+    "random_intercept": "crop_state",
+    "random_time_slope": "crop_state",
+    "slope_condition": "use only when finite predictions and design audit pass; otherwise declared random-intercept-only fallback",
+    "unseen_group_rule": "population-level prediction"
+  },
+  "model_configs": {
+    "linear_shrinkage": {
+      "COMPACT": [
+        {"config_id": "LIN_C01", "kind": "ridge", "alpha": 0.1},
+        {"config_id": "LIN_C02", "kind": "ridge", "alpha": 1.0},
+        {"config_id": "LIN_C03", "kind": "ridge", "alpha": 10.0},
+        {"config_id": "LIN_C04", "kind": "elastic_net", "alpha": 0.01, "l1_ratio": 0.5}
+      ],
+      "EXPANDED": [
+        {"config_id": "LIN_E01", "kind": "ridge", "alpha": 0.01},
+        {"config_id": "LIN_E02", "kind": "ridge", "alpha": 0.1},
+        {"config_id": "LIN_E03", "kind": "ridge", "alpha": 1.0},
+        {"config_id": "LIN_E04", "kind": "ridge", "alpha": 10.0},
+        {"config_id": "LIN_E05", "kind": "ridge", "alpha": 100.0},
+        {"config_id": "LIN_E06", "kind": "elastic_net", "alpha": 0.001, "l1_ratio": 0.1},
+        {"config_id": "LIN_E07", "kind": "elastic_net", "alpha": 0.001, "l1_ratio": 0.5},
+        {"config_id": "LIN_E08", "kind": "elastic_net", "alpha": 0.001, "l1_ratio": 0.9},
+        {"config_id": "LIN_E09", "kind": "elastic_net", "alpha": 0.01, "l1_ratio": 0.1},
+        {"config_id": "LIN_E10", "kind": "elastic_net", "alpha": 0.01, "l1_ratio": 0.5},
+        {"config_id": "LIN_E11", "kind": "elastic_net", "alpha": 0.01, "l1_ratio": 0.9},
+        {"config_id": "LIN_E12", "kind": "elastic_net", "alpha": 0.1, "l1_ratio": 0.5}
+      ]
+    },
+    "extra_trees": {
+      "COMPACT": [
+        {"config_id": "ET_C01", "n_estimators": 500, "max_depth": null, "min_samples_leaf": 1, "max_features": 1.0},
+        {"config_id": "ET_C02", "n_estimators": 500, "max_depth": null, "min_samples_leaf": 3, "max_features": 1.0},
+        {"config_id": "ET_C03", "n_estimators": 500, "max_depth": 8, "min_samples_leaf": 1, "max_features": 1.0},
+        {"config_id": "ET_C04", "n_estimators": 500, "max_depth": 8, "min_samples_leaf": 3, "max_features": 1.0}
+      ],
+      "EXPANDED": [
+        {"config_id": "ET_E01", "n_estimators": 500, "max_depth": null, "min_samples_leaf": 1, "max_features": 0.5},
+        {"config_id": "ET_E02", "n_estimators": 500, "max_depth": null, "min_samples_leaf": 2, "max_features": 0.5},
+        {"config_id": "ET_E03", "n_estimators": 500, "max_depth": null, "min_samples_leaf": 4, "max_features": 0.5},
+        {"config_id": "ET_E04", "n_estimators": 500, "max_depth": 6, "min_samples_leaf": 1, "max_features": 0.5},
+        {"config_id": "ET_E05", "n_estimators": 500, "max_depth": 6, "min_samples_leaf": 2, "max_features": 0.5},
+        {"config_id": "ET_E06", "n_estimators": 500, "max_depth": 6, "min_samples_leaf": 4, "max_features": 0.5},
+        {"config_id": "ET_E07", "n_estimators": 500, "max_depth": 10, "min_samples_leaf": 1, "max_features": 0.5},
+        {"config_id": "ET_E08", "n_estimators": 500, "max_depth": 10, "min_samples_leaf": 2, "max_features": 0.5},
+        {"config_id": "ET_E09", "n_estimators": 500, "max_depth": 10, "min_samples_leaf": 4, "max_features": 0.5},
+        {"config_id": "ET_E10", "n_estimators": 500, "max_depth": null, "min_samples_leaf": 1, "max_features": 1.0},
+        {"config_id": "ET_E11", "n_estimators": 500, "max_depth": 6, "min_samples_leaf": 2, "max_features": 1.0},
+        {"config_id": "ET_E12", "n_estimators": 500, "max_depth": 10, "min_samples_leaf": 4, "max_features": 1.0}
+      ]
+    },
+    "lightgbm": {
+      "COMPACT": [
+        {"config_id": "LGB_C01", "num_leaves": 7, "max_depth": 3, "min_child_samples": 20, "reg_lambda": 1, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_C02", "num_leaves": 7, "max_depth": 5, "min_child_samples": 20, "reg_lambda": 1, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_C03", "num_leaves": 15, "max_depth": 3, "min_child_samples": 20, "reg_lambda": 1, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_C04", "num_leaves": 15, "max_depth": 5, "min_child_samples": 20, "reg_lambda": 1, "learning_rate": 0.03, "n_estimators": 400}
+      ],
+      "EXPANDED": [
+        {"config_id": "LGB_E01", "num_leaves": 7, "max_depth": 3, "min_child_samples": 10, "reg_lambda": 1, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_E02", "num_leaves": 7, "max_depth": 5, "min_child_samples": 30, "reg_lambda": 5, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_E03", "num_leaves": 7, "max_depth": 7, "min_child_samples": 10, "reg_lambda": 5, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_E04", "num_leaves": 15, "max_depth": 3, "min_child_samples": 30, "reg_lambda": 1, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_E05", "num_leaves": 15, "max_depth": 5, "min_child_samples": 10, "reg_lambda": 5, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_E06", "num_leaves": 15, "max_depth": 7, "min_child_samples": 30, "reg_lambda": 5, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_E07", "num_leaves": 31, "max_depth": 3, "min_child_samples": 10, "reg_lambda": 5, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_E08", "num_leaves": 31, "max_depth": 5, "min_child_samples": 30, "reg_lambda": 1, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_E09", "num_leaves": 31, "max_depth": 7, "min_child_samples": 10, "reg_lambda": 1, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_E10", "num_leaves": 7, "max_depth": 5, "min_child_samples": 10, "reg_lambda": 1, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_E11", "num_leaves": 15, "max_depth": 3, "min_child_samples": 10, "reg_lambda": 5, "learning_rate": 0.03, "n_estimators": 400},
+        {"config_id": "LGB_E12", "num_leaves": 31, "max_depth": 5, "min_child_samples": 10, "reg_lambda": 5, "learning_rate": 0.03, "n_estimators": 400}
+      ]
+    },
+    "catboost": {
+      "COMPACT": [
+        {"config_id": "CAT_C01", "depth": 4, "learning_rate": 0.02, "l2_leaf_reg": 3, "iterations": 500},
+        {"config_id": "CAT_C02", "depth": 4, "learning_rate": 0.05, "l2_leaf_reg": 3, "iterations": 500},
+        {"config_id": "CAT_C03", "depth": 6, "learning_rate": 0.02, "l2_leaf_reg": 3, "iterations": 500},
+        {"config_id": "CAT_C04", "depth": 6, "learning_rate": 0.05, "l2_leaf_reg": 3, "iterations": 500}
+      ],
+      "EXPANDED": [
+        {"config_id": "CAT_E01", "depth": 4, "learning_rate": 0.01, "l2_leaf_reg": 3, "iterations": 500},
+        {"config_id": "CAT_E02", "depth": 4, "learning_rate": 0.03, "l2_leaf_reg": 10, "iterations": 500},
+        {"config_id": "CAT_E03", "depth": 4, "learning_rate": 0.05, "l2_leaf_reg": 3, "iterations": 500},
+        {"config_id": "CAT_E04", "depth": 6, "learning_rate": 0.01, "l2_leaf_reg": 10, "iterations": 500},
+        {"config_id": "CAT_E05", "depth": 6, "learning_rate": 0.03, "l2_leaf_reg": 3, "iterations": 500},
+        {"config_id": "CAT_E06", "depth": 6, "learning_rate": 0.05, "l2_leaf_reg": 10, "iterations": 500},
+        {"config_id": "CAT_E07", "depth": 8, "learning_rate": 0.01, "l2_leaf_reg": 3, "iterations": 500},
+        {"config_id": "CAT_E08", "depth": 8, "learning_rate": 0.03, "l2_leaf_reg": 10, "iterations": 500},
+        {"config_id": "CAT_E09", "depth": 8, "learning_rate": 0.05, "l2_leaf_reg": 3, "iterations": 500},
+        {"config_id": "CAT_E10", "depth": 4, "learning_rate": 0.03, "l2_leaf_reg": 3, "iterations": 500},
+        {"config_id": "CAT_E11", "depth": 6, "learning_rate": 0.03, "l2_leaf_reg": 10, "iterations": 500},
+        {"config_id": "CAT_E12", "depth": 8, "learning_rate": 0.03, "l2_leaf_reg": 3, "iterations": 500}
+      ]
+    },
+    "hist_gradient_boosting": {
+      "COMPACT": [
+        {"config_id": "HGB_C01", "max_leaf_nodes": 7, "learning_rate": 0.03, "l2_regularization": 1, "max_iter": 400, "min_samples_leaf": 20},
+        {"config_id": "HGB_C02", "max_leaf_nodes": 7, "learning_rate": 0.06, "l2_regularization": 1, "max_iter": 400, "min_samples_leaf": 20},
+        {"config_id": "HGB_C03", "max_leaf_nodes": 15, "learning_rate": 0.03, "l2_regularization": 1, "max_iter": 400, "min_samples_leaf": 20},
+        {"config_id": "HGB_C04", "max_leaf_nodes": 15, "learning_rate": 0.06, "l2_regularization": 1, "max_iter": 400, "min_samples_leaf": 20}
+      ],
+      "EXPANDED": [
+        {"config_id": "HGB_E01", "max_leaf_nodes": 7, "learning_rate": 0.02, "l2_regularization": 0, "max_iter": 400, "min_samples_leaf": 10},
+        {"config_id": "HGB_E02", "max_leaf_nodes": 7, "learning_rate": 0.05, "l2_regularization": 1, "max_iter": 400, "min_samples_leaf": 20},
+        {"config_id": "HGB_E03", "max_leaf_nodes": 7, "learning_rate": 0.02, "l2_regularization": 5, "max_iter": 400, "min_samples_leaf": 20},
+        {"config_id": "HGB_E04", "max_leaf_nodes": 15, "learning_rate": 0.05, "l2_regularization": 0, "max_iter": 400, "min_samples_leaf": 10},
+        {"config_id": "HGB_E05", "max_leaf_nodes": 15, "learning_rate": 0.02, "l2_regularization": 1, "max_iter": 400, "min_samples_leaf": 20},
+        {"config_id": "HGB_E06", "max_leaf_nodes": 15, "learning_rate": 0.05, "l2_regularization": 5, "max_iter": 400, "min_samples_leaf": 20},
+        {"config_id": "HGB_E07", "max_leaf_nodes": 31, "learning_rate": 0.02, "l2_regularization": 0, "max_iter": 400, "min_samples_leaf": 20},
+        {"config_id": "HGB_E08", "max_leaf_nodes": 31, "learning_rate": 0.05, "l2_regularization": 1, "max_iter": 400, "min_samples_leaf": 10},
+        {"config_id": "HGB_E09", "max_leaf_nodes": 31, "learning_rate": 0.02, "l2_regularization": 5, "max_iter": 400, "min_samples_leaf": 10},
+        {"config_id": "HGB_E10", "max_leaf_nodes": 7, "learning_rate": 0.05, "l2_regularization": 5, "max_iter": 400, "min_samples_leaf": 10},
+        {"config_id": "HGB_E11", "max_leaf_nodes": 15, "learning_rate": 0.02, "l2_regularization": 0, "max_iter": 400, "min_samples_leaf": 20},
+        {"config_id": "HGB_E12", "max_leaf_nodes": 31, "learning_rate": 0.05, "l2_regularization": 5, "max_iter": 400, "min_samples_leaf": 20}
+      ]
+    }
+  },
+  "expected_counts": {
+    "design_arms": 16,
+    "model_cells": 80,
+    "feature_family_pipelines": 240,
+    "inner_fit_calls": 34560,
+    "outer_seeded_fits": 4896,
+    "benchmark_inner_fit_calls": 1728
+  },
+  "stop_rules": {
+    "no_leaderboard_before_completion_100_percent": true,
+    "no_new_config_after_outer_results": true,
+    "no_winner_if_R1_fails_for_all": true,
+    "semi_and_pjm_only_after_winner_lock": true,
+    "frozen_kse_source_must_not_change": true
+  }
+}

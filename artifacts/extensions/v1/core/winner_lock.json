@@ -1,0 +1,35 @@
+{
+  "status": "LOCKED",
+  "winner": {
+    "arm_id": "C310",
+    "model_id": "catboost",
+    "feature_family": "full",
+    "claim_tier": "A+B",
+    "pooled_rmse": 0.46072841308590917,
+    "pooled_r2": 0.11020184512953846,
+    "positive_r2_folds": 4
+  },
+  "runners_up": [
+    {
+      "arm_id": "C300",
+      "model_id": "catboost",
+      "feature_family": "full",
+      "claim_tier": "A+B",
+      "pooled_rmse": 0.46072841308591084,
+      "pooled_r2": 0.11020184512953202,
+      "positive_r2_folds": 4
+    },
+    {
+      "arm_id": "C301",
+      "model_id": "extra_trees",
+      "feature_family": "full",
+      "claim_tier": "A+B",
+      "pooled_rmse": 0.46187074082337787,
+      "pooled_r2": 0.1057840529392875,
+      "positive_r2_folds": 4
+    }
+  ],
+  "selection_used_external_results": false,
+  "protocol_sha256": "7659426bd61ff18f614026f84dbfe050228afde5ba12d0268f23eeba707b4aa9",
+  "leaderboard_sha256": "61018e08c4fb5d12d9f8f5bbe1912a3776fb1746e2aae992f5bce656664fca6c"
+}

@@ -1,0 +1,74 @@
+{
+  "protocol_id": "extension-factorial-v1",
+  "status": "COMPLETE",
+  "started_local": "2026-07-31T12:38:44+07:00",
+  "completed_utc": "2026-08-01T05:18:54.131447+00:00",
+  "git_commit_at_start": "4c73b2e2b1eece4e863d723a73d3a0f6d417dc59",
+  "git_branch": "extension-factorial-v1",
+  "commands": [
+    "python scripts/build_extension_stage_features.py",
+    "python scripts/run_extension_factorial.py matrix",
+    "python scripts/run_extension_factorial.py benchmark --workers 1",
+    "python scripts/run_extension_factorial.py inner --workers 3 --executor thread",
+    "python scripts/run_extension_factorial.py outer --workers 3 --executor thread",
+    "python scripts/finalize_extension_factorial.py",
+    "python scripts/run_extension_external_suites.py semi --workers 3",
+    "python scripts/run_extension_external_suites.py pjm",
+    "python scripts/build_extension_factorial_release.py"
+  ],
+  "compute": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu_count": 12,
+    "gpu": "not used"
+  },
+  "packages": {
+    "python": "3.12.10",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5",
+    "scikit_learn": "1.9.0",
+    "catboost": "1.2.10",
+    "lightgbm": "4.6.0",
+    "pyarrow": "25.0.0"
+  },
+  "counts": {
+    "arms": 16,
+    "model_cells": 80,
+    "pipelines": 240,
+    "inner_jobs": 34560,
+    "outer_jobs": 4896,
+    "semi_rows": 28800,
+    "pjm_runs": 600
+  },
+  "winner": {
+    "arm_id": "C310",
+    "model_id": "catboost",
+    "feature_family": "full",
+    "claim_tier": "A+B",
+    "pooled_rmse": 0.46072841308590917,
+    "pooled_r2": 0.11020184512953846,
+    "positive_r2_folds": 4
+  },
+  "files": {
+    "configs\\extension_factorial_v1.yaml": "7659426bd61ff18f614026f84dbfe050228afde5ba12d0268f23eeba707b4aa9",
+    "requirements.txt": "77ffa07bf4db91e2b41d08eb0213055320291f072e272341f4acbac2a976858c",
+    "requirements-lock.txt": "ecabd48268990604a79507ab5da4bf82e81956de58c9461d310cd45aa9e73ef7",
+    "data\\reference\\crop_calendar\\quickstats_crop_progress_1981_2025.csv": "d582078a7bc6591e10188bc52c8c2c28a53622d99498cede916564bf2b750373",
+    "data\\derived\\stage_features\\cutoff_registry.json": "2fed41b3b3144efa71d496ba8e3321b9c295a4bd5bb3685a3f35ba0883c324cb",
+    "artifacts\\extensions\\v1\\core\\validation_leaderboard.csv": "61018e08c4fb5d12d9f8f5bbe1912a3776fb1746e2aae992f5bce656664fca6c",
+    "artifacts\\extensions\\v1\\core\\outer_predictions.parquet": "b1cea160833a4ab0d60fc19417af583c0b2dff636962ce19fe8fb83d41fcd208",
+    "artifacts\\extensions\\v1\\core\\module_decisions.csv": "b1598a95d3ec2a0f119f2925766d5a4f69681d61a5d637e62e5cbb0bb452a52d",
+    "artifacts\\extensions\\v1\\core\\winner_lock.json": "51766cf2ca29201191d13e93f2590455734a0699b5d66135e3a3b1b511c43ec0",
+    "artifacts\\extensions\\v1\\semi\\scenario_results.csv": "b062ca23d7cc4fac2712b41a4a6b909fed2265554eca1eb37e9d2b10759ae603",
+    "artifacts\\extensions\\v1\\pjm\\degradation_curve.csv": "8b46affaa43c67117adb508ac8e73243d92ad35e876db3a5344ab13f4f6a6446",
+    "artifacts\\extensions\\v1\\COMPLETION_MATRIX.csv": "019613dcd1a9c600a9c2113ff7a6c83ede5e7dfd22c6bbd97887293a7f1928cf",
+    "artifacts\\extensions\\v1\\QA_REPORT.json": "dc8117e28c9b1f2327ce4f3c14dbf29ec7246ee3938e5e3bb8d11c1580f15c94",
+    "artifacts\\extensions\\v1\\COMPLETION_AUDIT.csv": "7d87a3f282b88334bd5586fd9180341c8dc447d7f38a856bcfa0eac23ee31f89",
+    "reports\\extension_factorial_results.md": "95ccefd083e4b946fcc742d0e6c687a7ee79b9c76c1349c6024ebd6537b4b3cb",
+    "reports\\extension_factorial_work_log.md": "cdf90be034f4531e93a7e15c6768d5fcce7d5cd871704a94ef4b9c6191ff90e5"
+  },
+  "frozen_kse_read_only_hashes": {
+    "paper_versions\\v5_10_kse_model_gated\\source\\main.tex": "f722e72fa9536a1407115c8571d6a4d9ce8b6153c3afd6b89c6a894813fb9550",
+    "paper_versions\\v5_10_kse_model_gated\\source\\build_v5_10_final\\main.pdf": "8d71499d5d5ba9c5446bf54e15780f3dc8764946d94fb5717967259d1daff5db"
+  },
+  "external_results_used_for_winner_selection": false
+}

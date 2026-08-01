@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "decision": "NO_RERUN",
+  "model_fits_executed": false,
+  "authored_freeze": {
+    "paper_versions\\v6_extension_factorial_authored\\source\\main.tex": "d21ac222c90b5ceebab28ea8dd35cb3e57f936f18544fff86d6f72f456410e55",
+    "paper\\final\\ictai2026_claim_eligibility_extension_factorial_v6_authored.pdf": "6ee8795044e25d17652376ccf005ff270ce79889785f349c4505b571389ed895"
+  },
+  "checks": {
+    "authored_v6_frozen": {
+      "status": "PASS",
+      "evidence": {
+        "paper_versions\\v6_extension_factorial_authored\\source\\main.tex": "d21ac222c90b5ceebab28ea8dd35cb3e57f936f18544fff86d6f72f456410e55",
+        "paper\\final\\ictai2026_claim_eligibility_extension_factorial_v6_authored.pdf": "6ee8795044e25d17652376ccf005ff270ce79889785f349c4505b571389ed895"
+      }
+    },
+    "frozen_kse_unchanged": {
+      "status": "PASS",
+      "evidence": {
+        "paper_versions\\v5_10_kse_model_gated\\source\\main.tex": {
+          "expected": "f722e72fa9536a1407115c8571d6a4d9ce8b6153c3afd6b89c6a894813fb9550",
+          "actual": "f722e72fa9536a1407115c8571d6a4d9ce8b6153c3afd6b89c6a894813fb9550"
+        },
+        "paper_versions\\v5_10_kse_model_gated\\source\\build_v5_10_final\\main.pdf": {
+          "expected": "8d71499d5d5ba9c5446bf54e15780f3dc8764946d94fb5717967259d1daff5db",
+          "actual": "8d71499d5d5ba9c5446bf54e15780f3dc8764946d94fb5717967259d1daff5db"
+        }
+      }
+    },
+    "inner_jobs_unique_complete": {
+      "status": "PASS",
+      "evidence": {
+        "jobs": 34560,
+        "unique_job_ids": 34560,
+        "results": 34560
+      }
+    },
+    "outer_jobs_unique_complete": {
+      "status": "PASS",
+      "evidence": {
+        "jobs": 4896,
+        "unique_job_ids": 4896,
+        "results": 4896
+      }
+    },
+    "factorial_matrix_complete": {
+      "status": "PASS",
+      "evidence": {
+        "arms": 16,
+        "arm_model_cells": 80,
+        "pipelines": 240
+      }
+    },
+    "configured_seeds_complete": {
+      "status": "PASS",
+      "evidence": {
+        "configured": [
+          7,
+          17,
+          27,
+          37,
+          47
+        ],
+        "groups": 1440
+      }
+    },
+    "train_only_execution_fields": {
+      "status": "PASS",
+      "evidence": {
+        "inner_future_access": 0,
+        "outer_future_access": 0
+      }
+    },
+    "stage_manifest_provenance": {
+      "status": "PASS",
+      "evidence": {
+        "count": 12,
+        "sha256": {
+          "data\\derived\\stage_features\\cutoff_1998\\manifest.json": "80b7916449691e877cc62736a8f66f8a3801ffc5ef589cf57adc75b626b93966",
+          "data\\derived\\stage_features\\cutoff_2001\\manifest.json": "8896e1cf0fc39e058a4201d1d7a060a8a924cba6a28925d91a7185fd2bd16ed9",
+          "data\\derived\\stage_features\\cutoff_2002\\manifest.json": "1eeb3a8cf7b736fbbc7f44075c74dd8df9de61d6446cc2aeb8e3219b6ff10251",
+          "data\\derived\\stage_features\\cutoff_2004\\manifest.json": "9fa12e16f2ff1c75a068f71cfdd8c9b7091cad8b4a7b8ea4f57fff5b7fb11e6e",
+          "data\\derived\\stage_features\\cutoff_2005\\manifest.json": "3a6d5fae4484b68a88705c273948d406faf21dc8d990c111f28ddfbf36de6182",
+          "data\\derived\\stage_features\\cutoff_2007\\manifest.json": "c612028fece0138a3e1a8966c2976172efad06abad9d775411e15211601da78b",
+          "data\\derived\\stage_features\\cutoff_2008\\manifest.json": "d47a8540b55ba52d81f4ea5d97cf48f9e95ae8ca6fd390a3cb17450dd2fd78b0",
+          "data\\derived\\stage_features\\cutoff_2011\\manifest.json": "c6831033c570049b5e3565a85c8cea0a1100acde8302b6492b56ca1adc0cb610",
+          "data\\derived\\stage_features\\cutoff_2014\\manifest.json": "c67fa5c854f4a2a758b571519a490dfc72820c18ecbfbde3ab3c9db915db6eb0",
+          "data\\derived\\stage_features\\cutoff_2017\\manifest.json": "ab8a16d7c480f4870f66dfaf70c4952e6073ff08d227dbbb01bff64c8187ee32",
+          "data\\derived\\stage_features\\cutoff_2020\\manifest.json": "4efe4eba531c2025d1a820c79ed1980d34b6c26d48241817640bf96b8d4f60b4",
+          "data\\derived\\stage_features\\cutoff_2023\\manifest.json": "cc64109fc8c78814fc6f28953d2db09236bd75439b0605ce142d6c210e06a00f"
+        }
+      }
+    },
+    "outer_prediction_row_integrity": {
+      "status": "PASS",
+      "evidence": {
+        "rows": 501840,
+        "duplicate_prediction_keys": 0,
+        "unique_row_hashes": 615
+      }
+    },
+    "seed_mean_predictions_reproduced": {
+      "status": "PASS",
+      "evidence": {
+        "stored_rows": 147600,
+        "reconstructed_rows": 147600
+      }
+    },
+    "all_outer_fold_metrics_reproduced": {
+      "status": "PASS",
+      "evidence": {
+        "rows": 1440
+      }
+    },
+    "all_pooled_metrics_reproduced": {
+      "status": "PASS",
+      "evidence": {
+        "pipelines": 240
+      }
+    },
+    "winner_modules_reproduced": {
+      "status": "PASS",
+      "evidence": {
+        "bootstrap_draws": 2000,
+        "bootstrap_unit": "calendar year",
+        "module_a": {
+          "delta_rmse": -0.028282304979051653,
+          "ci95_low": -0.04513745816347757,
+          "ci95_high": -0.012890545537189223
+        },
+        "module_b": {
+          "delta_rmse": -0.028282305025535026,
+          "ci95_low": -0.0451374582829068,
+          "ci95_high": -0.012890545485779609
+        },
+        "event": {
+          "module_e": "FAIL",
+          "event_n": 136,
+          "event_delta_rmse_ci95_high": -0.03330851970258978,
+          "event_delta_mae_ci95_high": -0.04217237940834163,
+          "event_spearman": 0.28696149992843856,
+          "event_spearman_ci95_low": 0.12343222448957442,
+          "event_rank_permutation_p": 0.014098590140985901,
+          "event_topk_k": 10,
+          "event_topk_overlap": 1,
+          "event_topk_lift": 1.36,
+          "event_topk_lift_ci95_low": 0.0,
+          "event_topk_hypergeom_p": 0.54676072524784,
+          "event_topk_permutation_p": 0.49165083491650835,
+          "tail_rmse_pass": true,
+          "tail_mae_pass": true,
+          "rank_pass": true,
+          "topk_pass": false
+        },
+        "event_full": {
+          "tail_rmse": {
+            "estimate": -0.06896169306880107,
+            "ci95_low": -0.1018289192788766,
+            "ci95_high": -0.03330851970258978
+          },
+          "tail_mae": {
+            "estimate": -0.07619071542526057,
+            "ci95_low": -0.1096307544655057,
+            "ci95_high": -0.04217237940834163
+          }
+        }
+      }
+    },
+    "candidate_wide_counts": {
+      "status": "PASS",
+      "evidence": {
+        "pipelines": 240,
+        "pass_r1": 38,
+        "pass_a": 122,
+        "full_pipelines": 80,
+        "pass_b_full": 46,
+        "pass_a_b_full": 46,
+        "pass_e": 0,
+        "evaluated_e": 46
+      }
+    },
+    "winner_lock_and_external_order": {
+      "status": "PASS",
+      "evidence": {
+        "leaderboard_hash_matches": true,
+        "manifest_command_order": true,
+        "external_runner_requires_lock": true,
+        "selection_source_has_no_external_dependency": true,
+        "filesystem_mtime_note": "winner_lock was later rewritten; mtime is not treated as execution-order evidence"
+      }
+    },
+    "external_suite_completion": {
+      "status": "PASS",
+      "evidence": {
+        "semi_rows": 28800,
+        "semi_seeds": 30,
+        "pjm_rows": 600,
+        "pjm_curve_rows": 20
+      }
+    }
+  }
+}

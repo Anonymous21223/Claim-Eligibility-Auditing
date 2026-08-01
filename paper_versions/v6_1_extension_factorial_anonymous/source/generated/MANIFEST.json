@@ -1,0 +1,14 @@
+{
+  "source": "artifacts/extensions/v1",
+  "winner_lock_sha256": "51766cf2ca29201191d13e93f2590455734a0699b5d66135e3a3b1b511c43ec0",
+  "artifact_audit_sha256": "3c2d7983cce1e3f47153b8360e5492a0275a11e8e165d677225f1f07e38bad5f",
+  "files": {
+    "extension_numbers.tex": "4e97c517e5f15c00a71ca8d234f3486ce76e40fb0a48699d01fdc8de4c3cf451",
+    "table_design.tex": "f889bc33ba07d17e3c8102645aeb7c07e1c1f24a3c510adb0f6b7ca31c54f3a0",
+    "table_fold_metrics.tex": "a9e565b768768992f95685f752b71fa4a1c6818746444592a565635721ef4a3f",
+    "table_locked_ranking.tex": "0f0e31272afe7c9a39f269ecb005c24f4e797f1930c0a37e2be8c6423eb1cded",
+    "table_modules.tex": "9276dd9baac4a7cd7246de3a8379ccb18f4a51ed9b385b9b0a6626551990fc6e",
+    "table_pjm.tex": "d0cb8b328a1dffa7f080047ee58195dbed1c9ba72d0981ce06cd377d4f81200e",
+    "table_semi_power.tex": "6ea2f8c5e5d114eaa4bcc62aaecb46005444f05e0bb361be4048d0ecae2c743b"
+  }
+}

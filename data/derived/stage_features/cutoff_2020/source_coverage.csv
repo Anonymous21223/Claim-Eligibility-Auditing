@@ -1,0 +1,41 @@
+cutoff_year,crop,region,window,calendar_status,calendar_source_scope,calendar_complete_years
+2020,Wheat,Colorado,winter,PASS,state,7
+2020,Barley,Colorado,spring,PASS,crop-season fallback,18
+2020,Oats,Colorado,spring,PASS,crop-season fallback,28
+2020,Wheat,Illinois,winter,PASS,crop-season fallback,68
+2020,Oats,Illinois,spring,PASS,crop-season fallback,28
+2020,Wheat,Iowa,winter,PASS,crop-season fallback,68
+2020,Oats,Iowa,spring,PASS,crop-season fallback,28
+2020,Wheat,Kansas,winter,PASS,state,39
+2020,Barley,Kansas,spring,PASS,crop-season fallback,18
+2020,Oats,Kansas,spring,PASS,crop-season fallback,28
+2020,Canola,Kansas,spring,PASS,crop-season fallback,36
+2020,Wheat,Minnesota,spring,PASS,state,7
+2020,Barley,Minnesota,spring,PASS,state,7
+2020,Oats,Minnesota,spring,PASS,state,7
+2020,Canola,Minnesota,spring,PASS,crop-season fallback,36
+2020,Wheat,Montana,spring,PASS,crop-season fallback,18
+2020,Barley,Montana,spring,PASS,crop-season fallback,18
+2020,Oats,Montana,spring,PASS,crop-season fallback,28
+2020,Canola,Montana,spring,PASS,state,12
+2020,Wheat,Nebraska,winter,PASS,state,4
+2020,Barley,Nebraska,spring,PASS,crop-season fallback,18
+2020,Oats,Nebraska,spring,PASS,state,4
+2020,Wheat,North Dakota,spring,PASS,state,7
+2020,Barley,North Dakota,spring,PASS,state,7
+2020,Oats,North Dakota,spring,PASS,state,7
+2020,Canola,North Dakota,spring,PASS,state,12
+2020,Wheat,Oklahoma,winter,PASS,state,7
+2020,Barley,Oklahoma,spring,PASS,crop-season fallback,18
+2020,Oats,Oklahoma,spring,PASS,state,7
+2020,Canola,Oklahoma,spring,PASS,state,12
+2020,Wheat,South Dakota,spring,PASS,state,4
+2020,Barley,South Dakota,spring,PASS,state,4
+2020,Oats,South Dakota,spring,PASS,state,3
+2020,Wheat,Texas,winter,PASS,crop-season fallback,68
+2020,Barley,Texas,spring,PASS,crop-season fallback,18
+2020,Oats,Texas,spring,PASS,crop-season fallback,28
+2020,Wheat,Washington,winter,PASS,crop-season fallback,68
+2020,Barley,Washington,spring,PASS,crop-season fallback,18
+2020,Oats,Washington,spring,PASS,crop-season fallback,28
+2020,Canola,Washington,spring,PASS,crop-season fallback,36

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "displayed_candidates": 15,
+  "x_definition": "1000 * (pooled_rmse - locked winner pooled_rmse)",
+  "selection_highlight_uses_external_results": false,
+  "input_sha256": {
+    "validation_leaderboard.csv": "61018e08c4fb5d12d9f8f5bbe1912a3776fb1746e2aae992f5bce656664fca6c",
+    "winner_lock.json": "51766cf2ca29201191d13e93f2590455734a0699b5d66135e3a3b1b511c43ec0"
+  },
+  "output_sha256": {
+    "leaderboard_delta_rmse.pdf": "93f2eb93d038ca320b8d5b33b17843bde5a0ad34fb3b7fa2443410dfd7068897",
+    "leaderboard_delta_rmse.png": "c34dbe54bbabf03e2a26cf65a577919ed01095d4759d3dcf626f3f66ca341b92"
+  }
+}

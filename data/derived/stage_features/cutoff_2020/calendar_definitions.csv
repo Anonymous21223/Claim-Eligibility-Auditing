@@ -1,0 +1,41 @@
+crop,region,window,boundary1_stage,boundary1_month,boundary1_day,boundary2_stage,boundary2_month,boundary2_day,source_scope,source_complete_years
+Wheat,Colorado,winter,JOINTING,5,4,HEADED,5,30,state,7
+Barley,Colorado,spring,JOINTING,6,17,HEADED,7,2,crop-season fallback,18
+Oats,Colorado,spring,JOINTING,6,5,HEADED,6,21,crop-season fallback,28
+Wheat,Illinois,winter,JOINTING,4,28,HEADED,5,18,crop-season fallback,68
+Oats,Illinois,spring,JOINTING,6,5,HEADED,6,21,crop-season fallback,28
+Wheat,Iowa,winter,JOINTING,4,28,HEADED,5,18,crop-season fallback,68
+Oats,Iowa,spring,JOINTING,6,5,HEADED,6,21,crop-season fallback,28
+Wheat,Kansas,winter,JOINTING,4,21,HEADED,5,15,state,39
+Barley,Kansas,spring,JOINTING,6,17,HEADED,7,2,crop-season fallback,18
+Oats,Kansas,spring,JOINTING,6,5,HEADED,6,21,crop-season fallback,28
+Canola,Kansas,spring,BLOOMING,7,1,COLORING,7,29,crop-season fallback,36
+Wheat,Minnesota,spring,JOINTING,6,18,HEADED,7,2,state,7
+Barley,Minnesota,spring,JOINTING,6,18,HEADED,7,1,state,7
+Oats,Minnesota,spring,JOINTING,6,8,HEADED,6,29,state,7
+Canola,Minnesota,spring,BLOOMING,7,1,COLORING,7,29,crop-season fallback,36
+Wheat,Montana,spring,JOINTING,6,17,HEADED,7,1,crop-season fallback,18
+Barley,Montana,spring,JOINTING,6,17,HEADED,7,2,crop-season fallback,18
+Oats,Montana,spring,JOINTING,6,5,HEADED,6,21,crop-season fallback,28
+Canola,Montana,spring,BLOOMING,7,7,COLORING,7,29,state,12
+Wheat,Nebraska,winter,JOINTING,5,2,HEADED,5,30,state,4
+Barley,Nebraska,spring,JOINTING,6,17,HEADED,7,2,crop-season fallback,18
+Oats,Nebraska,spring,JOINTING,5,29,HEADED,6,13,state,4
+Wheat,North Dakota,spring,JOINTING,6,18,HEADED,7,5,state,7
+Barley,North Dakota,spring,JOINTING,6,18,HEADED,7,5,state,7
+Oats,North Dakota,spring,JOINTING,6,21,HEADED,7,5,state,7
+Canola,North Dakota,spring,BLOOMING,7,6,COLORING,8,3,state,12
+Wheat,Oklahoma,winter,JOINTING,4,6,HEADED,4,27,state,7
+Barley,Oklahoma,spring,JOINTING,6,17,HEADED,7,2,crop-season fallback,18
+Oats,Oklahoma,spring,JOINTING,4,28,HEADED,5,31,state,7
+Canola,Oklahoma,spring,BLOOMING,4,20,COLORING,5,26,state,12
+Wheat,South Dakota,spring,JOINTING,6,10,HEADED,6,24,state,4
+Barley,South Dakota,spring,JOINTING,6,13,HEADED,7,1,state,4
+Oats,South Dakota,spring,JOINTING,6,6,HEADED,6,20,state,3
+Wheat,Texas,winter,JOINTING,4,28,HEADED,5,18,crop-season fallback,68
+Barley,Texas,spring,JOINTING,6,17,HEADED,7,2,crop-season fallback,18
+Oats,Texas,spring,JOINTING,6,5,HEADED,6,21,crop-season fallback,28
+Wheat,Washington,winter,JOINTING,4,28,HEADED,5,18,crop-season fallback,68
+Barley,Washington,spring,JOINTING,6,17,HEADED,7,2,crop-season fallback,18
+Oats,Washington,spring,JOINTING,6,5,HEADED,6,21,crop-season fallback,28
+Canola,Washington,spring,BLOOMING,7,1,COLORING,7,29,crop-season fallback,36

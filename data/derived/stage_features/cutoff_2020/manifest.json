@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "cutoff_year": 2020,
+  "status": "PASS",
+  "files": {
+    "calendar_definitions.csv": {
+      "sha256": "9e6acf7d2dc4a8ea544e372213c2cf75259789165fda7bf5adf92179bc81322b",
+      "bytes": 2778,
+      "rows": 40
+    },
+    "gdd_definitions.csv": {
+      "sha256": "77ca0a19673fa061437da91db5b24da1aa40802fcd591e9d2affedf522b6de50",
+      "bytes": 621,
+      "rows": 5
+    },
+    "source_coverage.csv": {
+      "sha256": "35a643039784bdc80b5ddb6aff75be84bad45657afa10f6564eda0d00d6cd1c8",
+      "bytes": 2105,
+      "rows": 40
+    },
+    "stage_features.csv": {
+      "sha256": "f7efeb19a2dff755c42f385aa1ec2e0563ab6c61f3da251596b805c0c9f6a654",
+      "bytes": 373703,
+      "rows": 1257
+    }
+  }
+}

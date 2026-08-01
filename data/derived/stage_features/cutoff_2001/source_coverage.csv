@@ -1,0 +1,41 @@
+cutoff_year,crop,region,window,calendar_status,calendar_source_scope,calendar_complete_years
+2001,Wheat,Colorado,winter,PASS,crop-season fallback,21
+2001,Barley,Colorado,spring,PASS,frozen external crop-season fallback,28
+2001,Oats,Colorado,spring,PASS,frozen external crop-season fallback,43
+2001,Wheat,Illinois,winter,PASS,crop-season fallback,21
+2001,Oats,Illinois,spring,PASS,frozen external crop-season fallback,43
+2001,Wheat,Iowa,winter,PASS,crop-season fallback,21
+2001,Oats,Iowa,spring,PASS,frozen external crop-season fallback,43
+2001,Wheat,Kansas,winter,PASS,state,21
+2001,Barley,Kansas,spring,PASS,frozen external crop-season fallback,28
+2001,Oats,Kansas,spring,PASS,frozen external crop-season fallback,43
+2001,Canola,Kansas,spring,PASS,crop-season fallback,36
+2001,Wheat,Minnesota,spring,PASS,frozen external state fallback,12
+2001,Barley,Minnesota,spring,PASS,frozen external state fallback,12
+2001,Oats,Minnesota,spring,PASS,frozen external state fallback,12
+2001,Canola,Minnesota,spring,PASS,crop-season fallback,36
+2001,Wheat,Montana,spring,PASS,frozen external crop-season fallback,28
+2001,Barley,Montana,spring,PASS,frozen external crop-season fallback,28
+2001,Oats,Montana,spring,PASS,frozen external crop-season fallback,43
+2001,Canola,Montana,spring,PASS,state,12
+2001,Wheat,Nebraska,winter,PASS,crop-season fallback,21
+2001,Barley,Nebraska,spring,PASS,frozen external crop-season fallback,28
+2001,Oats,Nebraska,spring,PASS,frozen external state fallback,4
+2001,Wheat,North Dakota,spring,PASS,frozen external state fallback,12
+2001,Barley,North Dakota,spring,PASS,frozen external state fallback,12
+2001,Oats,North Dakota,spring,PASS,frozen external state fallback,12
+2001,Canola,North Dakota,spring,PASS,state,12
+2001,Wheat,Oklahoma,winter,PASS,crop-season fallback,21
+2001,Barley,Oklahoma,spring,PASS,frozen external crop-season fallback,28
+2001,Oats,Oklahoma,spring,PASS,frozen external state fallback,12
+2001,Canola,Oklahoma,spring,PASS,state,12
+2001,Wheat,South Dakota,spring,PASS,frozen external state fallback,4
+2001,Barley,South Dakota,spring,PASS,frozen external state fallback,4
+2001,Oats,South Dakota,spring,PASS,frozen external state fallback,3
+2001,Wheat,Texas,winter,PASS,crop-season fallback,21
+2001,Barley,Texas,spring,PASS,frozen external crop-season fallback,28
+2001,Oats,Texas,spring,PASS,frozen external crop-season fallback,43
+2001,Wheat,Washington,winter,PASS,crop-season fallback,21
+2001,Barley,Washington,spring,PASS,frozen external crop-season fallback,28
+2001,Oats,Washington,spring,PASS,frozen external crop-season fallback,43
+2001,Canola,Washington,spring,PASS,crop-season fallback,36
